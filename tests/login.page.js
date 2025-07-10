@@ -14,13 +14,16 @@ class LoginPage {
   }
 
   async login(email, password) {
-    await this.emailInput.fill(email);
-    await this.passwordInput.fill(password);
-    await Promise.all([
-      this.page.waitForNavigation({ waitUntil: 'domcontentloaded' }),
-      this.submitButton.click()
-    ]);
+  await this.emailInput.fill(email);
+  await this.passwordInput.fill(password);
+  await this.submitButton.click();
+
+  // // // Wait for error message when login fails instead of navigation
+  // // await this.page.locator("text=Incorrect account or password").waitFor();
+  // }
+
   }
+
 }
 
 module.exports = { LoginPage }; 
