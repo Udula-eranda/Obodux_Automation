@@ -25,7 +25,8 @@ test('Device onboarding' , async ({page}) => {
 
     const itemDelete = await page.locator("//button[@class='inline-flex items-center justify-center whitespace-nowrap font-sans text-sm rounded-md bg-transparent px-0 py-0 text-foreground border-0 shadow-none w-9 h-9']").isVisible();
     console.log("Is icon visible" , itemDelete);
-
+    
+    
     //deviceSet Up
     devicePage.deviceSetUp(deviceDetails.dName , deviceDetails.deiveDes);
 
@@ -35,36 +36,21 @@ test('Device onboarding' , async ({page}) => {
     // await expect(toast).toHaveText(/File uploaded successfully!/i);
 
     //click continue
-    const continueButton = page.getByRole('button', { name: 'Continue' });
-    await expect(continueButton).toBeEnabled();
-    await continueButton.click();
+    devicePage.clickContinueBtn();
 
     //2nd page validation
-    // This will match the current (active) step based on unique background color
-    const currentStep = page.locator("div.bg-primary.text-white");
-
-    // Assert it's visible and contains "2"
-    await expect(currentStep).toBeVisible();
-    await expect(currentStep).toHaveText("2");
+    devicePage.currentPageValidation();
 
     //checkbox selecting
-    const checkboxes =await page.locator("[role='checkbox']");
-    checkboxes.nth(0).click();
-    checkboxes.nth(1).click();
-
+    await devicePage.firstCheckBoxes();
+    
     //click continue
-    const continueButton2 = page.getByRole('button', { name: 'Continue' });
-    await expect(continueButton2).toBeEnabled();
-    await continueButton2.click();
-
-    //page 3 validation
-    // This will match the current (active) step based on unique background color
-    const currentStep3 = page.locator("div.bg-primary.text-white");
-
-    // Assert it's visible and contains "3"
-    await expect(currentStep3).toBeVisible();
-    await expect(currentStep3).toHaveText("3");
-
+    await devicePage.clickContinueBttn2();
+    
+    //section 3 validation
+    devicePage.sectionThreeValidation();
+    
+    
     //1st section
     const firstSection =await page.locator("div[class*='py-4']").nth(0);
     const checkbox = await firstSection.nth(0);
@@ -81,7 +67,30 @@ test('Device onboarding' , async ({page}) => {
     await checkbox2.click();
     await expect(checkbox2).toHaveAttribute('aria-checked', 'false');
     
-    await page.pause();
+    //checkBox selection
+    const checkBoxes3 = page.locator("div[class*='pt-0.5']");
+    await checkBoxes3.nth(0).click();
+    await checkBoxes3.nth(1).click();
+    
+    
+    //clicking Next button
+    await page.getByRole('button' , {name: "Next"}).click();
+    
+    //thirdSection
+    // const thirdSection = page.locator(".text-sm.px-6.border-t.py-4 > .space-y-3");
+    // await thirdSection.waitFor({ state: 'visible' });
+    
+    // await thirdSection.nth(0).click();
+    // await thirdSection.nth(1).click();
+    //lastoption click
+    await devicePage.lastOptionClick();
 
+    // OR, wait until it's not visible (if detachment doesn't occur)
+    await expect(page.locator("li[role='status']")).toHaveCount(0); 
+    //click continue
+    const continueButton3 = page.getByRole('button', { name: 'Continue' });
+    await expect(continueButton3).toBeEnabled();
+    await continueButton3.click();
+    
     
 })
