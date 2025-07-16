@@ -5,7 +5,7 @@ module.exports = {
   },
 
   validUser: {
-    email: 'primary-admin@yopmail.com',
+    email: 'admin-qa1@yopmail.com',
     password: 'abcd@TEST123'
   },
 
@@ -20,8 +20,30 @@ module.exports = {
   },
 
   deviceDetails: {
-    dName :"Oximeter",
-    deiveDes : "Test Description",
-    dFilePath: "C:\\Users\\udula\\Downloads\\pulseOximeter.png"
+    dName :"Stethoscope",
+    deiveDes : "Test Description for Stethoscope",
+    dFilePath: "C:\\Users\\udula\\Downloads\\Stethascope.jpg"
+  },
+
+  manufacturerData: {
+    name: "Goblin Care",
+    srnNo: "GB-MF-473824726",
+    phoneNo: "+447836478624",
+    street: "No 23,A",
+    state: "West",
+    city: "Liverpool",
+    postal: "W/1S",
+    country: "United Kingdom"
+  },
+
+  authoriserData: {
+      name: "Bill Lockwood",
+      srnNo: "GB-AR-473824728",
+      phoneNo: "+447836478624",
+      street: "No 23,A",
+      state: "West",
+      city: "Liverpool",
+      postal: "W/1S",
+      country: "United Kingdom"
   }
 };

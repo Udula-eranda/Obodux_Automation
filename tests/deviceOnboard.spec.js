@@ -1,13 +1,13 @@
 const {test , expect  } =  require('@playwright/test')
 const {LoginPage}  = require('./login.page')
-const {validUser , deviceDetails , URL}  = require('../Utils/testData')
+const {validUser , deviceDetails , URL , manufacturerData , authoriserData}  = require('../Utils/testData')
 const { DevicePage } = require('../PomModels/deviceonboardPom')
 const path = require('path');
 
 
 
 test('Device onboarding' , async ({page}) => {
-
+    test.setTimeout(90000);
     const loginPage = new LoginPage(page);
     loginPage.goto(URL.siteLink);
     loginPage.login(validUser.email , validUser.password);
@@ -22,18 +22,11 @@ test('Device onboarding' , async ({page}) => {
     //image uploading
     devicePage.fileUploadMenu(deviceDetails.dFilePath);
 
-
-    const itemDelete = await page.locator("//button[@class='inline-flex items-center justify-center whitespace-nowrap font-sans text-sm rounded-md bg-transparent px-0 py-0 text-foreground border-0 shadow-none w-9 h-9']").isVisible();
-    console.log("Is icon visible" , itemDelete);
-    
-    
+    //toastMessage Handling
+    await devicePage.imageUploadToastMsg();
+     
     //deviceSet Up
-    devicePage.deviceSetUp(deviceDetails.dName , deviceDetails.deiveDes);
-
-    // //handling upload process completion
-    // const toast = await page.locator("li[role='status']");
-    // await expect(toast).toBeVisible();
-    // await expect(toast).toHaveText(/File uploaded successfully!/i);
+    await devicePage.deviceSetUp(deviceDetails.dName , deviceDetails.deiveDes);
 
     //click continue
     devicePage.clickContinueBtn();
@@ -54,6 +47,8 @@ test('Device onboarding' , async ({page}) => {
     //1st section
     const firstSection =await page.locator("div[class*='py-4']").nth(0);
     const checkbox = await firstSection.nth(0);
+    await expect(checkbox).toBeVisible();
+    await expect(checkbox).toBeEnabled();
     await checkbox.click();
 
     //clicking Next button
@@ -69,7 +64,11 @@ test('Device onboarding' , async ({page}) => {
     
     //checkBox selection
     const checkBoxes3 = page.locator("div[class*='pt-0.5']");
+    await expect(checkBoxes3.nth(0)).toBeVisible();
+    await expect(checkBoxes3.nth(0)).toBeEnabled();
     await checkBoxes3.nth(0).click();
+    await expect(checkBoxes3.nth(1)).toBeVisible();
+    await expect(checkBoxes3.nth(1)).toBeEnabled();
     await checkBoxes3.nth(1).click();
     
     
@@ -77,20 +76,46 @@ test('Device onboarding' , async ({page}) => {
     await page.getByRole('button' , {name: "Next"}).click();
     
     //thirdSection
-    // const thirdSection = page.locator(".text-sm.px-6.border-t.py-4 > .space-y-3");
-    // await thirdSection.waitFor({ state: 'visible' });
-    
-    // await thirdSection.nth(0).click();
-    // await thirdSection.nth(1).click();
     //lastoption click
-    await devicePage.lastOptionClick();
-
-    // OR, wait until it's not visible (if detachment doesn't occur)
-    await expect(page.locator("li[role='status']")).toHaveCount(0); 
+    await devicePage.lastOptionClick(); 
+    
     //click continue
-    const continueButton3 = page.getByRole('button', { name: 'Continue' });
-    await expect(continueButton3).toBeEnabled();
-    await continueButton3.click();
+    await devicePage.navigateToPage4();
     
+    //wait for page to load
+    await page.getByText("Manufacturer", { exact: true }).waitFor();
+
+
+    //4th page procedure
+    await devicePage.section4Validation();
+
+    //Manufacturer Form Filling
+    await devicePage.manufactureForm(manufacturerData.name , manufacturerData.srnNo , manufacturerData.phoneNo, manufacturerData.street , manufacturerData.state , manufacturerData.city , manufacturerData.postal);
     
+    //continue to 5th
+    await page.getByRole("button" , {name : "Continue"}).click();
+
+    //5th page validation
+    await devicePage.section5Validation();
+
+    //Authorizer Form Fill
+    await devicePage.authoriserForm(authoriserData.name , authoriserData.srnNo , authoriserData.phoneNo , authoriserData.street , authoriserData.state , authoriserData.city ,  authoriserData.postal);
+
+    //continue to 6th
+    await page.getByRole("button" , {name : "Continue"}).click();
+
+    //6th page validation
+    await devicePage.section6Validation();
+
+    //device Validation on OverviewPage
+    await devicePage.devicceOverviewValidation(deviceDetails.dName)
+
+    //finishing
+    await devicePage.completingDeviceOnboard();
+
+    //waitForToastMsg
+    await devicePage.lastPageToastMsg();
+
+    //device menu validate
+    await devicePage.devicepageLoad();
 })
