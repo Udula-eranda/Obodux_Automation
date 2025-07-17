@@ -1,17 +1,16 @@
-const {test , expect  } =  require('@playwright/test')
-const {LoginPage}  = require('./login.page')
-const {validUser , deviceDetails , URL , manufacturerData , authoriserData}  = require('../Utils/testData')
+const { LoginPage } = require('../tests/login.page')
 const { DevicePage } = require('../PomModels/deviceonboardPom')
-const path = require('path');
+const {validUser , deviceDetails , URL , manufacturerData , authoriserData} = require('./testData')
 
 
-
-test('Device onboarding' , async ({page}) => {
-    test.setTimeout(90000);
+async function  loginAndOnboardDevice(page) {
     const loginPage = new LoginPage(page);
+    const devicePage = new DevicePage(page);
+
+
     loginPage.goto(URL.siteLink);
     loginPage.login(validUser.email , validUser.password);
-    const devicePage = new DevicePage(page)
+    
 
     //Device onboard
     devicePage.openDeviceMenu();
@@ -104,4 +103,7 @@ test('Device onboarding' , async ({page}) => {
 
     //device menu validate
     await devicePage.devicepageLoad();
-})
+    
+}
+
+module.exports = { loginAndOnboardDevice }

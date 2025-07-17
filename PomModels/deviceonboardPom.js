@@ -101,6 +101,34 @@ class DevicePage {
         await expect(this.currentSection3).toHaveText("3");
     }
 
+    
+
+    async firstSectionCheckBoxHandling(){
+        const firstSection = await this.page.locator("div[class*='py-4']").nth(0);
+        const checkbox = await firstSection.nth(0);
+        await expect(checkbox).toBeVisible();
+        await expect(checkbox).toBeEnabled();
+        await checkbox.click();
+    }
+
+    async secondSectionCheckBoxHandling(){
+        const secondSection =await this.page.locator("div[class*='py-4']").nth(1);
+        await secondSection.waitFor();
+        const checkbox2 = secondSection.locator('[role="radio"]').nth(1);
+        await checkbox2.click();
+        await expect(checkbox2).toHaveAttribute('aria-checked', 'false');
+    }
+
+    async thirdSectionCheckBoxHandling(){
+        const checkBoxes3 = this.page.locator("div[class*='pt-0.5']");
+        await expect(checkBoxes3.nth(0)).toBeVisible();
+        await expect(checkBoxes3.nth(0)).toBeEnabled();
+        await checkBoxes3.nth(0).click();
+        await expect(checkBoxes3.nth(1)).toBeVisible();
+        await expect(checkBoxes3.nth(1)).toBeEnabled();
+        await checkBoxes3.nth(1).click();
+    }
+
     async lastOptionClick(){
         const lastoption = this.page.locator("div:nth-child(9) > .pt-0\\.5 > .peer");
         await lastoption.waitFor({state: 'visible'});

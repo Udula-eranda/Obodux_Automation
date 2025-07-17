@@ -20,9 +20,9 @@ module.exports = {
   },
 
   deviceDetails: {
-    dName :"Stethoscope",
-    deiveDes : "Test Description for Stethoscope",
-    dFilePath: "C:\\Users\\udula\\Downloads\\Stethascope.jpg"
+    dName :"Syringe",
+    deiveDes : "Test Description for Syringe",
+    dFilePath: "C:\\Users\\udula\\Downloads\\Syringe.jpg"
   },
 
   manufacturerData: {
