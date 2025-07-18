@@ -29,10 +29,11 @@ test('Device onboarding' , async ({page}) => {
     await devicePage.deviceSetUp(deviceDetails.dName , deviceDetails.deiveDes);
 
     //click continue
-    devicePage.clickContinueBtn();
+    await devicePage.clickContinueBtn();
+    await page.waitForTimeout(3000);
 
     //2nd page validation
-    devicePage.currentPageValidation();
+    await devicePage.currentPageValidation();
 
     //checkbox selecting
     await devicePage.firstCheckBoxes();

@@ -20,9 +20,9 @@ module.exports = {
   },
 
   deviceDetails: {
-    dName :"Syringe",
-    deiveDes : "Test Description for Syringe",
-    dFilePath: "C:\\Users\\udula\\Downloads\\Syringe.jpg"
+    dName :"Patient Examining Table",
+    deiveDes : "Test Description for Examining Table",
+    dFilePath: "C:\\Users\\udula\\Downloads\\examiningTable.jpg"
   },
 
   manufacturerData: {
@@ -45,5 +45,17 @@ module.exports = {
       city: "Liverpool",
       postal: "W/1S",
       country: "United Kingdom"
+  },
+
+  deviceInfoPageData: {
+
+      dName: "Syringe DInfo",
+      intendedPurpose: " Syringe intended purpose",
+      clinicalBenefits: "Syringe clinical benefits",
+      knownSideEffects: "Syringe known side effects",
+      contradictions: "Syringe contradictions",
+      clinicalUsage: "Syringe clinical usage",
+      intendedUsers: "For General Patients",
+      intendedCount: "1000000"
   }
 };
