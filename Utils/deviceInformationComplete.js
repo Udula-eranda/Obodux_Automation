@@ -1,14 +1,14 @@
-const {test , expect } = require('@playwright/test')
-const { loginAndOnboardDevice } =  require('../Utils/deviceOnboard')
-const{ deviceInfoPage }  = require('../PomModels/deviceInfoPom')
+const { deviceInfoPage } =  require('../PomModels/deviceInfoPom');
 const { deviceInfoPageData }  = require('../Utils/testData')
+const { LoginPage } = require('../tests/login.page')
+const { DevicePage } = require('../PomModels/deviceonboardPom')
+const {  }  = require('../Utils/testData')
 
-test('Device Information Automation' , async ({page}) => {
-    test.setTimeout(90000);
-    await loginAndOnboardDevice(page);
-    const deviceInfo =  new deviceInfoPage(page);
-    await page.waitForTimeout(6000);
+async function deviceInformationComplete(page){
+
     
+    const deviceInfo =  new deviceInfoPage(page);
+
     //deviceInfo Page
     await deviceInfo.clickFirstItem();
     
@@ -54,5 +54,6 @@ test('Device Information Automation' , async ({page}) => {
     //click Mark Section Complete after waiting toast dissapear
     await deviceInfo.markSectionCompleteAndProgreeBarValidate();
 
-    
-})
+}
+
+module.exports = { deviceInformationComplete };

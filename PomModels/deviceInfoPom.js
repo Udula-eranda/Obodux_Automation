@@ -162,7 +162,7 @@ class deviceInfoPage{
         await expect(completeBtn).toBeEnabled();   
         //progress bar validating after section completing
         await completeBtn.click();
-        await this.page.waitForTimeout(6000);
+        // await this.page.waitForTimeout(6000);
         const progressBar = this.page.locator('[role="progressbar"]');
         const initialStyle = await progressBar.evaluate(el =>
         window.getComputedStyle(el).transform);

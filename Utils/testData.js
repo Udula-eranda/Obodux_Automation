@@ -20,9 +20,9 @@ module.exports = {
   },
 
   deviceDetails: {
-    dName :"Patient Examining Table",
-    deiveDes : "Test Description for Examining Table",
-    dFilePath: "C:\\Users\\udula\\Downloads\\examiningTable.jpg"
+    dName :"Eye Chart",
+    deiveDes : "Test Description for Eye Chart",
+    dFilePath: "C:\\Users\\udula\\Downloads\\eye-chart-Snellen.jpg"
   },
 
   manufacturerData: {
