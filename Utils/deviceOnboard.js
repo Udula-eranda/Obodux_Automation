@@ -11,7 +11,7 @@ async function  loginAndOnboardDevice(page) {
     loginPage.goto(URL.siteLink);
     loginPage.login(validUser.email , validUser.password);
     
-
+   
     //Device onboard
     devicePage.openDeviceMenu();
 

@@ -1,16 +1,18 @@
-const { test  , expect }  = require('@playwright/test')
-const { deviceInformationComplete }  = require('../Utils/deviceInformationComplete')
-const { loginAndOnboardDevice }  = require('../Utils/deviceOnboard')
+const { test,  expect } = require('@playwright/test')
 const { rmPage } = require('../PomModels/riskMangmntPom')
-const { rmResponsibilityOptions }  = require('../Utils/testData')
+const { deviceInformationComplete }  = require('./deviceInformationComplete')
+const { loginAndOnboardDevice } = require('./deviceOnboard')
+const { rmResponsibilityOptions } = require('./testData')
 
 
-test('Risk Management Test Full Flow' , async ({page}) => {
-    test.setTimeout(150000);
 
+async function rmPlanComplete(page) {
+    
     await deviceInformationComplete(page);
 
+    await page.waitForTimeout(10000);
     const riskMangemnt = new rmPage(page);
+
     //navigate to RM
     await riskMangemnt.navigatetoRM({ timeout: 80000 });
     
@@ -65,9 +67,8 @@ test('Risk Management Test Full Flow' , async ({page}) => {
     //click Save and Mark Section Complete
     await riskMangemnt.clcikSaveAndComplete();
 
-    await page.pause();
-
     
-    
+}
 
-})
+
+module.exports = { rmPlanComplete } ;

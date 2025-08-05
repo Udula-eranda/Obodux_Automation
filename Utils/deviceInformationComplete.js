@@ -2,13 +2,15 @@ const { deviceInfoPage } =  require('../PomModels/deviceInfoPom');
 const { deviceInfoPageData }  = require('../Utils/testData')
 const { LoginPage } = require('../tests/login.page')
 const { DevicePage } = require('../PomModels/deviceonboardPom')
-const {  }  = require('../Utils/testData')
+const { loginAndOnboardDevice }  = require('./deviceOnboard')
+const { test  } = require('@playwright/test')
 
 async function deviceInformationComplete(page){
 
-    
+    await loginAndOnboardDevice(page);
     const deviceInfo =  new deviceInfoPage(page);
 
+    await page.waitForTimeout(10000);
     //deviceInfo Page
     await deviceInfo.clickFirstItem();
     

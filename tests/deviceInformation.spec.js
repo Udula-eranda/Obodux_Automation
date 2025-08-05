@@ -1,4 +1,4 @@
-const {test , expect } = require('@playwright/test')
+const {test  } = require('@playwright/test')
 const { loginAndOnboardDevice } =  require('../Utils/deviceOnboard')
 const{ deviceInfoPage }  = require('../PomModels/deviceInfoPom')
 const { deviceInfoPageData }  = require('../Utils/testData')
