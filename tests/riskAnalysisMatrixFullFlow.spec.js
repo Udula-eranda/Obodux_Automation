@@ -1,36 +1,19 @@
-const { test, expect } = require('@playwright/test')
-const { loginAndOnboardDevice } = require('../Utils/deviceOnboard')
-const { deviceInfoPage }  = require('../PomModels/deviceInfoPom')
-const { rmPage }  = require('../PomModels/riskMangmntPom')
+const { test , expect }  = require('@playwright/test')
+const { initialHazardComplete }  =  require('../Utils/initialHazardComplete')
 const { riskAnalysisMatrixForm }  = require('../PomModels/riskAnalysisMatrixPom')
 const { riskAnalysisMatrixFormData }  = require('../Utils/testData')
 
+test('raMatrixCompleteState' ,async ({page})=> {
 
-test("Risk Analysis Matrix Form" , async ({page}) => {
+    test.setTimeout(200000);
 
+    await initialHazardComplete(page);
 
-    test.setTimeout(90000);
+    const raMatrixForm =  new riskAnalysisMatrixForm(page);
 
-    const deviceInfo = new deviceInfoPage(page);
-    const riskMangemnt = new rmPage(page); 
-    const raMatrixForm =  new riskAnalysisMatrixForm(page);   
-
-    await loginAndOnboardDevice(page);
-    await page.waitForTimeout(8000);
-    await deviceInfo.clickFirstItem();
-    
-    await page.waitForTimeout(5000);
-    //navigate to RM
-    await riskMangemnt.navigatetoRM();
-
-    
-    //toggle up RM menu
-    const rmCollapseBtn  =  page.getByRole('button').filter({ hasText: /^$/ }).nth(2)
-    await rmCollapseBtn.click();
-
-    // //close IH Form
-    // const ihFormBtn = page.getByRole('button').filter({ hasText: /^$/ }).nth(3);
-    // await ihFormBtn.click();
+    //close IH Form
+    const ihFormBtn = page.getByRole('button').filter({ hasText: /^$/ }).nth(3);
+    await ihFormBtn.click();
 
     //open riskAnalysisMatrixForm
     const raMatixFormBtn = page.getByRole('button').filter({ hasText: /^$/ }).nth(4);
@@ -58,7 +41,5 @@ test("Risk Analysis Matrix Form" , async ({page}) => {
     //saveNClose
     await raMatrixForm.clickSaveAndComplete();
 
-
-    await page.pause();
 
 })

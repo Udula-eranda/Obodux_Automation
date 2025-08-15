@@ -8,16 +8,9 @@ class riskAnalysisMatrixForm {
         this.page =  page;
     }
 
-async ramtrixFirstRow(){
+async ramtrixFirstRow(firstRowAnswers){
 
-    const firstRowAnswers = [ 
-
-        "T1 " , "T1 " , "T1 " , "T1 ",
-        "1" , "1 " , "1 " , "T1 ",
-        "T1 " , "T1 " , "T1 " , "T1 " ,
-        "2 " , "2 " ,"2 " ,"2 " , "T1 "
-    ]
-
+    
     for( let i = 0 ; i < firstRowAnswers.length ; i++){
 
         const textField  =  this.page.locator("[data-placeholder*='Type']").nth(i)        
@@ -27,38 +20,23 @@ async ramtrixFirstRow(){
 }
 
 
-async ramtrixSecondRow(){
+async ramtrixSecondRow(secondRowAnswers){
 
-    const secondRowAnswers = [ 
 
-        "T1 " , "T1 " , "T1 " , "T1 ",
-        "1" , "1 " , "1 " , "T1 ",
-        "T1 " , "T1 " , "T1 " , "T1 " ,
-        "2 " , "2 " ,"2 " ,"2 " , "T1 "
-    ]
-
-    for (let j = 0; j < secondRowAnswers.length; j++) {
-        const i = 34 + j; 
+    for (let j = 0; j < secondRowAnswers.length ; j++) {
+        const i = 17 + j; 
         const textField = this.page.locator("[data-placeholder*='Type']").nth(i);
         await textField.fill(secondRowAnswers[j]);
     }
 
 }
 
-async ramtrixThirdRow(){
+async ramtrixThirdRow(thirdRowAnswers){
 
-    const secondRowAnswers = [ 
-
-        "T1 " , "T1 " , "T1 " , "T1 ",
-        "1" , "1 " , "1 " , "T1 ",
-        "T1 " , "T1 " , "T1 " , "T1 " ,
-        "2 " , "2 " ,"2 " ,"2 " , "T1 "
-    ]
-
-    for (let j = 0; j < secondRowAnswers.length; j++) {
-        const i = 17 + j; 
+    for (let j = 0; j < thirdRowAnswers.length ; j++) {
+        const i = 34 + j; 
         const textField = this.page.locator("[data-placeholder*='Type']").nth(i);
-        await textField.fill(secondRowAnswers[j]);
+        await textField.fill(thirdRowAnswers[j]);
     }
 
 
@@ -90,6 +68,52 @@ async deleteRow(){
 
 }
     
+//clickSaveAndComplete
+    async clickSaveAndComplete(){
+
+      const saveBtn  = this.page.getByRole("button" , {name : "Save"});
+      await expect(saveBtn).toBeVisible();
+      await expect(saveBtn).toBeEnabled();
+      await saveBtn.click();
+
+      //click Mark Section Complete after waiting toast dissapear
+      const toast = this.page.locator("li[role='status']");
+      await expect(toast).toHaveText("Risk Analysis Matrix saved successfully");
+      await toast.waitFor({ state: "hidden" });
+    //   const closeToastBtn = toast.locator('button'); // or any close button inside toast
+    //     if (await closeToastBtn.isVisible()) {
+    //         await closeToastBtn.click();
+    //     }
+
+      
+      const completeBtn = this.page.getByRole('button' , {name : " Mark Section Complete"});
+      await expect(completeBtn).toBeVisible();
+      await expect(completeBtn).toBeEnabled();   
+      //progress bar validating after section completing
+      await completeBtn.click();
+
+      //click Mark Section Complete after waiting toast dissapear
+      const toast2 = this.page.locator("li[role='status']");
+      await expect(toast2).toHaveText("Updated successfully");
+      await toast2.waitFor({ state: "hidden" });
+
+      
+      const progressBar = this.page.locator('[role="progressbar"]');
+      const initialStyle = await progressBar.evaluate(el =>
+      window.getComputedStyle(el).transform);
+      console.log("Before:", initialStyle);
+              
+          await expect.poll(async () => {
+              return await progressBar.evaluate(el =>
+                  window.getComputedStyle(el).transform);}, 
+              {
+                  timeout: 10000, 
+                  interval: 500,
+              }).toMatch(/matrix\(1, 0, 0, 1, 0, 0\)|none/);
+
+
+    }
+
 
 
 }

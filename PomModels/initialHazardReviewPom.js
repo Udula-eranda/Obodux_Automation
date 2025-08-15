@@ -121,18 +121,25 @@ class initialHazardForm{
       //click Mark Section Complete after waiting toast dissapear
       const toast = this.page.locator("li[role='status']");
       await expect(toast).toHaveText("Risk Management saved successfully", { timeout: 60000 });
-      
-      const closeToastBtn = toast.locator('button'); // or any close button inside toast
-        if (await closeToastBtn.isVisible()) {
-            await closeToastBtn.click();
-        }
+      await toast.waitFor({ state: "hidden" });
 
-      
+    //   const closeToastBtn = toast.locator('button'); // or any close button inside toast
+    //     if (await closeToastBtn.isVisible()) {
+    //         await closeToastBtn.click();
+    //     }
+
       const completeBtn = this.page.getByRole('button' , {name : " Mark Section Complete"});
       await expect(completeBtn).toBeVisible();
       await expect(completeBtn).toBeEnabled();   
       //progress bar validating after section completing
       await completeBtn.click();
+
+      await this.page.waitForTimeout(6000);
+     //click Mark Section Complete after waiting toast dissapear
+      const toast2 = this.page.locator("li[role='status']");
+       await expect(toast2).toBeVisible();
+      await expect(toast2).toHaveText("Updated successfully");
+      await toast2.waitFor({ state: "hidden" });
 
       await this.page.waitForTimeout(6000);
       const progressBar = this.page.locator('[role="progressbar"]');

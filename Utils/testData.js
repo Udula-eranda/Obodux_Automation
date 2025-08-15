@@ -20,7 +20,7 @@ module.exports = {
   },
 
   deviceDetails: {
-    dName :"Blodd Pressure Machine",
+    dName :"Blood Pressure Machine",
     deiveDes : "Test Description for Blood Pressure Machine",
     dFilePath: "C:\\Users\\udula\\Downloads\\BloodPressureMachine.jpg"
   },
@@ -108,6 +108,34 @@ module.exports = {
         "test 32", "test 33", "test 34", "test 35","test 36",
         "test 37", "test 38", "test 39", "test 40",
         "test 41", "test 42", "test 43", "test 44" , "test 45"
+    ]
+
+  } ,
+
+  riskAnalysisMatrixFormData : {
+
+      firstRowAnswers : [ 
+
+        "T1 " , "T1 " , "T1 " , "T1 ",
+        "1" , "1 " , "1 " , "High ",
+        "T1 " , "T1 " , "T1 " , "T1 " ,
+        "2 " , "2 " ,"2 " ,"Medium " , "T1 "
+    ] ,
+
+    secondRowAnswers : [ 
+
+        "T2 " , "T2 " , "T2 " , "T2 ",
+        "3" , "3 " , "3 " , "Medium ",
+        "T2 " , "T2 " , "T2 " , "T2 " ,
+        "4 " , "4 " ,"4 " ,"Low " , "T2 "
+    ] ,
+
+    thirdRowAnswers : [ 
+
+        "T3 " , "T3 " , "T3 " , "T3 ",
+        "5" , "5 " , "5" , "High ",
+        "T3 " , "T3 " , "T3 " , "T3 " ,
+        "6 " , "6 " ,"6" ,"High " , "T3 "
     ]
 
   }
