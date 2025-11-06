@@ -5,7 +5,7 @@ module.exports = {
   },
 
   validUser: {
-    email: 'yassir-obodux@yopmail.com',
+    email: 'editor-stag.1@yopmail.com',
     password: 'abcd@TEST123'
   },
 
@@ -20,20 +20,20 @@ module.exports = {
   },
 
   deviceDetails: {
-    dName :"Blood Pressure Machine",
-    deiveDes : "Test Description for Blood Pressure Machine",
-    dFilePath: "C:\\Users\\udula\\Downloads\\BloodPressureMachine.jpg"
+    dName :"Trocar",
+    deiveDes : "A sharp, pointed surgical instrument used to puncture a body cavity during laparoscopic surgery.",
+    dFilePath: "C:\\Users\\udula\\Downloads\\Trocar.jpg"
   },
 
   manufacturerData: {
-    name: "Goblin Care",
-    srnNo: "GB-MF-473824726",
-    phoneNo: "+447836478624",
-    street: "No 23,A",
-    state: "West",
+    name: "Pan Piotr Nowak",
+    srnNo: "473824726",
+    phoneNo: "783647862",
+    street: "ul. Piłsudskiego 42/2",
+    state: "Wrocław",
     city: "Liverpool",
-    postal: "W/1S",
-    country: "United Kingdom"
+    postal: "50-033",
+    country: "Poland (PL)"
   },
 
   authoriserData: {
@@ -56,10 +56,15 @@ module.exports = {
       contradictions: "Blood Pressure contradictions",
       clinicalUsage: "Blood Pressure clinical usage",
       intendedUsers: "For General Patients",
-      intendedCount: "1000000"
+      intendedCount: "1000000",
+      basicUdiDi: "0456789123MRI2024X",
+      gmdnCode: "40763",
+      emdnCode: "Y0101"
   },
 
   rmResponsibilityOptions: {
+
+    proceRefNo: "QMS-PRO-017",
 
     options: [
         "Identifies potential risks", 
@@ -79,6 +84,15 @@ module.exports = {
         { label: 'Remote', name: 'Less than or equal to ≤' , text: 'T4', number: '28' },
         { label: 'Improbable', name: 'Less than <' , text: 'T5', number: '35' },
         ],
+
+    newProbofHarmValues: {
+
+
+        fixedValues: [5, 4, 3, 2, 1],  
+        startDecimal: 0.98,
+        decimalDecreaseRange: [0.01, 0.05]
+      
+      },
 
     grades: [
         {definition: 'T1' , severity: '10'},

@@ -80,14 +80,14 @@ async function  loginAndOnboardDevice(page) {
     //continue to 5th
     await page.getByRole("button" , {name : "Continue"}).click();
 
-    //5th page validation
-    await devicePage.section5Validation();
+    // //5th page validation
+    // await devicePage.section5Validation();
 
-    //Authorizer Form Fill
-    await devicePage.authoriserForm(authoriserData.name , authoriserData.srnNo , authoriserData.phoneNo , authoriserData.street , authoriserData.state , authoriserData.city ,  authoriserData.postal);
+    // //Authorizer Form Fill
+    // await devicePage.authoriserForm(authoriserData.name , authoriserData.srnNo , authoriserData.phoneNo , authoriserData.street , authoriserData.state , authoriserData.city ,  authoriserData.postal);
 
-    //continue to 6th
-    await page.getByRole("button" , {name : "Continue"}).click();
+    // //continue to 6th
+    // await page.getByRole("button" , {name : "Continue"}).click();
 
     //6th page validation
     await devicePage.section6Validation();

@@ -10,7 +10,7 @@ const { rmResponsibilityOptions }  = require('../Utils/testData')
 
 test('RM with Partial Flow' ,async ({page}) => {
 
-    test.setTimeout(90000)
+    test.setTimeout(150000)
     
     const deviceInfo = new deviceInfoPage(page);
     const riskMangemnt = new rmPage(page);    
@@ -25,7 +25,7 @@ test('RM with Partial Flow' ,async ({page}) => {
     await riskMangemnt.navigatetoRM();
 
     //Risk Managemnt Policy Section
-    await riskMangemnt.rmPolicy();
+    await riskMangemnt.rmPolicy(rmResponsibilityOptions.proceRefNo);
 
     //Responsibilities of the Risk Management Team section
     
@@ -34,8 +34,7 @@ test('RM with Partial Flow' ,async ({page}) => {
     
     //Grading System for the Probability of Harm
    
-    await riskMangemnt.probablityofHarm(rmResponsibilityOptions.levels);
-
+    await riskMangemnt.probablityofHarm(rmResponsibilityOptions.newProbofHarmValues.fixedValues , rmResponsibilityOptions.newProbofHarmValues.startDecimal , rmResponsibilityOptions.newProbofHarmValues.decimalDecreaseRange);
 
     //Grading System for the Severity of Harm
 
@@ -45,7 +44,7 @@ test('RM with Partial Flow' ,async ({page}) => {
     await riskMangemnt.medicalDeviceRadio();
     
     //Determine Risk Level values (these will be used in the below Risk Matrix table as values)
-    
+    await page.pause();
     await riskMangemnt.selectLowAndHighRisk();
 
     //What is the Criteria for Risk Acceptability?

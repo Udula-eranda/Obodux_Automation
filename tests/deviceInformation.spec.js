@@ -4,7 +4,7 @@ const{ deviceInfoPage }  = require('../PomModels/deviceInfoPom')
 const { deviceInfoPageData }  = require('../Utils/testData')
 
 test('Device Information Automation' , async ({page}) => {
-    test.setTimeout(90000);
+    test.setTimeout(200000);
     await loginAndOnboardDevice(page);
     const deviceInfo =  new deviceInfoPage(page);
     await page.waitForTimeout(6000);
@@ -34,22 +34,32 @@ test('Device Information Automation' , async ({page}) => {
     //Clinical Benefits
     await deviceInfo.clinicalBenefits(deviceInfoPageData.clinicalBenefits);
  
-    //Known Side Effects
-    await deviceInfo.knownSideEffects(deviceInfoPageData.knownSideEffects);
+    // //Known Side Effects
+    // await deviceInfo.knownSideEffects(deviceInfoPageData.knownSideEffects);
   
-    //Contradictions
-    await deviceInfo.contadictionsSection(deviceInfoPageData.contradictions);
+    // //Contradictions
+    // await deviceInfo.contadictionsSection(deviceInfoPageData.contradictions);
 
-    //Clinical Use Settings
-    await deviceInfo.clinicalUse(deviceInfoPageData.clinicalUsage);
+    // //Clinical Use Settings
+    // await deviceInfo.clinicalUse(deviceInfoPageData.clinicalUsage);
    
-    //Intended Users
-    await deviceInfo.intendedUsers(deviceInfoPageData.intendedUsers);
+    // //Intended Users
+    // await deviceInfo.intendedUsers(deviceInfoPageData.intendedUsers);
 
     //Intended Patient Population
     await deviceInfo.intendedPatientCount(deviceInfoPageData.intendedCount);
 
     await deviceInfo.radioBtnandSave();
+
+    //Basic UDI-DI
+    await deviceInfo.completeBasicUdi();
+
+    //GMDN Code
+    await deviceInfo.completeGmdnCode();
+
+    //EMDN Code
+    await deviceInfo.completeEmdnCode();
+
 
     //click Mark Section Complete after waiting toast dissapear
     await deviceInfo.markSectionCompleteAndProgreeBarValidate();

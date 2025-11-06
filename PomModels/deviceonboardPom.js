@@ -7,7 +7,7 @@ class DevicePage {
 
         this.page = page;
         //devicemenu bttn
-        this.devicemenu = page.locator("ul li").nth(1);
+        this.devicemenu = page.locator("ul li").nth(0);
         //add new device bttn
         this.addNewDevice = page.getByRole('button' , {name : "Add Device"});
         //firstPage radiobtn
@@ -29,13 +29,15 @@ class DevicePage {
         //SRN No
         this.srnNo = page.locator("[name='srnNumber']");
         //phnNo
-        this.phNo  =  page.locator("[name*='phone']");
+        this.phNo  =  page.locator("[name='phoneNumber']");
 
 
     }
 
     async openDeviceMenu(){
-
+        await this.page.waitForTimeout(6000);
+        await this.devicemenu.waitFor({state : 'visible'});
+        await expect(this.devicemenu).toBeEnabled();
         await this.devicemenu.click();
     }
 
@@ -81,7 +83,7 @@ class DevicePage {
 
     async firstCheckBoxes(){
         await this.checkboxes.nth(0).click();
-        await this.checkboxes.nth(1).click();
+        // await this.checkboxes.nth(1).click();
     }
 
     async clickContinueBttn2(){
@@ -155,18 +157,19 @@ class DevicePage {
     }
 
     async manufactureForm(name,srnNo ,phnNo,street,state,city,postal){
+        // const manfName =  this.page.locator("[name='name']");
         const streetName = this.page.locator("[name='street']");
         const stateName  = this.page.locator("[name='state']");
         const cityName = this.page.locator("[name='city']");
         const combo = this.page.locator("[role='combobox']");
         const postalCode = this.page.locator("[name*='postal']");
 
+        // await this.manfName.fill(name);
         await this.mName.fill(name);
-        await this.srnNo.fill(srnNo);
-        await this.phNo.fill(phnNo);
         await streetName.fill(street);
         await stateName.fill(state);
         await cityName.fill(city);
+
         //ComboBox
         // 1. Click the combobox to open the dropdown
         await combo.click();
@@ -174,6 +177,12 @@ class DevicePage {
         // 2. Select the desired country
         await this.page.getByRole('option', { name: manufacturerData.country }).click();
         await postalCode.fill(postal);
+
+        //Phone no insert
+        await this.phNo.fill(phnNo);
+        //SRN no insert
+        await this.srnNo.fill(srnNo);
+        
     }
 
     async section5Validation(){

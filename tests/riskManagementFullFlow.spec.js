@@ -16,7 +16,7 @@ test('Risk Management Test Full Flow' , async ({page}) => {
     
     
     //Risk Managemnt Policy Section
-    await riskMangemnt.rmPolicy({ timeout: 60000 });
+    await riskMangemnt.rmPolicy(rmResponsibilityOptions.proceRefNo , { timeout: 60000 });
 
     //Responsibilities of the Risk Management Team section
     
@@ -25,7 +25,7 @@ test('Risk Management Test Full Flow' , async ({page}) => {
     
     //Grading System for the Probability of Harm
    
-    await riskMangemnt.probablityofHarm(rmResponsibilityOptions.levels);
+    await riskMangemnt.probablityofHarm(rmResponsibilityOptions.newProbofHarmValues.fixedValues , rmResponsibilityOptions.newProbofHarmValues.startDecimal , rmResponsibilityOptions.newProbofHarmValues.decimalDecreaseRange);
 
 
     //Grading System for the Severity of Harm

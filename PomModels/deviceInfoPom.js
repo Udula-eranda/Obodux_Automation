@@ -17,6 +17,7 @@ class deviceInfoPage{
         this.firstItem = this.page.locator("div.grid div.cursor-pointer").first();
         await this.firstItem.waitFor({state : 'visible'});
         await expect(this.firstItem).toBeEnabled();
+        await this.page.waitForTimeout(6000);
         await this.firstItem.click();
     }
 
@@ -31,7 +32,7 @@ class deviceInfoPage{
     }
 
     async renamingtheDevice(name){
-        const deviceNameField = this.page.locator("input[value*='Device']");
+        const deviceNameField = this.page.locator("[value='Device Accessory 1']");
         await expect(deviceNameField).toBeVisible();
         await expect(deviceNameField).toBeEnabled();
         await deviceNameField.fill(name);
@@ -44,7 +45,7 @@ class deviceInfoPage{
         //Ai feature catching
         const aiBtn =  this.page.locator(".inline-flex.items-center.justify-center.whitespace-nowrap.font-sans.bg-transparent.border-0.shadow-none.text-sm.gap-2.p-2.h-fit.rounded-lg").first();
         await aiBtn.click();
-        await this.page.waitForTimeout(8000);
+        await this.page.waitForTimeout(10000);
         //wait to AI to generate
         await accessDesc.waitFor({ state: 'visible' });
         await expect(accessDesc).not.toHaveText("");
@@ -58,83 +59,93 @@ class deviceInfoPage{
         //Ai feature catching
         const aiBtn2 =  this.page.locator(".inline-flex.items-center.justify-center.whitespace-nowrap.font-sans.bg-transparent.border-0.shadow-none.text-sm.gap-2.p-2.h-fit.rounded-lg").first();
         await aiBtn2.click();
-        await this.page.waitForTimeout(8000);
+        await this.page.waitForTimeout(10000);
         //wait to AI to generate
         await principleOperation.waitFor({ state: 'visible' });
         await expect(principleOperation).not.toHaveText("");
         await aiBtn2.click();
     }
 
-    async intendedPurpose(intendPurposeData){
+    async intendedPurpose(){
 
         const intendPurpose = this.page.locator("[class*='min-h-16']").nth(2);
         const editableField = intendPurpose.locator('[contenteditable="true"]');
         await editableField.click();
-        await editableField.fill(intendPurposeData);
-        // //Ai feature catching
-        // const aiBtn3 =  page.locator(".inline-flex.items-center.justify-center.whitespace-nowrap.font-sans.bg-transparent.border-0.shadow-none.text-sm.gap-2.p-2.h-fit.rounded-lg").first();
-        // await aiBtn3.click();
-        // //wait to AI to generate
-        // await intendPurpose.waitFor({ state: 'visible' });
-        // await expect(intendPurpose).not.toHaveText("");
-        // await page.waitForTimeout(8000);
-        // await aiBtn3.click();
+        // await editableField.fill(intendPurposeData);
+        //Ai feature catching
+        const aiBtn3 =  this.page.locator(".inline-flex.items-center.justify-center.whitespace-nowrap.font-sans.bg-transparent.border-0.shadow-none.text-sm.gap-2.p-2.h-fit.rounded-lg").first();
+        await aiBtn3.click();
+        //wait to AI to generate
+        await intendPurpose.waitFor({ state: 'visible' });
+        await expect(intendPurpose).not.toHaveText("");
+        await this.page.waitForTimeout(10000);
+        await aiBtn3.click();
 
     }
 
-    async clinicalBenefits(clinicalBenefitsData){
+    async clinicalBenefits(){
 
         const cliniBenefit  = this.page.locator("[class*='min-h-16']").nth(3);
         const editableField1 = cliniBenefit.locator('[contenteditable="true"]');
         await editableField1.click();
-        await editableField1.fill(clinicalBenefitsData);
+        // await editableField1.fill(clinicalBenefitsData);
+        //Ai feature catching
+        const aiBtn2 =  this.page.locator(".inline-flex.items-center.justify-center.whitespace-nowrap.font-sans.bg-transparent.border-0.shadow-none.text-sm.gap-2.p-2.h-fit.rounded-lg").first();
+        await aiBtn2.click();
+        await this.page.waitForTimeout(10000);
+        //wait to AI to generate
+        await cliniBenefit.waitFor({ state: 'visible' });
+        await expect(cliniBenefit).not.toHaveText("");
+        await aiBtn2.click();
 
     }
 
-    async knownSideEffects(knownSideEffectsData){
+    // async knownSideEffects(knownSideEffectsData){
 
-        const knownSide = this.page.locator("[class*='min-h-16']").nth(4);
-        const editableField2 = knownSide.locator('[contenteditable="true"]');
-        await editableField2.click();
-        await editableField2.fill(knownSideEffectsData);
+    //     const knownSide = this.page.locator("[class*='min-h-16']").nth(4);
+    //     const editableField2 = knownSide.locator('[contenteditable="true"]');
+    //     await editableField2.click();
+    //     await editableField2.fill(knownSideEffectsData);
 
-    }
+    // }
 
-    async contadictionsSection(contradictionsData){
+    // async contadictionsSection(contradictionsData){
 
-        const contradic = this.page.locator("[class*='min-h-16']").nth(5);
-        const editableField3 = contradic.locator('[contenteditable="true"]');
-        await editableField3.click();
-        await editableField3.fill(contradictionsData);
+    //     const contradic = this.page.locator("[class*='min-h-16']").nth(5);
+    //     const editableField3 = contradic.locator('[contenteditable="true"]');
+    //     await editableField3.click();
+    //     await editableField3.fill(contradictionsData);
 
-    }
+    // }
 
-    async clinicalUse(clinicalUseData){
+    //     async intendedUsers(intendedUsersData){
 
-        //Clinical Use Settings
-        const clinUseSetting = this.page.locator("[class*='min-h-16']").nth(6);
-        const editableField4 = clinUseSetting.locator('[contenteditable="true"]');
-        await editableField4.click();
-        await editableField4.fill(clinicalUseData);
+    //     const intendUsers = this.page.locator("[class*='min-h-16']").nth(7);
+    //     const editableField5 = intendUsers.locator('[contenteditable="true"]');
+    //     await editableField5.click();
+    //     await editableField5.fill(intendedUsersData);
 
-    }
+    // }
 
-    async intendedUsers(intendedUsersData){
+        async intendedPatientCount(patienteCountData){
 
-        const intendUsers = this.page.locator("[class*='min-h-16']").nth(7);
-        const editableField5 = intendUsers.locator('[contenteditable="true"]');
-        await editableField5.click();
-        await editableField5.fill(intendedUsersData);
-
-    }
-
-    async intendedPatientCount(patienteCountData){
-
-        const PatientCount = this.page.locator("[class*='cursor-text']").last();
+        const PatientCount = this.page.locator("input[class*='flex-1']").nth(1) ;
         await PatientCount.click();
         await PatientCount.fill(patienteCountData);
 
     }
+
+
+    // async clinicalUse(clinicalUseData){
+
+    //     //Clinical Use Settings
+    //     const clinUseSetting = this.page.locator("[class*='min-h-16']").nth(6);
+    //     const editableField4 = clinUseSetting.locator('[contenteditable="true"]');
+    //     await editableField4.click();
+    //     await editableField4.fill(clinicalUseData);
+
+    // }
+
 
     async radioBtnandSave(){
 
@@ -142,11 +153,37 @@ class deviceInfoPage{
             const radioBtn = this.page.getByRole('radio' , {name : "No"});
             await radioBtn.check();
         
-            //click Save option
-            const saveBtn  = this.page.getByRole("button" , {name : "Save"});
-            await expect(saveBtn).toBeVisible();
-            await expect(saveBtn).toBeEnabled();
-            await saveBtn.click();
+    }
+
+    //Basic UDI-DI
+    async completeBasicUdi(){
+
+        const basicUdiField = this.page.getByRole('textbox').nth(2);
+        await basicUdiField.click();
+        await basicUdiField.fill(deviceInfoPageData.basicUdiDi);
+
+    }
+
+    //GMDN Code
+    async completeGmdnCode(){
+
+        const gmdnCodeField = this.page.getByRole('textbox').nth(3);
+        await gmdnCodeField.click();
+        await gmdnCodeField.fill(deviceInfoPageData.gmdnCode);
+    }
+
+    //EMDN Code
+    async completeEmdnCode(){   
+
+        const emdnCodeField = this.page.getByRole('textbox').nth(4);
+        await emdnCodeField.click();
+        await emdnCodeField.fill(deviceInfoPageData.emdnCode);
+
+        //click Save option
+        const saveBtn  = this.page.getByRole("button" , {name : "Save"});
+        await expect(saveBtn).toBeVisible();
+        await expect(saveBtn).toBeEnabled();
+        await saveBtn.click();
     }
 
     async markSectionCompleteAndProgreeBarValidate(){
@@ -160,13 +197,15 @@ class deviceInfoPage{
             await closeToastBtn.click();
         }
 
+        await this.page.waitForTimeout(7000);
+
         const completeBtn = this.page.getByRole('button' , {name : " Mark Section Complete"});
         await expect(completeBtn).toBeVisible();
         await expect(completeBtn).toBeEnabled();   
         //progress bar validating after section completing
         
         await completeBtn.click();
-        
+        await this.page.waitForTimeout(4000);
         
         // await this.page.waitForTimeout(6000);
         const progressBar = this.page.locator('[role="progressbar"]');

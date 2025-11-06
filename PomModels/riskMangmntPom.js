@@ -21,24 +21,25 @@ class rmPage{
     }
 
     //Risk Mangmnt Policy
-    async rmPolicy(){
+    async rmPolicy(proRefNo){
 
-        const riskMangtPolicy = this.page.locator("[class*='py-2.5']").nth(0);
+        const riskMangtPolicy = this.page.locator("input[class*='flex-1']");
         await expect(riskMangtPolicy).toBeVisible();
         await expect(riskMangtPolicy).toBeEnabled();
-        await this.page.waitForTimeout(8000);
+        await this.page.waitForTimeout(2000);
         await riskMangtPolicy.click();
+        await riskMangtPolicy.fill(proRefNo)
         
-        //Ai feature catching
-        const aiBtn =  this.page.locator(".inline-flex.items-center.justify-center.whitespace-nowrap.font-sans.bg-transparent.border-0.shadow-none.text-sm.gap-2.p-2.h-fit.rounded-lg").first();
-        await aiBtn.waitFor({ state: 'visible', timeout: 10000 });
-        await expect(aiBtn).toBeEnabled();
-        await aiBtn.click();
+        // //Ai feature catching
+        // const aiBtn =  this.page.locator(".inline-flex.items-center.justify-center.whitespace-nowrap.font-sans.bg-transparent.border-0.shadow-none.text-sm.gap-2.p-2.h-fit.rounded-lg").first();
+        // await aiBtn.waitFor({ state: 'visible', timeout: 10000 });
+        // await expect(aiBtn).toBeEnabled();
+        // await aiBtn.click();
         
-        //wait to AI to generate
-        await riskMangtPolicy.waitFor({ state: 'visible' });
-        await expect(riskMangtPolicy).not.toHaveText("");
-        await aiBtn.click();
+        // //wait to AI to generate
+        // await riskMangtPolicy.waitFor({ state: 'visible' });
+        // await expect(riskMangtPolicy).not.toHaveText("");
+        // await aiBtn.click();
         
     }
 
@@ -59,20 +60,47 @@ class rmPage{
     }
 
     //Grading System for the Probability of Harm
-    async probablityofHarm(levels){
+    async probablityofHarm(fixedValuesNo, startDecimal, decimalDecreaseRange){
+      
+    //========older logic=======================
+    // for (let i = 0; i < levels.length; i++) {
+    //     const combo = this.page.locator("[role='combobox']").nth(9 + i);
+    //     await combo.click();
+    //     await this.page.getByRole('option', { name: levels[i].name }).click();
 
-    for (let i = 0; i < levels.length; i++) {
-        const combo = this.page.locator("[role='combobox']").nth(9 + i);
-        await combo.click();
-        await this.page.getByRole('option', { name: levels[i].name }).click();
+    //     const row = this.page.locator('#probability-grading')
+    //               .getByRole('row', { name: levels[i].label, exact: true });
 
-        const row = this.page.locator('#probability-grading')
-                  .getByRole('row', { name: levels[i].label, exact: true });
+    //     await row.getByRole('textbox').fill(levels[i].text);
+    //     await this.page.locator("[type='number']").nth(i).fill(levels[i].number);
+    //   }
+      //===========================================
 
-        await row.getByRole('textbox').fill(levels[i].text);
-        await this.page.locator("[type='number']").nth(i).fill(levels[i].number);
-      }
+      const inputs = await this.page.locator('input[min="0"]').all();
+      // Take only the first 10
+      const firstTen = inputs.slice(0, 10);
 
+      const fixedValues = fixedValuesNo;
+      const [minDec, maxDec] = decimalDecreaseRange;
+      let fixedIndex = 0;
+      let currentDecimal = startDecimal;
+
+        for (let i = 1; i < firstTen.length; i++) {
+            let value;
+
+            if ((i + 1) % 2 === 0) {
+              // Even-numbered field → fixed value
+              value = fixedValues[fixedIndex++];
+            } else {
+              // Odd-numbered field → decreasing decimal
+              value = currentDecimal.toFixed(2);
+              const decrease = Math.random() * (maxDec - minDec) + minDec;
+              currentDecimal = Math.max(0, currentDecimal - decrease);
+            }
+
+            await firstTen[i].fill(value.toString());
+            console.log(`Field ${i + 1}: ${value}`);
+        }
 
     }
 
@@ -82,7 +110,7 @@ class rmPage{
       for(let i = 0 ; i < grades.length ; i++){
 
         await this.page.locator('textarea[placeholder="Type"]').nth(i+24).fill(grades[i].definition);
-        await this.page.locator("[type='number']").nth(i+5).fill(grades[i].severity);
+        await this.page.locator('input[min="0"]').nth(i+10).fill(grades[i].severity);
 
         }
 
@@ -91,7 +119,10 @@ class rmPage{
     //Does the medical device have an Essential Performance?
     async medicalDeviceRadio(){
 
-      const radioBtn =  this.page.getByRole('radio' , {name: 'No'});
+      // const radioBtn =  this.page.getByRole('radio' , {name: 'No'});
+      // await radioBtn.click();
+      const essentialPerfSection = this.page.getByText('Does the medical device have an Essential Performance?').locator('..'); 
+      const radioBtn = essentialPerfSection.getByRole('radio', { name: /^No$/ });
       await radioBtn.click();
 
     }
@@ -100,7 +131,8 @@ class rmPage{
     async selectLowAndHighRisk(){
 
       //Low Risk
-      const combo = this.page.locator("[role='combobox']").nth(14);
+      // const combo = this.page.locator("[role='combobox']").nth(14);
+      const combo = this.page.locator('div').filter({ hasText: /^Low Risk<Select$/ }).getByRole('combobox')
       await combo.click();
       // Get all dropdown options
       const values = await this.page.locator('[role="option"]').allTextContents();
@@ -112,7 +144,8 @@ class rmPage{
       await this.page.getByRole('option', { name: String(minValue) , exact: true }).first().click();
 
       //High Risk
-      const combo2 = this.page.locator("[role='combobox']").nth(16);
+      // const combo2 = this.page.locator("[role='combobox']").nth(16);
+      const combo2 = thi.page.locator('div').filter({ hasText: /^High Risk<Select$/ }).getByRole('combobox')
       await combo2.click();
       // Get all dropdown options
       const values2 = await this.page.locator('[role="option"]').allTextContents();
