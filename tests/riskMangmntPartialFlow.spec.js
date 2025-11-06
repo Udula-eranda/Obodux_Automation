@@ -10,7 +10,7 @@ const { rmResponsibilityOptions }  = require('../Utils/testData')
 
 test('RM with Partial Flow' ,async ({page}) => {
 
-    test.setTimeout(150000)
+    test.setTimeout(180000)
     
     const deviceInfo = new deviceInfoPage(page);
     const riskMangemnt = new rmPage(page);    
@@ -44,11 +44,11 @@ test('RM with Partial Flow' ,async ({page}) => {
     await riskMangemnt.medicalDeviceRadio();
     
     //Determine Risk Level values (these will be used in the below Risk Matrix table as values)
-    await page.pause();
+    
     await riskMangemnt.selectLowAndHighRisk();
-
+    
     //What is the Criteria for Risk Acceptability?
-    const riskAcceptability = page.getByRole("radio" , {name: 'The risk level for each identified risk will be either graded as Low, Medium, or High which are defined below:'});
+    const riskAcceptability = page.getByRole("radio" , {name: 'Each risk is classified as Low, Medium, or High:'});
     await riskAcceptability.click();
 
     //How will the overall residual risk be Evaluated and what is the Risk Acceptability Criteria?
@@ -70,6 +70,7 @@ test('RM with Partial Flow' ,async ({page}) => {
         await page.locator("[role='switch']").nth(i).click()
     }
 
+    await page.waitForTimeout(7000);
     //click Save and Mark Section Complete
     await riskMangemnt.clcikSaveAndComplete();
 

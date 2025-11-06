@@ -145,7 +145,7 @@ class rmPage{
 
       //High Risk
       // const combo2 = this.page.locator("[role='combobox']").nth(16);
-      const combo2 = thi.page.locator('div').filter({ hasText: /^High Risk<Select$/ }).getByRole('combobox')
+      const combo2 = this.page.locator('div').filter({ hasText: /^High Risk<Select$/ }).getByRole('combobox')
       await combo2.click();
       // Get all dropdown options
       const values2 = await this.page.locator('[role="option"]').allTextContents();
@@ -157,10 +157,13 @@ class rmPage{
       await this.page.getByRole('option', { name: String(maxValue2), exact: true }).first().click();
 
     }
-    
+
     //How will the overall residual risk be Evaluated and what is the Risk Acceptability Criteria?
     async overallResidualRisk(){
 
+        const radioBtn = this.page.getByRole('radio', { name: /^Other$/ }).nth(1);
+        await radioBtn.click();
+        await this.page.waitForTimeout(2000);
         const overallRisk = this.page.locator("[class*='py-2.5']").nth(1);
         await overallRisk.click();
         //Ai feature catching
@@ -179,9 +182,18 @@ class rmPage{
 
       const listOfProcedures = this.page.locator("[class*='py-2.5']").nth(2);
       await listOfProcedures.click();
-      const editableField1 = listOfProcedures.locator('[contenteditable="true"]');
-      await editableField1.click();
-      await editableField1.fill("Test List of procedures");
+      // const editableField1 = listOfProcedures.locator('[contenteditable="true"]');
+      // await editableField1.click();
+      // await editableField1.fill("Test List of procedures");
+      //==================AI===========================
+      //Ai feature catching
+        const aiBtn1 =  this.page.locator(".inline-flex.items-center.justify-center.whitespace-nowrap.font-sans.bg-transparent.border-0.shadow-none.text-sm.gap-2.p-2.h-fit.rounded-lg").first();
+        await aiBtn1.click();
+        await this.page.waitForTimeout(8000);
+        //wait to AI to generate
+        await listOfProcedures.waitFor({ state: 'visible' });
+        await expect(listOfProcedures).not.toHaveText("");
+        await aiBtn1.click();
 
     }
 
@@ -191,14 +203,23 @@ class rmPage{
       const jobTitle = this.page.locator("[class*='py-2.5']").nth(3);
       const editableField = jobTitle.locator('[contenteditable="true"]');
       await editableField.click();
-      await editableField.fill("QA Manager");
+      //await editableField.fill("QA Manager");
+      //==================AI===========================
+      //Ai feature catching
+        const aiBtn1 =  this.page.locator(".inline-flex.items-center.justify-center.whitespace-nowrap.font-sans.bg-transparent.border-0.shadow-none.text-sm.gap-2.p-2.h-fit.rounded-lg").first();
+        await aiBtn1.click();
+        await this.page.waitForTimeout(8000);
+        //wait to AI to generate
+        await jobTitle.waitFor({ state: 'visible' });
+        await expect(jobTitle).not.toHaveText("");
+        await aiBtn1.click();
 
     }
 
     //clickSaveAndComplete
     async clcikSaveAndComplete(){
 
-      const saveBtn  = this.page.getByRole("button" , {name : "Save"});
+      const saveBtn  = this.page.getByRole("button" , {name : "Save" , exact: true});
       await expect(saveBtn).toBeVisible();
       await expect(saveBtn).toBeEnabled();
       await saveBtn.click();
@@ -213,7 +234,7 @@ class rmPage{
       //       await closeToastBtn.click();
       //   }
 
-      
+      await this.page.waitForTimeout(7000);
       const completeBtn = this.page.getByRole('button' , {name : " Mark Section Complete"});
       await expect(completeBtn).toBeVisible();
       await expect(completeBtn).toBeEnabled();   
