@@ -10,25 +10,23 @@ async function rmPlanComplete(page) {
     
     await deviceInformationComplete(page);
 
-    await page.waitForTimeout(10000);
+    await page.waitForTimeout(15000);
     const riskMangemnt = new rmPage(page);
 
     //navigate to RM
     await riskMangemnt.navigatetoRM({ timeout: 80000 });
     
-    
+    await page.waitForTimeout(8000);
     //Risk Managemnt Policy Section
-    await riskMangemnt.rmPolicy({ timeout: 60000 });
+    await riskMangemnt.rmPolicy(rmResponsibilityOptions.proceRefNo , { timeout: 80000 });
 
     //Responsibilities of the Risk Management Team section
     
     await riskMangemnt.rmTeamSection(rmResponsibilityOptions.options);
 
-    
     //Grading System for the Probability of Harm
    
-    await riskMangemnt.probablityofHarm(rmResponsibilityOptions.levels);
-
+    await riskMangemnt.probablityofHarm(rmResponsibilityOptions.newProbofHarmValues.fixedValues , rmResponsibilityOptions.newProbofHarmValues.startDecimal , rmResponsibilityOptions.newProbofHarmValues.decimalDecreaseRange);
 
     //Grading System for the Severity of Harm
 
@@ -40,9 +38,9 @@ async function rmPlanComplete(page) {
     //Determine Risk Level values (these will be used in the below Risk Matrix table as values)
     
     await riskMangemnt.selectLowAndHighRisk();
-
+    
     //What is the Criteria for Risk Acceptability?
-    const riskAcceptability = page.getByRole("radio" , {name: 'The risk level for each identified risk will be either graded as Low, Medium, or High which are defined below:'});
+    const riskAcceptability = page.getByRole("radio" , {name: 'Each risk is classified as Low, Medium, or High:'});
     await riskAcceptability.click();
 
     //How will the overall residual risk be Evaluated and what is the Risk Acceptability Criteria?
@@ -64,8 +62,10 @@ async function rmPlanComplete(page) {
         await page.locator("[role='switch']").nth(i).click()
     }
 
+    await page.waitForTimeout(7000);
     //click Save and Mark Section Complete
-    await riskMangemnt.clcikSaveAndComplete();
+    await riskMangemnt.clickSaveAndComplete();
+    
 
     
 }

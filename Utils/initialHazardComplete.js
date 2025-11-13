@@ -6,6 +6,7 @@ async function initialHazardComplete(page) {
 
     await rmPlanComplete(page);
 
+    await page.waitForTimeout(15000);
     const ihForm = new initialHazardForm(page);
 
     //toggle up RM menu
@@ -25,7 +26,7 @@ async function initialHazardComplete(page) {
        
     await ihForm.fillingForm3(initialHazardFormData.answers3);
     
-
+    await page.waitForTimeout(7000);
     //clickSavenComplete
     await ihForm.clickSaveAndComplete();
 

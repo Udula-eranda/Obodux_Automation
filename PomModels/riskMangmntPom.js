@@ -217,7 +217,7 @@ class rmPage{
     }
 
     //clickSaveAndComplete
-    async clcikSaveAndComplete(){
+    async clickSaveAndComplete(){
 
       const saveBtn  = this.page.getByRole("button" , {name : "Save" , exact: true});
       await expect(saveBtn).toBeVisible();

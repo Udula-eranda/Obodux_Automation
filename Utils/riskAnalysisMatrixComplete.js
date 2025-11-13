@@ -26,6 +26,7 @@ async function riskAnalysisMatrixFormComplete(page) {
 
 
     await initialHazardComplete(page);
+    await page.waitForTimeout(15000);
 
     //close IH Form
     const ihFormBtn = page.getByRole('button').filter({ hasText: /^$/ }).nth(3);
@@ -54,6 +55,7 @@ async function riskAnalysisMatrixFormComplete(page) {
     //-----------third row data entry------
     await raMatrixForm.ramtrixThirdRow(riskAnalysisMatrixFormData.thirdRowAnswers);
 
+    await page.waitForTimeout(7000);
     //saveNClose
     await raMatrixForm.clickSaveAndComplete();
 

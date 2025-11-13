@@ -63,6 +63,7 @@ async function deviceInformationComplete(page){
     //EMDN Code
     await deviceInfo.completeEmdnCode();
 
+    await page.waitForTimeout(2000);
     //click Mark Section Complete after waiting toast dissapear
     await deviceInfo.markSectionCompleteAndProgreeBarValidate();
 

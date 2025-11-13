@@ -57,6 +57,7 @@ async function riskManagementPartialComplete(page) {
     
     //Risk Analysis Report saved successfully
     
+    await page.waitForTimeout(7000);
     //Save and Complete
     await riskMangForm.clickSaveNComplete();
 

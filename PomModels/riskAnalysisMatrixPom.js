@@ -71,37 +71,41 @@ async deleteRow(){
 //clickSaveAndComplete
     async clickSaveAndComplete(){
 
-      const saveBtn  = this.page.getByRole("button" , {name : "Save"});
-      await expect(saveBtn).toBeVisible();
-      await expect(saveBtn).toBeEnabled();
-      await saveBtn.click();
+    const saveBtn  = this.page.getByRole("button" , {name : "Save" , exact: true});
+    await expect(saveBtn).toBeVisible();
+    await expect(saveBtn).toBeEnabled();
+    await saveBtn.click();
 
-      //click Mark Section Complete after waiting toast dissapear
-      const toast = this.page.locator("li[role='status']");
-      await expect(toast).toHaveText("Risk Analysis Matrix saved successfully");
-      await toast.waitFor({ state: "hidden" });
-    //   const closeToastBtn = toast.locator('button'); // or any close button inside toast
-    //     if (await closeToastBtn.isVisible()) {
-    //         await closeToastBtn.click();
-    //     }
+    //click Mark Section Complete after waiting toast dissapear
+    const toast = this.page.locator("li[role='status']");
+    await expect(toast).toHaveText("Risk Analysis Matrix saved successfully");
+    await toast.waitFor({ state: "hidden" });
 
-      
-      const completeBtn = this.page.getByRole('button' , {name : " Mark Section Complete"});
-      await expect(completeBtn).toBeVisible();
-      await expect(completeBtn).toBeEnabled();   
-      //progress bar validating after section completing
-      await completeBtn.click();
+      // const closeToastBtn = toast.locator('button'); // or any close button inside toast
+      //   if (await closeToastBtn.isVisible()) {
+      //       await closeToastBtn.click();
+      //   }
 
-      //click Mark Section Complete after waiting toast dissapear
-      const toast2 = this.page.locator("li[role='status']");
-      await expect(toast2).toHaveText("Updated successfully");
-      await toast2.waitFor({ state: "hidden" });
+    await this.page.waitForTimeout(7000);
+    const completeBtn = this.page.getByRole('button' , {name : " Mark Section Complete"});
+    await expect(completeBtn).toBeVisible();
+    await expect(completeBtn).toBeEnabled();   
+    //progress bar validating after section completing
+    await completeBtn.click();
 
-      
-      const progressBar = this.page.locator('[role="progressbar"]');
-      const initialStyle = await progressBar.evaluate(el =>
-      window.getComputedStyle(el).transform);
-      console.log("Before:", initialStyle);
+
+    await this.page.waitForTimeout(6000);
+    //click Mark Section Complete after waiting toast dissapear
+    const toast2 = this.page.locator("li[role='status']");
+    await expect(toast2).toBeVisible();
+    await expect(toast2).toHaveText("Updated successfully");
+    await toast2.waitFor({ state: "hidden" });
+
+    // await this.page.waitForTimeout(6000);
+    const progressBar = this.page.locator('[role="progressbar"]');
+    const initialStyle = await progressBar.evaluate(el =>
+    window.getComputedStyle(el).transform);
+    console.log("Before:", initialStyle);
               
           await expect.poll(async () => {
               return await progressBar.evaluate(el =>
@@ -112,7 +116,11 @@ async deleteRow(){
               }).toMatch(/matrix\(1, 0, 0, 1, 0, 0\)|none/);
 
 
+
     }
+
+
+
 
 
 

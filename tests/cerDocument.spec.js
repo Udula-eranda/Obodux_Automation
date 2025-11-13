@@ -4,8 +4,9 @@ const { deviceInfoPage } =  require('../PomModels/deviceInfoPom');
 const {cepDoc} = require('../PomModels/cepdocPom')
 const { cerDoc } = require('../PomModels/cerdocPom');
 const {LoginPage}  = require('./login.page')
-const {validUser ,  URL , manufacturerData , authoriserData}  = require('../Utils/testData')
+const {validUser ,  URL , cerData , usabilityTesting }  = require('../Utils/testData')
 const { DevicePage } = require('../PomModels/deviceonboardPom')
+
 
 test ('CE Report Document' , async ({page}) => {
 
@@ -41,9 +42,9 @@ test ('CE Report Document' , async ({page}) => {
 
     
     await page.waitForTimeout(6000);
-    
+    await page.pause();
     //close cepDoc Menu
-    await ceReportDoc.closrCEPDoc()
+    await ceReportDoc.closeCEPDoc();
 
     await page.waitForTimeout(3000);
 
@@ -61,11 +62,16 @@ test ('CE Report Document' , async ({page}) => {
 
    
     //State of Art section
-    await ceReportDoc.stateOfArtSection();
+    //await ceReportDoc.stateOfArtSection();
 
+    //Pre-Clinical Data
+    await ceReportDoc.safetyNperformance(cerData.safetyNperform)
+
+    //Usability Testing
+    await ceReportDoc.usabilityTest(cerData.usabilityTesting)
 
     //Save Draft button
-    await ceReportDoc.saveDraftCerDoc();
+    await ceReportDoc.saveDraftBtn();
 
     await page.pause();
     

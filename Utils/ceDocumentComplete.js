@@ -8,7 +8,7 @@ async function cepDocumentComplete(page){
     await riskManagementPartialComplete(page);
 
     const cepDocPage = new cepDoc(page);
-    const cerDocPage = new cerDoc(page);
+    const ceReportDoc = new cerDoc(page);
 
     await page.waitForTimeout(8000);
 
@@ -18,7 +18,6 @@ async function cepDocumentComplete(page){
     //========Clinical Claims field=========================================
     
     await cepDocPage.clinicalClaimsField();
-
 
     //===============================Anticipated Benefits==========================
     
@@ -41,33 +40,34 @@ async function cepDocumentComplete(page){
     await page.waitForTimeout(3000);
     //SavenComplete
     await cepDocPage.saveNcomplete();
-
+    
     //=================CER Document Section ==================
 
+    await page.waitForTimeout(6000);
     //close cepDoc Menu
-    await cerDocPage.closrCEPDoc()
+    await ceReportDoc.closeCEPDoc();
 
     await page.waitForTimeout(3000);
 
     //open CER Section
-    await cerDocPage.openCERSection();
+    await ceReportDoc.openCERSection();
 
-    await page.waitForTimeout(6000);
+    await page.waitForTimeout(3000);
     
     //open CER sub menu and navigates into CER page
-    await cerDocPage.openCERSubMenu();
+    await ceReportDoc.openCERSubMenu();
     
     
     //Literature Search Protocol
-    await cerDocPage.openLSPSubMenu();
+    await ceReportDoc.openLSPSubMenu();
 
    
     //State of Art section
-    await cerDocPage.stateOfArtSection();
+    await ceReportDoc.stateOfArtSection();
 
 
     //Save Draft button
-    await cerDocPage.saveDraftCerDoc();
+    await ceReportDoc.saveDraftBtn();
 
     
 }

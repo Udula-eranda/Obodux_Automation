@@ -20,9 +20,9 @@ module.exports = {
   },
 
   deviceDetails: {
-    dName :"Trocar",
-    deiveDes : "A sharp, pointed surgical instrument used to puncture a body cavity during laparoscopic surgery.",
-    dFilePath: "C:\\Users\\udula\\Downloads\\Trocar.jpg"
+    dName :"Traction Unit",
+    deiveDes : "Equipment used in physiotherapy or orthopedics to apply tension to a body part.",
+    dFilePath: "C:\\Users\\udula\\Downloads\\Traction Unit.jpg"
   },
 
   manufacturerData: {
@@ -49,7 +49,7 @@ module.exports = {
 
   deviceInfoPageData: {
 
-      dName: "Blood Pressure DInfo",
+      dName: "Traction Unit Device",
       intendedPurpose: " Blood Pressure intended purpose",
       clinicalBenefits: "Blood Pressure clinical benefits",
       knownSideEffects: "Blood Pressure known side effects",
@@ -150,6 +150,23 @@ module.exports = {
         "5" , "5 " , "5" , "High ",
         "T3 " , "T3 " , "T3 " , "T3 " ,
         "6 " , "6 " ,"6" ,"High " , "T3 "
+    ]
+
+  },
+
+  cerData : {
+
+    safetyNperform: [
+        "A1" , "A1.1" , "A1.1 Desc",
+        "B1" , "B1.1" , "B1.1 Desc",
+        "C1" , "C1.1" , "C1.1 Desc"
+    ] ,
+
+    usabilityTesting : [
+
+        "U1" , "U1.1" , "U1.1 Desc",
+        "U2" , "U2.1" , "U2.1 Desc",
+        "U3" , "U3.1" , "U3.1 Desc",
     ]
 
   }

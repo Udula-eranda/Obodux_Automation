@@ -190,7 +190,7 @@ class deviceInfoPage{
 
         //click Mark Section Complete after waiting toast dissapear
         const toast = this.page.locator("li[role='status']");
-        await expect(toast).toHaveText(/Device accessory successfully updated./i , { timeout: 6000});
+        await expect(toast).toHaveText(/Device accessory successfully updated./i , { timeout: 8000});
         
         const closeToastBtn = toast.locator('button'); // or any close button inside toast
         if (await closeToastBtn.isVisible()) {

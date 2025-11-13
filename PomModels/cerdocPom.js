@@ -1,5 +1,5 @@
 const { expect , test } = require("@playwright/test");
-
+const { cerData } = require('../Utils/testData');
 
 class cerDoc{
 
@@ -8,9 +8,12 @@ class cerDoc{
     }
 
     //close cepDoc Menu
-    async closrCEPDoc(){
+    async closeCEPDoc(){
 
-        const cepCollapseBtn = this.page.locator("[id='radix-\\:r3e\\:']");
+        await this.page.waitForTimeout(3000);
+        const cepCollapseBtn = this.page.locator("[id*='radix-']").nth(3);
+        await expect(cepCollapseBtn).toBeVisible();
+        await expect(cepCollapseBtn).toBeEnabled();
         await cepCollapseBtn.click();
 
     }
@@ -18,7 +21,11 @@ class cerDoc{
     //open CER Section
     async openCERSection(){
 
-        const cerCollapseBtn = page.locator('[id="radix-:r3k:"]');
+        await this.page.waitForTimeout(3000);
+        //const cerCollapseBtn = this.page.locator('[id="radix-:r3k:"]');
+        const cerCollapseBtn = this.page.locator("[id*='radix-']").nth(5);
+        await expect(cerCollapseBtn).toBeVisible();
+        await expect(cerCollapseBtn).toBeEnabled();
         await cerCollapseBtn.click();
 
     }
@@ -26,7 +33,10 @@ class cerDoc{
     //open CER sub menu and navigates into CER page
     async openCERSubMenu(){
 
-        const soaBtn = page.locator('[id="radix-:r44:"]');
+        await this.page.waitForTimeout(3000);
+        const soaBtn = this.page.locator("[id*='radix-']").nth(7)
+        await expect(soaBtn).toBeVisible();
+        await expect(soaBtn).toBeEnabled();
         await soaBtn.click();
 
     }
@@ -34,9 +44,9 @@ class cerDoc{
     //open the sub menu Literature Search Protocol
     async openLSPSubMenu(){
 
-        const lspBtn = page.getByText('Literature Search Protocol');
+        const lspBtn = this.page.getByText('Literature Search Protocol');
         await lspBtn.click();
-        await page.waitForTimeout(3000);
+        await this.page.waitForTimeout(3000);
 
         // const lspField = page.locator("[class*='border px-3']").nth(0);
         // await expect(lspField).toBeVisible();
@@ -56,21 +66,21 @@ class cerDoc{
 
     }
 
-    //State of Art Section
+    //-------------State of Art Section-------------------------
     async stateOfArtSection(){
 
-        for (let i = 0; i < 8; i++) {
+        for (let i = 0; i < 9; i++) {
 
             console.log(`🧩 Processing field ${i + 1}`);
 
             // Target each LSP field by index
-            const soa = page.locator("[class*='border px-3']").nth(i);
+            const soa = this.page.locator("[class*='border px-3']").nth(i);
             await expect(soa).toBeVisible();
             await expect(soa).toBeEnabled();
             await soa.click();
 
             // Locate the AI button (first visible)
-            const aiBtn = page.locator(
+            const aiBtn = this.page.locator(
                 ".inline-flex.items-center.justify-center.whitespace-nowrap.font-sans.bg-transparent.border-0.shadow-none.text-sm.gap-2.p-2.h-fit.rounded-lg"
             ).first();
 
@@ -86,20 +96,52 @@ class cerDoc{
             await aiBtn.click();
 
             // Small pause before moving to next field
-            await page.waitForTimeout(2000);
+            await this.page.waitForTimeout(2000);
         }
 
     }
 
+    //-------------Pre Clinical Data-----------------------
+
+    //Safety n Performance
+    async safetyNperformance(safetyNperfomData){
+        const fields = this.page.locator("[class*='w-full p-2'] textarea");
+
+        for (let i = 0 ; i < 9 ; i++){
+            console.log('🧩 Processing Safety n Performance field ' + (i + 1));
+            const safetyNPerform = fields.nth(i);
+            await expect(safetyNPerform).toBeVisible();
+            await expect(safetyNPerform).toBeEnabled();
+            await safetyNPerform.fill(safetyNperfomData[i])
+        }
+
+    }
+
+
+    //Usability Testing
+    async usabilityTest(usabilityTestData){
+        const fields = this.page.locator("[class*='w-full p-2'] textarea");
+
+        for (let i = 9 ; i < 17 ; i++){
+            console.log('🧩 Processing of Usability Testing field ' + (i + 1));
+            const usabilityTest = fields.nth(i);
+            await expect(usabilityTest).toBeVisible();
+            await expect(usabilityTest).toBeEnabled();
+            await usabilityTest.fill(usabilityTestData[i])
+        }
+
+    }
+
+
     //Save Draft button
     async saveDraftBtn(){
         
-        await page.waitForTimeout(6000);
+        await this.page.waitForTimeout(6000);
         const saveDraftBtn  = this.page.getByRole("button" , {name : "Save Draft" , exact: true});
         await expect(saveDraftBtn).toBeVisible();
         await expect(saveDraftBtn).toBeEnabled();
-        await saveBtn.click();
-
+        await saveDraftBtn.click();
+        await this.page.waitForTimeout(5000);
     }
 
 }
