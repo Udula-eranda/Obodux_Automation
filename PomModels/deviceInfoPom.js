@@ -32,119 +32,149 @@ class deviceInfoPage{
     }
 
     async renamingtheDevice(name){
-        const deviceNameField = this.page.locator("[value='Device Accessory 1']");
+        const deviceNameField = this.page.locator("[value*='Accessory']");
         await expect(deviceNameField).toBeVisible();
         await expect(deviceNameField).toBeEnabled();
         await deviceNameField.fill(name);
     }
 
     async accessoryDescription(){
-        //Accessor Description
         const accessDesc = this.page.locator("[class*='min-h-16']").nth(0);
         await accessDesc.click();
-        //Ai feature catching
-        const aiBtn =  this.page.locator(".inline-flex.items-center.justify-center.whitespace-nowrap.font-sans.bg-transparent.border-0.shadow-none.text-sm.gap-2.p-2.h-fit.rounded-lg").first();
+        const aiBtn = this.page.locator(".inline-flex.items-center.justify-center.whitespace-nowrap.font-sans.bg-transparent.border-0.shadow-none.text-sm.gap-2.p-2.h-fit.rounded-lg").first();
         await aiBtn.click();
         await this.page.waitForTimeout(10000);
-        //wait to AI to generate
         await accessDesc.waitFor({ state: 'visible' });
         await expect(accessDesc).not.toHaveText("");
         await aiBtn.click();
     }
 
     async principleOperations(){
-
         const principleOperation = this.page.locator("[class*='min-h-16']").nth(1);
         await principleOperation.click();
-        //Ai feature catching
-        const aiBtn2 =  this.page.locator(".inline-flex.items-center.justify-center.whitespace-nowrap.font-sans.bg-transparent.border-0.shadow-none.text-sm.gap-2.p-2.h-fit.rounded-lg").first();
+        const aiBtn2 = this.page.locator(".inline-flex.items-center.justify-center.whitespace-nowrap.font-sans.bg-transparent.border-0.shadow-none.text-sm.gap-2.p-2.h-fit.rounded-lg").first();
         await aiBtn2.click();
         await this.page.waitForTimeout(10000);
-        //wait to AI to generate
         await principleOperation.waitFor({ state: 'visible' });
         await expect(principleOperation).not.toHaveText("");
         await aiBtn2.click();
     }
 
     async intendedPurpose(){
-
         const intendPurpose = this.page.locator("[class*='min-h-16']").nth(2);
         const editableField = intendPurpose.locator('[contenteditable="true"]');
         await editableField.click();
-        // await editableField.fill(intendPurposeData);
-        //Ai feature catching
-        const aiBtn3 =  this.page.locator(".inline-flex.items-center.justify-center.whitespace-nowrap.font-sans.bg-transparent.border-0.shadow-none.text-sm.gap-2.p-2.h-fit.rounded-lg").first();
+        const aiBtn3 = this.page.locator(".inline-flex.items-center.justify-center.whitespace-nowrap.font-sans.bg-transparent.border-0.shadow-none.text-sm.gap-2.p-2.h-fit.rounded-lg").first();
         await aiBtn3.click();
-        //wait to AI to generate
         await intendPurpose.waitFor({ state: 'visible' });
         await expect(intendPurpose).not.toHaveText("");
         await this.page.waitForTimeout(10000);
         await aiBtn3.click();
+    }
 
+    async indicationsForUse(){
+        const field = this.page.locator("[class*='min-h-16']").nth(3);
+        const editableField = field.locator('[contenteditable="true"]');
+        await editableField.click();
+        await this.page.keyboard.press('Control+b');
+        await this.page.keyboard.type('Clinical Indications: ');
+        await this.page.keyboard.press('Control+b');
+        await this.page.keyboard.type(deviceInfoPageData.indicationsForUseText);
+        await this.page.keyboard.press('Enter');
+        await this.page.keyboard.press('Control+i');
+        await this.page.keyboard.type('Note: For use by qualified healthcare professionals only.');
+        await this.page.keyboard.press('Control+i');
     }
 
     async clinicalBenefits(){
-
-        const cliniBenefit  = this.page.locator("[class*='min-h-16']").nth(3);
+        const cliniBenefit = this.page.locator("[class*='min-h-16']").nth(4);
         const editableField1 = cliniBenefit.locator('[contenteditable="true"]');
         await editableField1.click();
-        // await editableField1.fill(clinicalBenefitsData);
-        //Ai feature catching
-        const aiBtn2 =  this.page.locator(".inline-flex.items-center.justify-center.whitespace-nowrap.font-sans.bg-transparent.border-0.shadow-none.text-sm.gap-2.p-2.h-fit.rounded-lg").first();
+        const aiBtn2 = this.page.locator(".inline-flex.items-center.justify-center.whitespace-nowrap.font-sans.bg-transparent.border-0.shadow-none.text-sm.gap-2.p-2.h-fit.rounded-lg").first();
         await aiBtn2.click();
         await this.page.waitForTimeout(10000);
-        //wait to AI to generate
         await cliniBenefit.waitFor({ state: 'visible' });
         await expect(cliniBenefit).not.toHaveText("");
         await aiBtn2.click();
-
     }
 
-    // async knownSideEffects(knownSideEffectsData){
+    async knownSideEffects(){
+        const field = this.page.locator("[class*='min-h-16']").nth(5);
+        const editableField = field.locator('[contenteditable="true"]');
+        await editableField.click();
+        await this.page.keyboard.press('Control+b');
+        await this.page.keyboard.type('Known Side Effects: ');
+        await this.page.keyboard.press('Control+b');
+        await this.page.keyboard.type(deviceInfoPageData.knownSideEffectsText);
+        await this.page.keyboard.press('Enter');
+        await this.page.keyboard.press('Control+i');
+        await this.page.keyboard.type('Healthcare professionals should report any adverse events in accordance with MDR 2017/745.');
+        await this.page.keyboard.press('Control+i');
+    }
 
-    //     const knownSide = this.page.locator("[class*='min-h-16']").nth(4);
-    //     const editableField2 = knownSide.locator('[contenteditable="true"]');
-    //     await editableField2.click();
-    //     await editableField2.fill(knownSideEffectsData);
+    async contraindications(){
+        const field = this.page.locator("[class*='min-h-16']").nth(6);
+        const editableField = field.locator('[contenteditable="true"]');
+        await editableField.click();
+        await this.page.keyboard.press('Control+b');
+        await this.page.keyboard.type('Contraindications: ');
+        await this.page.keyboard.press('Control+b');
+        await this.page.keyboard.type(deviceInfoPageData.contraindicationsText);
+    }
 
-    // }
+    async clinicalUseSetting(){
+        const field = this.page.locator("[class*='min-h-16']").nth(7);
+        const editableField = field.locator('[contenteditable="true"]');
+        await editableField.click();
+        await this.page.keyboard.press('Control+b');
+        await this.page.keyboard.type('Clinical Use Setting: ');
+        await this.page.keyboard.press('Control+b');
+        await this.page.keyboard.type(deviceInfoPageData.clinicalUseSettingText);
+        await this.page.keyboard.press('Enter');
+        await this.page.keyboard.press('Control+i');
+        await this.page.keyboard.type('Refer to the Instructions for Use for full setup and safety requirements.');
+        await this.page.keyboard.press('Control+i');
+    }
 
-    // async contadictionsSection(contradictionsData){
+    async intendedUsers(){
+        const field = this.page.locator("[class*='min-h-16']").nth(8);
+        const editableField = field.locator('[contenteditable="true"]');
+        await editableField.click();
+        await this.page.keyboard.press('Control+b');
+        await this.page.keyboard.type('Intended Users: ');
+        await this.page.keyboard.press('Control+b');
+        await this.page.keyboard.type(deviceInfoPageData.intendedUsersText);
+    }
 
-    //     const contradic = this.page.locator("[class*='min-h-16']").nth(5);
-    //     const editableField3 = contradic.locator('[contenteditable="true"]');
-    //     await editableField3.click();
-    //     await editableField3.fill(contradictionsData);
-
-    // }
-
-    //     async intendedUsers(intendedUsersData){
-
-    //     const intendUsers = this.page.locator("[class*='min-h-16']").nth(7);
-    //     const editableField5 = intendUsers.locator('[contenteditable="true"]');
-    //     await editableField5.click();
-    //     await editableField5.fill(intendedUsersData);
-
-    // }
-
-        async intendedPatientCount(patienteCountData){
-
-        const PatientCount = this.page.locator("input[class*='flex-1']").nth(1) ;
+    async intendedPatientCount(patienteCountData){
+        const PatientCount = this.page.locator("input[class*='flex-1']").nth(1);
         await PatientCount.click();
         await PatientCount.fill(patienteCountData);
-
     }
 
+    async intendedBodyPartDescription(){
+        const field = this.page.locator("[class*='min-h-16']").nth(9);
+        const editableField = field.locator('[contenteditable="true"]');
+        await editableField.click();
+        await this.page.keyboard.press('Control+b');
+        await this.page.keyboard.type('Target Anatomy: ');
+        await this.page.keyboard.press('Control+b');
+        await this.page.keyboard.type(deviceInfoPageData.intendedBodyPartText);
+    }
 
-    // async clinicalUse(clinicalUseData){
-
-    //     //Clinical Use Settings
-    //     const clinUseSetting = this.page.locator("[class*='min-h-16']").nth(6);
-    //     const editableField4 = clinUseSetting.locator('[contenteditable="true"]');
-    //     await editableField4.click();
-    //     await editableField4.fill(clinicalUseData);
-
-    // }
+    async intendedUserEnvironment(){
+        const field = this.page.locator("[class*='min-h-16']").nth(10);
+        const editableField = field.locator('[contenteditable="true"]');
+        await editableField.click();
+        await this.page.keyboard.press('Control+b');
+        await this.page.keyboard.type('Use Environment: ');
+        await this.page.keyboard.press('Control+b');
+        await this.page.keyboard.type(deviceInfoPageData.intendedUserEnvironmentText);
+        await this.page.keyboard.press('Enter');
+        await this.page.keyboard.press('Control+i');
+        await this.page.keyboard.type('Must comply with EN ISO 14644 cleanroom and sterile field standards.');
+        await this.page.keyboard.press('Control+i');
+    }
 
 
     async radioBtnandSave(){

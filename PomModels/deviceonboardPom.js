@@ -257,9 +257,58 @@ class DevicePage {
     }
 
     async devicepageLoad(){
-        await expect(this.page).toHaveURL(/.*\/devices/); 
+        await expect(this.page).toHaveURL(/.*\/devices/);
     }
 
+    /**
+     * Answers all 11 classification accordion questions by selecting "No" on each.
+     *
+     * Behaviour:
+     *  - "No"  → question marks complete immediately (circle-check appears)
+     *  - "Yes" → sub-questions expand and must also be filled
+     *
+     * Selecting "No" for all 11 is the classification-change path (no special
+     * criteria apply) and is the fastest route to enabling the Continue button.
+     *
+     * Steps per question:
+     *  1. Click the expand button (h3 > button nth(i))
+     *  2. Wait for the radiogroup to render inside the opened region
+     *  3. Click the "No" radio option
+     *  4. Wait for svg.text-positive (circle-check) to confirm completion
+     */
+    async classificationAllQuestions() {
+        const total = 11;
+        for (let i = 0; i < total; i++) {
+            // Expand accordion
+            const accordionBtn = this.page.locator('h3 button').nth(i);
+            await accordionBtn.waitFor({ state: 'visible' });
+            await accordionBtn.click();
+
+            // Wait for this question's radiogroup.
+            // Multiple accordions can be open simultaneously so nth(i) targets
+            // Q(i+1)'s radiogroup — earlier ones remain in the DOM as nth(0..i-1).
+            const radioGroup = this.page.getByRole('radiogroup').nth(i);
+            await radioGroup.waitFor({ state: 'visible' });
+
+            // Select "No" — marks the question complete without triggering sub-questions
+            await radioGroup.getByRole('radio', { name: 'No' }).click();
+
+            // Wait for the circle-check (svg.text-positive) confirming this question is done
+            await this.page.locator('svg.text-positive').nth(i).waitFor({ state: 'visible' });
+            console.log(`Classification Q${i + 1} completed ✓`);
+        }
+    }
+
+    /**
+     * Verifies that a classification label is visible on the overview page
+     * after completing onboarding with a changed classification path.
+     */
+    async verifyDeviceClassification() {
+        const classLabel = this.page.locator("text=/Class|Classification|IIa|IIb|III/i").first();
+        await expect(classLabel).toBeVisible();
+        const classText = await classLabel.textContent();
+        console.log('Device classification shown:', classText);
+    }
 
 }
 

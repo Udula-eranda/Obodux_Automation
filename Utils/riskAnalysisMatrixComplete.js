@@ -40,20 +40,20 @@ async function riskAnalysisMatrixFormComplete(page) {
     await page.getByText("Risk Analysis Matrix Table").click();
 
     
-    //deleting the 4th and 5th rows
-    await raMatrixForm.deleteRow();
-    
     //--------------first row data entry-------------
     await raMatrixForm.ramtrixFirstRow(riskAnalysisMatrixFormData.firstRowAnswers);
-
-    //deleting the 4th and 5th rows
-    await raMatrixForm.deleteRow();
 
     //-----------second row data entry------
     await raMatrixForm.ramtrixSecondRow(riskAnalysisMatrixFormData.secondRowAnswers);
 
     //-----------third row data entry------
     await raMatrixForm.ramtrixThirdRow(riskAnalysisMatrixFormData.thirdRowAnswers);
+
+    //-----------fourth row data entry------
+    await raMatrixForm.ramtrixFourthRow(riskAnalysisMatrixFormData.fourthRowAnswers);
+
+    //-----------fifth row data entry------
+    await raMatrixForm.ramtrixFifthRow(riskAnalysisMatrixFormData.fifthRowAnswers);
 
     await page.waitForTimeout(7000);
     //saveNClose

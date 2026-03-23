@@ -1,4 +1,5 @@
 const { expect }  = require('@playwright/test')
+const { rmPlanData } = require('../Utils/testData')
 
 class rmPage{
 
@@ -44,13 +45,13 @@ class rmPage{
     }
 
     //Responsibilities of RM section
-    async rmTeamSection(options){
+    async rmTeamSection(options, teamMembers){
 
       for (let i = 0; i < options.length; i++) {
-          const baseIndex = i * 3 + 1 
+          const baseIndex = i * 3 + 1;
 
-          await this.page.locator('textarea[placeholder="Type"]').nth(baseIndex).fill('T1');
-          await this.page.locator('textarea[placeholder="Type"]').nth(baseIndex + 1).fill('BA');
+          await this.page.locator('textarea[placeholder="Type"]').nth(baseIndex).fill(teamMembers[i].code);
+          await this.page.locator('textarea[placeholder="Type"]').nth(baseIndex + 1).fill(teamMembers[i].role);
 
           const combo = this.page.locator("[role='combobox']").nth(i+1);
           await combo.click();
@@ -165,15 +166,9 @@ class rmPage{
         await radioBtn.click();
         await this.page.waitForTimeout(2000);
         const overallRisk = this.page.locator("[class*='py-2.5']").nth(1);
-        await overallRisk.click();
-        //Ai feature catching
-        const aiBtn1 =  this.page.locator(".inline-flex.items-center.justify-center.whitespace-nowrap.font-sans.bg-transparent.border-0.shadow-none.text-sm.gap-2.p-2.h-fit.rounded-lg").first();
-        await aiBtn1.click();
-        await this.page.waitForTimeout(8000);
-        //wait to AI to generate
-        await overallRisk.waitFor({ state: 'visible' });
-        await expect(overallRisk).not.toHaveText("");
-        await aiBtn1.click();
+        const editableField = overallRisk.locator('[contenteditable="true"]');
+        await editableField.click();
+        await editableField.fill(rmPlanData.overallResidualRisk);
 
     }
 
@@ -181,19 +176,9 @@ class rmPage{
     async listOfProcedures(){
 
       const listOfProcedures = this.page.locator("[class*='py-2.5']").nth(2);
-      await listOfProcedures.click();
-      // const editableField1 = listOfProcedures.locator('[contenteditable="true"]');
-      // await editableField1.click();
-      // await editableField1.fill("Test List of procedures");
-      //==================AI===========================
-      //Ai feature catching
-        const aiBtn1 =  this.page.locator(".inline-flex.items-center.justify-center.whitespace-nowrap.font-sans.bg-transparent.border-0.shadow-none.text-sm.gap-2.p-2.h-fit.rounded-lg").first();
-        await aiBtn1.click();
-        await this.page.waitForTimeout(8000);
-        //wait to AI to generate
-        await listOfProcedures.waitFor({ state: 'visible' });
-        await expect(listOfProcedures).not.toHaveText("");
-        await aiBtn1.click();
+      const editableField1 = listOfProcedures.locator('[contenteditable="true"]');
+      await editableField1.click();
+      await editableField1.fill(rmPlanData.listOfProcedures);
 
     }
 
@@ -203,16 +188,7 @@ class rmPage{
       const jobTitle = this.page.locator("[class*='py-2.5']").nth(3);
       const editableField = jobTitle.locator('[contenteditable="true"]');
       await editableField.click();
-      //await editableField.fill("QA Manager");
-      //==================AI===========================
-      //Ai feature catching
-        const aiBtn1 =  this.page.locator(".inline-flex.items-center.justify-center.whitespace-nowrap.font-sans.bg-transparent.border-0.shadow-none.text-sm.gap-2.p-2.h-fit.rounded-lg").first();
-        await aiBtn1.click();
-        await this.page.waitForTimeout(8000);
-        //wait to AI to generate
-        await jobTitle.waitFor({ state: 'visible' });
-        await expect(jobTitle).not.toHaveText("");
-        await aiBtn1.click();
+      await editableField.fill(rmPlanData.jobTitle);
 
     }
 

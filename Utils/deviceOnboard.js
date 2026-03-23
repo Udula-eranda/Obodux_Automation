@@ -8,18 +8,19 @@ async function  loginAndOnboardDevice(page) {
     const devicePage = new DevicePage(page);
 
 
-    loginPage.goto(URL.siteLink);
-    loginPage.login(validUser.email , validUser.password);
-    
-   
+    await loginPage.goto(URL.siteLink);
+    await loginPage.login(validUser.email , validUser.password);
+    await page.waitForTimeout(5000);
+
+
     //Device onboard
-    devicePage.openDeviceMenu();
+    await devicePage.openDeviceMenu();
 
     //catching the button with name & select No as from first radio btn
-    devicePage.addDeviceWindowOpen();
+    await devicePage.addDeviceWindowOpen();
 
     //image uploading
-    devicePage.fileUploadMenu(deviceDetails.dFilePath);
+    await devicePage.fileUploadMenu(deviceDetails.dFilePath);
 
     //toastMessage Handling
     await devicePage.imageUploadToastMsg();
@@ -79,6 +80,7 @@ async function  loginAndOnboardDevice(page) {
     
     //continue to 5th
     await page.getByRole("button" , {name : "Continue"}).click();
+    await page.waitForTimeout(3000);
 
     // //5th page validation
     // await devicePage.section5Validation();

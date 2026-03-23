@@ -10,7 +10,7 @@ const { DevicePage } = require('../PomModels/deviceonboardPom')
 
 test ('CE Report Document' , async ({page}) => {
 
-    test.setTimeout(200000);
+    test.setTimeout(280000);
     ///////////////////////////////////////////////
 
     const loginPage = new LoginPage(page);
@@ -42,7 +42,7 @@ test ('CE Report Document' , async ({page}) => {
 
     
     await page.waitForTimeout(6000);
-    await page.pause();
+    
     //close cepDoc Menu
     await ceReportDoc.closeCEPDoc();
 
@@ -62,13 +62,17 @@ test ('CE Report Document' , async ({page}) => {
 
    
     //State of Art section
-    //await ceReportDoc.stateOfArtSection();
+    await ceReportDoc.stateOfArtSection();
 
     //Pre-Clinical Data
     await ceReportDoc.safetyNperformance(cerData.safetyNperform)
 
+    await page.pause();
     //Usability Testing
     await ceReportDoc.usabilityTest(cerData.usabilityTesting)
+
+    //BioCompatability Testing
+    await ceReportDoc.bioCompatability(cerData.bioCompatability);
 
     //Save Draft button
     await ceReportDoc.saveDraftBtn();

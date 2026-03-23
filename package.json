@@ -10,5 +10,8 @@
   "devDependencies": {
     "@playwright/test": "^1.53.2",
     "@types/node": "^24.0.10"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.2.79"
   }
 }

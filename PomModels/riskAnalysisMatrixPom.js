@@ -42,6 +42,26 @@ async ramtrixThirdRow(thirdRowAnswers){
 
 }
 
+async ramtrixFourthRow(fourthRowAnswers){
+
+    for (let j = 0; j < fourthRowAnswers.length; j++) {
+        const i = 51 + j;
+        const textField = this.page.locator("[data-placeholder*='Type']").nth(i);
+        await textField.fill(fourthRowAnswers[j]);
+    }
+
+}
+
+async ramtrixFifthRow(fifthRowAnswers){
+
+    for (let j = 0; j < fifthRowAnswers.length; j++) {
+        const i = 68 + j;
+        const textField = this.page.locator("[data-placeholder*='Type']").nth(i);
+        await textField.fill(fifthRowAnswers[j]);
+    }
+
+}
+
 async deleteRow(){
 
     //4th row & 5th row

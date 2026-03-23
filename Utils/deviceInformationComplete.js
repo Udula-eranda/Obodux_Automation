@@ -10,7 +10,7 @@ async function deviceInformationComplete(page){
     await loginAndOnboardDevice(page);
     const deviceInfo =  new deviceInfoPage(page);
 
-    await page.waitForTimeout(10000);
+    await page.waitForTimeout(15000);
     //deviceInfo Page
     await deviceInfo.clickFirstItem();
     
@@ -33,23 +33,32 @@ async function deviceInformationComplete(page){
     //Intended Purpose
     await deviceInfo.intendedPurpose(deviceInfoPageData.intendedPurpose);
 
+    //Indications for Use
+    await deviceInfo.indicationsForUse();
+
     //Clinical Benefits
     await deviceInfo.clinicalBenefits(deviceInfoPageData.clinicalBenefits);
- 
-    // //Known Side Effects
-    // await deviceInfo.knownSideEffects(deviceInfoPageData.knownSideEffects);
-  
-    // //Contradictions
-    // await deviceInfo.contadictionsSection(deviceInfoPageData.contradictions);
 
-    // //Clinical Use Settings
-    // await deviceInfo.clinicalUse(deviceInfoPageData.clinicalUsage);
-   
-    // //Intended Users
-    // await deviceInfo.intendedUsers(deviceInfoPageData.intendedUsers);
+    //Known Side Effects
+    await deviceInfo.knownSideEffects();
+
+    //Contraindications
+    await deviceInfo.contraindications();
+
+    //Clinical Use Setting
+    await deviceInfo.clinicalUseSetting();
+
+    //Intended Users
+    await deviceInfo.intendedUsers();
 
     //Intended Patient Population
     await deviceInfo.intendedPatientCount(deviceInfoPageData.intendedCount);
+
+    //Describe the intended part of the body / tissue
+    await deviceInfo.intendedBodyPartDescription();
+
+    //Intended User Environment
+    await deviceInfo.intendedUserEnvironment();
 
 
     await deviceInfo.radioBtnandSave();

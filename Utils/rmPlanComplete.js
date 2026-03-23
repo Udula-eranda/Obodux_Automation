@@ -6,6 +6,7 @@ const { rmResponsibilityOptions } = require('./testData')
 
 
 
+
 async function rmPlanComplete(page) {
     
     await deviceInformationComplete(page);
@@ -22,7 +23,7 @@ async function rmPlanComplete(page) {
 
     //Responsibilities of the Risk Management Team section
     
-    await riskMangemnt.rmTeamSection(rmResponsibilityOptions.options);
+    await riskMangemnt.rmTeamSection(rmResponsibilityOptions.options, rmResponsibilityOptions.teamMembers);
 
     //Grading System for the Probability of Harm
    
@@ -54,8 +55,15 @@ async function rmPlanComplete(page) {
     await riskMangemnt.jobTitle();
 
     //Enter how often the Risk Management File will be reviewed in its entirety.
-    const monthSelect =  page.getByRole("radio" , {name : "Every 6 months"});
+    const monthSelect = page.getByRole("radio", { name: "Every 6 months" });
+    await monthSelect.scrollIntoViewIfNeeded();
     await monthSelect.click();
+    await page.waitForTimeout(1000);
+    // Verify it got checked; force-click if not
+    if (!(await monthSelect.isChecked())) {
+        await monthSelect.click({ force: true });
+        await page.waitForTimeout(500);
+    }
 
     //Which Lifecycle stages are applicable to the medical device
     for(let i = 0 ; i < 5 ; i++){

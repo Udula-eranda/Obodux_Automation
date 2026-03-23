@@ -63,6 +63,25 @@ class cepDoc {
     }
 
 
+    // Select appraisal method + pre-market studies radio
+    async clinicalDataAppraisalPlan(){
+
+        await this.page.waitForTimeout(1000);
+
+        // Select the standard appraisal method (first radio option)
+        const appraisalRadio = this.page.getByRole('radio', { name: /Each individual data set retained/ });
+        await appraisalRadio.scrollIntoViewIfNeeded();
+        await appraisalRadio.click();
+        await this.page.waitForTimeout(500);
+
+        // Select "No" for pre-market clinical studies
+        const noRadio = this.page.getByRole('radio', { name: 'No' }).first();
+        await noRadio.scrollIntoViewIfNeeded();
+        await noRadio.click();
+        await this.page.waitForTimeout(500);
+
+    }
+
     async saveNcomplete(){
 
         
