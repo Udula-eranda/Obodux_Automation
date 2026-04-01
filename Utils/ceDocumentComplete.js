@@ -1,6 +1,9 @@
 const { cerDoc } = require("../PomModels/cerdocPom");
 const { cepDoc } = require("../PomModels/cepdocPom");
 const { riskManagementPartialComplete } = require("../Utils/riskManagementReportPartial");
+const { checklistComplete } = require("../Utils/checklistComplete");
+const { vvOverviewComplete } = require("../Utils/VV/vvOverviewComplete");
+const { uepComplete } = require("../Utils/VV/uepComplete");
 
 async function cepDocumentComplete(page){
 
@@ -8,7 +11,11 @@ async function cepDocumentComplete(page){
     await riskManagementPartialComplete(page);
     await page.waitForTimeout(5000);
 
-    // ── Step 2: Navigate to Clinical Evaluation section (CEP) ─────────────────
+    // ── Step 2: Fill the Checklist section ───────────────────────────────────
+    await checklistComplete(page);
+    await page.waitForTimeout(5000);
+
+    // ── Step 3: Navigate to Clinical Evaluation section (CEP) ─────────────────
     const cePlanDoc = new cepDoc(page);
     await cePlanDoc.navigateToCEP();
     await page.waitForTimeout(6000);
@@ -27,6 +34,14 @@ async function cepDocumentComplete(page){
     await page.waitForTimeout(3000);
 
     // ── Step 5: CER Report sections ──────────────────────────────────────────
+
+    //0. State of the Art — 9 richtext fields with AI
+    await ceReportDoc.stateOfArtSection();
+    await page.waitForTimeout(2000);
+
+    //0b. Pre-Clinical Data — 3 tables + 2 richtext (AI)
+    await ceReportDoc.preClinicalData();
+    await page.waitForTimeout(2000);
 
     //1. Clinical Evaluation Overview — check first checkbox + fill equivalence justification
     await ceReportDoc.clinicalEvalOverview();
@@ -63,6 +78,14 @@ async function cepDocumentComplete(page){
 
     //Final Save and Mark Section Complete
     await ceReportDoc.cerSaveAndComplete();
+
+    // ── Step 12: V&V Overview ─────────────────────────────────────────────────
+    await vvOverviewComplete(page);
+    await page.waitForTimeout(5000);
+
+    // ── Step 13: UEP ─────────────────────────────────────────────────────────
+    await uepComplete(page);
+    await page.waitForTimeout(5000);
 
 }
 

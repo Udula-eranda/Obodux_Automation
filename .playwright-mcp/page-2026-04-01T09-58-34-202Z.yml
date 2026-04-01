@@ -1,0 +1,382 @@
+- generic [ref=e1]:
+  - alert [ref=e6]
+  - generic [ref=e344]:
+    - generic [ref=e348]:
+      - button "logo" [ref=e350] [cursor=pointer]:
+        - link "logo" [ref=e352]:
+          - /url: /
+          - img "logo" [ref=e353]
+      - generic [ref=e355]:
+        - combobox [ref=e358] [cursor=pointer]:
+          - generic [ref=e359]: Trocar
+          - img [ref=e360]
+        - generic [ref=e363]: Menu
+        - list [ref=e365]:
+          - listitem [ref=e366]:
+            - link "Overview" [ref=e367] [cursor=pointer]:
+              - /url: /editor/device-documentation/27a5c9f6-295e-4f43-a0db-989b685d895f/overview
+              - img [ref=e368]
+              - generic [ref=e370]: Overview
+          - listitem [ref=e371]:
+            - link "Device Information" [ref=e372] [cursor=pointer]:
+              - /url: /editor/device-documentation/27a5c9f6-295e-4f43-a0db-989b685d895f/accessory
+              - img [ref=e373]
+              - generic [ref=e375]: Device Information
+          - listitem [ref=e376]:
+            - link "Labelling" [ref=e377] [cursor=pointer]:
+              - /url: /editor/device-documentation/27a5c9f6-295e-4f43-a0db-989b685d895f/labelling/labels
+              - img [ref=e378]
+              - generic [ref=e381]: Labelling
+          - listitem [ref=e382]:
+            - link "Design" [ref=e383] [cursor=pointer]:
+              - /url: /editor/device-documentation/27a5c9f6-295e-4f43-a0db-989b685d895f/design/use-specification
+              - img [ref=e384]
+              - generic [ref=e390]: Design
+          - listitem [ref=e391]:
+            - link "Manufacture" [ref=e392] [cursor=pointer]:
+              - /url: /editor/device-documentation/27a5c9f6-295e-4f43-a0db-989b685d895f/manufacture/information
+              - img [ref=e393]
+              - generic [ref=e396]: Manufacture
+          - listitem [ref=e397]:
+            - link "Checklist" [ref=e398] [cursor=pointer]:
+              - /url: /editor/device-documentation/27a5c9f6-295e-4f43-a0db-989b685d895f/checklist/applicable-standards
+              - img [ref=e399]
+              - generic [ref=e403]: Checklist
+          - listitem [ref=e404]:
+            - link "Risk Management" [ref=e405] [cursor=pointer]:
+              - /url: /editor/device-documentation/27a5c9f6-295e-4f43-a0db-989b685d895f/risk-management/plan
+              - img [ref=e406]
+              - generic [ref=e408]: Risk Management
+          - listitem [ref=e409]:
+            - link "Clinical Evaluation" [ref=e410] [cursor=pointer]:
+              - /url: /editor/device-documentation/27a5c9f6-295e-4f43-a0db-989b685d895f/clinical-evaluation/plan
+              - img [ref=e411]
+              - generic [ref=e417]: Clinical Evaluation
+          - listitem [ref=e418]:
+            - link "Verification and Validation" [ref=e419] [cursor=pointer]:
+              - /url: /editor/device-documentation/27a5c9f6-295e-4f43-a0db-989b685d895f/verification-and-validation/vv-overview
+              - img [ref=e420]
+              - generic [ref=e423]: Verification and Validation
+          - listitem [ref=e424]:
+            - link "Post Market Surveillance" [ref=e425] [cursor=pointer]:
+              - /url: /editor/device-documentation/27a5c9f6-295e-4f43-a0db-989b685d895f/post-market-surveillance/plan
+              - img [ref=e426]
+              - generic [ref=e433]: Post Market Surveillance
+          - listitem [ref=e434]:
+            - link "Report Generation" [ref=e435] [cursor=pointer]:
+              - /url: /editor/device-documentation/27a5c9f6-295e-4f43-a0db-989b685d895f/report-generation
+              - img [ref=e436]
+              - generic [ref=e439]: Report Generation
+      - list [ref=e441]:
+        - listitem [ref=e442]:
+          - button "B Choose File Ben Diaz editor-stag.1@yopmail.com" [ref=e443] [cursor=pointer]:
+            - generic [ref=e444]:
+              - generic [ref=e446]:
+                - generic [ref=e448]: B
+                - button "Choose File" [ref=e449]
+              - generic [ref=e450]:
+                - generic [ref=e451]: Ben Diaz
+                - generic [ref=e452]: editor-stag.1@yopmail.com
+            - img [ref=e453]
+    - generic [ref=e821]:
+      - generic [ref=e822]:
+        - button "Toggle Sidebar" [ref=e824] [cursor=pointer]:
+          - img [ref=e825]
+          - generic [ref=e827]: Toggle Sidebar
+        - generic [ref=e829]:
+          - generic [ref=e830]: Trocar
+          - img [ref=e831] [cursor=pointer]
+        - generic [ref=e833]:
+          - img [ref=e835] [cursor=pointer]
+          - img [ref=e839] [cursor=pointer]
+          - paragraph [ref=e843]: Notifications (99)
+      - generic [ref=e844]:
+        - generic [ref=e845]:
+          - generic [ref=e846]:
+            - generic [ref=e848]:
+              - heading "Clinical Evaluation" [level=2] [ref=e849]
+              - progressbar [ref=e850]
+              - generic [ref=e852]:
+                - generic [ref=e853]: Progress
+                - generic [ref=e854]: 0/2 Completed
+            - generic [ref=e855]:
+              - generic [ref=e857]:
+                - generic [ref=e858] [cursor=pointer]:
+                  - heading [level=3] [ref=e859]:
+                    - button [expanded] [ref=e860]:
+                      - img [ref=e861]
+                  - generic [ref=e864]: Clinical Evaluation Plan
+                - region [ref=e865]:
+                  - generic [ref=e867] [cursor=pointer]:
+                    - generic [ref=e869]: Anticipated Benefits
+                    - generic [ref=e871]: Contraindications
+                    - generic [ref=e873]: Clinical Data Appraisal
+                    - generic [ref=e875]: Clinical Development Plan
+              - generic [ref=e877]:
+                - generic [ref=e878] [cursor=pointer]:
+                  - heading [level=3] [ref=e879]:
+                    - button [expanded] [active] [ref=e880]:
+                      - img [ref=e881]
+                  - generic [ref=e884]: Clinical Evaluation Report
+                - region [ref=e1083]:
+                  - generic [ref=e1085] [cursor=pointer]:
+                    - generic [ref=e1088]:
+                      - heading [level=3] [ref=e1089]:
+                        - button [ref=e1090]:
+                          - img [ref=e1091]
+                      - generic [ref=e1094]: State of the Art
+                    - generic [ref=e1097]:
+                      - heading [level=3] [ref=e1098]:
+                        - button [ref=e1099]:
+                          - img [ref=e1100]
+                      - generic [ref=e1103]: Pre-Clinical Data
+                    - generic [ref=e1106]:
+                      - heading [level=3] [ref=e1107]:
+                        - button [ref=e1108]:
+                          - img [ref=e1109]
+                      - generic [ref=e1112]: Clinical Evaluation Overview
+                    - generic [ref=e1115]:
+                      - heading [level=3] [ref=e1116]:
+                        - button [ref=e1117]:
+                          - img [ref=e1118]
+                      - generic [ref=e1121]: Clinical Data Generated and Held by the Manufacturer
+                    - generic [ref=e1124]:
+                      - heading [level=3] [ref=e1125]:
+                        - button [ref=e1126]:
+                          - img [ref=e1127]
+                      - generic [ref=e1130]: Clinical Data from Literature
+                    - generic [ref=e1132]: Other Sources of Clinical Data
+                    - generic [ref=e1134]: Summary and Appraisal of Clinical Data
+                    - generic [ref=e1136]: Analysis of the Clinical Data in Relation to GSPRs
+                    - generic [ref=e1139]:
+                      - heading [level=3] [ref=e1140]:
+                        - button [ref=e1141]:
+                          - img [ref=e1142]
+                      - generic [ref=e1145]: Acceptability to the objectives
+                    - generic [ref=e1148]:
+                      - heading [level=3] [ref=e1149]:
+                        - button [ref=e1150]:
+                          - img [ref=e1151]
+                      - generic [ref=e1154]: Conclusion
+                    - generic [ref=e1157]:
+                      - heading [level=3] [ref=e1158]:
+                        - button [ref=e1159]:
+                          - img [ref=e1160]
+                      - generic [ref=e1163]: Qualifications of the Responsible Evaluators
+                    - generic [ref=e1165]: References
+                    - generic [ref=e1167]: Changes
+                    - generic [ref=e1169]: Equivalence Table
+          - generic [ref=e886]:
+            - generic [ref=e889]:
+              - text: Clinical Evaluation Plan
+              - button [ref=e891] [cursor=pointer]:
+                - img [ref=e892]
+            - generic [ref=e895]:
+              - generic [ref=e897]:
+                - generic [ref=e901]:
+                  - generic [ref=e903]: List the clinical claims of the device
+                  - generic [ref=e904]:
+                    - paragraph [ref=e907]
+                    - generic:
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                - button "Add Another" [ref=e908] [cursor=pointer]:
+                  - img [ref=e909]
+                  - text: Add Another
+              - generic [ref=e911]:
+                - generic [ref=e915]:
+                  - generic [ref=e917]: List the anticipated contraindications
+                  - generic [ref=e918]:
+                    - paragraph [ref=e921]
+                    - generic:
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                - button "Add Another" [ref=e922] [cursor=pointer]:
+                  - img [ref=e923]
+                  - text: Add Another
+              - generic [ref=e925]:
+                - generic [ref=e926]: Method used to Appraise the data
+                - radiogroup [ref=e927]:
+                  - radio "Each individual data set retained for the clinical evaluation will be assessed and weighted for the extent to which they relate to the specific characteristics and features of the device under review, and for methodological quality and scientific validity." [ref=e928] [cursor=pointer]:
+                    - paragraph [ref=e932]: Each individual data set retained for the clinical evaluation will be assessed and weighted for the extent to which they relate to the specific characteristics and features of the device under review, and for methodological quality and scientific validity.
+                  - generic [ref=e934]:
+                    - paragraph [ref=e935]: "Criteria used for clinical evidence assessments are:"
+                    - generic [ref=e936]:
+                      - paragraph [ref=e937]: ·
+                      - text: The relevance of the clinical data defined considering the information related to the device (D), indications (I), patient population (P) and statistical analysis (S) on each retained reference (Table 2).
+                    - generic [ref=e938]:
+                      - paragraph [ref=e939]: ·
+                      - text: The scientific validity obtained considering the level of evidence of each individual clinical data set (Table 3).
+                    - generic [ref=e940]:
+                      - paragraph [ref=e941]: ·
+                      - text: The weighting will correspond to the combination of relevance and scientific validity.
+                    - paragraph [ref=e942]: "The sum of each of the relevance grades (D + I + P + S) will be calculated and the level of evidence considered according to the following thresholds:"
+                    - generic [ref=e943]:
+                      - paragraph [ref=e944]: ·
+                      - text: Relevance scores of ≥ 9 will not be considered regardless of the level of evidence. Relevant safety information will be captured in all cases.
+                    - generic [ref=e945]:
+                      - paragraph [ref=e946]: ·
+                      - text: Relevance score between 7 and 8 will be included if the level of evidence is grade III or higher.
+                    - generic [ref=e947]:
+                      - paragraph [ref=e948]: ·
+                      - text: Relevance score of ≤ 6 will be included regardless of level of evidence.
+                    - paragraph [ref=e949]: All rejected data will be justified.
+                    - paragraph [ref=e950]: "Table 2: Relevance of the data set."
+                    - paragraph [ref=e951]: "* May include absence of appropriate sample size calculation, lack of or inappropriate randomisation, or absence of statistical method."
+                    - table [ref=e953]:
+                      - rowgroup [ref=e954]:
+                        - row "Criteria Grading" [ref=e955]:
+                          - columnheader "Criteria" [ref=e956]
+                          - columnheader "Grading" [ref=e957]
+                      - rowgroup [ref=e958]:
+                        - row "Device (D) D1 Device under evaluation" [ref=e959]:
+                          - cell "Device (D)" [ref=e960]
+                          - cell "D1" [ref=e961]
+                          - cell "Device under evaluation" [ref=e962]
+                        - row "D2 Equivalent device" [ref=e963]:
+                          - cell "D2" [ref=e964]
+                          - cell "Equivalent device" [ref=e965]
+                        - row "D3 Other similar device" [ref=e966]:
+                          - cell "D3" [ref=e967]
+                          - cell "Other similar device" [ref=e968]
+                        - row "Indication (I) I1 Same indication" [ref=e969]:
+                          - cell "Indication (I)" [ref=e970]
+                          - cell "I1" [ref=e971]
+                          - cell "Same indication" [ref=e972]
+                        - row "I2 Similar indication" [ref=e973]:
+                          - cell "I2" [ref=e974]
+                          - cell "Similar indication" [ref=e975]
+                        - row "I3 Different indication" [ref=e976]:
+                          - cell "I3" [ref=e977]
+                          - cell "Different indication" [ref=e978]
+                        - row "Patient Population (P) P1 Same population" [ref=e979]:
+                          - cell "Patient Population (P)" [ref=e980]
+                          - cell "P1" [ref=e981]
+                          - cell "Same population" [ref=e982]
+                        - row "P2 Similar population" [ref=e983]:
+                          - cell "P2" [ref=e984]
+                          - cell "Similar population" [ref=e985]
+                        - row "P3 Different population" [ref=e986]:
+                          - cell "P3" [ref=e987]
+                          - cell "Different population" [ref=e988]
+                        - row "Statistical Analysis (S) S1 Sufficient" [ref=e989]:
+                          - cell "Statistical Analysis (S)" [ref=e990]
+                          - cell "S1" [ref=e991]
+                          - cell "Sufficient" [ref=e992]
+                        - row "S2 Not sufficient*" [ref=e993]:
+                          - cell "S2" [ref=e994]
+                          - cell "Not sufficient*" [ref=e995]
+                    - paragraph [ref=e996]: "Table 3: Scientific validity of the data set."
+                    - table [ref=e998]:
+                      - rowgroup [ref=e999]:
+                        - row "Quality of Evidence Clinical Study Type" [ref=e1000]:
+                          - columnheader "Quality of Evidence" [ref=e1001]
+                          - columnheader "Clinical Study Type" [ref=e1002]
+                      - rowgroup [ref=e1003]:
+                        - row "I .1 Properly designed randomised and controlled clinical study" [ref=e1004]:
+                          - cell "I" [ref=e1005]
+                          - cell ".1" [ref=e1006]
+                          - cell "Properly designed randomised and controlled clinical study" [ref=e1007]
+                        - row ".2 Pseudo randomised controlled studies or randomised controlled studies with limitation" [ref=e1008]:
+                          - cell [ref=e1009]
+                          - cell ".2" [ref=e1010]
+                          - cell "Pseudo randomised controlled studies or randomised controlled studies with limitation" [ref=e1011]
+                        - row "II .1 Non-randomised prospective studied comparative with current control" [ref=e1012]:
+                          - cell "II" [ref=e1013]
+                          - cell ".1" [ref=e1014]
+                          - cell "Non-randomised prospective studied comparative with current control" [ref=e1015]
+                        - row ".2 Non-randomised prospective studies comparative with historic control" [ref=e1016]:
+                          - cell ".2" [ref=e1017]
+                          - cell "Non-randomised prospective studies comparative with historic control" [ref=e1018]
+                        - row ".3 Non-comparative prospective study" [ref=e1019]:
+                          - cell ".3" [ref=e1020]
+                          - cell "Non-comparative prospective study" [ref=e1021]
+                        - row "III .1 Retrospective study with consecutive patients" [ref=e1022]:
+                          - cell "III" [ref=e1023]
+                          - cell ".1" [ref=e1024]
+                          - cell "Retrospective study with consecutive patients" [ref=e1025]
+                        - row ".2 Retrospective study with non-consecutive patients" [ref=e1026]:
+                          - cell [ref=e1027]
+                          - cell ".2" [ref=e1028]
+                          - cell "Retrospective study with non-consecutive patients" [ref=e1029]
+                        - row "IV Case report" [ref=e1030]:
+                          - cell "IV" [ref=e1031]
+                          - cell "Case report" [ref=e1032]
+                        - row "V Poster, abstract or conference publication" [ref=e1033]:
+                          - cell "V" [ref=e1034]
+                          - cell "Poster, abstract or conference publication" [ref=e1035]
+                  - radio "Enter your own method" [ref=e1036] [cursor=pointer]:
+                    - generic [ref=e1040]:
+                      - generic [ref=e1042]: Enter your own method
+                      - generic [ref=e1043]:
+                        - paragraph [ref=e1046]
+                        - generic:
+                          - button:
+                            - img
+                          - button:
+                            - img
+                          - button:
+                            - img
+                          - button:
+                            - img
+                          - button:
+                            - img
+                          - button:
+                            - img
+              - separator [ref=e1048]
+              - generic [ref=e1050]:
+                - paragraph [ref=e1051]: Does clinical data needs to be generated through pre-market studies?
+                - radiogroup [ref=e1052]:
+                  - radio "No" [ref=e1053] [cursor=pointer]:
+                    - paragraph [ref=e1057]: "No"
+                  - generic [ref=e1058]:
+                    - paragraph [ref=e1059]: No, PMCF (Post-Market Clinical Follow-up) only
+                    - paragraph [ref=e1060]: In accordance with MDR 2017/745, the clinical evaluation route for the [DI-GI-XX-001 - Manufacturer's Name]’s [DI-GI-XX-002 - Trade Name of Device] is based on publicly available clinical literature and PMS data for the subject device or a claimed equivalent.
+                    - paragraph [ref=e1061]: No pre-market clinical investigations are planned. Per MDR Article 61, the clinical evaluation is based on sufficient clinical evidence for the subject device or a claimed equivalent, therefore, a clinical investigation is not applicable.
+                    - paragraph [ref=e1062]: The Post-Market Clinical Follow-Up Plan ([PMCFP Ref]) documents the methods and procedures for proactively collecting and evaluation clinical data for the products listed within the scope of this plan. The procedures include general PMCF activities which involve evaluation of available clinical evidence and specific PMCF activities which involve clinical studies and retrospective data capture activities. Combining the activities outline in this plan, adequate evidence will be provided to support that the subject device remains state of the art.
+                  - radio "Yes Yes, clinical data needs to be generated through pre-market studies" [ref=e1063] [cursor=pointer]:
+                    - generic [ref=e1067]:
+                      - paragraph [ref=e1068]: "Yes"
+                      - paragraph [ref=e1069]: Yes, clinical data needs to be generated through pre-market studies
+                - generic [ref=e1071]:
+                  - generic [ref=e1073]: If Yes, Describe the relevance to Clinical Development Plan of the device.
+                  - generic [ref=e1074]:
+                    - paragraph [ref=e1077]
+                    - generic:
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+          - generic [ref=e1080]:
+            - button "Save Draft" [disabled] [ref=e1081]
+            - button "Save" [disabled] [ref=e1082]
+        - region "Notifications (F8)":
+          - list

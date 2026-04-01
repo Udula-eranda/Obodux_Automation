@@ -1,0 +1,1354 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e6]
+  - generic [ref=e344]:
+    - generic [ref=e348]:
+      - button "logo" [ref=e350] [cursor=pointer]:
+        - link "logo" [ref=e352]:
+          - /url: /
+          - img "logo" [ref=e353]
+      - generic [ref=e355]:
+        - combobox [ref=e358] [cursor=pointer]:
+          - generic [ref=e359]: Trocar
+          - img [ref=e360]
+        - generic [ref=e363]: Menu
+        - list [ref=e365]:
+          - listitem [ref=e366]:
+            - link "Overview" [ref=e367] [cursor=pointer]:
+              - /url: /editor/device-documentation/27a5c9f6-295e-4f43-a0db-989b685d895f/overview
+              - img [ref=e368]
+              - generic [ref=e370]: Overview
+          - listitem [ref=e371]:
+            - link "Device Information" [ref=e372] [cursor=pointer]:
+              - /url: /editor/device-documentation/27a5c9f6-295e-4f43-a0db-989b685d895f/accessory
+              - img [ref=e373]
+              - generic [ref=e375]: Device Information
+          - listitem [ref=e376]:
+            - link "Labelling" [ref=e377] [cursor=pointer]:
+              - /url: /editor/device-documentation/27a5c9f6-295e-4f43-a0db-989b685d895f/labelling/labels
+              - img [ref=e378]
+              - generic [ref=e381]: Labelling
+          - listitem [ref=e382]:
+            - link "Design" [ref=e383] [cursor=pointer]:
+              - /url: /editor/device-documentation/27a5c9f6-295e-4f43-a0db-989b685d895f/design/use-specification
+              - img [ref=e384]
+              - generic [ref=e390]: Design
+          - listitem [ref=e391]:
+            - link "Manufacture" [ref=e392] [cursor=pointer]:
+              - /url: /editor/device-documentation/27a5c9f6-295e-4f43-a0db-989b685d895f/manufacture/information
+              - img [ref=e393]
+              - generic [ref=e396]: Manufacture
+          - listitem [ref=e397]:
+            - link "Checklist" [ref=e398] [cursor=pointer]:
+              - /url: /editor/device-documentation/27a5c9f6-295e-4f43-a0db-989b685d895f/checklist/applicable-standards
+              - img [ref=e399]
+              - generic [ref=e403]: Checklist
+          - listitem [ref=e404]:
+            - link "Risk Management" [ref=e405] [cursor=pointer]:
+              - /url: /editor/device-documentation/27a5c9f6-295e-4f43-a0db-989b685d895f/risk-management/plan
+              - img [ref=e406]
+              - generic [ref=e408]: Risk Management
+          - listitem [ref=e409]:
+            - link "Clinical Evaluation" [ref=e410] [cursor=pointer]:
+              - /url: /editor/device-documentation/27a5c9f6-295e-4f43-a0db-989b685d895f/clinical-evaluation/plan
+              - img [ref=e411]
+              - generic [ref=e417]: Clinical Evaluation
+          - listitem [ref=e418]:
+            - link "Verification and Validation" [ref=e419] [cursor=pointer]:
+              - /url: /editor/device-documentation/27a5c9f6-295e-4f43-a0db-989b685d895f/verification-and-validation/vv-overview
+              - img [ref=e420]
+              - generic [ref=e423]: Verification and Validation
+          - listitem [ref=e424]:
+            - link "Post Market Surveillance" [ref=e425] [cursor=pointer]:
+              - /url: /editor/device-documentation/27a5c9f6-295e-4f43-a0db-989b685d895f/post-market-surveillance/plan
+              - img [ref=e426]
+              - generic [ref=e433]: Post Market Surveillance
+          - listitem [ref=e434]:
+            - link "Report Generation" [ref=e435] [cursor=pointer]:
+              - /url: /editor/device-documentation/27a5c9f6-295e-4f43-a0db-989b685d895f/report-generation
+              - img [ref=e436]
+              - generic [ref=e439]: Report Generation
+      - list [ref=e441]:
+        - listitem [ref=e442]:
+          - button "B Choose File Ben Diaz editor-stag.1@yopmail.com" [ref=e443] [cursor=pointer]:
+            - generic [ref=e444]:
+              - generic [ref=e446]:
+                - generic [ref=e448]: B
+                - button "Choose File" [ref=e449]
+              - generic [ref=e450]:
+                - generic [ref=e451]: Ben Diaz
+                - generic [ref=e452]: editor-stag.1@yopmail.com
+            - img [ref=e453]
+    - generic [ref=e1170]:
+      - generic [ref=e1171]:
+        - button "Toggle Sidebar" [ref=e1173] [cursor=pointer]:
+          - img [ref=e1174]
+          - generic [ref=e1176]: Toggle Sidebar
+        - generic [ref=e1178]:
+          - generic [ref=e1179]: Trocar
+          - img [ref=e1180] [cursor=pointer]
+        - generic [ref=e1182]:
+          - img [ref=e1184] [cursor=pointer]
+          - img [ref=e1188] [cursor=pointer]
+          - paragraph [ref=e1192]: Notifications (96)
+      - generic [ref=e1193]:
+        - generic [ref=e1194]:
+          - generic [ref=e1195]:
+            - generic [ref=e1197]:
+              - heading "Clinical Evaluation" [level=2] [ref=e1198]
+              - progressbar [ref=e1199]
+              - generic [ref=e1201]:
+                - generic [ref=e1202]: Progress
+                - generic [ref=e1203]: 0/2 Completed
+            - generic [ref=e1204]:
+              - generic [ref=e1207] [cursor=pointer]:
+                - heading [level=3] [ref=e1208]:
+                  - button [ref=e1209]:
+                    - img [ref=e1210]
+                - generic [ref=e1213]: Clinical Evaluation Plan
+              - generic [ref=e1215]:
+                - generic [ref=e1216] [cursor=pointer]:
+                  - heading [level=3] [ref=e1217]:
+                    - button [expanded] [ref=e1218]:
+                      - img [ref=e1219]
+                  - generic [ref=e1222]: Clinical Evaluation Report
+                - region [ref=e1223]:
+                  - generic [ref=e1225] [cursor=pointer]:
+                    - generic [ref=e1228]:
+                      - heading [level=3] [ref=e1229]:
+                        - button [ref=e1230]:
+                          - img [ref=e1231]
+                      - generic [ref=e1234]: State of the Art
+                    - generic [ref=e1237]:
+                      - heading [level=3] [ref=e1238]:
+                        - button [ref=e1239]:
+                          - img [ref=e1240]
+                      - generic [ref=e1243]: Pre-Clinical Data
+                    - generic [ref=e1246]:
+                      - heading [level=3] [ref=e1247]:
+                        - button [ref=e1248]:
+                          - img [ref=e1249]
+                      - generic [ref=e1252]: Clinical Evaluation Overview
+                    - generic [ref=e1255]:
+                      - heading [level=3] [ref=e1256]:
+                        - button [ref=e1257]:
+                          - img [ref=e1258]
+                      - generic [ref=e1261]: Clinical Data Generated and Held by the Manufacturer
+                    - generic [ref=e1264]:
+                      - heading [level=3] [ref=e1265]:
+                        - button [ref=e1266]:
+                          - img [ref=e1267]
+                      - generic [ref=e1270]: Clinical Data from Literature
+                    - generic [ref=e1272]: Other Sources of Clinical Data
+                    - generic [ref=e1274]: Summary and Appraisal of Clinical Data
+                    - generic [ref=e1276]: Analysis of the Clinical Data in Relation to GSPRs
+                    - generic [ref=e1279]:
+                      - heading [level=3] [ref=e1280]:
+                        - button [ref=e1281]:
+                          - img [ref=e1282]
+                      - generic [ref=e1285]: Acceptability to the objectives
+                    - generic [ref=e1288]:
+                      - heading [level=3] [ref=e1289]:
+                        - button [ref=e1290]:
+                          - img [ref=e1291]
+                      - generic [ref=e1294]: Conclusion
+                    - generic [ref=e1297]:
+                      - heading [level=3] [ref=e1298]:
+                        - button [ref=e1299]:
+                          - img [ref=e1300]
+                      - generic [ref=e1303]: Qualifications of the Responsible Evaluators
+                    - generic [ref=e1305]: References
+                    - generic [ref=e1307]: Changes
+                    - generic [ref=e1309]: Equivalence Table
+          - generic [ref=e1310]:
+            - generic [ref=e1311]:
+              - generic [ref=e1314]:
+                - text: Clinical Evaluation Report
+                - button [ref=e1316] [cursor=pointer]:
+                  - img [ref=e1317]
+              - generic [ref=e1320]:
+                - generic [ref=e1322]: State of the Art
+                - generic [ref=e1324]:
+                  - text: Literature Search Protocol
+                  - generic [ref=e1326]:
+                    - generic [ref=e1328]: Outline the search strategy or protocol, including sources, terms, and criteria.
+                    - generic [ref=e1329]:
+                      - paragraph [ref=e1332]
+                      - generic:
+                        - button:
+                          - img
+                        - button:
+                          - img
+                        - button:
+                          - img
+                        - button:
+                          - img
+                        - button:
+                          - img
+                        - button:
+                          - img
+                - generic [ref=e1335]:
+                  - generic [ref=e1337]: Relevant Pathologies
+                  - generic [ref=e1338]:
+                    - paragraph [ref=e1341]
+                    - generic:
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                - generic [ref=e1344]:
+                  - generic [ref=e1346]: Alternative Treatments
+                  - generic [ref=e1347]:
+                    - paragraph [ref=e1350]
+                    - generic:
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                - generic [ref=e1353]:
+                  - generic [ref=e1355]: Complications
+                  - generic [ref=e1356]:
+                    - paragraph [ref=e1359]
+                    - generic:
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                - generic [ref=e1362]:
+                  - generic [ref=e1364]: Device Design and Materials
+                  - generic [ref=e1365]:
+                    - paragraph [ref=e1368]
+                    - generic:
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                - generic [ref=e1371]:
+                  - generic [ref=e1373]: Similar Devices
+                  - generic [ref=e1374]:
+                    - paragraph [ref=e1377]
+                    - generic:
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                - generic [ref=e1380]:
+                  - generic [ref=e1382]: Benchmarks
+                  - generic [ref=e1383]:
+                    - paragraph [ref=e1386]
+                    - generic:
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                - generic [ref=e1389]:
+                  - generic [ref=e1393]:
+                    - generic [ref=e1395]: Clinical Safety Objectives
+                    - generic [ref=e1396]:
+                      - paragraph [ref=e1399]
+                      - generic:
+                        - button:
+                          - img
+                        - button:
+                          - img
+                        - button:
+                          - img
+                        - button:
+                          - img
+                        - button:
+                          - img
+                        - button:
+                          - img
+                  - button "Add Another" [ref=e1400] [cursor=pointer]:
+                    - img [ref=e1401]
+                    - text: Add Another
+                - generic [ref=e1404]:
+                  - generic [ref=e1408]:
+                    - generic [ref=e1410]: Clinical Performance Objectives
+                    - generic [ref=e1411]:
+                      - paragraph [ref=e1414]
+                      - generic:
+                        - button:
+                          - img
+                        - button:
+                          - img
+                        - button:
+                          - img
+                        - button:
+                          - img
+                        - button:
+                          - img
+                        - button:
+                          - img
+                  - button "Add Another" [ref=e1415] [cursor=pointer]:
+                    - img [ref=e1416]
+                    - text: Add Another
+            - generic [ref=e1418]:
+              - generic [ref=e1420]: Pre-Clinical Data
+              - generic [ref=e1424]:
+                - generic [ref=e1425]: Safety and Performance Testing
+                - generic [ref=e1428]:
+                  - table [ref=e1431]:
+                    - rowgroup [ref=e1432]:
+                      - row "Report Number Report Name Description" [ref=e1433]:
+                        - columnheader [ref=e1434]
+                        - columnheader "Report Number" [ref=e1435]
+                        - columnheader "Report Name" [ref=e1436]
+                        - columnheader "Description" [ref=e1437]
+                    - rowgroup [ref=e1438]:
+                      - row [ref=e1439]:
+                        - cell [ref=e1440]:
+                          - img [ref=e1442] [cursor=pointer]
+                        - cell [ref=e1446]:
+                          - textbox "Type..." [ref=e1448]
+                        - cell [ref=e1449]:
+                          - textbox "Type" [ref=e1451]
+                        - cell [ref=e1452]:
+                          - textbox "Type" [ref=e1454]
+                      - row [ref=e1455]:
+                        - cell [ref=e1456]:
+                          - img [ref=e1458] [cursor=pointer]
+                        - cell [ref=e1462]:
+                          - textbox "Type..." [ref=e1464]
+                        - cell [ref=e1465]:
+                          - textbox "Type" [ref=e1467]
+                        - cell [ref=e1468]:
+                          - textbox "Type" [ref=e1470]
+                      - row [ref=e1471]:
+                        - cell [ref=e1472]:
+                          - img [ref=e1474] [cursor=pointer]
+                        - cell [ref=e1478]:
+                          - textbox "Type..." [ref=e1480]
+                        - cell [ref=e1481]:
+                          - textbox "Type" [ref=e1483]
+                        - cell [ref=e1484]:
+                          - textbox "Type" [ref=e1486]
+                  - generic [ref=e1487]:
+                    - button "Add Row" [ref=e1489] [cursor=pointer]:
+                      - img [ref=e1490]
+                      - generic [ref=e1491]: Add Row
+                    - generic [ref=e1492]: 3 records
+              - generic [ref=e1496]:
+                - generic [ref=e1497]: Usability Testing
+                - generic [ref=e1500]:
+                  - table [ref=e1503]:
+                    - rowgroup [ref=e1504]:
+                      - row "Report Number Report Name Description" [ref=e1505]:
+                        - columnheader [ref=e1506]
+                        - columnheader "Report Number" [ref=e1507]
+                        - columnheader "Report Name" [ref=e1508]
+                        - columnheader "Description" [ref=e1509]
+                    - rowgroup [ref=e1510]:
+                      - row [ref=e1511]:
+                        - cell [ref=e1512]:
+                          - img [ref=e1514] [cursor=pointer]
+                        - cell [ref=e1518]:
+                          - textbox "Type..." [ref=e1520]
+                        - cell [ref=e1521]:
+                          - textbox "Type" [ref=e1523]
+                        - cell [ref=e1524]:
+                          - textbox "Type" [ref=e1526]
+                      - row [ref=e1527]:
+                        - cell [ref=e1528]:
+                          - img [ref=e1530] [cursor=pointer]
+                        - cell [ref=e1534]:
+                          - textbox "Type..." [ref=e1536]
+                        - cell [ref=e1537]:
+                          - textbox "Type" [ref=e1539]
+                        - cell [ref=e1540]:
+                          - textbox "Type" [ref=e1542]
+                      - row [ref=e1543]:
+                        - cell [ref=e1544]:
+                          - img [ref=e1546] [cursor=pointer]
+                        - cell [ref=e1550]:
+                          - textbox "Type..." [ref=e1552]
+                        - cell [ref=e1553]:
+                          - textbox "Type" [ref=e1555]
+                        - cell [ref=e1556]:
+                          - textbox "Type" [ref=e1558]
+                  - generic [ref=e1559]:
+                    - button "Add Row" [ref=e1561] [cursor=pointer]:
+                      - img [ref=e1562]
+                      - generic [ref=e1563]: Add Row
+                    - generic [ref=e1564]: 3 records
+              - generic [ref=e1567]:
+                - generic [ref=e1569]: Biocompatibility Summary
+                - generic [ref=e1570]:
+                  - paragraph [ref=e1573]
+                  - generic:
+                    - button:
+                      - img
+                    - button:
+                      - img
+                    - button:
+                      - img
+                    - button:
+                      - img
+                    - button:
+                      - img
+                    - button:
+                      - img
+              - generic [ref=e1576]:
+                - generic [ref=e1578]: Device Lifetime
+                - generic [ref=e1579]:
+                  - paragraph [ref=e1582]
+                  - generic:
+                    - button:
+                      - img
+                    - button:
+                      - img
+                    - button:
+                      - img
+                    - button:
+                      - img
+                    - button:
+                      - img
+                    - button:
+                      - img
+              - generic [ref=e1586]:
+                - generic [ref=e1587]: Biocompatibility Report
+                - generic [ref=e1590]:
+                  - table [ref=e1593]:
+                    - rowgroup [ref=e1594]:
+                      - row "Report Number Report Name Description" [ref=e1595]:
+                        - columnheader [ref=e1596]
+                        - columnheader "Report Number" [ref=e1597]
+                        - columnheader "Report Name" [ref=e1598]
+                        - columnheader "Description" [ref=e1599]
+                    - rowgroup [ref=e1600]:
+                      - row [ref=e1601]:
+                        - cell [ref=e1602]:
+                          - img [ref=e1604] [cursor=pointer]
+                        - cell [ref=e1608]:
+                          - textbox "Type..." [ref=e1610]
+                        - cell [ref=e1611]:
+                          - textbox "Type" [ref=e1613]
+                        - cell [ref=e1614]:
+                          - textbox "Type" [ref=e1616]
+                      - row [ref=e1617]:
+                        - cell [ref=e1618]:
+                          - img [ref=e1620] [cursor=pointer]
+                        - cell [ref=e1624]:
+                          - textbox "Type..." [ref=e1626]
+                        - cell [ref=e1627]:
+                          - textbox "Type" [ref=e1629]
+                        - cell [ref=e1630]:
+                          - textbox "Type" [ref=e1632]
+                      - row [ref=e1633]:
+                        - cell [ref=e1634]:
+                          - img [ref=e1636] [cursor=pointer]
+                        - cell [ref=e1640]:
+                          - textbox "Type..." [ref=e1642]
+                        - cell [ref=e1643]:
+                          - textbox "Type" [ref=e1645]
+                        - cell [ref=e1646]:
+                          - textbox "Type" [ref=e1648]
+                  - generic [ref=e1649]:
+                    - button "Add Row" [ref=e1651] [cursor=pointer]:
+                      - img [ref=e1652]
+                      - generic [ref=e1653]: Add Row
+                    - generic [ref=e1654]: 3 records
+            - generic [ref=e1656]:
+              - generic [ref=e1658]: Clinical Evaluation Overview
+              - generic [ref=e1660]:
+                - generic [ref=e1661]: Type of Clinical Evaluation
+                - generic [ref=e1662]:
+                  - generic [ref=e1663]:
+                    - checkbox [ref=e1665] [cursor=pointer]
+                    - generic [ref=e1666]: The clinical evaluation is based on clinical data of the device under evaluation.
+                    - generic [ref=e1667]: Equivalence is not being demonstrated as the clinical evaluation is based on clinical data of the device under evaluation.
+                  - generic [ref=e1668]:
+                    - checkbox [ref=e1670] [cursor=pointer]
+                    - generic [ref=e1671]: The clinical evaluation is based on clinical data of an equivalent device.
+                    - generic [ref=e1672]: Pursuant to Annex XIV of MDR, the clinical evaluation is based on clinical data relating to a device for which equivalence to the device under evaluation can be demonstrated.
+                    - generic [ref=e1673]: Considerations of equivalence have been based on proper scientific justification, based on technical, biological and clinical characteristics, that are similar to the extent that there is no clinically significant difference in the safety and performance of the device.
+                  - generic [ref=e1674]:
+                    - checkbox [ref=e1676] [cursor=pointer]
+                    - generic [ref=e1677]: Demonstration of conformity with the GSPRs based on clinical data is not deemed appropriate.
+              - generic [ref=e1679]:
+                - generic [ref=e1680]: Demonstration of Equivalence Justification
+                - generic [ref=e1681]:
+                  - generic [ref=e1683]: Justify Your equivalence
+                  - generic [ref=e1684]:
+                    - paragraph [ref=e1687]
+                    - generic:
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+            - generic [ref=e1689]:
+              - generic [ref=e1691]: Clinical Data Generated and Held by the Manufacturer
+              - generic [ref=e1693]:
+                - generic [ref=e1694]:
+                  - generic [ref=e1695]: Has a pre-market study been performed?
+                  - radiogroup [ref=e1696]:
+                    - radio "Yes" [ref=e1697] [cursor=pointer]:
+                      - generic [ref=e1700]: "Yes"
+                    - radio "No" [ref=e1701] [cursor=pointer]:
+                      - generic [ref=e1704]: "No"
+                - generic [ref=e1706]:
+                  - generic [ref=e1708]: Summarise post-market surveillance (PMS) data such as sales, complaints, and equivalent device information.
+                  - generic [ref=e1709]:
+                    - paragraph [ref=e1712]
+                    - generic:
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+            - generic [ref=e1714]:
+              - generic [ref=e1716]: Clinical Data from Literature
+              - generic [ref=e1719]:
+                - generic [ref=e1721]: Literature Search Protocol
+                - generic [ref=e1722]:
+                  - paragraph [ref=e1725]
+                  - generic:
+                    - button:
+                      - img
+                    - button:
+                      - img
+                    - button:
+                      - img
+                    - button:
+                      - img
+                    - button:
+                      - img
+                    - button:
+                      - img
+              - generic [ref=e1728]:
+                - generic [ref=e1730]: Results
+                - generic [ref=e1731]:
+                  - paragraph [ref=e1734]
+                  - generic:
+                    - button:
+                      - img
+                    - button:
+                      - img
+                    - button:
+                      - img
+                    - button:
+                      - img
+                    - button:
+                      - img
+                    - button:
+                      - img
+            - generic [ref=e1736]:
+              - generic [ref=e1738]: Other Sources of Clinical Data
+              - generic [ref=e1741]:
+                - generic [ref=e1743]: Other Sources of Clinical Data
+                - generic [ref=e1744]:
+                  - paragraph [ref=e1747]
+                  - generic:
+                    - button:
+                      - img
+                    - button:
+                      - img
+                    - button:
+                      - img
+                    - button:
+                      - img
+                    - button:
+                      - img
+                    - button:
+                      - img
+            - generic [ref=e1749]:
+              - generic [ref=e1751]: Summary and Appraisal of Clinical Data
+              - generic [ref=e1754]:
+                - generic [ref=e1755]: Summary and Appraisal of Clinical Data
+                - table [ref=e1758]:
+                  - rowgroup [ref=e1759]:
+                    - row "Citation Study Objectives Study Design Description and Number of Subjects Main Findings Authors Conclusions Relevance Appraisal Score Scientific Validity Appraisal Score Contribution Weighting" [ref=e1760]:
+                      - columnheader [ref=e1761]
+                      - columnheader "Citation" [ref=e1762]
+                      - columnheader "Study Objectives" [ref=e1763]
+                      - columnheader "Study Design" [ref=e1764]
+                      - columnheader "Description and Number of Subjects" [ref=e1765]
+                      - columnheader "Main Findings" [ref=e1766]
+                      - columnheader "Authors Conclusions" [ref=e1767]
+                      - columnheader "Relevance Appraisal Score" [ref=e1768]
+                      - columnheader "Scientific Validity Appraisal Score" [ref=e1769]
+                      - columnheader "Contribution Weighting" [ref=e1770]
+                  - rowgroup [ref=e1771]:
+                    - row [ref=e1772]:
+                      - cell [ref=e1773]:
+                        - img [ref=e1775] [cursor=pointer]
+                      - cell [ref=e1779]:
+                        - textbox "Type..." [ref=e1780]
+                      - cell [ref=e1781]:
+                        - textbox "Type..." [ref=e1782]
+                      - cell [ref=e1783]:
+                        - textbox "Type..." [ref=e1784]
+                      - cell [ref=e1785]:
+                        - textbox "Type..." [ref=e1786]
+                      - cell [ref=e1787]:
+                        - textbox "Type..." [ref=e1788]
+                      - cell [ref=e1789]:
+                        - textbox "Type..." [ref=e1790]
+                      - cell [ref=e1791]:
+                        - textbox "Type..." [ref=e1792]
+                      - cell [ref=e1793]:
+                        - textbox "Type..." [ref=e1794]
+                      - cell [ref=e1795]:
+                        - textbox "Type..." [ref=e1796]
+                    - row [ref=e1797]:
+                      - cell [ref=e1798]:
+                        - img [ref=e1800] [cursor=pointer]
+                      - cell [ref=e1804]:
+                        - textbox "Type..." [ref=e1805]
+                      - cell [ref=e1806]:
+                        - textbox "Type..." [ref=e1807]
+                      - cell [ref=e1808]:
+                        - textbox "Type..." [ref=e1809]
+                      - cell [ref=e1810]:
+                        - textbox "Type..." [ref=e1811]
+                      - cell [ref=e1812]:
+                        - textbox "Type..." [ref=e1813]
+                      - cell [ref=e1814]:
+                        - textbox "Type..." [ref=e1815]
+                      - cell [ref=e1816]:
+                        - textbox "Type..." [ref=e1817]
+                      - cell [ref=e1818]:
+                        - textbox "Type..." [ref=e1819]
+                      - cell [ref=e1820]:
+                        - textbox "Type..." [ref=e1821]
+                    - row [ref=e1822]:
+                      - cell [ref=e1823]:
+                        - img [ref=e1825] [cursor=pointer]
+                      - cell [ref=e1829]:
+                        - textbox "Type..." [ref=e1830]
+                      - cell [ref=e1831]:
+                        - textbox "Type..." [ref=e1832]
+                      - cell [ref=e1833]:
+                        - textbox "Type..." [ref=e1834]
+                      - cell [ref=e1835]:
+                        - textbox "Type..." [ref=e1836]
+                      - cell [ref=e1837]:
+                        - textbox "Type..." [ref=e1838]
+                      - cell [ref=e1839]:
+                        - textbox "Type..." [ref=e1840]
+                      - cell [ref=e1841]:
+                        - textbox "Type..." [ref=e1842]
+                      - cell [ref=e1843]:
+                        - textbox "Type..." [ref=e1844]
+                      - cell [ref=e1845]:
+                        - textbox "Type..." [ref=e1846]
+                    - row [ref=e1847]:
+                      - cell [ref=e1848]:
+                        - img [ref=e1850] [cursor=pointer]
+                      - cell [ref=e1854]:
+                        - textbox "Type..." [ref=e1855]
+                      - cell [ref=e1856]:
+                        - textbox "Type..." [ref=e1857]
+                      - cell [ref=e1858]:
+                        - textbox "Type..." [ref=e1859]
+                      - cell [ref=e1860]:
+                        - textbox "Type..." [ref=e1861]
+                      - cell [ref=e1862]:
+                        - textbox "Type..." [ref=e1863]
+                      - cell [ref=e1864]:
+                        - textbox "Type..." [ref=e1865]
+                      - cell [ref=e1866]:
+                        - textbox "Type..." [ref=e1867]
+                      - cell [ref=e1868]:
+                        - textbox "Type..." [ref=e1869]
+                      - cell [ref=e1870]:
+                        - textbox "Type..." [ref=e1871]
+                - generic [ref=e1872]:
+                  - button "Add Row" [ref=e1874] [cursor=pointer]:
+                    - img [ref=e1875]
+                    - generic [ref=e1876]: Add Row
+                  - generic [ref=e1877]: 4 records
+            - generic [ref=e1879]:
+              - generic [ref=e1881]: Analysis of the Clinical Data in Relation to GSPRs
+              - generic [ref=e1883]: Fill out the following fields related to Requirements on Safety
+              - generic [ref=e1885]:
+                - generic [ref=e1886]: Are there any specific design and manufacturing features that pose safety concerns and have they been adequately addressed?
+                - radiogroup [ref=e1887]:
+                  - radio "Yes" [ref=e1888] [cursor=pointer]:
+                    - generic [ref=e1891]: "Yes"
+                  - radio "No" [ref=e1892] [cursor=pointer]:
+                    - generic [ref=e1895]: "No"
+                - generic [ref=e1897]:
+                  - generic [ref=e1899]: Justification
+                  - generic [ref=e1900]:
+                    - paragraph [ref=e1903]
+                    - generic:
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+              - generic [ref=e1905]:
+                - generic [ref=e1906]: All risks identified in the scientific literature have been adequately addressed?
+                - radiogroup [ref=e1907]:
+                  - radio "Yes" [ref=e1908] [cursor=pointer]:
+                    - generic [ref=e1911]: "Yes"
+                  - radio "No" [ref=e1912] [cursor=pointer]:
+                    - generic [ref=e1915]: "No"
+                - generic [ref=e1917]:
+                  - generic [ref=e1919]: Justification
+                  - generic [ref=e1920]:
+                    - paragraph [ref=e1923]
+                    - generic:
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+              - generic [ref=e1925]:
+                - generic [ref=e1926]: All hazards and clinically relevant information have been identified?
+                - radiogroup [ref=e1927]:
+                  - radio "Yes" [ref=e1928] [cursor=pointer]:
+                    - generic [ref=e1931]: "Yes"
+                  - radio "No" [ref=e1932] [cursor=pointer]:
+                    - generic [ref=e1935]: "No"
+                - generic [ref=e1937]:
+                  - generic [ref=e1939]: Justification
+                  - generic [ref=e1940]:
+                    - paragraph [ref=e1943]
+                    - generic:
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+              - generic [ref=e1945]:
+                - generic [ref=e1946]: Is there consistency between state of the art, available clinical data, risk management and information materials supplied by the manufacturer?
+                - radiogroup [ref=e1947]:
+                  - radio "Yes" [ref=e1948] [cursor=pointer]:
+                    - generic [ref=e1951]: "Yes"
+                  - radio "No" [ref=e1952] [cursor=pointer]:
+                    - generic [ref=e1955]: "No"
+                - generic [ref=e1957]:
+                  - generic [ref=e1959]: Justification
+                  - generic [ref=e1960]:
+                    - paragraph [ref=e1963]
+                    - generic:
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+            - generic [ref=e1965]:
+              - generic [ref=e1967]: Acceptability to the objectives
+              - generic [ref=e1969]:
+                - generic [ref=e1971]:
+                  - generic [ref=e1973]:
+                    - text: Acceptability to the objectives using clinical data gathered for the
+                    - text: Requirements on Safety
+                  - generic [ref=e1974]:
+                    - paragraph [ref=e1977]
+                    - generic:
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                - generic [ref=e1979]:
+                  - generic [ref=e1981]:
+                    - text: Acceptability to the objectives using clinical data gathered for the
+                    - text: Requirements on Performance
+                  - generic [ref=e1982]:
+                    - paragraph [ref=e1985]
+                    - generic:
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                - generic [ref=e1987]:
+                  - generic [ref=e1989]: Describe the amount and quality of data
+                  - generic [ref=e1990]:
+                    - paragraph [ref=e1993]
+                    - generic:
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                      - button:
+                        - img
+                - generic [ref=e1995]:
+                  - generic [ref=e1996]: List of clinical risks
+                  - generic [ref=e1997]: If you wish to add or edit the fields shown here, go to the Risk Analysis Matrix and make changes there. If the document has already been sent for authorization, you'll need to revoke it before updating.
+                  - generic [ref=e1998]:
+                    - table [ref=e2000]:
+                      - rowgroup [ref=e2001]:
+                        - row "Clinical Risk Ref Number Clinical Risk" [ref=e2002]:
+                          - columnheader "Clinical Risk Ref Number" [ref=e2003]
+                          - columnheader "Clinical Risk" [ref=e2004]
+                      - rowgroup [ref=e2005]:
+                        - row [ref=e2006]:
+                          - cell [ref=e2007]
+                          - cell [ref=e2008]:
+                            - textbox "Type" [disabled] [ref=e2010]
+                        - row [ref=e2011]:
+                          - cell [ref=e2012]
+                          - cell [ref=e2013]:
+                            - textbox "Type" [disabled] [ref=e2015]
+                    - generic [ref=e2017]: 2 records
+            - generic [ref=e2019]:
+              - generic [ref=e2021]: Conclusion
+              - generic [ref=e2025]:
+                - generic [ref=e2027]: Conclusions
+                - generic [ref=e2028]:
+                  - paragraph [ref=e2031]
+                  - generic:
+                    - button:
+                      - img
+                    - button:
+                      - img
+                    - button:
+                      - img
+                    - button:
+                      - img
+                    - button:
+                      - img
+                    - button:
+                      - img
+              - generic [ref=e2033]:
+                - generic [ref=e2034]: How often the Clinical Evaluation will be reviewed?
+                - radiogroup [ref=e2035]:
+                  - radio "Yearly" [ref=e2036] [cursor=pointer]:
+                    - generic [ref=e2039]: Yearly
+                  - radio "Every two years" [ref=e2040] [cursor=pointer]:
+                    - generic [ref=e2043]: Every two years
+                  - radio "Other (please specify)" [ref=e2044] [cursor=pointer]:
+                    - generic [ref=e2047]: Other (please specify)
+              - generic [ref=e2050]:
+                - generic [ref=e2051]: Date of Next Review
+                - button "DD/MM/YYYY" [ref=e2052] [cursor=pointer]:
+                  - generic [ref=e2053]: DD/MM/YYYY
+                  - img [ref=e2054]
+            - generic [ref=e2057]:
+              - generic [ref=e2059]: Qualifications of the Responsible Evaluators
+              - generic [ref=e2062]:
+                - generic [ref=e2063]: Qualifications of the Responsible Evaluators
+                - table [ref=e2066]:
+                  - rowgroup [ref=e2067]:
+                    - row "Person's Name Job Title Responsibility Qualifications and Experience CV of the Evaluator" [ref=e2068]:
+                      - columnheader [ref=e2069]
+                      - columnheader "Person's Name" [ref=e2070]
+                      - columnheader "Job Title" [ref=e2071]
+                      - columnheader "Responsibility" [ref=e2072]
+                      - columnheader "Qualifications and Experience" [ref=e2073]
+                      - columnheader "CV of the Evaluator" [ref=e2074]
+                  - rowgroup [ref=e2075]:
+                    - row [ref=e2076]:
+                      - cell [ref=e2077]:
+                        - img [ref=e2079] [cursor=pointer]
+                      - cell [ref=e2083]:
+                        - textbox "Type" [ref=e2084]
+                      - cell [ref=e2085]:
+                        - textbox "Type" [ref=e2086]
+                      - cell [ref=e2087]:
+                        - textbox "Type" [ref=e2088]
+                      - cell [ref=e2089]:
+                        - textbox "Type" [ref=e2090]
+                      - cell [ref=e2091]:
+                        - button [ref=e2093] [cursor=pointer]:
+                          - img [ref=e2094]
+                    - row [ref=e2097]:
+                      - cell [ref=e2098]:
+                        - img [ref=e2100] [cursor=pointer]
+                      - cell [ref=e2104]:
+                        - textbox "Type" [ref=e2105]
+                      - cell [ref=e2106]:
+                        - textbox "Type" [ref=e2107]
+                      - cell [ref=e2108]:
+                        - textbox "Type" [ref=e2109]
+                      - cell [ref=e2110]:
+                        - textbox "Type" [ref=e2111]
+                      - cell [ref=e2112]:
+                        - button [ref=e2114] [cursor=pointer]:
+                          - img [ref=e2115]
+                - generic [ref=e2118]:
+                  - button "Add Row" [ref=e2120] [cursor=pointer]:
+                    - img [ref=e2121]
+                    - generic [ref=e2122]: Add Row
+                  - generic [ref=e2123]: 2 records
+            - generic [ref=e2125]:
+              - generic [ref=e2127]: Changes
+              - generic [ref=e2130]:
+                - generic [ref=e2131]: Summary of changes since last report
+                - table [ref=e2134]:
+                  - rowgroup [ref=e2135]:
+                    - row "Index Number Applied Change" [ref=e2136]:
+                      - columnheader "Index Number" [ref=e2137]
+                      - columnheader "Applied Change" [ref=e2138]
+                      - columnheader [ref=e2139]
+                  - rowgroup [ref=e2140]:
+                    - row [ref=e2141]:
+                      - cell [ref=e2142]:
+                        - textbox "Type" [ref=e2143]
+                      - cell [ref=e2144]:
+                        - textbox "Type" [ref=e2145]
+                      - cell [ref=e2146]:
+                        - img [ref=e2148] [cursor=pointer]
+                    - row [ref=e2152]:
+                      - cell [ref=e2153]:
+                        - textbox "Type" [ref=e2154]
+                      - cell [ref=e2155]:
+                        - textbox "Type" [ref=e2156]
+                      - cell [ref=e2157]:
+                        - img [ref=e2159] [cursor=pointer]
+                - generic [ref=e2163]:
+                  - button "Add Row" [ref=e2165] [cursor=pointer]:
+                    - img [ref=e2166]
+                    - generic [ref=e2167]: Add Row
+                  - generic [ref=e2168]: 2 records
+            - generic [ref=e2170]:
+              - generic [ref=e2172]: Equivalence Table
+              - generic [ref=e2175]:
+                - generic [ref=e2176]:
+                  - generic [ref=e2177]: Medical Device Coordination Group Document (MDCG 2020-05)
+                  - generic [ref=e2178]: For the comparison of a device with a presumed equivalent marketed device for the purpose of demonstrating equivalence
+                - table [ref=e2181]:
+                  - rowgroup [ref=e2182]:
+                    - row "1. Technical Characteristics (add a separate row for each of the assessed characteristics) Device 1 (under clinical evaluation) Description of characteristics and reference to specifying documents Device 2 (marketed device) Description of characteristics and reference to specifying documents Identified differences or conclusion that there are no differences in the characteristic" [ref=e2183]:
+                      - columnheader "1. Technical Characteristics (add a separate row for each of the assessed characteristics)" [ref=e2184]:
+                        - generic [ref=e2185]: 1. Technical Characteristics
+                        - generic [ref=e2186]: (add a separate row for each of the assessed characteristics)
+                      - columnheader "Device 1 (under clinical evaluation) Description of characteristics and reference to specifying documents" [ref=e2187]:
+                        - generic [ref=e2188]: Device 1 (under clinical evaluation)
+                        - generic [ref=e2189]: Description of characteristics and reference to specifying documents
+                      - columnheader "Device 2 (marketed device) Description of characteristics and reference to specifying documents" [ref=e2190]:
+                        - generic [ref=e2191]: Device 2 (marketed device)
+                        - generic [ref=e2192]: Description of characteristics and reference to specifying documents
+                      - columnheader "Identified differences or conclusion that there are no differences in the characteristic" [ref=e2193]:
+                        - generic [ref=e2194]: Identified differences or conclusion that there are no differences in the characteristic
+                  - rowgroup [ref=e2195]:
+                    - row "Device is of similar design" [ref=e2196]:
+                      - cell "Device is of similar design" [ref=e2197]:
+                        - generic [ref=e2199]: Device is of similar design
+                      - cell [ref=e2200]:
+                        - textbox "Type" [ref=e2202]
+                      - cell [ref=e2203]:
+                        - textbox "Type" [ref=e2205]
+                      - cell [ref=e2206]:
+                        - textbox "Type" [ref=e2208]
+                    - row "Used under similar conditions of use" [ref=e2209]:
+                      - cell "Used under similar conditions of use" [ref=e2210]:
+                        - generic [ref=e2212]: Used under similar conditions of use
+                      - cell [ref=e2213]:
+                        - textbox "Type" [ref=e2215]
+                      - cell [ref=e2216]:
+                        - textbox "Type" [ref=e2218]
+                      - cell [ref=e2219]:
+                        - textbox "Type" [ref=e2221]
+                    - row "Similar specifications and properties including physiochemical properties such as intensity of energy, tensile strength, viscosity, surface characteristics, wavelength and software algorithms" [ref=e2222]:
+                      - cell "Similar specifications and properties including physiochemical properties such as intensity of energy, tensile strength, viscosity, surface characteristics, wavelength and software algorithms" [ref=e2223]:
+                        - generic [ref=e2225]: Similar specifications and properties including physiochemical properties such as intensity of energy, tensile strength, viscosity, surface characteristics, wavelength and software algorithms
+                      - cell [ref=e2226]:
+                        - textbox "Type" [ref=e2228]
+                      - cell [ref=e2229]:
+                        - textbox "Type" [ref=e2231]
+                      - cell [ref=e2232]:
+                        - textbox "Type" [ref=e2234]
+                    - row "Uses similar deployment methods where relevant" [ref=e2235]:
+                      - cell "Uses similar deployment methods where relevant" [ref=e2236]:
+                        - generic [ref=e2238]: Uses similar deployment methods where relevant
+                      - cell [ref=e2239]:
+                        - textbox "Type" [ref=e2241]
+                      - cell [ref=e2242]:
+                        - textbox "Type" [ref=e2244]
+                      - cell [ref=e2245]:
+                        - textbox "Type" [ref=e2247]
+                    - row "Has similar principles of operation and critical performance requirements" [ref=e2248]:
+                      - cell "Has similar principles of operation and critical performance requirements" [ref=e2249]:
+                        - generic [ref=e2251]: Has similar principles of operation and critical performance requirements
+                      - cell [ref=e2252]:
+                        - textbox "Type" [ref=e2254]
+                      - cell [ref=e2255]:
+                        - textbox "Type" [ref=e2257]
+                      - cell [ref=e2258]:
+                        - textbox "Type" [ref=e2260]
+                    - row "Scientific justification why there would be no clinically significant difference in the safety and clinical performance of the device, OR a description of the impact on safety and or clinical performance (use one row for each of the identified differences in characteristics, and add references to documentation as applicable) Clinically significant difference (Yes/No)" [ref=e2261]:
+                      - cell "Scientific justification why there would be no clinically significant difference in the safety and clinical performance of the device, OR a description of the impact on safety and or clinical performance (use one row for each of the identified differences in characteristics, and add references to documentation as applicable)" [ref=e2262]:
+                        - generic [ref=e2263]:
+                          - generic [ref=e2264]: Scientific justification why there would be no clinically significant difference in the safety and clinical performance of the device, OR a description of the impact on safety and or clinical performance
+                          - generic [ref=e2265]: (use one row for each of the identified differences in characteristics, and add references to documentation as applicable)
+                      - cell "Clinically significant difference (Yes/No)" [ref=e2266]:
+                        - generic [ref=e2267]: Clinically significant difference
+                        - generic [ref=e2268]: (Yes/No)
+                    - row "1.1" [ref=e2269]:
+                      - cell "1.1" [ref=e2270]:
+                        - generic [ref=e2272]: "1.1"
+                      - cell [ref=e2273]:
+                        - textbox "Type" [ref=e2275]
+                      - cell [ref=e2276]:
+                        - radiogroup [ref=e2278]:
+                          - generic [ref=e2279]:
+                            - radio "Yes" [ref=e2280] [cursor=pointer]:
+                              - generic [ref=e2283]: "Yes"
+                            - radio "No" [ref=e2284] [cursor=pointer]:
+                              - generic [ref=e2287]: "No"
+                    - row "1.2" [ref=e2288]:
+                      - cell "1.2" [ref=e2289]:
+                        - generic [ref=e2291]: "1.2"
+                      - cell [ref=e2292]:
+                        - textbox "Type" [ref=e2294]
+                      - cell [ref=e2295]:
+                        - radiogroup [ref=e2297]:
+                          - generic [ref=e2298]:
+                            - radio "Yes" [ref=e2299] [cursor=pointer]:
+                              - generic [ref=e2302]: "Yes"
+                            - radio "No" [ref=e2303] [cursor=pointer]:
+                              - generic [ref=e2306]: "No"
+                    - row "1.3" [ref=e2307]:
+                      - cell "1.3" [ref=e2308]:
+                        - generic [ref=e2310]: "1.3"
+                      - cell [ref=e2311]:
+                        - textbox "Type" [ref=e2313]
+                      - cell [ref=e2314]:
+                        - radiogroup [ref=e2316]:
+                          - generic [ref=e2317]:
+                            - radio "Yes" [ref=e2318] [cursor=pointer]:
+                              - generic [ref=e2321]: "Yes"
+                            - radio "No" [ref=e2322] [cursor=pointer]:
+                              - generic [ref=e2325]: "No"
+                    - row "1.4" [ref=e2326]:
+                      - cell "1.4" [ref=e2327]:
+                        - generic [ref=e2329]: "1.4"
+                      - cell [ref=e2330]:
+                        - textbox "Type" [ref=e2332]
+                      - cell [ref=e2333]:
+                        - radiogroup [ref=e2335]:
+                          - generic [ref=e2336]:
+                            - radio "Yes" [ref=e2337] [cursor=pointer]:
+                              - generic [ref=e2340]: "Yes"
+                            - radio "No" [ref=e2341] [cursor=pointer]:
+                              - generic [ref=e2344]: "No"
+              - table [ref=e2351]:
+                - rowgroup [ref=e2352]:
+                  - row "2. Biological characteristics (add a separate row for each of the assessed characteristics) Device 1 Description of characteristics and reference to specifying documents Device 2 (marketed device) Description of characteristics and reference to specifying documents Identified differences or conclusion that there are no differences in the characteristic" [ref=e2353]:
+                    - columnheader "2. Biological characteristics (add a separate row for each of the assessed characteristics)" [ref=e2354]:
+                      - generic [ref=e2355]: 2. Biological characteristics
+                      - generic [ref=e2356]: (add a separate row for each of the assessed characteristics)
+                    - columnheader "Device 1 Description of characteristics and reference to specifying documents" [ref=e2357]:
+                      - generic [ref=e2358]: Device 1
+                      - generic [ref=e2359]: Description of characteristics and reference to specifying documents
+                    - columnheader "Device 2 (marketed device) Description of characteristics and reference to specifying documents" [ref=e2360]:
+                      - generic [ref=e2361]: Device 2 (marketed device)
+                      - generic [ref=e2362]: Description of characteristics and reference to specifying documents
+                    - columnheader "Identified differences or conclusion that there are no differences in the characteristic" [ref=e2363]:
+                      - generic [ref=e2364]: Identified differences or conclusion that there are no differences in the characteristic
+                - rowgroup [ref=e2365]:
+                  - row "Uses the same materials or substances in contact with the same human tissues or body fluids" [ref=e2366]:
+                    - cell "Uses the same materials or substances in contact with the same human tissues or body fluids" [ref=e2367]:
+                      - generic [ref=e2369]: Uses the same materials or substances in contact with the same human tissues or body fluids
+                    - cell [ref=e2370]:
+                      - textbox "Type" [ref=e2372]
+                    - cell [ref=e2373]:
+                      - textbox "Type" [ref=e2375]
+                    - cell [ref=e2376]:
+                      - textbox "Type" [ref=e2378]
+                  - row "Similar kind and duration of contact with the same human tissues or body fluids" [ref=e2379]:
+                    - cell "Similar kind and duration of contact with the same human tissues or body fluids" [ref=e2380]:
+                      - generic [ref=e2382]: Similar kind and duration of contact with the same human tissues or body fluids
+                    - cell [ref=e2383]:
+                      - textbox "Type" [ref=e2385]
+                    - cell [ref=e2386]:
+                      - textbox "Type" [ref=e2388]
+                    - cell [ref=e2389]:
+                      - textbox "Type" [ref=e2391]
+                  - row "Similar release characteristics of substances including degradation products and leachables" [ref=e2392]:
+                    - cell "Similar release characteristics of substances including degradation products and leachables" [ref=e2393]:
+                      - generic [ref=e2395]: Similar release characteristics of substances including degradation products and leachables
+                    - cell [ref=e2396]:
+                      - textbox "Type" [ref=e2398]
+                    - cell [ref=e2399]:
+                      - textbox "Type" [ref=e2401]
+                    - cell [ref=e2402]:
+                      - textbox "Type" [ref=e2404]
+                  - row "Scientific justification why there would be no clinically significant difference in the safety and clinical performance of the device, OR a description of the impact on safety and or clinical performance (use one row for each of the identified differences in characteristics, and add references to documentation as applicable) Clinically significant difference (Yes/No)" [ref=e2405]:
+                    - cell "Scientific justification why there would be no clinically significant difference in the safety and clinical performance of the device, OR a description of the impact on safety and or clinical performance (use one row for each of the identified differences in characteristics, and add references to documentation as applicable)" [ref=e2406]:
+                      - generic [ref=e2407]:
+                        - generic [ref=e2408]: Scientific justification why there would be no clinically significant difference in the safety and clinical performance of the device, OR a description of the impact on safety and or clinical performance
+                        - generic [ref=e2409]: (use one row for each of the identified differences in characteristics, and add references to documentation as applicable)
+                    - cell "Clinically significant difference (Yes/No)" [ref=e2410]:
+                      - generic [ref=e2411]: Clinically significant difference
+                      - generic [ref=e2412]: (Yes/No)
+                  - row "2.1" [ref=e2413]:
+                    - cell "2.1" [ref=e2414]:
+                      - generic [ref=e2416]: "2.1"
+                    - cell [ref=e2417]:
+                      - textbox "Type" [ref=e2419]
+                    - cell [ref=e2420]:
+                      - radiogroup [ref=e2422]:
+                        - generic [ref=e2423]:
+                          - radio "Yes" [ref=e2424] [cursor=pointer]:
+                            - generic [ref=e2427]: "Yes"
+                          - radio "No" [ref=e2428] [cursor=pointer]:
+                            - generic [ref=e2431]: "No"
+                  - row "2.2" [ref=e2432]:
+                    - cell "2.2" [ref=e2433]:
+                      - generic [ref=e2435]: "2.2"
+                    - cell [ref=e2436]:
+                      - textbox "Type" [ref=e2438]
+                    - cell [ref=e2439]:
+                      - radiogroup [ref=e2441]:
+                        - generic [ref=e2442]:
+                          - radio "Yes" [ref=e2443] [cursor=pointer]:
+                            - generic [ref=e2446]: "Yes"
+                          - radio "No" [ref=e2447] [cursor=pointer]:
+                            - generic [ref=e2450]: "No"
+                  - row "2.3" [ref=e2451]:
+                    - cell "2.3" [ref=e2452]:
+                      - generic [ref=e2454]: "2.3"
+                    - cell [ref=e2455]:
+                      - textbox "Type" [ref=e2457]
+                    - cell [ref=e2458]:
+                      - radiogroup [ref=e2460]:
+                        - generic [ref=e2461]:
+                          - radio "Yes" [ref=e2462] [cursor=pointer]:
+                            - generic [ref=e2465]: "Yes"
+                          - radio "No" [ref=e2466] [cursor=pointer]:
+                            - generic [ref=e2469]: "No"
+                  - row "2.4" [ref=e2470]:
+                    - cell "2.4" [ref=e2471]:
+                      - generic [ref=e2473]: "2.4"
+                    - cell [ref=e2474]:
+                      - textbox "Type" [ref=e2476]
+                    - cell [ref=e2477]:
+                      - radiogroup [ref=e2479]:
+                        - generic [ref=e2480]:
+                          - radio "Yes" [ref=e2481] [cursor=pointer]:
+                            - generic [ref=e2484]: "Yes"
+                          - radio "No" [ref=e2485] [cursor=pointer]:
+                            - generic [ref=e2488]: "No"
+              - table [ref=e2495]:
+                - rowgroup [ref=e2496]:
+                  - row "3. Clinical Characteristics (add a separate row for each of the assessed characteristics) Device 1 Description of characteristics and reference to specifying documents Device 2 (marketed device) Description of characteristics and reference to specifying documents Identified differences or conclusion that there are no differences in the characteristic" [ref=e2497]:
+                    - columnheader "3. Clinical Characteristics (add a separate row for each of the assessed characteristics)" [ref=e2498]:
+                      - generic [ref=e2499]: 3. Clinical Characteristics
+                      - generic [ref=e2500]: (add a separate row for each of the assessed characteristics)
+                    - columnheader "Device 1 Description of characteristics and reference to specifying documents" [ref=e2501]:
+                      - generic [ref=e2502]: Device 1
+                      - generic [ref=e2503]: Description of characteristics and reference to specifying documents
+                    - columnheader "Device 2 (marketed device) Description of characteristics and reference to specifying documents" [ref=e2504]:
+                      - generic [ref=e2505]: Device 2 (marketed device)
+                      - generic [ref=e2506]: Description of characteristics and reference to specifying documents
+                    - columnheader "Identified differences or conclusion that there are no differences in the characteristic" [ref=e2507]:
+                      - generic [ref=e2508]: Identified differences or conclusion that there are no differences in the characteristic
+                - rowgroup [ref=e2509]:
+                  - row "Same clinical condition or purpose, including similar severity and stage of disease" [ref=e2510]:
+                    - cell "Same clinical condition or purpose, including similar severity and stage of disease" [ref=e2511]:
+                      - generic [ref=e2513]: Same clinical condition or purpose, including similar severity and stage of disease
+                    - cell [ref=e2514]:
+                      - textbox "Type" [ref=e2516]
+                    - cell [ref=e2517]:
+                      - textbox "Type" [ref=e2519]
+                    - cell [ref=e2520]:
+                      - textbox "Type" [ref=e2522]
+                  - row "Same site in the body" [ref=e2523]:
+                    - cell "Same site in the body" [ref=e2524]:
+                      - generic [ref=e2526]: Same site in the body
+                    - cell [ref=e2527]:
+                      - textbox "Type" [ref=e2529]
+                    - cell [ref=e2530]:
+                      - textbox "Type" [ref=e2532]
+                    - cell [ref=e2533]:
+                      - textbox "Type" [ref=e2535]
+                  - row "Similar population, including as regards age, anatomy and physiology" [ref=e2536]:
+                    - cell "Similar population, including as regards age, anatomy and physiology" [ref=e2537]:
+                      - generic [ref=e2539]: Similar population, including as regards age, anatomy and physiology
+                    - cell [ref=e2540]:
+                      - textbox "Type" [ref=e2542]
+                    - cell [ref=e2543]:
+                      - textbox "Type" [ref=e2545]
+                    - cell [ref=e2546]:
+                      - textbox "Type" [ref=e2548]
+                  - row "Same kind of user" [ref=e2549]:
+                    - cell "Same kind of user" [ref=e2550]:
+                      - generic [ref=e2552]: Same kind of user
+                    - cell [ref=e2553]:
+                      - textbox "Type" [ref=e2555]
+                    - cell [ref=e2556]:
+                      - textbox "Type" [ref=e2558]
+                    - cell [ref=e2559]:
+                      - textbox "Type" [ref=e2561]
+                  - row "Similar relevant critical performance in view of the expected clinical effect for a specific intended purpose" [ref=e2562]:
+                    - cell "Similar relevant critical performance in view of the expected clinical effect for a specific intended purpose" [ref=e2563]:
+                      - generic [ref=e2565]: Similar relevant critical performance in view of the expected clinical effect for a specific intended purpose
+                    - cell [ref=e2566]:
+                      - textbox "Type" [ref=e2568]
+                    - cell [ref=e2569]:
+                      - textbox "Type" [ref=e2571]
+                    - cell [ref=e2572]:
+                      - textbox "Type" [ref=e2574]
+                  - row "Scientific justification why there would be no clinically significant difference in the safety and clinical performance of the device, OR a description of the impact on safety and or clinical performance (use one row for each of the identified differences in characteristics, and add references to documentation as applicable) Clinically significant difference (Yes/No)" [ref=e2575]:
+                    - cell "Scientific justification why there would be no clinically significant difference in the safety and clinical performance of the device, OR a description of the impact on safety and or clinical performance (use one row for each of the identified differences in characteristics, and add references to documentation as applicable)" [ref=e2576]:
+                      - generic [ref=e2577]:
+                        - generic [ref=e2578]: Scientific justification why there would be no clinically significant difference in the safety and clinical performance of the device, OR a description of the impact on safety and or clinical performance
+                        - generic [ref=e2579]: (use one row for each of the identified differences in characteristics, and add references to documentation as applicable)
+                    - cell "Clinically significant difference (Yes/No)" [ref=e2580]:
+                      - generic [ref=e2581]: Clinically significant difference
+                      - generic [ref=e2582]: (Yes/No)
+                  - row "3.1" [ref=e2583]:
+                    - cell "3.1" [ref=e2584]:
+                      - generic [ref=e2586]: "3.1"
+                    - cell [ref=e2587]:
+                      - textbox "Type" [ref=e2589]
+                    - cell [ref=e2590]:
+                      - radiogroup [ref=e2592]:
+                        - generic [ref=e2593]:
+                          - radio "Yes" [ref=e2594] [cursor=pointer]:
+                            - generic [ref=e2597]: "Yes"
+                          - radio "No" [ref=e2598] [cursor=pointer]:
+                            - generic [ref=e2601]: "No"
+                  - row "3.2" [ref=e2602]:
+                    - cell "3.2" [ref=e2603]:
+                      - generic [ref=e2605]: "3.2"
+                    - cell [ref=e2606]:
+                      - textbox "Type" [ref=e2608]
+                    - cell [ref=e2609]:
+                      - radiogroup [ref=e2611]:
+                        - generic [ref=e2612]:
+                          - radio "Yes" [ref=e2613] [cursor=pointer]:
+                            - generic [ref=e2616]: "Yes"
+                          - radio "No" [ref=e2617] [cursor=pointer]:
+                            - generic [ref=e2620]: "No"
+                  - row "3.3" [ref=e2621]:
+                    - cell "3.3" [ref=e2622]:
+                      - generic [ref=e2624]: "3.3"
+                    - cell [ref=e2625]:
+                      - textbox "Type" [ref=e2627]
+                    - cell [ref=e2628]:
+                      - radiogroup [ref=e2630]:
+                        - generic [ref=e2631]:
+                          - radio "Yes" [ref=e2632] [cursor=pointer]:
+                            - generic [ref=e2635]: "Yes"
+                          - radio "No" [ref=e2636] [cursor=pointer]:
+                            - generic [ref=e2639]: "No"
+                  - row "3.4" [ref=e2640]:
+                    - cell "3.4" [ref=e2641]:
+                      - generic [ref=e2643]: "3.4"
+                    - cell [ref=e2644]:
+                      - textbox "Type" [ref=e2646]
+                    - cell [ref=e2647]:
+                      - radiogroup [ref=e2649]:
+                        - generic [ref=e2650]:
+                          - radio "Yes" [ref=e2651] [cursor=pointer]:
+                            - generic [ref=e2654]: "Yes"
+                          - radio "No" [ref=e2655] [cursor=pointer]:
+                            - generic [ref=e2658]: "No"
+                  - row "Summary In the circumstance that more than one non-significant difference is identified, provide a justification whether the sum of differences may affect the safety and clinical performance of the device" [ref=e2659]:
+                    - cell "Summary In the circumstance that more than one non-significant difference is identified, provide a justification whether the sum of differences may affect the safety and clinical performance of the device" [ref=e2660]:
+                      - generic [ref=e2662]: Summary In the circumstance that more than one non-significant difference is identified, provide a justification whether the sum of differences may affect the safety and clinical performance of the device
+                    - cell [ref=e2663]:
+                      - textbox "Type" [ref=e2665]
+          - generic [ref=e2669]:
+            - button "Save Draft" [disabled] [ref=e2670]
+            - button "Save" [disabled] [ref=e2671]
+        - region "Notifications (F8)":
+          - list

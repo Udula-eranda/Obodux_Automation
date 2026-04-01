@@ -2,6 +2,7 @@ const {test  } = require('@playwright/test')
 const { loginAndOnboardDevice } =  require('../Utils/deviceOnboard')
 const{ deviceInfoPage }  = require('../PomModels/deviceInfoPom')
 const { deviceInfoPageData }  = require('../Utils/testData')
+const { checklistComplete } = require('../Utils/checklistComplete')
 
 test('Device Information Automation' , async ({page}) => {
     test.setTimeout(200000);
@@ -64,5 +65,7 @@ test('Device Information Automation' , async ({page}) => {
     //click Mark Section Complete after waiting toast dissapear
     await deviceInfo.markSectionCompleteAndProgreeBarValidate();
 
-    
+    // ── Checklist ─────────────────────────────────────────────────────────────
+    await checklistComplete(page);
+
 })

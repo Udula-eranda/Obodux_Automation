@@ -253,50 +253,213 @@ module.exports = {
 
   },
 
-  cerSectionData: {
+  checklistData: {
 
-    equivalenceJustification: "The Trocar device is considered equivalent to the referenced predicate device based on: (1) Identical intended purpose of creating surgical access points in body cavities during minimally invasive procedures; (2) Similar design characteristics including sharp-tip geometry and hollow shaft construction from biocompatible stainless steel; (3) Comparable clinical procedures and patient populations. Equivalence assessed per MDCG 2020-5.",
+    applicableStandards: [
+        {
+            standard: "ISO 13485:2016",
+            year: "2016",
+            clauses: "None",
+            justification: "All clauses are applicable to the ISH Machine 2 quality management system"
+        },
+        {
+            standard: "IEC 60601-1:2005+AMD1:2012",
+            year: "2012",
+            clauses: "Clause 11.6",
+            justification: "Clause 11.6 is not applicable as the device does not incorporate an alarm system"
+        }
+    ]
 
-    pmsDataSummary: "PMS data reviewed for period 2022–2024. Total units sold: 12,450. Total complaints: 11 (rate: 0.088%). Categories: packaging issues (7), labelling queries (3), device functionality (1). No serious adverse events (SAEs) or field safety corrective actions (FSCAs) reported. Equivalent device PMS data from published literature confirms a comparable safety and performance profile.",
+  },
 
-    summaryAppraisalRows: [
-        [ "REF-001", "Pre-Clinical", "ISO 10993 Biocompatibility testing — all endpoints passed", "2024-01-15", "Acceptable" ],
-        [ "REF-002", "Literature",  "Systematic review of 45 publications on trocar safety and performance in laparoscopic surgery", "2024-02-20", "Acceptable" ],
-        [ "REF-003", "PMS Data",    "Post-market surveillance summary — no SAEs or FSCAs identified during review period", "2024-03-10", "Acceptable" ],
+  vvData: {
+
+    overviewRows: [
+        {
+            vvNumber: "VV-001",
+            title:    "Software Functional Verification",
+            aim:      "Verify all software functions of the ISH Machine 2 control system operate correctly per the software requirements specification",
+            methods:  "Functional test protocol per IEC 62304; review of software requirements specification and individual test case execution records",
+            results:  "All 47 test cases passed; no critical defects identified; ISH Machine 2 software confirmed compliant with IEC 62304"
+        },
+        {
+            vvNumber: "VV-002",
+            title:    "Electrical Safety Verification",
+            aim:      "Verify that the ISH Machine 2 meets electrical safety requirements per IEC 60601-1 for laboratory diagnostic equipment",
+            methods:  "Electrical safety testing per IEC 60601-1 by accredited laboratory; dielectric strength, earth continuity, and leakage current tests",
+            results:  "All electrical safety tests passed within accepted limits; ISH Machine 2 compliant with IEC 60601-1 general safety requirements"
+        },
+        {
+            vvNumber: "VV-003",
+            title:    "Optical Performance Verification",
+            aim:      "Verify that the fluorescence detection module of the ISH Machine 2 meets the optical performance specifications defined in the design output",
+            methods:  "Wavelength accuracy measurement using calibrated reference sources; signal-to-noise ratio assessment per IFU specification; repeatability testing",
+            results:  "Wavelength accuracy ±1.8 nm (within ±2 nm specification); SNR exceeds minimum specification; optical performance fully verified"
+        },
+        {
+            vvNumber: "VV-004",
+            title:    "Summative Usability Evaluation",
+            aim:      "Validate that trained laboratory users can operate the ISH Machine 2 safely and effectively without critical use errors in a simulated use environment",
+            methods:  "Summative usability study per IEC 62366-1; 15 trained laboratory technicians; simulated-use protocol covering all critical tasks per task analysis",
+            results:  "Zero critical use errors recorded across all participants; all essential performance tasks completed successfully; device validated for intended user population"
+        },
+        {
+            vvNumber: "VV-005",
+            title:    "Biocompatibility Verification",
+            aim:      "Verify that all materials in the ISH Machine 2 that may contact operators or samples are biocompatible in accordance with ISO 10993",
+            methods:  "Biological evaluation per ISO 10993-1; cytotoxicity per ISO 10993-5 (elution method); sensitisation per ISO 10993-10; material characterisation report",
+            results:  "All biocompatibility endpoints passed; no cytotoxic potential or sensitisation response identified; all contact materials confirmed biocompatible per ISO 10993"
+        }
+    ]
+
+  },
+
+  uepData: {
+
+    // Document numbers for the upload tables
+    q1DocNumber: "QMS-PRO-022",
+    q3DocNumber: "TUEA-001",
+
+    // PDF path for uploads (update to a real PDF if needed; must be < 5 MB)
+    filePath: "C:\\Users\\udula\\Downloads\\Trocar.jpg",
+
+    knownHazards: [
+        {
+            riskRef:             "H-001",
+            hazard:              "Sharp trocar tip presents puncture and laceration hazard during handling and insertion",
+            sequenceOfEvents:    "User handles trocar without protective cap during pre-operative setup in theatre",
+            hazardousSituation:  "Exposed sharp trocar tip contacts user hand during device preparation phase",
+            harm:                "Puncture wound or laceration to surgeon or scrub nurse hand",
+            riskControlMeasure:  "Protective tip cap included with device; IFU instructs removal only at point of use"
+        }
     ],
 
-    gsprJustification: "Clinical data from pre-clinical testing, systematic literature review, and post-market surveillance collectively demonstrate that the Trocar device meets the applicable General Safety and Performance Requirements (GSPRs) per Annex I of MDR 2017/745. The benefit-risk profile is acceptable for the intended use.",
+    hazardUserScenarios: [
+        {
+            hrusNo:              "HRUS-001",
+            scenario:            "User removes protective trocar cap prematurely during device setup causing self-puncture",
+            associatedRisk:      "H-001",
+            includeInSummative:  "Yes",
+            rationale:           "Critical task with potential for serious harm; must be evaluated in summative usability study"
+        }
+    ],
+
+    uiSpecification: [
+        {
+            uieNo:               "UIE-001",
+            uiElement:           "Protective tip cap",
+            expressedUserNeed:   "Users need clear indication that the cap must remain in place until point of use",
+            uiRequirements:      "Cap shall be colour-coded red and labelled Remove at point of use in accordance with IEC 62366-1",
+            whenToEvaluate:      "Formative evaluation during design phase; summative evaluation prior to market release",
+            uiUnknownProvenance: "No"
+        }
+    ]
+
+  },
+
+  cerSectionData: {
+
+    // Trocar-specific equivalence justification (Clinical Evaluation Overview)
+    equivalenceJustification: "The Trocar device clinical evaluation is based on clinical data of the device under evaluation in accordance with MDR 2017/745 Article 61. Sufficient clinical data has been collected through systematic literature review, pre-clinical testing, and post-market surveillance to demonstrate conformity with the applicable GSPRs. Equivalence to a predicate device is not relied upon as the primary route of compliance.",
+
+    // Trocar PMS summary (Clinical Data Generated by Manufacturer)
+    pmsDataSummary: "PMS data reviewed for the Trocar device covering 2022–2024. Total units deployed: 450. Total complaints: 3 (rate: 0.67%). Categories: trocar valve query (2), port-site minor bleeding (1). No serious adverse events (SAEs) or field safety corrective actions (FSCAs) reported. Post-market data confirms the Trocar maintains an acceptable safety and performance profile for laparoscopic use.",
+
+    // 9 columns: Citation | Study Objectives | Study Design | Description & Subjects
+    //            | Main Findings | Authors Conclusions | Relevance Score | Scientific Validity Score | Contribution Weighting
+    // Only 3 rows used (extra rows are deleted in the POM method)
+    summaryAppraisalRows: [
+        [ "Smith et al., 2023", "Evaluate trocar safety & efficacy", "Prospective RCT", "n=120 laparoscopic procedures", "98.3% successful insertion; 0 serious adverse events", "Trocar demonstrates excellent safety profile", "D1/I1/P1/S1", "I", "High" ],
+        [ "Johnson et al., 2022", "Assess trocar usability in routine surgery", "Retrospective analysis", "n=200 procedures across 3 sites", "Zero port-site hernia; 2 minor port-site bleeds resolved", "Device performs equivalently to comparator trocars", "D1/I1/P2/S2", "II.1", "Moderate" ],
+        [ "PMS Data 2023-2024", "Post-market safety surveillance review", "PMS data analysis", "450 deployed units, 12 months", "No SAEs; 3 minor complaints (valve query) resolved", "Trocar maintains acceptable benefit-risk profile", "D1/I1/P1/S1", "III.1", "Supporting" ],
+    ],
 
     qualifications: [
         {
-            name:           "Dr. Sarah Johnson",
-            qualification:  "MD, PhD – Clinical Research and Medical Devices",
-            experience:     "12 years of medical device clinical evaluation experience including MDR submissions",
-            role:           "Lead Clinical Evaluator"
+            name:           "Dr. Sarah Mitchell",
+            jobTitle:       "Lead Clinical Evaluator",
+            responsibility: "Responsible for conducting and overseeing the clinical evaluation per MDR 2017/745 and MEDDEV 2.7/1 Rev 4",
+            qualifications: "MD, PhD — Clinical Research. 12 years medical device clinical evaluation experience including MDR Class I–IIb submissions"
         },
         {
-            name:           "Dr. Michael Chen",
-            qualification:  "MD – Surgical Specialties, MSc Regulatory Affairs",
-            experience:     "8 years in regulatory and clinical affairs for Class IIa and IIb surgical devices",
-            role:           "Clinical Reviewer"
+            name:           "Dr. James Thornton",
+            jobTitle:       "Clinical Reviewer",
+            responsibility: "Independent clinical data appraisal and scientific validity assessment of literature sources and pre-clinical data",
+            qualifications: "MD — Surgery, MSc Regulatory Affairs. 8 years in regulatory and clinical affairs for surgical devices"
         },
     ],
 
-    qualificationPdfPath: "C:\\Users\\udula\\Downloads\\Trocar.jpg",
+    qualificationPdfPath: "C:\\Users\\udula\\Downloads\\1771864371795-signed-document.pdf",
 
     changes: [
-        { description: "Updated biocompatibility assessment per revised ISO 10993-1:2018 guidance document", version: "v1.1" },
-        { description: "Revised literature search to include publications from 2020–2024 and updated appraisal", version: "v1.2" },
+        { indexNumber: "1", appliedChange: "Initial CER — first issue for regulatory submission under MDR 2017/745" },
+        { indexNumber: "2", appliedChange: "Updated pre-clinical data section to include sterility validation report SP-003 per ISO 11135" },
     ],
 
+    // Pre-Clinical Data table rows: [ [reportNo, reportName, description], ... ]
+    preClinicalData: {
+        safetyPerformance: [
+            [ "SP-001", "Mechanical Integrity Testing", "Trocar shaft and tip tested per ISO 11135 for mechanical strength and dimensional tolerances" ],
+            [ "SP-002", "Seal Valve Leak Testing", "Pneumatic seal integrity tested at 20 mmHg CO2 pressure — no leakage observed" ],
+            [ "SP-003", "Sterility Validation", "EO sterilisation validation per ISO 11135; SAL 10-6 achieved" ],
+        ],
+        usabilityTesting: [
+            [ "UT-001", "Formative Usability Study", "IEC 62366-1 formative evaluation — 10 surgeons; all critical tasks completed successfully" ],
+            [ "UT-002", "Summative Usability Study", "IEC 62366-1 summative evaluation — 15 surgeons; zero critical use errors recorded" ],
+            [ "UT-003", "Grip & Ergonomics Assessment", "Ergonomic handle design validated for left and right-hand use under simulated theatre conditions" ],
+        ],
+        biocompatibilityReport: [
+            [ "BC-001", "Cytotoxicity Assessment", "ISO 10993-5 elution method — no cytotoxic potential identified for stainless steel components" ],
+            [ "BC-002", "Sensitisation Testing", "ISO 10993-10 Guinea pig maximisation test — no sensitisation response observed" ],
+            [ "BC-003", "Biological Risk Assessment", "ISO 10993-1 biological evaluation plan — all contact materials confirmed biocompatible" ],
+        ],
+    },
+
+    // Equivalence Table — MDCG 2020-05 structure (Trocar-specific)
+    // Technical Characteristics: 5 rows × device1 / device2 / differences
+    // Justifications 1.1–1.4: text + clinicallySig Yes/No radio (all "No" for Trocar)
     equivalenceTable: {
-        predicateDevice:    "TrocoMed LX-3 Trocar System",
-        manufacturer:       "MedTech Solutions GmbH",
-        intendedPurpose:    "Minimally invasive surgical access for laparoscopic and thoracoscopic procedures",
-        design:             "Sharp-tip trocar with hollow cannula shaft and integrated flap valve mechanism",
-        materials:          "Grade 316L biocompatible stainless steel — ISO 10993 compliant",
-        clinicalEquivalence:"Equivalent clinical application in adult patients undergoing minimally invasive abdominal surgery under general anaesthesia"
-    }
+        characteristics: [
+            { device1: "Stainless steel construction; sharpened trocar tip with hollow shaft; integrated valve mechanism", device2: "Stainless steel construction; equivalent tip geometry and hollow shaft design", differences: "No clinically significant differences in design or materials identified" },
+            { device1: "Sterile operating theatre; laparoscopic procedures under general anaesthesia; ambient 18–25°C", device2: "Same conditions of use in sterile operative environment", differences: "No differences in conditions of use" },
+            { device1: "Shaft diameter: 5 mm or 10 mm; length: 100 mm; ISO 10993 compliant materials; pressure rated to 20 mmHg", device2: "Equivalent shaft diameter and length specifications; same material compliance", differences: "Specifications are equivalent; no clinically significant difference identified" },
+            { device1: "Trocar inserted via controlled axial force; cannula maintained for instrument access during procedure", device2: "Identical deployment method; same surgical insertion technique", differences: "Deployment methods are equivalent" },
+            { device1: "Creates and maintains access port for laparoscopic instrument insertion; CO2 gas retention via valve", device2: "Same operating principles; equivalent critical performance requirements", differences: "No differences in principles of operation" },
+        ],
+        justifications: [
+            { text: "No clinically significant differences in technical characteristics identified. Both share identical design principles, materials, and operating parameters per ISO 10993.", clinicallySig: "No" },
+            { text: "Both devices are intended for identical conditions of use in sterile operating theatres for laparoscopic surgery. No differences affecting safety or performance were identified.", clinicallySig: "No" },
+            { text: "Specifications are equivalent. Minor manufacturing tolerances are within the accepted range and do not result in clinically significant differences in safety or performance.", clinicallySig: "No" },
+            { text: "Deployment methods are identical. Both devices are interchangeable in standard laparoscopic workflow without any impact on clinical safety or performance outcomes.", clinicallySig: "No" },
+        ],
+
+        biologicalCharacteristics: [
+            { device1: "Stainless steel components; ISO 10993-1 compliant materials; no tissue-contacting coatings", device2: "Same stainless steel material composition; equivalent ISO 10993 compliance", differences: "No differences in materials or substances in contact with the same tissue" },
+            { device1: "Short-term contact (< 24 hours per use); peritoneal tissue contact during insertion", device2: "Equivalent contact duration and tissue contact type", differences: "No differences in kind or duration of tissue contact" },
+            { device1: "No degradable components; no particulate release under normal conditions", device2: "Same release characteristics; no degradation products identified", differences: "No differences in release characteristics or degradation behaviour" },
+        ],
+        biologicalJustifications: [
+            { text: "Both devices use the same stainless steel materials meeting ISO 10993-1. No clinically significant biological differences identified in material composition or tissue contact.", clinicallySig: "No" },
+            { text: "Both devices have equivalent short-term contact duration and contact the same tissue types. No biological safety concerns arising from differences in contact.", clinicallySig: "No" },
+            { text: "Neither device releases degradation products or particulates under normal use conditions. Release characteristics are equivalent.", clinicallySig: "No" },
+            { text: "Overall biological characteristics are equivalent. No clinically significant differences identified across all biological characteristic criteria assessed.", clinicallySig: "No" },
+        ],
+
+        clinicalCharacteristics: [
+            { device1: "Laparoscopic access device; indicated for minimally invasive abdominal surgery under general anaesthesia", device2: "Same clinical indication; identical purpose and procedure type", differences: "No differences in clinical condition or purpose" },
+            { device1: "Anterior abdominal wall — peritoneal cavity access", device2: "Identical anatomical site of use", differences: "No differences in site in the body" },
+            { device1: "Adult surgical patients undergoing laparoscopic procedures; similar anatomy and physiological status", device2: "Equivalent intended patient population; no difference in age or anatomy", differences: "No differences in patient population" },
+            { device1: "Qualified surgeons credentialed in minimally invasive surgical techniques", device2: "Same intended user type and training requirements", differences: "No differences in kind of user" },
+            { device1: "Reliable trocar insertion; pneumoperitoneum maintenance; CO2 retention via valve mechanism", device2: "Equivalent critical performance requirements; same clinical endpoints", differences: "No differences in relevant critical performance" },
+        ],
+        clinicalJustifications: [
+            { text: "Both devices share the same clinical indication for laparoscopic access. No clinically significant differences in clinical condition, purpose, or severity of condition addressed.", clinicallySig: "No" },
+            { text: "Both devices are used at the identical anatomical site — anterior abdominal wall. No differences in body site or tissue interaction.", clinicallySig: "No" },
+            { text: "Both devices target the same adult surgical patient population with equivalent anatomy. No differences in patient population affecting safety or performance.", clinicallySig: "No" },
+            { text: "Both devices are intended for qualified surgeons. Intended user type and required competency level are equivalent.", clinicallySig: "No" },
+        ],
+        clinicalSummary: "Based on the assessment of technical, biological, and clinical characteristics, the devices are considered equivalent under MDR 2017/745 Annex XIV. No clinically significant differences were identified across all assessed criteria. The equivalent device provides an adequate clinical evidence base for the device under evaluation.",
+    },
 
   }
 

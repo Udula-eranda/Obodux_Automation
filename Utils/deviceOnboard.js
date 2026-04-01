@@ -29,42 +29,22 @@ async function  loginAndOnboardDevice(page) {
     await devicePage.deviceSetUp(deviceDetails.dName , deviceDetails.deiveDes);
 
     //click continue
-    devicePage.clickContinueBtn();
+    await devicePage.clickContinueBtn();
+    await page.waitForTimeout(3000);
 
     //2nd page validation
-    devicePage.currentPageValidation();
+    await devicePage.currentPageValidation();
 
     //checkbox selecting
     await devicePage.firstCheckBoxes();
-    
+
     //click continue
     await devicePage.clickContinueBttn2();
-    
-    //section 3 validation
-    devicePage.sectionThreeValidation();
-    
-    
-    //1st section
-    devicePage.firstSectionCheckBoxHandling();
 
-    //clicking Next button
-    await page.getByRole('button' , {name: "Next"}).click();
+    // Classification page: answer all 11 accordion questions (select "No")
+    await page.getByText("Tick all that's applicable for your device.").waitFor({ state: 'visible' });
+    await devicePage.classificationAllQuestions();
 
-    
-    //2nd section
-    await devicePage.secondSectionCheckBoxHandling();
-    
-    //checkBox selection
-    await devicePage.thirdSectionCheckBoxHandling();
-    
-    
-    //clicking Next button
-    await page.getByRole('button' , {name: "Next"}).click();
-    
-    //thirdSection
-    //lastoption click
-    await devicePage.lastOptionClick(); 
-    
     //click continue
     await devicePage.navigateToPage4();
     
@@ -78,18 +58,9 @@ async function  loginAndOnboardDevice(page) {
     //Manufacturer Form Filling
     await devicePage.manufactureForm(manufacturerData.name , manufacturerData.srnNo , manufacturerData.phoneNo, manufacturerData.street , manufacturerData.state , manufacturerData.city , manufacturerData.postal);
     
-    //continue to 5th
+    //continue to 6th (classification with all "No" goes directly to overview page)
     await page.getByRole("button" , {name : "Continue"}).click();
     await page.waitForTimeout(3000);
-
-    // //5th page validation
-    // await devicePage.section5Validation();
-
-    // //Authorizer Form Fill
-    // await devicePage.authoriserForm(authoriserData.name , authoriserData.srnNo , authoriserData.phoneNo , authoriserData.street , authoriserData.state , authoriserData.city ,  authoriserData.postal);
-
-    // //continue to 6th
-    // await page.getByRole("button" , {name : "Continue"}).click();
 
     //6th page validation
     await devicePage.section6Validation();

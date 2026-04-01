@@ -1,0 +1,218 @@
+- generic [ref=e1]:
+  - alert [ref=e6]
+  - generic [ref=e7]:
+    - generic [ref=e11]:
+      - button "logo" [ref=e13] [cursor=pointer]:
+        - link "logo" [ref=e15]:
+          - /url: /
+          - img "logo" [ref=e16]
+      - generic [ref=e18]:
+        - generic [ref=e19]: Menu
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link "Devices" [active] [ref=e23] [cursor=pointer]:
+              - /url: /editor/devices
+              - img [ref=e24]
+              - generic [ref=e27]: Devices
+          - listitem [ref=e28]:
+            - link "Support" [ref=e29] [cursor=pointer]:
+              - /url: /editor/support
+              - img [ref=e30]
+              - generic [ref=e33]: Support
+      - list [ref=e35]:
+        - listitem [ref=e36]:
+          - button "B Choose File Ben Diaz editor-stag.1@yopmail.com" [ref=e37] [cursor=pointer]:
+            - generic [ref=e38]:
+              - generic [ref=e40]:
+                - generic [ref=e42]: B
+                - button "Choose File" [ref=e43]
+              - generic [ref=e44]:
+                - generic [ref=e45]: Ben Diaz
+                - generic [ref=e46]: editor-stag.1@yopmail.com
+            - img [ref=e47]
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - button "Toggle Sidebar" [ref=e53] [cursor=pointer]:
+          - img [ref=e54]
+          - generic [ref=e56]: Toggle Sidebar
+        - generic [ref=e59]: Devices
+        - generic [ref=e60]:
+          - img [ref=e62] [cursor=pointer]
+          - paragraph [ref=e66]: Notifications (96)
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - generic [ref=e71]: All Devices (91)
+            - generic [ref=e72]:
+              - generic [ref=e73]:
+                - generic [ref=e77]:
+                  - img [ref=e78]
+                  - textbox "Search" [ref=e81]
+                - combobox [ref=e84] [cursor=pointer]:
+                  - generic [ref=e85]: All
+                  - img [ref=e86]
+              - generic [ref=e88]:
+                - button "Add Device" [ref=e89] [cursor=pointer]:
+                  - img [ref=e90]
+                  - text: Add Device
+                - button [ref=e91] [cursor=pointer]:
+                  - img [ref=e92]
+          - generic [ref=e94]:
+            - generic [ref=e96] [cursor=pointer]:
+              - generic [ref=e98]: Loading...
+              - generic [ref=e99]:
+                - generic [ref=e100]:
+                  - generic [ref=e101]:
+                    - generic [ref=e102]: Trocar
+                    - generic [ref=e103]: "Last edited: 16 minutes ago"
+                  - img [ref=e105]
+                - generic [ref=e109]:
+                  - generic [ref=e111]: CE
+                  - generic [ref=e112]: 0 Variants
+            - generic [ref=e114] [cursor=pointer]:
+              - generic [ref=e116]: Loading...
+              - generic [ref=e117]:
+                - generic [ref=e118]:
+                  - generic [ref=e119]:
+                    - generic [ref=e120]: Trocar
+                    - generic [ref=e121]: "Last edited: about 1 hour ago"
+                  - img [ref=e123]
+                - generic [ref=e127]:
+                  - generic [ref=e129]: CE
+                  - generic [ref=e130]: 0 Variants
+            - generic [ref=e132] [cursor=pointer]:
+              - generic [ref=e134]: Loading...
+              - generic [ref=e135]:
+                - generic [ref=e136]:
+                  - generic [ref=e137]:
+                    - generic [ref=e138]: Gauze Pads 3
+                    - generic [ref=e139]: "Last edited: 6 days ago"
+                  - img [ref=e141]
+                - generic [ref=e145]:
+                  - generic [ref=e147]: CE
+                  - generic [ref=e148]: 0 Variants
+            - generic [ref=e150] [cursor=pointer]:
+              - generic [ref=e152]: H
+              - generic [ref=e153]:
+                - generic [ref=e154]:
+                  - generic [ref=e155]:
+                    - generic [ref=e156]: Heartguard
+                    - generic [ref=e157]: "Last edited: 7 days ago"
+                  - img [ref=e159]
+                - generic [ref=e163]:
+                  - generic [ref=e165]: Draft
+                  - generic [ref=e166]: 0 Variants
+            - generic [ref=e168] [cursor=pointer]:
+              - generic [ref=e170]: T
+              - generic [ref=e171]:
+                - generic [ref=e172]:
+                  - generic [ref=e173]:
+                    - generic [ref=e174]: Trocar
+                    - generic [ref=e175]: "Last edited: 8 days ago"
+                  - img [ref=e177]
+                - generic [ref=e181]:
+                  - generic [ref=e183]: CE
+                  - generic [ref=e184]: 0 Variants
+            - generic [ref=e186] [cursor=pointer]:
+              - generic [ref=e188]: Loading...
+              - generic [ref=e189]:
+                - generic [ref=e190]:
+                  - generic [ref=e191]:
+                    - generic [ref=e192]: Ambu Bag 3
+                    - generic [ref=e193]: "Last edited: 8 days ago"
+                  - img [ref=e195]
+                - generic [ref=e199]:
+                  - generic [ref=e201]: CE
+                  - generic [ref=e202]: 0 Variants
+            - generic [ref=e204] [cursor=pointer]:
+              - generic [ref=e206]: Loading...
+              - generic [ref=e207]:
+                - generic [ref=e208]:
+                  - generic [ref=e209]:
+                    - generic [ref=e210]: Gauze Pads 3
+                    - generic [ref=e211]: "Last edited: 12 days ago"
+                  - img [ref=e213]
+                - generic [ref=e217]:
+                  - generic [ref=e219]: Draft
+                  - generic [ref=e220]: 0 Variants
+            - generic [ref=e222] [cursor=pointer]:
+              - generic [ref=e224]: Loading...
+              - generic [ref=e225]:
+                - generic [ref=e226]:
+                  - generic [ref=e227]:
+                    - generic [ref=e228]: In Situ Hybridization (ISH) Machine 2
+                    - generic [ref=e229]: "Last edited: 12 days ago"
+                  - img [ref=e231]
+                - generic [ref=e235]:
+                  - generic [ref=e237]: CE
+                  - generic [ref=e238]: 0 Variants
+            - generic [ref=e240] [cursor=pointer]:
+              - generic [ref=e242]: Loading...
+              - generic [ref=e243]:
+                - generic [ref=e244]:
+                  - generic [ref=e245]:
+                    - generic [ref=e246]: Trocar
+                    - generic [ref=e247]: "Last edited: 13 days ago"
+                  - img [ref=e249]
+                - generic [ref=e253]:
+                  - generic [ref=e255]: CE
+                  - generic [ref=e256]: 0 Variants
+            - generic [ref=e258] [cursor=pointer]:
+              - generic [ref=e260]: Loading...
+              - generic [ref=e261]:
+                - generic [ref=e262]:
+                  - generic [ref=e263]:
+                    - generic [ref=e264]: Centrifuge
+                    - generic [ref=e265]: "Last edited: 14 days ago"
+                  - img [ref=e267]
+                - generic [ref=e271]:
+                  - generic [ref=e273]: Draft
+                  - generic [ref=e274]: 0 Variants
+            - generic [ref=e276] [cursor=pointer]:
+              - generic [ref=e278]: Loading...
+              - generic [ref=e279]:
+                - generic [ref=e280]:
+                  - generic [ref=e281]:
+                    - generic [ref=e282]: Trocar
+                    - generic [ref=e283]: "Last edited: 14 days ago"
+                  - img [ref=e285]
+                - generic [ref=e289]:
+                  - generic [ref=e291]: CE
+                  - generic [ref=e292]: 0 Variants
+            - generic [ref=e294] [cursor=pointer]:
+              - generic [ref=e296]: CD
+              - generic [ref=e297]:
+                - generic [ref=e298]:
+                  - generic [ref=e299]:
+                    - generic [ref=e300]: CardioScope DS-500
+                    - generic [ref=e301]: "Last edited: 16 days ago"
+                  - img [ref=e303]
+                - generic [ref=e307]:
+                  - generic [ref=e309]: CE
+                  - generic [ref=e310]: 0 Variants
+          - generic [ref=e311]:
+            - generic [ref=e312]: 1-12 of 91 Devices
+            - navigation "pagination" [ref=e314]:
+              - list [ref=e315]:
+                - listitem:
+                  - link "Go to previous page" [disabled]:
+                    - /url: "#"
+                    - img [ref=e316]
+                    - generic [ref=e318]: Previous
+                - listitem [ref=e319] [cursor=pointer]:
+                  - generic [ref=e320]: "1"
+                - listitem [ref=e321] [cursor=pointer]:
+                  - generic [ref=e322]: "2"
+                - listitem [ref=e323] [cursor=pointer]:
+                  - generic [ref=e324]:
+                    - img [ref=e325]
+                    - generic [ref=e329]: More pages
+                - listitem [ref=e330] [cursor=pointer]:
+                  - generic [ref=e331]: "8"
+                - listitem:
+                  - link "Go to next page":
+                    - /url: "#"
+                    - generic [ref=e332] [cursor=pointer]: Next
+                    - img [ref=e333] [cursor=pointer]
+        - region "Notifications (F8)":
+          - list

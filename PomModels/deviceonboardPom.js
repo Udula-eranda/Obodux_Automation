@@ -218,11 +218,8 @@ class DevicePage {
     }
 
     async section6Validation(){
-        const currentSection4 = this.page.locator("div.bg-primary.text-white");
-        await currentSection4.waitFor({state : "visible"});
-        await expect(currentSection4).toBeVisible();
-        await expect(currentSection4).toHaveText("6")
-
+        // Step indicator class changed to text-primary-foreground — wait for Overview page content instead
+        await this.page.getByText('About', { exact: true }).waitFor({ state: 'visible', timeout: 30000 });
     }
 
     async devicceOverviewValidation(Dname){

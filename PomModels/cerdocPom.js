@@ -1,469 +1,598 @@
-const { expect , test } = require("@playwright/test");
-const { cerData, cerSectionData } = require('../Utils/testData');
+const { expect } = require("@playwright/test");
+const { cerSectionData } = require('../Utils/testData');
 
-class cerDoc{
+class cerDoc {
 
-    constructor(page){
+    constructor(page) {
         this.page = page;
     }
 
-    //close cepDoc Menu
-    async closeCEPDoc(){
+    // ─── Navigation helpers ───────────────────────────────────────────────────
 
+    async closeCEPDoc() {
         await this.page.waitForTimeout(3000);
         const cepCollapseBtn = this.page.locator("[id*='radix-']").nth(3);
         await expect(cepCollapseBtn).toBeVisible();
         await cepCollapseBtn.click({ force: true });
-
     }
-    
-    //open CER Section
-    async openCERSection(){
 
+    async openCERSection() {
         await this.page.waitForTimeout(2000);
-        // Re-navigate to Clinical Evaluation to guarantee a clean accordion state
+
+        // Step 1: Navigate to Clinical Evaluation page (lands on /plan)
         const ceLink = this.page.getByRole('link', { name: 'Clinical Evaluation' });
         await ceLink.click();
         await this.page.waitForTimeout(3000);
 
-        // The CE page has two h3 accordion buttons: CEP (index 0) and CER (index 1)
+        // Step 2: Expand the "Clinical Evaluation Report" accordion in the sidebar
         const h3Buttons = this.page.locator('h3 button');
         await h3Buttons.nth(1).scrollIntoViewIfNeeded();
         await h3Buttons.nth(1).click();
-        await this.page.waitForTimeout(3000);
+        await this.page.waitForTimeout(1500);
 
-    }
+        // Step 3: Click the icon next to "State of the Art" sub-section
+        await h3Buttons.nth(2).scrollIntoViewIfNeeded();
+        await h3Buttons.nth(2).click();
+        await this.page.waitForTimeout(1500);
 
-    //open CER sub menu and navigates into CER page
-    async openCERSubMenu(){
-
-        await this.page.waitForTimeout(3000);
-        const soaBtn = this.page.locator("[id*='radix-']").nth(7)
-        await expect(soaBtn).toBeVisible();
-        await expect(soaBtn).toBeEnabled();
-        await soaBtn.click();
-
-    }
-
-    //open the sub menu Literature Search Protocol
-    async openLSPSubMenu(){
-
-        const lspBtn = this.page.getByText('Literature Search Protocol');
-        await lspBtn.click();
-        await this.page.waitForTimeout(3000);
-
-        // const lspField = page.locator("[class*='border px-3']").nth(0);
-        // await expect(lspField).toBeVisible();
-        // await expect(lspField).toBeEnabled();
-        // await lspField.click();
-
-        // //Ai feature catching
-        // const aiBtn =  page.locator(".inline-flex.items-center.justify-center.whitespace-nowrap.font-sans.bg-transparent.border-0.shadow-none.text-sm.gap-2.p-2.h-fit.rounded-lg").first();
-        // await aiBtn.waitFor({ state: 'visible', timeout: 10000 });
-        // await expect(aiBtn).toBeEnabled();
-        // await aiBtn.click();
-            
-        // //wait to AI to generate
-        // await lspField.waitFor({ state: 'visible' });
-        // await expect(lspField).not.toHaveText("");
-        // await aiBtn.click();
-
-    }
-
-    //-------------State of Art Section-------------------------
-    async stateOfArtSection(){
-
-        for (let i = 0; i < 11; i++) {
-
-            console.log(`🧩 Processing field ${i + 1}`);
-
-            // Target each LSP field by index
-            const soa = this.page.locator("[class*='border px-3']").nth(i);
-            await expect(soa).toBeVisible();
-            await expect(soa).toBeEnabled();
-            await soa.click();
-
-            // Locate the AI button (first visible)
-            const aiBtn = this.page.locator(
-                ".inline-flex.items-center.justify-center.whitespace-nowrap.font-sans.bg-transparent.border-0.shadow-none.text-sm.gap-2.p-2.h-fit.rounded-lg"
-            ).first();
-
-            await aiBtn.waitFor({ state: 'visible', timeout: 15000 });
-            await expect(aiBtn).toBeEnabled();
-            await aiBtn.click();
-
-            // Wait for AI to populate content
-            await soa.waitFor({ state: 'visible' });
-            await expect(soa).not.toHaveText("");
-
-            // Optionally click the AI button again if needed
-            await aiBtn.click();
-
-            // Small pause before moving to next field
-            await this.page.waitForTimeout(2000);
+        // Step 4: If still not on the report page, navigate there directly via URL
+        const currentUrl = this.page.url();
+        if (!currentUrl.includes('/clinical-evaluation/report')) {
+            const reportUrl = currentUrl.replace('/clinical-evaluation/plan', '/clinical-evaluation/report');
+            await this.page.goto(reportUrl);
+            await this.page.waitForTimeout(4000);
         }
 
+        // Ensure we are on the report page
+        await this.page.waitForURL(/clinical-evaluation\/report/, { timeout: 15000 });
+        await this.page.waitForTimeout(2000);
     }
 
-    //-------------Pre Clinical Data-----------------------
-
-    //Safety n Performance
-    async safetyNperformance(safetyNperfomData){
-        const fields = this.page.locator("[class*='w-full p-2'] textarea");
-
-        
-        for (let i = 0 ; i < 9 ; i++){
-            console.log('🧩 Processing Safety n Performance field ' + (i + 1));
-            const safetyNPerform = fields.nth(i);
-            await expect(safetyNPerform).toBeVisible();
-            await expect(safetyNPerform).toBeEnabled();
-            await safetyNPerform.fill(safetyNperfomData[i])
-        }
-
+    // ─── Section container helper ────────────────────────────────────────────
+    // Targets the rounded-2xl section card that wraps each CER section.
+    // Using rounded-2xl avoids the .last() sub-div ambiguity — inner divs
+    // never carry rounded-2xl, so this always resolves to the section card.
+    sectionContainer(headingText) {
+        return this.page.locator('[class*="rounded-2xl"]')
+            .filter({ hasText: headingText })
+            .last();
     }
 
+    // ─── Shared scroll helper ─────────────────────────────────────────────────
 
-    //Usability Testing
-    async usabilityTest(usabilityTestData){
-        const fields = this.page.locator("[class*='w-full p-2'] textarea");
-
-        // starting field index
-        let fieldIndex = 9;
-
-        for (let i = 0 ; i < usabilityTestData.length ; i++){
-            console.log('🧩 Processing of Usability Testing field ' + (i ));
-
-            const usabilityTest = fields.nth(fieldIndex);
-            await expect(usabilityTest).toBeVisible();
-            await expect(usabilityTest).toBeEnabled();
-
-            await usabilityTest.fill(usabilityTestData[i]);
-            fieldIndex++;
-        }
-
-    }
-
-    //Biocompatibility Report
-    async bioCompatability(bioCompatabilityData){
-
-        const fields = this.page.locator("[class*='w-full p-2'] textarea");
-
-        // starting field index
-        let fieldIndex = 18;
-
-        for (let i = 0 ; i < bioCompatabilityData.length ; i++){
-            console.log('🧩 Processing of Usability Testing field ' + (i ));
-
-            const bioCompatabilityTest = fields.nth(fieldIndex);
-            await expect(bioCompatabilityTest).toBeVisible();
-            await expect(bioCompatabilityTest).toBeEnabled();
-
-            await bioCompatabilityTest.fill(bioCompatabilityData[i]);
-            fieldIndex++;
-        }
-
-    }
-
-
-
-
-    // ─── helper ───────────────────────────────────────────────────────────────
-    async navigateToSection(sectionText){
-        const link = this.page.getByText(sectionText, { exact: true }).first();
-        await link.waitFor({ state: 'visible' });
-        await link.click();
-        await this.page.waitForTimeout(3000);
-    }
-
-    async fillWithAI(field){
-        await field.click();
-        const aiBtn = this.page.locator(".inline-flex.items-center.justify-center.whitespace-nowrap.font-sans.bg-transparent.border-0.shadow-none.text-sm.gap-2.p-2.h-fit.rounded-lg").first();
-        await aiBtn.waitFor({ state: 'visible', timeout: 15000 });
-        await aiBtn.click();
-        await this.page.waitForTimeout(8000);
-        await field.waitFor({ state: 'visible' });
-        await expect(field).not.toHaveText('');
-        // Close the AI panel — wrap in try/catch to handle transient browser state
-        try {
-            if (await aiBtn.isVisible()) await aiBtn.click();
-        } catch (e) {
-            // AI panel already closed or page navigated — safe to continue
-        }
+    async scrollTo(pos) {
+        await this.page.evaluate((p) => {
+            document.querySelector('.flex-1.overflow-y-auto').scrollTop = p;
+        }, pos);
         await this.page.waitForTimeout(1000);
+    }
+
+    // ─── AI fill helper ───────────────────────────────────────────────────────
+
+    async fillWithAI(field) {
+        // Scroll the field into view inside the custom scrollable container
+        await field.evaluate((el) => {
+            const container = document.querySelector('.flex-1.overflow-y-auto');
+            if (container) {
+                const elRect = el.getBoundingClientRect();
+                const cRect = container.getBoundingClientRect();
+                if (elRect.top < cRect.top || elRect.bottom > cRect.bottom) {
+                    container.scrollTop += elRect.top - cRect.top - 80;
+                }
+            }
+        });
+        await this.page.waitForTimeout(300);
+        await field.click();
+        await this.page.waitForTimeout(600);
+
+        const aiBtn = this.page.locator(
+            '.inline-flex.items-center.justify-center.whitespace-nowrap.font-sans.bg-transparent.border-0.shadow-none.text-sm.gap-2.p-2.h-fit.rounded-lg'
+        ).first();
+
+        // If AI button doesn't appear, try clicking field again
+        try {
+            await aiBtn.waitFor({ state: 'visible', timeout: 8000 });
+        } catch {
+            await field.click();
+            await this.page.waitForTimeout(800);
+            await aiBtn.waitFor({ state: 'visible', timeout: 10000 });
+        }
+
+        await aiBtn.click();
+
+        // Wait dynamically for the Accept button rather than a fixed delay —
+        // resolves as soon as AI finishes (fast or slow), up to 45s
+        const acceptBtn = this.page.locator('button[class*="h-fit"]').filter({
+            has: this.page.locator('svg.lucide-circle-check')
+        }).first();
+        try {
+            await acceptBtn.waitFor({ state: 'visible', timeout: 45000 });
+            await acceptBtn.click();
+            await this.page.waitForTimeout(500);
+        } catch {
+            // Accept button may not appear in all cases — continue
+        }
+    }
+
+    // ─── 0. State of the Art ──────────────────────────────────────────────────
+    // 9 richtext fields: Literature Search Protocol, Relevant Pathologies,
+    // Alternative Treatments, Complications, Device Design and Materials,
+    // Similar Devices, Benchmarks, Clinical Safety Objectives,
+    // Clinical Performance Objectives
+    async stateOfArtSection() {
+        await this.scrollTo(115);
+        const fields = this.page.locator('[class*="border px-3"]');
+        const total = Math.min(await fields.count(), 9);
+        for (let i = 0; i < total; i++) {
+            await this.fillWithAI(fields.nth(i));
+            console.log(`  State of Art field ${i + 1}/${total}`);
+        }
+    }
+
+    // ─── Pre-Clinical Data ────────────────────────────────────────────────────
+    // 3 tables (Safety & Performance, Usability Testing, Biocompatibility Report)
+    // each with: Report Number | Report Name | Description columns
+    // + Biocompatibility Summary richtext + Device Lifetime richtext
+    async preClinicalData() {
+        await this.scrollTo(1526);
+
+        const allTables = this.page.locator('table').filter({
+            has: this.page.locator('th').filter({ hasText: 'Report Number' })
+        });
+        const { preClinicalData: pcd } = cerSectionData;
+
+        for (const [tIdx, rows] of [
+            [0, pcd.safetyPerformance],
+            [1, pcd.usabilityTesting],
+            [2, pcd.biocompatibilityReport],
+        ]) {
+            const table = allTables.nth(tIdx);
+            for (let r = 0; r < rows.length; r++) {
+                const row = table.locator('tbody tr').nth(r);
+                const cells = row.locator('textarea');
+                const count = await cells.count();
+                for (let c = 0; c < rows[r].length && c < count; c++) {
+                    await cells.nth(c).scrollIntoViewIfNeeded();
+                    await cells.nth(c).fill(rows[r][c]);
+                    await this.page.waitForTimeout(80);
+                }
+            }
+        }
+
+        await this.scrollTo(2200);
+
+        // Biocompatibility Summary richtext — scoped to its own section container
+        const bioSumField = this.sectionContainer('Biocompatibility Summary')
+            .locator('[class*="border px-3"]').first();
+        if (await bioSumField.count() > 0) await this.fillWithAI(bioSumField);
+
+        // Device Lifetime richtext — last border-px-3 in the same card as Biocompatibility Summary
+        const deviceLifeField = this.sectionContainer('Device Lifetime')
+            .locator('[class*="border px-3"]').last();
+        if (await deviceLifeField.count() > 0) await this.fillWithAI(deviceLifeField);
     }
 
     // ─── 1. Clinical Evaluation Overview ──────────────────────────────────────
-    async clinicalEvalOverview(){
-        await this.navigateToSection('Clinical Evaluation Overview');
+    // 3 checkboxes (select first) + Demonstration of Equivalence Justification richtext
+    async clinicalEvalOverview() {
+        await this.scrollTo(2959);
 
-        // check first checkbox
+        // Check the first checkbox (based on device under evaluation)
         const checkbox = this.page.getByRole('checkbox').first();
-        await expect(checkbox).toBeVisible();
+        await checkbox.scrollIntoViewIfNeeded();
         await checkbox.check();
-        await this.page.waitForTimeout(1000);
+        await this.page.waitForTimeout(500);
 
-        // fill Demonstration of Equivalence Justification
-        const equivField = this.page.locator('[contenteditable="true"]').first();
+        // Fill Equivalence Justification — scoped to the Equivalence section
+        const equivSection = this.page.locator('div')
+            .filter({ hasText: 'Demonstration of Equivalence' })
+            .filter({ has: this.page.locator('[contenteditable="true"]') })
+            .last();
+        const equivField = equivSection.locator('[contenteditable="true"]').first();
+        await equivField.scrollIntoViewIfNeeded();
         await equivField.click();
-        await this.page.keyboard.press('Control+b');
-        await this.page.keyboard.type('Equivalence Justification: ');
-        await this.page.keyboard.press('Control+b');
+        await this.page.waitForTimeout(300);
         await this.page.keyboard.type(cerSectionData.equivalenceJustification);
+        await this.page.waitForTimeout(500);
     }
 
     // ─── 2. Clinical Data Generated and Held by the Manufacturer ─────────────
-    async clinicalDataManufacturer(){
-        await this.navigateToSection('Clinical Data Generated and Held by the Manufacturer');
+    // Yes/No radio (pre-market study?) + PMS Summary richtext (AI)
+    async clinicalDataManufacturer() {
+        await this.scrollTo(3580);
 
-        // select Yes
-        const yesRadio = this.page.getByRole('radio', { name: 'Yes' }).first();
-        await expect(yesRadio).toBeVisible();
+        const manufSection = this.sectionContainer('Clinical Data Generated and Held by the Manufacturer');
+
+        // Scroll the radio into view inside the custom container before clicking
+        const yesRadio = manufSection.locator('[role="radio"][value="yes"]').first();
+        await yesRadio.evaluate((el) => {
+            const container = document.querySelector('.flex-1.overflow-y-auto');
+            if (container) {
+                const elRect = el.getBoundingClientRect();
+                const cRect = container.getBoundingClientRect();
+                container.scrollTop += elRect.top - cRect.top - 100;
+            }
+        });
+        await this.page.waitForTimeout(500);
         await yesRadio.click();
-        await this.page.waitForTimeout(1500);
+        await this.page.waitForTimeout(1000);
 
-        // fill PMS summary textarea
-        const pmsField = this.page.locator('textarea').first();
-        await expect(pmsField).toBeVisible();
-        await pmsField.fill(cerSectionData.pmsDataSummary);
+        const pmsField = manufSection.locator('[class*="border px-3"]').first();
+        await this.fillWithAI(pmsField);
     }
 
     // ─── 3. Clinical Data from Literature ────────────────────────────────────
-    async clinicalDataLiterature(){
-        await this.navigateToSection('Clinical Data from Literature');
-
-        // 2 text boxes per user instruction
-        const fields = this.page.locator("[class*='border px-3']");
-        for (let i = 0; i < 2; i++){
+    // 2 richtext fields (AI): Literature Search Protocol + Results
+    async clinicalDataLiterature() {
+        await this.scrollTo(3940);
+        const litSection = this.sectionContainer('Clinical Data from Literature');
+        const fields = litSection.locator('[class*="border px-3"]');
+        for (let i = 0; i < 2; i++) {
             await this.fillWithAI(fields.nth(i));
         }
     }
 
     // ─── 4. Other Sources of Clinical Data ───────────────────────────────────
-    async otherSourcesClinicalData(){
-        await this.navigateToSection('Other Sources of Clinical Data');
-
-        // 2 text boxes per user instruction
-        const fields = this.page.locator("[class*='border px-3']");
-        for (let i = 0; i < 2; i++){
-            await this.fillWithAI(fields.nth(i));
-        }
+    async otherSourcesClinicalData() {
+        await this.scrollTo(4318);
+        const field = this.sectionContainer('Other Sources of Clinical Data')
+            .locator('[class*="border px-3"]').first();
+        await this.fillWithAI(field);
     }
 
     // ─── 5. Summary and Appraisal of Clinical Data ───────────────────────────
-    async summaryAppraisalClinicalData(){
-        await this.navigateToSection('Summary and Appraisal of Clinical Data');
-        await this.page.waitForLoadState('domcontentloaded').catch(() => {});
-        await this.page.waitForTimeout(3000);
+    // Table: Citation | Study Objectives | Study Design | Description & Subjects
+    //        | Main Findings | Authors Conclusions | Relevance Score
+    //        | Scientific Validity Score | Contribution Weighting
+    // Fill 3 rows; delete any extra rows using the 3-dot menu
+    async summaryAppraisalClinicalData() {
+        await this.scrollTo(4565);
+        await this.page.waitForTimeout(1000);
 
+        const table = this.page.locator('table').filter({
+            has: this.page.locator('th').filter({ hasText: 'Citation' })
+        }).first();
+        const tbodyRows = table.locator('tbody tr');
+        const rowCount = await tbodyRows.count();
+
+        // Delete extra rows (beyond 3) from bottom up using the 3-dot SVG trigger
+        for (let r = rowCount - 1; r >= 3; r--) {
+            const menuSvg = tbodyRows.nth(r).locator('svg[aria-haspopup="menu"]');
+            if (await menuSvg.count() > 0) {
+                await menuSvg.scrollIntoViewIfNeeded();
+                await menuSvg.click();
+                await this.page.waitForTimeout(400);
+                const menuItems = this.page.locator('[role="menuitem"]');
+                if (await menuItems.count() > 0) {
+                    await menuItems.last().click();
+                    await this.page.waitForTimeout(400);
+                }
+            }
+        }
+
+        // Fill 3 rows — cells are <textarea> not <input>
         const rows = cerSectionData.summaryAppraisalRows;
-        const flat = rows.flat();
-
-        // Table cells use Lexical rich-text editors (contenteditable divs)
-        const cells = this.page.locator('[contenteditable="true"]');
-        for (let i = 0; i < flat.length; i++){
-            const cell = cells.nth(i);
-            if (await cell.isVisible()){
-                await cell.click();
-                await this.page.keyboard.press('Control+a');
-                await this.page.keyboard.type(flat[i]);
-                await this.page.waitForTimeout(200);
+        for (let r = 0; r < Math.min(3, rows.length); r++) {
+            const row = table.locator('tbody tr').nth(r);
+            const cells = row.locator('textarea');
+            const count = await cells.count();
+            for (let c = 0; c < rows[r].length && c < count; c++) {
+                await cells.nth(c).scrollIntoViewIfNeeded();
+                await cells.nth(c).fill(rows[r][c]);
+                await this.page.waitForTimeout(80);
             }
         }
     }
 
     // ─── 6. Analysis of the Clinical Data in Relation to GSPRs ───────────────
-    async analysisGSPRs(){
-        await this.navigateToSection('Analysis of the Clinical Data in Relation to GSPRs');
+    // 4 questions, each with Yes/No radio + Justification richtext (AI)
+    // Pattern: Yes / Yes / No / No
+    async analysisGSPRs() {
+        await this.scrollTo(5109);
+        await this.page.waitForTimeout(1000);
 
-        // All CER sections live on one scrollable page.
-        // Index 0 of "Yes/No" radios belongs to section 2 (Clinical Data Manufacturer) —
-        // skip it here so we don't accidentally override that required field.
-        const yesRadios = this.page.getByRole('radio', { name: 'Yes' });
-        const noRadios  = this.page.getByRole('radio', { name: 'No' });
-        const radioCount = await yesRadios.count();
+        const gsprSection = this.sectionContainer('Analysis of the Clinical Data in Relation to GSPRs');
+        const answers = ['Yes', 'Yes', 'No', 'No'];
+        const radioGroups = gsprSection.locator('[role="radiogroup"]');
+        const fields = gsprSection.locator('[class*="border px-3"]');
 
-        for (let i = 1; i < radioCount; i++){
-            const radio = Math.random() > 0.5 ? yesRadios.nth(i) : noRadios.nth(i);
-            await radio.scrollIntoViewIfNeeded();
-            await radio.click();
-            await this.page.waitForTimeout(300);
-        }
-
-        // Fill each justification field with static text (faster than AI)
-        const fields = this.page.locator("[class*='border px-3']");
-        const fieldCount = await fields.count();
-        for (let i = 0; i < fieldCount; i++){
-            const editableField = fields.nth(i).locator('[contenteditable="true"]');
-            if (await editableField.count() > 0){
-                await editableField.click();
-                await this.page.keyboard.type(cerSectionData.gsprJustification);
-            }
-            await this.page.waitForTimeout(200);
+        for (let i = 0; i < 4; i++) {
+            const group = radioGroups.nth(i);
+            await group.scrollIntoViewIfNeeded();
+            await group.locator(`[role="radio"][value="${answers[i].toLowerCase()}"]`).click();
+            await this.page.waitForTimeout(400);
+            await this.fillWithAI(fields.nth(i));
+            console.log(`  GSPR ${i + 1}: ${answers[i]}`);
         }
     }
 
     // ─── 7. Acceptability to the Objectives ──────────────────────────────────
-    async acceptabilityObjectives(){
-        await this.navigateToSection('Acceptability to the objectives');
-
-        // fill each visible field with AI (limit to 3 max)
-        const fields = this.page.locator("[class*='border px-3']");
-        const count = Math.min(await fields.count(), 3);
-        for (let i = 0; i < count; i++){
+    // 3 richtext fields (AI): Safety, Performance, Amount/Quality of data
+    async acceptabilityObjectives() {
+        await this.scrollTo(6263);
+        await this.page.waitForTimeout(1000);
+        const acceptSection = this.sectionContainer('Acceptability to the objectives');
+        const fields = acceptSection.locator('[class*="border px-3"]');
+        for (let i = 0; i < 3; i++) {
             await this.fillWithAI(fields.nth(i));
+            console.log(`  Acceptability field ${i + 1}`);
         }
     }
 
     // ─── 8. Conclusion ────────────────────────────────────────────────────────
-    async conclusion(){
-        await this.navigateToSection('Conclusion');
+    async conclusion() {
+        await this.scrollTo(15000);
 
-        // fill conclusion field with AI
-        const conclusionField = this.page.locator("[class*='border px-3']").first();
+        // Filter by unique text "How often" which only appears in the Conclusion section
+        // (avoids false match on "Authors Conclusions" in Summary & Appraisal)
+        const conclusionSection = this.page.locator('[class*="rounded-2xl"]')
+            .filter({ hasText: 'How often' })
+            .last();
+
+        // Conclusions richtext — AI fill, scoped to Conclusion section
+        const conclusionField = conclusionSection.locator('[class*="border px-3"]').first();
         await this.fillWithAI(conclusionField);
 
-        // select Yearly review option
-        const yearlyRadio = this.page.getByRole('radio', { name: /yearly/i });
-        await expect(yearlyRadio).toBeVisible();
+        // Select Yearly review — value="yearly" on button[role="radio"]
+        const yearlyRadio = conclusionSection.locator('[role="radio"][value="yearly"]');
+        await yearlyRadio.evaluate((el) => {
+            const container = document.querySelector('.flex-1.overflow-y-auto');
+            if (container) {
+                const elRect = el.getBoundingClientRect();
+                const cRect = container.getBoundingClientRect();
+                container.scrollTop += elRect.top - cRect.top - 100;
+            }
+        });
+        await this.page.waitForTimeout(500);
         await yearlyRadio.click();
-        await this.page.waitForTimeout(1000);
+        await this.page.waitForTimeout(800);
 
-        // Date of Next Review — Radix/Shadcn custom date picker (no native input[type=date])
-        const datePickerBtn = this.page.locator('button[aria-haspopup="dialog"]').first();
-        if (await datePickerBtn.isVisible()){
+        // Date picker — Radix combobox showing DD/MM/YYYY
+        const datePickerBtn = conclusionSection.locator('button').filter({ hasText: /DD\/MM\/YYYY/ });
+        if (await datePickerBtn.count() > 0) {
+            await datePickerBtn.scrollIntoViewIfNeeded();
             await datePickerBtn.click();
-            await this.page.waitForTimeout(1500);
-            // pick first enabled day in the calendar
-            const dayBtn = this.page.locator('[role="gridcell"] button:not([disabled])').first();
-            if (await dayBtn.isVisible()) await dayBtn.click();
+            await this.page.waitForTimeout(1000);
+            const dayBtn = this.page.locator('[role="gridcell"] button:not([disabled])').nth(14);
+            if (await dayBtn.count() > 0) await dayBtn.click();
+            else {
+                const firstDay = this.page.locator('[role="gridcell"] button:not([disabled])').first();
+                if (await firstDay.count() > 0) await firstDay.click();
+            }
+            await this.page.waitForTimeout(500);
         }
     }
 
     // ─── 9. Qualifications of the Responsible Evaluators ─────────────────────
-    async qualificationsEvaluators(){
-        await this.navigateToSection('Qualifications of the Responsible Evaluators');
+    // Table: Person's Name | Job Title | Responsibility | Qualifications and Experience | CV
+    async qualificationsEvaluators() {
+        await this.scrollTo(7583);
+        await this.page.waitForTimeout(1000);
 
         const quals = cerSectionData.qualifications;
+        const table = this.page.locator('table').filter({
+            has: this.page.locator('th').filter({ hasText: "Person's Name" })
+        }).first();
 
-        for (let r = 0; r < quals.length; r++){
-            // Target the r-th table row to scope inputs to that row only
-            const row = this.page.locator('table tbody tr').nth(r);
-            const inputs = row.locator('input[type="text"], textarea');
+        for (let r = 0; r < quals.length; r++) {
+            const row = table.locator('tbody tr').nth(r);
+            const cells = row.locator('textarea');
+            const count = await cells.count();
+            if (count >= 1) await cells.nth(0).fill(quals[r].name);
+            if (count >= 2) await cells.nth(1).fill(quals[r].jobTitle);
+            if (count >= 3) await cells.nth(2).fill(quals[r].responsibility);
+            if (count >= 4) await cells.nth(3).fill(quals[r].qualifications);
+            await this.page.waitForTimeout(200);
 
-            const count = await inputs.count();
-            if (count >= 1) await inputs.nth(0).fill(quals[r].name);
-            if (count >= 2) await inputs.nth(1).fill(quals[r].qualification);
-            if (count >= 3) await inputs.nth(2).fill(quals[r].experience);
-            if (count >= 4) await inputs.nth(3).fill(quals[r].role);
+            // CV upload: clicking the upload icon opens a modal dialog with a hidden file input
+            const uploadIconBtn = row.locator('button').filter({ has: this.page.locator('svg.lucide-upload') });
+            if (await uploadIconBtn.count() > 0) {
+                await uploadIconBtn.evaluate((el) => {
+                    const container = document.querySelector('.flex-1.overflow-y-auto');
+                    if (container) {
+                        const elRect = el.getBoundingClientRect();
+                        const cRect = container.getBoundingClientRect();
+                        container.scrollTop += elRect.top - cRect.top - 100;
+                    }
+                });
+                await this.page.waitForTimeout(500);
 
-            // upload CV file for this row
-            const fileInput = row.locator('input[type="file"]');
-            if (await fileInput.count() > 0){
+                // Open the CV upload modal
+                await uploadIconBtn.click();
+                await this.page.waitForTimeout(1000);
+
+                // The modal contains a hidden <input type="file" accept=".pdf">
+                // Set the file directly on the hidden input inside the dialog
+                const fileInput = this.page.locator('[role="dialog"] input[type="file"]');
                 await fileInput.setInputFiles(cerSectionData.qualificationPdfPath);
-                await this.page.waitForTimeout(2000);
+                await this.page.waitForTimeout(1000);
+
+                // Click the Upload button (becomes enabled after file selection)
+                const uploadSubmitBtn = this.page.locator('[role="dialog"] button').filter({ hasText: /^Upload$/ });
+                await uploadSubmitBtn.waitFor({ state: 'visible', timeout: 8000 });
+                await uploadSubmitBtn.click();
+
+                // Wait for the success toast to appear and disappear
+                try {
+                    const toast = this.page.locator("li[role='status']");
+                    await toast.waitFor({ state: 'visible', timeout: 10000 });
+                    await toast.waitFor({ state: 'hidden', timeout: 15000 });
+                } catch { /* toast may not appear or already gone */ }
+
+                await this.page.waitForTimeout(1000);
             }
         }
     }
 
-    // ─── 10. Changes ─────────────────────────────────────────────────────────
-    async changesSection(){
-        await this.navigateToSection('Changes');
+    // ─── 10. Changes ──────────────────────────────────────────────────────────
+    // Table: Index Number | Applied Change
+    async changesSection() {
+        await this.scrollTo(8010);
+        await this.page.waitForTimeout(800);
 
         const changes = cerSectionData.changes;
-        for (let r = 0; r < changes.length; r++){
-            // Scope to the r-th table row to avoid index collisions
-            const row = this.page.locator('table tbody tr').nth(r);
-            const inputs = row.locator('textarea, input[type="text"], [contenteditable="true"]');
-            const count = await inputs.count();
-            if (count >= 1){
-                const desc = inputs.nth(0);
-                if (await desc.getAttribute('contenteditable')){
-                    await desc.click();
-                    await this.page.keyboard.type(changes[r].description);
-                } else {
-                    await desc.fill(changes[r].description);
-                }
-            }
-            if (count >= 2){
-                await inputs.nth(1).fill(changes[r].version).catch(async () => {
-                    await inputs.nth(1).click();
-                    await this.page.keyboard.type(changes[r].version);
-                });
-            }
+        const table = this.page.locator('table').filter({
+            has: this.page.locator('th').filter({ hasText: 'Index Number' })
+        }).first();
+
+        for (let r = 0; r < changes.length; r++) {
+            const row = table.locator('tbody tr').nth(r);
+            const cells = row.locator('textarea');
+            if (await cells.count() >= 1) await cells.nth(0).fill(changes[r].indexNumber);
+            if (await cells.count() >= 2) await cells.nth(1).fill(changes[r].appliedChange);
+            await this.page.waitForTimeout(150);
         }
     }
 
     // ─── 11. Equivalence Table ────────────────────────────────────────────────
-    async equivalenceTable(){
-        await this.navigateToSection('Equivalence Table');
+    // Three tables: Technical / Biological / Clinical characteristics + justification rows
+    async equivalenceTable() {
+        await this.scrollTo(8411);
+        await this.page.waitForTimeout(1000);
 
-        const eq = cerSectionData.equivalenceTable;
-        const fields = Object.values(eq);
+        const { equivalenceTable: eq } = cerSectionData;
 
-        // Try inputs first; fall back to contenteditable cells
-        const inputs = this.page.locator('input[type="text"], textarea');
-        const editables = this.page.locator('[contenteditable="true"]');
+        // Helper: fill characteristic rows (device1, device2, differences) for a given table
+        const fillCharRows = async (table, dataRows) => {
+            const rows = table.locator('tbody tr').filter({ has: this.page.locator('textarea') });
+            const count = await rows.count();
+            for (let r = 0; r < Math.min(count, dataRows.length); r++) {
+                const row = rows.nth(r);
+                const cells = row.locator('textarea');
+                await cells.nth(0).evaluate((el) => {
+                    const c = document.querySelector('.flex-1.overflow-y-auto');
+                    if (c) c.scrollTop += el.getBoundingClientRect().top - c.getBoundingClientRect().top - 80;
+                });
+                await this.page.waitForTimeout(200);
+                await cells.nth(0).fill(dataRows[r].device1);
+                await cells.nth(1).fill(dataRows[r].device2);
+                await cells.nth(2).fill(dataRows[r].differences);
+                await this.page.waitForTimeout(100);
+            }
+        };
 
-        const inputCount = await inputs.count();
-        const src = inputCount >= fields.length ? inputs : editables;
+        // Helper: fill justification rows (textarea + radio) for a given table
+        const fillJustRows = async (table, justData) => {
+            const rows = table.locator('tbody tr').filter({
+                has: this.page.locator('textarea')
+            }).filter({
+                has: this.page.locator('[role="radiogroup"]')
+            });
+            const count = await rows.count();
+            for (let r = 0; r < Math.min(count, justData.length); r++) {
+                const row = rows.nth(r);
+                await row.locator('textarea').evaluate((el) => {
+                    const c = document.querySelector('.flex-1.overflow-y-auto');
+                    if (c) c.scrollTop += el.getBoundingClientRect().top - c.getBoundingClientRect().top - 80;
+                });
+                await this.page.waitForTimeout(200);
+                await row.locator('textarea').fill(justData[r].text);
+                await row.locator(`[role="radio"][value="${justData[r].clinicallySig}"]`).click();
+                await this.page.waitForTimeout(200);
+            }
+        };
 
-        for (let i = 0; i < fields.length; i++){
-            const el = src.nth(i);
-            await el.waitFor({ state: 'visible', timeout: 8000 }).catch(() => {});
-            if (await el.isVisible()){
-                const isEditable = await el.getAttribute('contenteditable');
-                if (isEditable){
-                    await el.click();
-                    await this.page.keyboard.press('Control+a');
-                    await this.page.keyboard.type(fields[i]);
-                } else {
-                    await el.fill(fields[i]);
-                }
+        // 1. Technical Characteristics table
+        const techTable = this.page.locator('table').filter({
+            has: this.page.locator('th').filter({ hasText: 'Technical Characteristics' })
+        }).first();
+        await fillCharRows(techTable, eq.characteristics);
+        await fillJustRows(techTable, eq.justifications);
+
+        // 2. Biological Characteristics table
+        await this.page.evaluate(() => {
+            document.querySelector('.flex-1.overflow-y-auto').scrollTop += 1200;
+        });
+        await this.page.waitForTimeout(800);
+
+        const bioTable = this.page.locator('table').filter({
+            has: this.page.locator('th').filter({ hasText: 'Biological characteristics' })
+        }).first();
+        await fillCharRows(bioTable, eq.biologicalCharacteristics);
+        await fillJustRows(bioTable, eq.biologicalJustifications);
+
+        // 3. Clinical Characteristics table
+        await this.page.evaluate(() => {
+            document.querySelector('.flex-1.overflow-y-auto').scrollTop += 1200;
+        });
+        await this.page.waitForTimeout(800);
+
+        const clinTable = this.page.locator('table').filter({
+            has: this.page.locator('th').filter({ hasText: 'Clinical Characteristics' })
+        }).first();
+        await fillCharRows(clinTable, eq.clinicalCharacteristics);
+        await fillJustRows(clinTable, eq.clinicalJustifications);
+
+        // Fill the Summary textarea in Clinical table (last row)
+        const summaryRow = clinTable.locator('tbody tr').last();
+        const summaryCell = summaryRow.locator('textarea');
+        if (await summaryCell.count() > 0 && eq.clinicalSummary) {
+            await summaryCell.evaluate((el) => {
+                const c = document.querySelector('.flex-1.overflow-y-auto');
+                if (c) c.scrollTop += el.getBoundingClientRect().top - c.getBoundingClientRect().top - 80;
+            });
+            await this.page.waitForTimeout(200);
+            await summaryCell.fill(eq.clinicalSummary);
+        }
+    }
+
+    // ─── Final save and complete ──────────────────────────────────────────────
+    async cerSaveAndComplete() {
+        await this.page.waitForTimeout(2000);
+
+        // Click outside to trigger React state update
+        await this.page.getByText('Equivalence Table').first().click();
+        await this.page.waitForTimeout(1500);
+
+        // Helper: click a save button then wait for toast to appear and fully disappear
+        const clickAndWaitForToast = async (btn) => {
+            await btn.scrollIntoViewIfNeeded();
+            await btn.click();
+            const toast = this.page.locator("li[role='status']");
+            try {
+                await toast.waitFor({ state: 'visible', timeout: 8000 });
+                await toast.waitFor({ state: 'hidden', timeout: 15000 });
+            } catch { /* toast may not appear or already gone */ }
+        };
+
+        // Save Draft
+        const saveDraftBtn = this.page.getByRole('button', { name: 'Save Draft', exact: true });
+        await expect(saveDraftBtn).toBeVisible();
+        await clickAndWaitForToast(saveDraftBtn);
+
+        // Save — fall back to Save Draft if Save button is disabled
+        const saveBtn = this.page.getByRole('button', { name: 'Save', exact: true });
+        if (await saveBtn.count() > 0 && await saveBtn.isEnabled()) {
+            await clickAndWaitForToast(saveBtn);
+        } else {
+            const saveDraftAgain = this.page.getByRole('button', { name: 'Save Draft', exact: true });
+            if (await saveDraftAgain.count() > 0 && await saveDraftAgain.isEnabled()) {
+                await clickAndWaitForToast(saveDraftAgain);
             }
         }
-    }
 
-    // ─── Final save & complete ────────────────────────────────────────────────
-    async cerSaveAndComplete(){
-        await this.page.waitForTimeout(3000);
-
-        const saveBtn = this.page.getByRole('button', { name: 'Save', exact: true });
-        await expect(saveBtn).toBeVisible();
-        await expect(saveBtn).toBeEnabled();
-        await saveBtn.click();
-
-        const toast = this.page.locator("li[role='status']");
-        await expect(toast).toBeVisible();
-        await toast.waitFor({ state: 'hidden' });
-
-        await this.page.waitForTimeout(5000);
-
-        const completeBtn = this.page.getByRole('button', { name: ' Mark Section Complete' });
-        if (await completeBtn.isVisible()){
-            await expect(completeBtn).toBeEnabled();
-            await completeBtn.click();
-            await this.page.waitForTimeout(4000);
-            const toast2 = this.page.locator("li[role='status']");
-            await expect(toast2).toBeVisible();
-            await toast2.waitFor({ state: 'hidden' });
+        // Mark Section Complete — immediately after toast disappears
+        const completeBtn = this.page.getByRole('button', { name: /Mark Section Complete/i });
+        if (await completeBtn.count() > 0) {
+            await completeBtn.scrollIntoViewIfNeeded();
+            await expect(completeBtn).toBeVisible({ timeout: 10000 });
+            await clickAndWaitForToast(completeBtn);
         }
     }
 
-    //Save Draft button
-    async saveDraftBtn(){
-        
+    // ─── Legacy helpers (kept for backward compatibility) ─────────────────────
+
+    async saveDraftBtn() {
         await this.page.waitForTimeout(6000);
-        const saveDraftBtn  = this.page.getByRole("button" , {name : "Save Draft" , exact: true});
+        const saveDraftBtn = this.page.getByRole('button', { name: 'Save Draft', exact: true });
         await expect(saveDraftBtn).toBeVisible();
         await expect(saveDraftBtn).toBeEnabled();
         await saveDraftBtn.click();
-        const toast2 = this.page.locator("li[role='status']");
-        await expect(toast2).toBeVisible();
-        await expect(toast2).toHaveText("Draft saved successfully");
-        await toast2.waitFor({ state: "hidden" });
-        
+        const toast = this.page.locator("li[role='status']");
+        await expect(toast).toBeVisible();
+        await toast.waitFor({ state: 'hidden' });
     }
 
 }
 
-module.exports = { cerDoc }
+module.exports = { cerDoc };

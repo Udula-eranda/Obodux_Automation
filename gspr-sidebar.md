@@ -1,0 +1,5366 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - generic [ref=e7]:
+      - button "logo" [ref=e9] [cursor=pointer]:
+        - link "logo" [ref=e11]:
+          - /url: /
+          - img "logo" [ref=e12]
+      - generic [ref=e14]:
+        - combobox [ref=e17] [cursor=pointer]:
+          - generic [ref=e18]: Trocar
+          - img [ref=e19]
+        - generic [ref=e22]: Menu
+        - list [ref=e24]:
+          - listitem [ref=e25]:
+            - link "Overview" [ref=e26] [cursor=pointer]:
+              - /url: /editor/device-documentation/9825d89d-c507-4cf6-94b8-507b6756aa01/overview
+              - img [ref=e27]
+              - generic [ref=e29]: Overview
+          - listitem [ref=e30]:
+            - link "Device Information" [ref=e31] [cursor=pointer]:
+              - /url: /editor/device-documentation/9825d89d-c507-4cf6-94b8-507b6756aa01/accessory
+              - img [ref=e32]
+              - generic [ref=e34]: Device Information
+          - listitem [ref=e35]:
+            - link "Labelling" [ref=e36] [cursor=pointer]:
+              - /url: /editor/device-documentation/9825d89d-c507-4cf6-94b8-507b6756aa01/labelling/labels
+              - img [ref=e37]
+              - generic [ref=e40]: Labelling
+          - listitem [ref=e41]:
+            - link "Design" [ref=e42] [cursor=pointer]:
+              - /url: /editor/device-documentation/9825d89d-c507-4cf6-94b8-507b6756aa01/design/use-specification
+              - img [ref=e43]
+              - generic [ref=e49]: Design
+          - listitem [ref=e50]:
+            - link "Manufacture" [ref=e51] [cursor=pointer]:
+              - /url: /editor/device-documentation/9825d89d-c507-4cf6-94b8-507b6756aa01/manufacture/information
+              - img [ref=e52]
+              - generic [ref=e55]: Manufacture
+          - listitem [ref=e56]:
+            - link "Checklist" [ref=e57] [cursor=pointer]:
+              - /url: /editor/device-documentation/9825d89d-c507-4cf6-94b8-507b6756aa01/checklist/applicable-standards
+              - img [ref=e58]
+              - generic [ref=e62]: Checklist
+          - listitem [ref=e63]:
+            - link "Risk Management" [ref=e64] [cursor=pointer]:
+              - /url: /editor/device-documentation/9825d89d-c507-4cf6-94b8-507b6756aa01/risk-management/plan
+              - img [ref=e65]
+              - generic [ref=e67]: Risk Management
+          - listitem [ref=e68]:
+            - link "Clinical Evaluation" [ref=e69] [cursor=pointer]:
+              - /url: /editor/device-documentation/9825d89d-c507-4cf6-94b8-507b6756aa01/clinical-evaluation/plan
+              - img [ref=e70]
+              - generic [ref=e76]: Clinical Evaluation
+          - listitem [ref=e77]:
+            - link "Verification and Validation" [ref=e78] [cursor=pointer]:
+              - /url: /editor/device-documentation/9825d89d-c507-4cf6-94b8-507b6756aa01/verification-and-validation/vv-overview
+              - img [ref=e79]
+              - generic [ref=e82]: Verification and Validation
+          - listitem [ref=e83]:
+            - link "Post Market Surveillance" [ref=e84] [cursor=pointer]:
+              - /url: /editor/device-documentation/9825d89d-c507-4cf6-94b8-507b6756aa01/post-market-surveillance/plan
+              - img [ref=e85]
+              - generic [ref=e92]: Post Market Surveillance
+          - listitem [ref=e93]:
+            - link "Report Generation" [ref=e94] [cursor=pointer]:
+              - /url: /editor/device-documentation/9825d89d-c507-4cf6-94b8-507b6756aa01/report-generation
+              - img [ref=e95]
+              - generic [ref=e98]: Report Generation
+      - list [ref=e100]:
+        - listitem [ref=e101]:
+          - button "B Choose File Ben Diaz editor-stag.1@yopmail.com" [ref=e102] [cursor=pointer]:
+            - generic [ref=e103]:
+              - generic [ref=e105]:
+                - generic [ref=e107]: B
+                - button "Choose File" [ref=e108]
+              - generic [ref=e109]:
+                - generic [ref=e110]: Ben Diaz
+                - generic [ref=e111]: editor-stag.1@yopmail.com
+            - img [ref=e112]
+    - generic [ref=e115]:
+      - generic [ref=e116]:
+        - button "Toggle Sidebar" [ref=e118] [cursor=pointer]:
+          - img [ref=e119]
+          - generic [ref=e121]: Toggle Sidebar
+        - generic [ref=e123]:
+          - generic [ref=e124]: Trocar
+          - img [ref=e125] [cursor=pointer]
+        - generic [ref=e127]:
+          - img [ref=e129] [cursor=pointer]
+          - img [ref=e133] [cursor=pointer]
+          - paragraph [ref=e137]: Notifications (99)
+      - generic [ref=e138]:
+        - generic [ref=e139]:
+          - generic [ref=e140]:
+            - generic [ref=e142]:
+              - heading "Checklist" [level=2] [ref=e143]
+              - progressbar [ref=e144]
+              - generic [ref=e146]:
+                - generic [ref=e147]: Progress
+                - generic [ref=e148]: 1/2 Completed
+            - generic [ref=e149]:
+              - generic [ref=e151] [cursor=pointer]:
+                - generic [ref=e153]: Applicable Standards
+                - img [ref=e156]
+              - generic [ref=e160]:
+                - generic [ref=e161] [cursor=pointer]:
+                  - heading [level=3] [ref=e162]:
+                    - button [expanded] [ref=e163]:
+                      - img [ref=e164]
+                  - generic [ref=e167]: GSPR
+                - region [ref=e168]:
+                  - generic [ref=e170] [cursor=pointer]:
+                    - generic [ref=e171]:
+                      - generic [ref=e172]: I. GENERAL REQUIREMENTS
+                      - img [ref=e175]
+                    - generic [ref=e180]:
+                      - heading [level=3] [ref=e181]:
+                        - button [ref=e182]:
+                          - img [ref=e183]
+                      - generic [ref=e186]: II. DESIGN AND MANUFACTURE REQUIREMENTS
+                    - generic [ref=e189]:
+                      - heading [level=3] [ref=e190]:
+                        - button [ref=e191]:
+                          - img [ref=e192]
+                      - generic [ref=e195]: III. INFORMATION SUPPLIED WITH THE DEVICE. RELATED REQUIREMENTS
+          - generic [ref=e197]:
+            - generic [ref=e200]:
+              - text: GSPR
+              - button [ref=e202] [cursor=pointer]:
+                - img [ref=e203]
+            - generic [ref=e206]:
+              - paragraph [ref=e210]: General Safety and Performance Requirements.
+              - generic [ref=e215]:
+                - table [ref=e217]:
+                  - rowgroup [ref=e218]:
+                    - row "I General Safety and Performance Requirements" [ref=e219]:
+                      - columnheader "I" [ref=e220]
+                      - columnheader "General Safety and Performance Requirements" [ref=e221]:
+                        - generic [ref=e222]: General Safety and Performance Requirements
+                    - row "# GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1 Applicable? Rationale for non-applicable requirements Method(s) used to demonstrate conformity Technical Document Reference Met Requirement?" [ref=e223]:
+                      - columnheader "#" [ref=e224]
+                      - columnheader "GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1" [ref=e225]
+                      - columnheader "Applicable?" [ref=e226]
+                      - columnheader "Rationale for non-applicable requirements" [ref=e227]
+                      - columnheader "Method(s) used to demonstrate conformity" [ref=e228]
+                      - columnheader "Technical Document Reference" [ref=e229]
+                      - columnheader "Met Requirement?" [ref=e230]
+                - table [ref=e232]:
+                  - rowgroup [ref=e233]:
+                    - row "1 Devices shall achieve the performance intended by their manufacturer and shall be designed and manufactured in such a way that, during normal conditions of use, they are suitable for their intended purpose. They shall be safe and effective and shall not compromise the clinical condition or the safety of patients, or the safety and health of users or, where applicable, other persons, provided that any risks which may be associated with their use constitute acceptable risks when weighed against the benefits to the patient and are compatible with a high level of protection of health and safety, taking into account the generally acknowledged state of the art. Select Documents 25 Documents Selected" [ref=e234]:
+                      - cell "1" [ref=e235]:
+                        - generic [ref=e237]: "1"
+                      - cell "Devices shall achieve the performance intended by their manufacturer and shall be designed and manufactured in such a way that, during normal conditions of use, they are suitable for their intended purpose. They shall be safe and effective and shall not compromise the clinical condition or the safety of patients, or the safety and health of users or, where applicable, other persons, provided that any risks which may be associated with their use constitute acceptable risks when weighed against the benefits to the patient and are compatible with a high level of protection of health and safety, taking into account the generally acknowledged state of the art." [ref=e238]:
+                        - generic [ref=e240]: Devices shall achieve the performance intended by their manufacturer and shall be designed and manufactured in such a way that, during normal conditions of use, they are suitable for their intended purpose. They shall be safe and effective and shall not compromise the clinical condition or the safety of patients, or the safety and health of users or, where applicable, other persons, provided that any risks which may be associated with their use constitute acceptable risks when weighed against the benefits to the patient and are compatible with a high level of protection of health and safety, taking into account the generally acknowledged state of the art.
+                      - cell [ref=e241]:
+                        - radiogroup [ref=e243]:
+                          - radio "Yes" [checked] [ref=e244] [cursor=pointer]:
+                            - generic [ref=e247]: "Yes"
+                          - radio "No" [ref=e248] [cursor=pointer]:
+                            - generic [ref=e251]: "No"
+                      - cell [ref=e252]:
+                        - textbox "Type" [disabled] [ref=e254]
+                      - cell [ref=e255]:
+                        - radiogroup [ref=e258]:
+                          - generic [ref=e260]:
+                            - radio [checked] [ref=e261] [cursor=pointer]
+                            - button "Select from list" [ref=e264] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e265]
+                          - radio "Add Method" [ref=e268] [cursor=pointer]:
+                            - generic [ref=e271]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e272]:
+                        - generic [ref=e274]:
+                          - button "Select Documents" [ref=e275] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e276]
+                          - generic [ref=e278]: 25 Documents Selected
+                      - cell [ref=e279]:
+                        - radiogroup [ref=e281]:
+                          - radio "Yes" [checked] [ref=e282] [cursor=pointer]:
+                            - generic [ref=e285]: "Yes"
+                          - radio "No" [ref=e286] [cursor=pointer]:
+                            - generic [ref=e289]: "No"
+                    - row "2 The requirement in this Annex to reduce risks as far as possible means the reduction of risks as far as possible without adversely affecting the benefit-risk ratio. Select Documents 25 Documents Selected" [ref=e290]:
+                      - cell "2" [ref=e291]:
+                        - generic [ref=e293]: "2"
+                      - cell "The requirement in this Annex to reduce risks as far as possible means the reduction of risks as far as possible without adversely affecting the benefit-risk ratio." [ref=e294]:
+                        - generic [ref=e296]: The requirement in this Annex to reduce risks as far as possible means the reduction of risks as far as possible without adversely affecting the benefit-risk ratio.
+                      - cell [ref=e297]:
+                        - radiogroup [ref=e299]:
+                          - radio "Yes" [checked] [ref=e300] [cursor=pointer]:
+                            - generic [ref=e303]: "Yes"
+                          - radio "No" [ref=e304] [cursor=pointer]:
+                            - generic [ref=e307]: "No"
+                      - cell [ref=e308]:
+                        - textbox "Type" [disabled] [ref=e310]
+                      - cell [ref=e311]:
+                        - radiogroup [ref=e314]:
+                          - generic [ref=e316]:
+                            - radio [checked] [ref=e317] [cursor=pointer]
+                            - button "Select from list" [ref=e320] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e321]
+                          - radio "Add Method" [ref=e324] [cursor=pointer]:
+                            - generic [ref=e327]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e328]:
+                        - generic [ref=e330]:
+                          - button "Select Documents" [ref=e331] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e332]
+                          - generic [ref=e334]: 25 Documents Selected
+                      - cell [ref=e335]:
+                        - radiogroup [ref=e337]:
+                          - radio "Yes" [checked] [ref=e338] [cursor=pointer]:
+                            - generic [ref=e341]: "Yes"
+                          - radio "No" [ref=e342] [cursor=pointer]:
+                            - generic [ref=e345]: "No"
+                    - row [ref=e346]:
+                      - cell "3" [ref=e347]:
+                        - generic [ref=e349]: "3"
+                      - cell [ref=e350]:
+                        - generic [ref=e352]: "Manufacturers shall establish, implement, document and maintain a risk management system. Risk management shall be understood as a continuous iterative process throughout the entire lifecycle of a device, requiring regular systematic updating. In carrying out risk management manufacturers shall: (a) establish and document a risk management plan for each device; (b) identify and analyse the known and foreseeable hazards associated with each device; (c) estimate and evaluate the risks associated with, and occurring during, the intended use and during reasonably foreseeable misuse; (d) eliminate or control the risks referred to in point (c) in accordance with the requirements of Section 4; (e) evaluate the impact of information from the production phase and, in particular, from the post-market surveillance system, on hazards and the frequency of occurrence thereof, on estimates of their associated risks, as well as on the overall risk, benefit-risk ratio and risk acceptability; and (f) based on the evaluation of the impact of the information referred to in point (e), if necessary amend control measures in line with the requirements of Section 4."
+                      - cell [ref=e353]:
+                        - radiogroup [ref=e355]:
+                          - radio "Yes" [checked] [ref=e356] [cursor=pointer]:
+                            - generic [ref=e359]: "Yes"
+                          - radio "No" [ref=e360] [cursor=pointer]:
+                            - generic [ref=e363]: "No"
+                      - cell [ref=e364]:
+                        - textbox "Type" [disabled] [ref=e366]
+                      - cell [ref=e367]:
+                        - radiogroup [ref=e370]:
+                          - generic [ref=e372]:
+                            - radio [checked] [ref=e373] [cursor=pointer]
+                            - button "Select from list" [ref=e376] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e377]
+                          - radio "Add Method" [ref=e380] [cursor=pointer]:
+                            - generic [ref=e383]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e384]:
+                        - generic [ref=e386]:
+                          - button "Select Documents" [ref=e387] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e388]
+                          - generic [ref=e390]: 25 Documents Selected
+                      - cell [ref=e391]:
+                        - radiogroup [ref=e393]:
+                          - radio "Yes" [checked] [ref=e394] [cursor=pointer]:
+                            - generic [ref=e397]: "Yes"
+                          - radio "No" [ref=e398] [cursor=pointer]:
+                            - generic [ref=e401]: "No"
+                    - row [ref=e402]:
+                      - cell "4" [ref=e403]:
+                        - generic [ref=e405]: "4"
+                      - cell [ref=e406]:
+                        - generic [ref=e408]: "Risk control measures adopted by manufacturers for the design and manufacture of the devices shall conform to safety principles, taking account of the generally acknowledged state of the art. To reduce risks, Manufacturers shall manage risks so that the residual risk associated with each hazard as well as the overall residual risk is judged acceptable. In selecting the most appropriate solutions, manufacturers shall, in the following order of Risk control measures adopted by manufacturers for the design and manufacture of the devices shall conform to safety principles, taking account of the generally acknowledged state of the art. To reduce risks, Manufacturers shall manage risks so that the residual risk associated with each hazard as well as the overall residual risk is judged acceptable. In selecting the most appropriate solutions, manufacturers shall, in the following order of priority: (a) eliminate or reduce risks as far as possible through safe design and manufacture; (b) where appropriate, take adequate protection measures, including alarms if necessary, in relation to risks that cannot be eliminated; and (c) provide information for safety (warnings/precautions/contra-indications) and, where appropriate, training to users. Manufacturers shall inform users of any residual risks."
+                      - cell [ref=e409]:
+                        - radiogroup [ref=e411]:
+                          - radio "Yes" [checked] [ref=e412] [cursor=pointer]:
+                            - generic [ref=e415]: "Yes"
+                          - radio "No" [ref=e416] [cursor=pointer]:
+                            - generic [ref=e419]: "No"
+                      - cell [ref=e420]:
+                        - textbox "Type" [disabled] [ref=e422]
+                      - cell [ref=e423]:
+                        - radiogroup [ref=e426]:
+                          - generic [ref=e428]:
+                            - radio [checked] [ref=e429] [cursor=pointer]
+                            - button "Select from list" [ref=e432] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e433]
+                          - radio "Add Method" [ref=e436] [cursor=pointer]:
+                            - generic [ref=e439]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e440]:
+                        - generic [ref=e442]:
+                          - button "Select Documents" [ref=e443] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e444]
+                          - generic [ref=e446]: 25 Documents Selected
+                      - cell [ref=e447]:
+                        - radiogroup [ref=e449]:
+                          - radio "Yes" [checked] [ref=e450] [cursor=pointer]:
+                            - generic [ref=e453]: "Yes"
+                          - radio "No" [ref=e454] [cursor=pointer]:
+                            - generic [ref=e457]: "No"
+                    - 'row "5 In eliminating or reducing risks related to use error, the manufacturer shall: (a) reduce as far as possible the risks related to the ergonomic features of the device and the environment in which the device is intended to be used (design for patient safety), and (b) give consideration to the technical knowledge, experience, education, training and use environment, where applicable, and the medical and physical conditions of intended users (design for lay, professional, disabled or other users). Select Documents 25 Documents Selected" [ref=e458]':
+                      - cell "5" [ref=e459]:
+                        - generic [ref=e461]: "5"
+                      - 'cell "In eliminating or reducing risks related to use error, the manufacturer shall: (a) reduce as far as possible the risks related to the ergonomic features of the device and the environment in which the device is intended to be used (design for patient safety), and (b) give consideration to the technical knowledge, experience, education, training and use environment, where applicable, and the medical and physical conditions of intended users (design for lay, professional, disabled or other users)." [ref=e462]':
+                        - generic [ref=e464]: "In eliminating or reducing risks related to use error, the manufacturer shall: (a) reduce as far as possible the risks related to the ergonomic features of the device and the environment in which the device is intended to be used (design for patient safety), and (b) give consideration to the technical knowledge, experience, education, training and use environment, where applicable, and the medical and physical conditions of intended users (design for lay, professional, disabled or other users)."
+                      - cell [ref=e465]:
+                        - radiogroup [ref=e467]:
+                          - radio "Yes" [checked] [ref=e468] [cursor=pointer]:
+                            - generic [ref=e471]: "Yes"
+                          - radio "No" [ref=e472] [cursor=pointer]:
+                            - generic [ref=e475]: "No"
+                      - cell [ref=e476]:
+                        - textbox "Type" [disabled] [ref=e478]
+                      - cell [ref=e479]:
+                        - radiogroup [ref=e482]:
+                          - generic [ref=e484]:
+                            - radio [checked] [ref=e485] [cursor=pointer]
+                            - button "Select from list" [ref=e488] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e489]
+                          - radio "Add Method" [ref=e492] [cursor=pointer]:
+                            - generic [ref=e495]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e496]:
+                        - generic [ref=e498]:
+                          - button "Select Documents" [ref=e499] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e500]
+                          - generic [ref=e502]: 25 Documents Selected
+                      - cell [ref=e503]:
+                        - radiogroup [ref=e505]:
+                          - radio "Yes" [checked] [ref=e506] [cursor=pointer]:
+                            - generic [ref=e509]: "Yes"
+                          - radio "No" [ref=e510] [cursor=pointer]:
+                            - generic [ref=e513]: "No"
+                    - row "6 The characteristics and performance of a device shall not be adversely affected to such a degree that the health or safety of the patient or the user and, where applicable, of other persons are compromised during the lifetime of the device, as indicated by the manufacturer, when the device is subjected to the stresses which can occur during normal conditions of use and has been properly maintained in accordance with the manufacturer's instructions. Select Documents 25 Documents Selected" [ref=e514]:
+                      - cell "6" [ref=e515]:
+                        - generic [ref=e517]: "6"
+                      - cell "The characteristics and performance of a device shall not be adversely affected to such a degree that the health or safety of the patient or the user and, where applicable, of other persons are compromised during the lifetime of the device, as indicated by the manufacturer, when the device is subjected to the stresses which can occur during normal conditions of use and has been properly maintained in accordance with the manufacturer's instructions." [ref=e518]:
+                        - generic [ref=e520]: The characteristics and performance of a device shall not be adversely affected to such a degree that the health or safety of the patient or the user and, where applicable, of other persons are compromised during the lifetime of the device, as indicated by the manufacturer, when the device is subjected to the stresses which can occur during normal conditions of use and has been properly maintained in accordance with the manufacturer's instructions.
+                      - cell [ref=e521]:
+                        - radiogroup [ref=e523]:
+                          - radio "Yes" [checked] [ref=e524] [cursor=pointer]:
+                            - generic [ref=e527]: "Yes"
+                          - radio "No" [ref=e528] [cursor=pointer]:
+                            - generic [ref=e531]: "No"
+                      - cell [ref=e532]:
+                        - textbox "Type" [disabled] [ref=e534]
+                      - cell [ref=e535]:
+                        - radiogroup [ref=e538]:
+                          - generic [ref=e540]:
+                            - radio [checked] [ref=e541] [cursor=pointer]
+                            - button "Select from list" [ref=e544] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e545]
+                          - radio "Add Method" [ref=e548] [cursor=pointer]:
+                            - generic [ref=e551]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e552]:
+                        - generic [ref=e554]:
+                          - button "Select Documents" [ref=e555] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e556]
+                          - generic [ref=e558]: 25 Documents Selected
+                      - cell [ref=e559]:
+                        - radiogroup [ref=e561]:
+                          - radio "Yes" [checked] [ref=e562] [cursor=pointer]:
+                            - generic [ref=e565]: "Yes"
+                          - radio "No" [ref=e566] [cursor=pointer]:
+                            - generic [ref=e569]: "No"
+                    - row "7 Devices shall be designed, manufactured and packaged in such a way that their characteristics and performance during their intended use are not adversely affected during transport and storage, for example, through fluctuations of temperature and humidity, taking account of the instructions and information provided by the manufacturer. Select Documents 25 Documents Selected" [ref=e570]:
+                      - cell "7" [ref=e571]:
+                        - generic [ref=e573]: "7"
+                      - cell "Devices shall be designed, manufactured and packaged in such a way that their characteristics and performance during their intended use are not adversely affected during transport and storage, for example, through fluctuations of temperature and humidity, taking account of the instructions and information provided by the manufacturer." [ref=e574]:
+                        - generic [ref=e576]: Devices shall be designed, manufactured and packaged in such a way that their characteristics and performance during their intended use are not adversely affected during transport and storage, for example, through fluctuations of temperature and humidity, taking account of the instructions and information provided by the manufacturer.
+                      - cell [ref=e577]:
+                        - radiogroup [ref=e579]:
+                          - radio "Yes" [checked] [ref=e580] [cursor=pointer]:
+                            - generic [ref=e583]: "Yes"
+                          - radio "No" [ref=e584] [cursor=pointer]:
+                            - generic [ref=e587]: "No"
+                      - cell [ref=e588]:
+                        - textbox "Type" [disabled] [ref=e590]
+                      - cell [ref=e591]:
+                        - radiogroup [ref=e594]:
+                          - generic [ref=e596]:
+                            - radio [checked] [ref=e597] [cursor=pointer]
+                            - button "Select from list" [ref=e600] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e601]
+                          - radio "Add Method" [ref=e604] [cursor=pointer]:
+                            - generic [ref=e607]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e608]:
+                        - generic [ref=e610]:
+                          - button "Select Documents" [ref=e611] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e612]
+                          - generic [ref=e614]: 25 Documents Selected
+                      - cell [ref=e615]:
+                        - radiogroup [ref=e617]:
+                          - radio "Yes" [checked] [ref=e618] [cursor=pointer]:
+                            - generic [ref=e621]: "Yes"
+                          - radio "No" [ref=e622] [cursor=pointer]:
+                            - generic [ref=e625]: "No"
+                    - row "8 All known and foreseeable risks, and any undesirable side-effects, shall be minimised and be acceptable when weighed against the evaluated benefits to the patient and/or user arising from the achieved performance of the device during normal conditions of use. Select Documents 25 Documents Selected" [ref=e626]:
+                      - cell "8" [ref=e627]:
+                        - generic [ref=e629]: "8"
+                      - cell "All known and foreseeable risks, and any undesirable side-effects, shall be minimised and be acceptable when weighed against the evaluated benefits to the patient and/or user arising from the achieved performance of the device during normal conditions of use." [ref=e630]:
+                        - generic [ref=e632]: All known and foreseeable risks, and any undesirable side-effects, shall be minimised and be acceptable when weighed against the evaluated benefits to the patient and/or user arising from the achieved performance of the device during normal conditions of use.
+                      - cell [ref=e633]:
+                        - radiogroup [ref=e635]:
+                          - radio "Yes" [checked] [ref=e636] [cursor=pointer]:
+                            - generic [ref=e639]: "Yes"
+                          - radio "No" [ref=e640] [cursor=pointer]:
+                            - generic [ref=e643]: "No"
+                      - cell [ref=e644]:
+                        - textbox "Type" [disabled] [ref=e646]
+                      - cell [ref=e647]:
+                        - radiogroup [ref=e650]:
+                          - generic [ref=e652]:
+                            - radio [checked] [ref=e653] [cursor=pointer]
+                            - button "Select from list" [ref=e656] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e657]
+                          - radio "Add Method" [ref=e660] [cursor=pointer]:
+                            - generic [ref=e663]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e664]:
+                        - generic [ref=e666]:
+                          - button "Select Documents" [ref=e667] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e668]
+                          - generic [ref=e670]: 25 Documents Selected
+                      - cell [ref=e671]:
+                        - radiogroup [ref=e673]:
+                          - radio "Yes" [checked] [ref=e674] [cursor=pointer]:
+                            - generic [ref=e677]: "Yes"
+                          - radio "No" [ref=e678] [cursor=pointer]:
+                            - generic [ref=e681]: "No"
+                    - row "9 For the devices referred to in Annex XVI, the general safety requirements set out in Sections 1 and 8 shall be understood to mean that the device, when used under the conditions and for the purposes intended, does not present a risk at all or presents a risk that is no more than the maximum acceptable risk related to the product's use which is consistent with a high level of protection for the safety and health of persons. Select Documents 25 Documents Selected" [ref=e682]:
+                      - cell "9" [ref=e683]:
+                        - generic [ref=e685]: "9"
+                      - cell "For the devices referred to in Annex XVI, the general safety requirements set out in Sections 1 and 8 shall be understood to mean that the device, when used under the conditions and for the purposes intended, does not present a risk at all or presents a risk that is no more than the maximum acceptable risk related to the product's use which is consistent with a high level of protection for the safety and health of persons." [ref=e686]:
+                        - generic [ref=e688]: For the devices referred to in Annex XVI, the general safety requirements set out in Sections 1 and 8 shall be understood to mean that the device, when used under the conditions and for the purposes intended, does not present a risk at all or presents a risk that is no more than the maximum acceptable risk related to the product's use which is consistent with a high level of protection for the safety and health of persons.
+                      - cell [ref=e689]:
+                        - radiogroup [ref=e691]:
+                          - radio "Yes" [checked] [ref=e692] [cursor=pointer]:
+                            - generic [ref=e695]: "Yes"
+                          - radio "No" [ref=e696] [cursor=pointer]:
+                            - generic [ref=e699]: "No"
+                      - cell [ref=e700]:
+                        - textbox "Type" [disabled] [ref=e702]
+                      - cell [ref=e703]:
+                        - radiogroup [ref=e706]:
+                          - generic [ref=e708]:
+                            - radio [checked] [ref=e709] [cursor=pointer]
+                            - button "Select from list" [ref=e712] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e713]
+                          - radio "Add Method" [ref=e716] [cursor=pointer]:
+                            - generic [ref=e719]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e720]:
+                        - generic [ref=e722]:
+                          - button "Select Documents" [ref=e723] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e724]
+                          - generic [ref=e726]: 25 Documents Selected
+                      - cell [ref=e727]:
+                        - radiogroup [ref=e729]:
+                          - radio "Yes" [checked] [ref=e730] [cursor=pointer]:
+                            - generic [ref=e733]: "Yes"
+                          - radio "No" [ref=e734] [cursor=pointer]:
+                            - generic [ref=e737]: "No"
+              - paragraph [ref=e741]: II. Requirements Regarding Design and Manufacture
+              - generic [ref=e746]:
+                - table [ref=e748]:
+                  - rowgroup [ref=e749]:
+                    - row "10 Chemical, physical and biological properties" [ref=e750]:
+                      - columnheader "10" [ref=e751]
+                      - columnheader "Chemical, physical and biological properties" [ref=e752]:
+                        - generic [ref=e753]: Chemical, physical and biological properties
+                    - row "# GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1 Applicable? Rationale for non-applicable requirements Method(s) used to demonstrate conformity Technical Document Reference Met Requirement?" [ref=e754]:
+                      - columnheader "#" [ref=e755]
+                      - columnheader "GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1" [ref=e756]
+                      - columnheader "Applicable?" [ref=e757]
+                      - columnheader "Rationale for non-applicable requirements" [ref=e758]
+                      - columnheader "Method(s) used to demonstrate conformity" [ref=e759]
+                      - columnheader "Technical Document Reference" [ref=e760]
+                      - columnheader "Met Requirement?" [ref=e761]
+                - table [ref=e763]:
+                  - rowgroup [ref=e764]:
+                    - row [ref=e765]:
+                      - cell "10.1" [ref=e766]:
+                        - generic [ref=e768]: "10.1"
+                      - cell [ref=e769]:
+                        - generic [ref=e771]: "Devices shall be designed and manufactured in such a way as to ensure that the characteristics and performance requirements referred to in Chapter I are fulfilled. Particular attention shall be paid to: (a) the choice of materials and substances used, particularly as regards toxicity and, where relevant, flammability; (b) the compatibility between the materials and substances used and biological tissues, cells and body fluids, taking account of the intended purpose of the device and, where relevant, absorption, distribution, metabolism and excretion; (c) the compatibility between the different parts of a device which consists of more than one implantable part; (d) the impact of processes on material properties; (e) where appropriate, the results of biophysical or modelling research the validity of which has been demonstrated beforehand; (f) the mechanical properties of the materials used, reflecting, where appropriate, matters such as strength, ductility, fracture resistance, wear resistance and fatigue resistance; (g) surface properties; and (h) the confirmation that the device meets any defined chemical and/or physical specifications."
+                      - cell [ref=e772]:
+                        - radiogroup [ref=e774]:
+                          - radio "Yes" [checked] [ref=e775] [cursor=pointer]:
+                            - generic [ref=e778]: "Yes"
+                          - radio "No" [ref=e779] [cursor=pointer]:
+                            - generic [ref=e782]: "No"
+                      - cell [ref=e783]:
+                        - textbox "Type" [disabled] [ref=e785]
+                      - cell [ref=e786]:
+                        - radiogroup [ref=e789]:
+                          - generic [ref=e791]:
+                            - radio [checked] [ref=e792] [cursor=pointer]
+                            - button "Select from list" [ref=e795] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e796]
+                          - radio "Add Method" [ref=e799] [cursor=pointer]:
+                            - generic [ref=e802]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e803]:
+                        - generic [ref=e805]:
+                          - button "Select Documents" [ref=e806] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e807]
+                          - generic [ref=e809]: 25 Documents Selected
+                      - cell [ref=e810]:
+                        - radiogroup [ref=e812]:
+                          - radio "Yes" [checked] [ref=e813] [cursor=pointer]:
+                            - generic [ref=e816]: "Yes"
+                          - radio "No" [ref=e817] [cursor=pointer]:
+                            - generic [ref=e820]: "No"
+                    - row "10.2 Devices shall be designed, manufactured and packaged in such a way as to minimise the risk posed by contaminants and residues to patients, taking account of the intended purpose of the device, and to the persons involved in the transport, storage and use of the devices. Particular attention shall be paid to tissues exposed to those contaminants and residues and to the duration and frequency of exposure. Select Documents 25 Documents Selected" [ref=e821]:
+                      - cell "10.2" [ref=e822]:
+                        - generic [ref=e824]: "10.2"
+                      - cell "Devices shall be designed, manufactured and packaged in such a way as to minimise the risk posed by contaminants and residues to patients, taking account of the intended purpose of the device, and to the persons involved in the transport, storage and use of the devices. Particular attention shall be paid to tissues exposed to those contaminants and residues and to the duration and frequency of exposure." [ref=e825]:
+                        - generic [ref=e827]: Devices shall be designed, manufactured and packaged in such a way as to minimise the risk posed by contaminants and residues to patients, taking account of the intended purpose of the device, and to the persons involved in the transport, storage and use of the devices. Particular attention shall be paid to tissues exposed to those contaminants and residues and to the duration and frequency of exposure.
+                      - cell [ref=e828]:
+                        - radiogroup [ref=e830]:
+                          - radio "Yes" [checked] [ref=e831] [cursor=pointer]:
+                            - generic [ref=e834]: "Yes"
+                          - radio "No" [ref=e835] [cursor=pointer]:
+                            - generic [ref=e838]: "No"
+                      - cell [ref=e839]:
+                        - textbox "Type" [disabled] [ref=e841]
+                      - cell [ref=e842]:
+                        - radiogroup [ref=e845]:
+                          - generic [ref=e847]:
+                            - radio [checked] [ref=e848] [cursor=pointer]
+                            - button "Select from list" [ref=e851] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e852]
+                          - radio "Add Method" [ref=e855] [cursor=pointer]:
+                            - generic [ref=e858]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e859]:
+                        - generic [ref=e861]:
+                          - button "Select Documents" [ref=e862] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e863]
+                          - generic [ref=e865]: 25 Documents Selected
+                      - cell [ref=e866]:
+                        - radiogroup [ref=e868]:
+                          - radio "Yes" [checked] [ref=e869] [cursor=pointer]:
+                            - generic [ref=e872]: "Yes"
+                          - radio "No" [ref=e873] [cursor=pointer]:
+                            - generic [ref=e876]: "No"
+                    - row "10.3 Devices shall be designed and manufactured in such a way that they can be used safely with the materials and substances, including gases, with which they enter into contact during their intended use; if the devices are intended to administer medicinal products they shall be designed and manufactured in such a way as to be compatible with the medicinal products concerned in accordance with the provisions and restrictions governing those medicinal products and that the performance of both the medicinal products and of the devices is maintained in accordance with their respective indications and intended use. Select Documents 25 Documents Selected" [ref=e877]:
+                      - cell "10.3" [ref=e878]:
+                        - generic [ref=e880]: "10.3"
+                      - cell "Devices shall be designed and manufactured in such a way that they can be used safely with the materials and substances, including gases, with which they enter into contact during their intended use; if the devices are intended to administer medicinal products they shall be designed and manufactured in such a way as to be compatible with the medicinal products concerned in accordance with the provisions and restrictions governing those medicinal products and that the performance of both the medicinal products and of the devices is maintained in accordance with their respective indications and intended use." [ref=e881]:
+                        - generic [ref=e883]: Devices shall be designed and manufactured in such a way that they can be used safely with the materials and substances, including gases, with which they enter into contact during their intended use; if the devices are intended to administer medicinal products they shall be designed and manufactured in such a way as to be compatible with the medicinal products concerned in accordance with the provisions and restrictions governing those medicinal products and that the performance of both the medicinal products and of the devices is maintained in accordance with their respective indications and intended use.
+                      - cell [ref=e884]:
+                        - radiogroup [ref=e886]:
+                          - radio "Yes" [checked] [ref=e887] [cursor=pointer]:
+                            - generic [ref=e890]: "Yes"
+                          - radio "No" [ref=e891] [cursor=pointer]:
+                            - generic [ref=e894]: "No"
+                      - cell [ref=e895]:
+                        - textbox "Type" [disabled] [ref=e897]
+                      - cell [ref=e898]:
+                        - radiogroup [ref=e901]:
+                          - generic [ref=e903]:
+                            - radio [checked] [ref=e904] [cursor=pointer]
+                            - button "Select from list" [ref=e907] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e908]
+                          - radio "Add Method" [ref=e911] [cursor=pointer]:
+                            - generic [ref=e914]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e915]:
+                        - generic [ref=e917]:
+                          - button "Select Documents" [ref=e918] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e919]
+                          - generic [ref=e921]: 25 Documents Selected
+                      - cell [ref=e922]:
+                        - radiogroup [ref=e924]:
+                          - radio "Yes" [checked] [ref=e925] [cursor=pointer]:
+                            - generic [ref=e928]: "Yes"
+                          - radio "No" [ref=e929] [cursor=pointer]:
+                            - generic [ref=e932]: "No"
+              - generic [ref=e937]:
+                - table [ref=e939]:
+                  - rowgroup [ref=e940]:
+                    - row "10.4 Substances" [ref=e941]:
+                      - columnheader "10.4" [ref=e942]
+                      - columnheader "Substances" [ref=e943]:
+                        - generic [ref=e944]: Substances
+                    - row "# GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1 Applicable? Rationale for non-applicable requirements Method(s) used to demonstrate conformity Technical Document Reference Met Requirement?" [ref=e945]:
+                      - columnheader "#" [ref=e946]
+                      - columnheader "GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1" [ref=e947]
+                      - columnheader "Applicable?" [ref=e948]
+                      - columnheader "Rationale for non-applicable requirements" [ref=e949]
+                      - columnheader "Method(s) used to demonstrate conformity" [ref=e950]
+                      - columnheader "Technical Document Reference" [ref=e951]
+                      - columnheader "Met Requirement?" [ref=e952]
+                - table [ref=e954]:
+                  - rowgroup [ref=e955]:
+                    - row [ref=e956]:
+                      - cell "10.4.1" [ref=e957]:
+                        - generic [ref=e959]: 10.4.1
+                      - cell [ref=e960]:
+                        - generic [ref=e962]: "Design and manufacture of devices Devices shall be designed and manufactured in such a way as to reduce as far as possible the risks posed by substances or particles, including wear debris, degradation products and processing residues, that may be released from the device. Devices, or those parts thereof or those materials used therein that: — are invasive and come into direct contact with the human body, — (re)administer medicines, body liquids or other substances, including gases, to/from the body, or — transport or store such medicines, body fluids or substances, including gases, to be (re)administered to the body, shall only contain the following substances in a concentration that is above 0,1 % weight by weight (w/w) where justified pursuant to Section 10.4.2: (a) substances which are carcinogenic, mutagenic or toxic to reproduction (‘CMR’), of category 1A or 1B, in accordance with Part 3 of Annex VI to Regulation (EC) No 1272/2008 of the European Parliament and of the Council [1], or (b) substances having endocrine-disrupting properties for which there is scientific evidence of probable serious effects to human health and which are identified either in accordance with the procedure set out in Article 59 of Regulation (EC) No 1907/2006 of the European Parliament and of the Council [2] or, once a delegated act has been adopted by the Commission pursuant to the first subparagraph of Article 5(3) of Regulation (EU) No 528/2012 of the European Parliament and the Council [3], in accordance with the criteria that are relevant to human health amongst the criteria established therein."
+                      - cell [ref=e963]:
+                        - radiogroup [ref=e965]:
+                          - radio "Yes" [checked] [ref=e966] [cursor=pointer]:
+                            - generic [ref=e969]: "Yes"
+                          - radio "No" [ref=e970] [cursor=pointer]:
+                            - generic [ref=e973]: "No"
+                      - cell [ref=e974]:
+                        - textbox "Type" [disabled] [ref=e976]
+                      - cell [ref=e977]:
+                        - radiogroup [ref=e980]:
+                          - generic [ref=e982]:
+                            - radio [checked] [ref=e983] [cursor=pointer]
+                            - button "Select from list" [ref=e986] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e987]
+                          - radio "Add Method" [ref=e990] [cursor=pointer]:
+                            - generic [ref=e993]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e994]:
+                        - generic [ref=e996]:
+                          - button "Select Documents" [ref=e997] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e998]
+                          - generic [ref=e1000]: 25 Documents Selected
+                      - cell [ref=e1001]:
+                        - radiogroup [ref=e1003]:
+                          - radio "Yes" [checked] [ref=e1004] [cursor=pointer]:
+                            - generic [ref=e1007]: "Yes"
+                          - radio "No" [ref=e1008] [cursor=pointer]:
+                            - generic [ref=e1011]: "No"
+                    - row [ref=e1012]:
+                      - cell "10.4.2" [ref=e1013]:
+                        - generic [ref=e1015]: 10.4.2
+                      - cell [ref=e1016]:
+                        - generic [ref=e1018]: "Justification regarding the presence of CMR and/or endocrine-disrupting substances The justification for the presence of such substances shall be based upon: (a) an analysis and estimation of potential patient or user exposure to the substance; (b) an analysis of possible alternative substances, materials or designs, including, where available, information about independent research, peer-reviewed studies, scientific opinions from relevant scientific committees and an analysis of the availability of such alternatives; (c) argumentation as to why possible substance and/ or material substitutes, if available, or design changes, if feasible, are inappropriate in relation to maintaining the functionality, performance and the benefit-risk ratios of the product; including taking into account if the intended use of such devices includes treatment of children or treatment of pregnant or breastfeeding women or treatment of other patient groups considered particularly vulnerable to such substances and/or materials; and (d) where applicable and available, the latest relevant scientific committee guidelines in accordance with Sections 10.4.3. and 10.4.4."
+                      - cell [ref=e1019]:
+                        - radiogroup [ref=e1021]:
+                          - radio "Yes" [checked] [ref=e1022] [cursor=pointer]:
+                            - generic [ref=e1025]: "Yes"
+                          - radio "No" [ref=e1026] [cursor=pointer]:
+                            - generic [ref=e1029]: "No"
+                      - cell [ref=e1030]:
+                        - textbox "Type" [disabled] [ref=e1032]
+                      - cell [ref=e1033]:
+                        - radiogroup [ref=e1036]:
+                          - generic [ref=e1038]:
+                            - radio [checked] [ref=e1039] [cursor=pointer]
+                            - button "Select from list" [ref=e1042] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e1043]
+                          - radio "Add Method" [ref=e1046] [cursor=pointer]:
+                            - generic [ref=e1049]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e1050]:
+                        - generic [ref=e1052]:
+                          - button "Select Documents" [ref=e1053] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e1054]
+                          - generic [ref=e1056]: 25 Documents Selected
+                      - cell [ref=e1057]:
+                        - radiogroup [ref=e1059]:
+                          - radio "Yes" [checked] [ref=e1060] [cursor=pointer]:
+                            - generic [ref=e1063]: "Yes"
+                          - radio "No" [ref=e1064] [cursor=pointer]:
+                            - generic [ref=e1067]: "No"
+                    - row "10.4.3 Guidelines on phthalates For the purposes of Section 10.4., the Commission shall, as soon as possible and by 26 May 2018, provide the relevant scientific committee with a mandate to prepare guidelines that shall be ready before 26 May 2020. The mandate for the committee shall encompass at least a benefit-risk assessment of the presence of phthalates which belong to either of the groups of substances referred to in points (a) and (b) of Section 10.4.1. The benefit-risk assessment shall take into account the intended purpose and context of the use of the device, as well as any available alternative substances and alternative materials, designs or medical treatments. When deemed appropriate on the basis of the latest scientific evidence, but at least every five years, the guidelines shall be updated. Select Documents 25 Documents Selected" [ref=e1068]:
+                      - cell "10.4.3" [ref=e1069]:
+                        - generic [ref=e1071]: 10.4.3
+                      - cell "Guidelines on phthalates For the purposes of Section 10.4., the Commission shall, as soon as possible and by 26 May 2018, provide the relevant scientific committee with a mandate to prepare guidelines that shall be ready before 26 May 2020. The mandate for the committee shall encompass at least a benefit-risk assessment of the presence of phthalates which belong to either of the groups of substances referred to in points (a) and (b) of Section 10.4.1. The benefit-risk assessment shall take into account the intended purpose and context of the use of the device, as well as any available alternative substances and alternative materials, designs or medical treatments. When deemed appropriate on the basis of the latest scientific evidence, but at least every five years, the guidelines shall be updated." [ref=e1072]:
+                        - generic [ref=e1074]: Guidelines on phthalates For the purposes of Section 10.4., the Commission shall, as soon as possible and by 26 May 2018, provide the relevant scientific committee with a mandate to prepare guidelines that shall be ready before 26 May 2020. The mandate for the committee shall encompass at least a benefit-risk assessment of the presence of phthalates which belong to either of the groups of substances referred to in points (a) and (b) of Section 10.4.1. The benefit-risk assessment shall take into account the intended purpose and context of the use of the device, as well as any available alternative substances and alternative materials, designs or medical treatments. When deemed appropriate on the basis of the latest scientific evidence, but at least every five years, the guidelines shall be updated.
+                      - cell [ref=e1075]:
+                        - radiogroup [ref=e1077]:
+                          - radio "Yes" [checked] [ref=e1078] [cursor=pointer]:
+                            - generic [ref=e1081]: "Yes"
+                          - radio "No" [ref=e1082] [cursor=pointer]:
+                            - generic [ref=e1085]: "No"
+                      - cell [ref=e1086]:
+                        - textbox "Type" [disabled] [ref=e1088]
+                      - cell [ref=e1089]:
+                        - radiogroup [ref=e1092]:
+                          - generic [ref=e1094]:
+                            - radio [checked] [ref=e1095] [cursor=pointer]
+                            - button "Select from list" [ref=e1098] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e1099]
+                          - radio "Add Method" [ref=e1102] [cursor=pointer]:
+                            - generic [ref=e1105]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e1106]:
+                        - generic [ref=e1108]:
+                          - button "Select Documents" [ref=e1109] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e1110]
+                          - generic [ref=e1112]: 25 Documents Selected
+                      - cell [ref=e1113]:
+                        - radiogroup [ref=e1115]:
+                          - radio "Yes" [checked] [ref=e1116] [cursor=pointer]:
+                            - generic [ref=e1119]: "Yes"
+                          - radio "No" [ref=e1120] [cursor=pointer]:
+                            - generic [ref=e1123]: "No"
+                    - row "10.4.4 Guidelines on other CMR and endocrine-disrupting substances Subsequently, the Commission shall mandate the relevant scientific committee to prepare guidelines as referred to in Section 10.4.3. also for other substances referred to in points (a) and (b) of Section 10.4.1., where appropriate. Select Documents 25 Documents Selected" [ref=e1124]:
+                      - cell "10.4.4" [ref=e1125]:
+                        - generic [ref=e1127]: 10.4.4
+                      - cell "Guidelines on other CMR and endocrine-disrupting substances Subsequently, the Commission shall mandate the relevant scientific committee to prepare guidelines as referred to in Section 10.4.3. also for other substances referred to in points (a) and (b) of Section 10.4.1., where appropriate." [ref=e1128]:
+                        - generic [ref=e1130]: Guidelines on other CMR and endocrine-disrupting substances Subsequently, the Commission shall mandate the relevant scientific committee to prepare guidelines as referred to in Section 10.4.3. also for other substances referred to in points (a) and (b) of Section 10.4.1., where appropriate.
+                      - cell [ref=e1131]:
+                        - radiogroup [ref=e1133]:
+                          - radio "Yes" [checked] [ref=e1134] [cursor=pointer]:
+                            - generic [ref=e1137]: "Yes"
+                          - radio "No" [ref=e1138] [cursor=pointer]:
+                            - generic [ref=e1141]: "No"
+                      - cell [ref=e1142]:
+                        - textbox "Type" [disabled] [ref=e1144]
+                      - cell [ref=e1145]:
+                        - radiogroup [ref=e1148]:
+                          - generic [ref=e1150]:
+                            - radio [checked] [ref=e1151] [cursor=pointer]
+                            - button "Select from list" [ref=e1154] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e1155]
+                          - radio "Add Method" [ref=e1158] [cursor=pointer]:
+                            - generic [ref=e1161]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e1162]:
+                        - generic [ref=e1164]:
+                          - button "Select Documents" [ref=e1165] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e1166]
+                          - generic [ref=e1168]: 25 Documents Selected
+                      - cell [ref=e1169]:
+                        - radiogroup [ref=e1171]:
+                          - radio "Yes" [checked] [ref=e1172] [cursor=pointer]:
+                            - generic [ref=e1175]: "Yes"
+                          - radio "No" [ref=e1176] [cursor=pointer]:
+                            - generic [ref=e1179]: "No"
+                    - row "10.4.5 Labelling Where devices, parts thereof or materials used therein as referred to in Section 10.4.1. contain substances referred to in points (a) or (b) of Section 10.4.1. in a concentration above 0,1 % weight by weight (w/w), the presence of those substances shall be labelled on the device itself and/or on the packaging for each unit or, where appropriate, on the sales packaging, with the list of such substances. If the intended use of such devices includes treatment of children or treatment of pregnant or breastfeeding women or treatment of other patient groups considered particularly vulnerable to such substances and/or materials, information on residual risks for those patient groups and, if applicable, on appropriate precautionary measures shall be given in the instructions for use. Select Documents 25 Documents Selected" [ref=e1180]:
+                      - cell "10.4.5" [ref=e1181]:
+                        - generic [ref=e1183]: 10.4.5
+                      - cell "Labelling Where devices, parts thereof or materials used therein as referred to in Section 10.4.1. contain substances referred to in points (a) or (b) of Section 10.4.1. in a concentration above 0,1 % weight by weight (w/w), the presence of those substances shall be labelled on the device itself and/or on the packaging for each unit or, where appropriate, on the sales packaging, with the list of such substances. If the intended use of such devices includes treatment of children or treatment of pregnant or breastfeeding women or treatment of other patient groups considered particularly vulnerable to such substances and/or materials, information on residual risks for those patient groups and, if applicable, on appropriate precautionary measures shall be given in the instructions for use." [ref=e1184]:
+                        - generic [ref=e1186]: Labelling Where devices, parts thereof or materials used therein as referred to in Section 10.4.1. contain substances referred to in points (a) or (b) of Section 10.4.1. in a concentration above 0,1 % weight by weight (w/w), the presence of those substances shall be labelled on the device itself and/or on the packaging for each unit or, where appropriate, on the sales packaging, with the list of such substances. If the intended use of such devices includes treatment of children or treatment of pregnant or breastfeeding women or treatment of other patient groups considered particularly vulnerable to such substances and/or materials, information on residual risks for those patient groups and, if applicable, on appropriate precautionary measures shall be given in the instructions for use.
+                      - cell [ref=e1187]:
+                        - radiogroup [ref=e1189]:
+                          - radio "Yes" [checked] [ref=e1190] [cursor=pointer]:
+                            - generic [ref=e1193]: "Yes"
+                          - radio "No" [ref=e1194] [cursor=pointer]:
+                            - generic [ref=e1197]: "No"
+                      - cell [ref=e1198]:
+                        - textbox "Type" [disabled] [ref=e1200]
+                      - cell [ref=e1201]:
+                        - radiogroup [ref=e1204]:
+                          - generic [ref=e1206]:
+                            - radio [checked] [ref=e1207] [cursor=pointer]
+                            - button "Select from list" [ref=e1210] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e1211]
+                          - radio "Add Method" [ref=e1214] [cursor=pointer]:
+                            - generic [ref=e1217]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e1218]:
+                        - generic [ref=e1220]:
+                          - button "Select Documents" [ref=e1221] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e1222]
+                          - generic [ref=e1224]: 25 Documents Selected
+                      - cell [ref=e1225]:
+                        - radiogroup [ref=e1227]:
+                          - radio "Yes" [checked] [ref=e1228] [cursor=pointer]:
+                            - generic [ref=e1231]: "Yes"
+                          - radio "No" [ref=e1232] [cursor=pointer]:
+                            - generic [ref=e1235]: "No"
+                    - row "10.5 Devices shall be designed and manufactured in such a way as to reduce as far as possible the risks posed by the unintentional ingress of substances into the device taking into account the device and the nature of the environment in which it is intended to be used. Select Documents 25 Documents Selected" [ref=e1236]:
+                      - cell "10.5" [ref=e1237]:
+                        - generic [ref=e1239]: "10.5"
+                      - cell "Devices shall be designed and manufactured in such a way as to reduce as far as possible the risks posed by the unintentional ingress of substances into the device taking into account the device and the nature of the environment in which it is intended to be used." [ref=e1240]:
+                        - generic [ref=e1242]: Devices shall be designed and manufactured in such a way as to reduce as far as possible the risks posed by the unintentional ingress of substances into the device taking into account the device and the nature of the environment in which it is intended to be used.
+                      - cell [ref=e1243]:
+                        - radiogroup [ref=e1245]:
+                          - radio "Yes" [checked] [ref=e1246] [cursor=pointer]:
+                            - generic [ref=e1249]: "Yes"
+                          - radio "No" [ref=e1250] [cursor=pointer]:
+                            - generic [ref=e1253]: "No"
+                      - cell [ref=e1254]:
+                        - textbox "Type" [disabled] [ref=e1256]
+                      - cell [ref=e1257]:
+                        - radiogroup [ref=e1260]:
+                          - generic [ref=e1262]:
+                            - radio [checked] [ref=e1263] [cursor=pointer]
+                            - button "Select from list" [ref=e1266] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e1267]
+                          - radio "Add Method" [ref=e1270] [cursor=pointer]:
+                            - generic [ref=e1273]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e1274]:
+                        - generic [ref=e1276]:
+                          - button "Select Documents" [ref=e1277] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e1278]
+                          - generic [ref=e1280]: 25 Documents Selected
+                      - cell [ref=e1281]:
+                        - radiogroup [ref=e1283]:
+                          - radio "Yes" [checked] [ref=e1284] [cursor=pointer]:
+                            - generic [ref=e1287]: "Yes"
+                          - radio "No" [ref=e1288] [cursor=pointer]:
+                            - generic [ref=e1291]: "No"
+                    - row "10.6 Devices shall be designed and manufactured in such a way as to reduce as far as possible the risks linked to the size and the properties of particles which are or can be released into the patient's or user's body, unless they come into contact with intact skin only. Special attention shall be given to nanomaterials. Select Documents 25 Documents Selected" [ref=e1292]:
+                      - cell "10.6" [ref=e1293]:
+                        - generic [ref=e1295]: "10.6"
+                      - cell "Devices shall be designed and manufactured in such a way as to reduce as far as possible the risks linked to the size and the properties of particles which are or can be released into the patient's or user's body, unless they come into contact with intact skin only. Special attention shall be given to nanomaterials." [ref=e1296]:
+                        - generic [ref=e1298]: Devices shall be designed and manufactured in such a way as to reduce as far as possible the risks linked to the size and the properties of particles which are or can be released into the patient's or user's body, unless they come into contact with intact skin only. Special attention shall be given to nanomaterials.
+                      - cell [ref=e1299]:
+                        - radiogroup [ref=e1301]:
+                          - radio "Yes" [checked] [ref=e1302] [cursor=pointer]:
+                            - generic [ref=e1305]: "Yes"
+                          - radio "No" [ref=e1306] [cursor=pointer]:
+                            - generic [ref=e1309]: "No"
+                      - cell [ref=e1310]:
+                        - textbox "Type" [disabled] [ref=e1312]
+                      - cell [ref=e1313]:
+                        - radiogroup [ref=e1316]:
+                          - generic [ref=e1318]:
+                            - radio [checked] [ref=e1319] [cursor=pointer]
+                            - button "Select from list" [ref=e1322] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e1323]
+                          - radio "Add Method" [ref=e1326] [cursor=pointer]:
+                            - generic [ref=e1329]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e1330]:
+                        - generic [ref=e1332]:
+                          - button "Select Documents" [ref=e1333] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e1334]
+                          - generic [ref=e1336]: 25 Documents Selected
+                      - cell [ref=e1337]:
+                        - radiogroup [ref=e1339]:
+                          - radio "Yes" [checked] [ref=e1340] [cursor=pointer]:
+                            - generic [ref=e1343]: "Yes"
+                          - radio "No" [ref=e1344] [cursor=pointer]:
+                            - generic [ref=e1347]: "No"
+              - generic [ref=e1352]:
+                - table [ref=e1354]:
+                  - rowgroup [ref=e1355]:
+                    - row "11 Infection and microbial contamination" [ref=e1356]:
+                      - columnheader "11" [ref=e1357]
+                      - columnheader "Infection and microbial contamination" [ref=e1358]:
+                        - generic [ref=e1359]: Infection and microbial contamination
+                    - row "# GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1 Applicable? Rationale for non-applicable requirements Method(s) used to demonstrate conformity Technical Document Reference Met Requirement?" [ref=e1360]:
+                      - columnheader "#" [ref=e1361]
+                      - columnheader "GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1" [ref=e1362]
+                      - columnheader "Applicable?" [ref=e1363]
+                      - columnheader "Rationale for non-applicable requirements" [ref=e1364]
+                      - columnheader "Method(s) used to demonstrate conformity" [ref=e1365]
+                      - columnheader "Technical Document Reference" [ref=e1366]
+                      - columnheader "Met Requirement?" [ref=e1367]
+                - table [ref=e1369]:
+                  - rowgroup [ref=e1370]:
+                    - 'row "11.1 Devices and their manufacturing processes shall be designed in such a way as to eliminate or to reduce as far as possible the risk of infection to patients, users and, where applicable, other persons. The design shall: (a) reduce as far as possible and appropriate the risks from unintended cuts and pricks, such as needle stick injuries, (b) allow easy and safe handling, (c) reduce as far as possible any microbial leakage from the device and/or microbial exposure during use, and (d) prevent microbial contamination of the device or its content such as specimens or fluids. Select Documents 25 Documents Selected" [ref=e1371]':
+                      - cell "11.1" [ref=e1372]:
+                        - generic [ref=e1374]: "11.1"
+                      - 'cell "Devices and their manufacturing processes shall be designed in such a way as to eliminate or to reduce as far as possible the risk of infection to patients, users and, where applicable, other persons. The design shall: (a) reduce as far as possible and appropriate the risks from unintended cuts and pricks, such as needle stick injuries, (b) allow easy and safe handling, (c) reduce as far as possible any microbial leakage from the device and/or microbial exposure during use, and (d) prevent microbial contamination of the device or its content such as specimens or fluids." [ref=e1375]':
+                        - generic [ref=e1377]: "Devices and their manufacturing processes shall be designed in such a way as to eliminate or to reduce as far as possible the risk of infection to patients, users and, where applicable, other persons. The design shall: (a) reduce as far as possible and appropriate the risks from unintended cuts and pricks, such as needle stick injuries, (b) allow easy and safe handling, (c) reduce as far as possible any microbial leakage from the device and/or microbial exposure during use, and (d) prevent microbial contamination of the device or its content such as specimens or fluids."
+                      - cell [ref=e1378]:
+                        - radiogroup [ref=e1380]:
+                          - radio "Yes" [checked] [ref=e1381] [cursor=pointer]:
+                            - generic [ref=e1384]: "Yes"
+                          - radio "No" [ref=e1385] [cursor=pointer]:
+                            - generic [ref=e1388]: "No"
+                      - cell [ref=e1389]:
+                        - textbox "Type" [disabled] [ref=e1391]
+                      - cell [ref=e1392]:
+                        - radiogroup [ref=e1395]:
+                          - generic [ref=e1397]:
+                            - radio [checked] [ref=e1398] [cursor=pointer]
+                            - button "Select from list" [ref=e1401] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e1402]
+                          - radio "Add Method" [ref=e1405] [cursor=pointer]:
+                            - generic [ref=e1408]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e1409]:
+                        - generic [ref=e1411]:
+                          - button "Select Documents" [ref=e1412] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e1413]
+                          - generic [ref=e1415]: 25 Documents Selected
+                      - cell [ref=e1416]:
+                        - radiogroup [ref=e1418]:
+                          - radio "Yes" [checked] [ref=e1419] [cursor=pointer]:
+                            - generic [ref=e1422]: "Yes"
+                          - radio "No" [ref=e1423] [cursor=pointer]:
+                            - generic [ref=e1426]: "No"
+                    - row "11.2 Where necessary devices shall be designed to facilitate their safe cleaning, disinfection, and/or re-sterilisation. Select Documents 25 Documents Selected" [ref=e1427]:
+                      - cell "11.2" [ref=e1428]:
+                        - generic [ref=e1430]: "11.2"
+                      - cell "Where necessary devices shall be designed to facilitate their safe cleaning, disinfection, and/or re-sterilisation." [ref=e1431]:
+                        - generic [ref=e1433]: Where necessary devices shall be designed to facilitate their safe cleaning, disinfection, and/or re-sterilisation.
+                      - cell [ref=e1434]:
+                        - radiogroup [ref=e1436]:
+                          - radio "Yes" [checked] [ref=e1437] [cursor=pointer]:
+                            - generic [ref=e1440]: "Yes"
+                          - radio "No" [ref=e1441] [cursor=pointer]:
+                            - generic [ref=e1444]: "No"
+                      - cell [ref=e1445]:
+                        - textbox "Type" [disabled] [ref=e1447]
+                      - cell [ref=e1448]:
+                        - radiogroup [ref=e1451]:
+                          - generic [ref=e1453]:
+                            - radio [checked] [ref=e1454] [cursor=pointer]
+                            - button "Select from list" [ref=e1457] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e1458]
+                          - radio "Add Method" [ref=e1461] [cursor=pointer]:
+                            - generic [ref=e1464]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e1465]:
+                        - generic [ref=e1467]:
+                          - button "Select Documents" [ref=e1468] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e1469]
+                          - generic [ref=e1471]: 25 Documents Selected
+                      - cell [ref=e1472]:
+                        - radiogroup [ref=e1474]:
+                          - radio "Yes" [checked] [ref=e1475] [cursor=pointer]:
+                            - generic [ref=e1478]: "Yes"
+                          - radio "No" [ref=e1479] [cursor=pointer]:
+                            - generic [ref=e1482]: "No"
+                    - row "11.3 Devices labelled as having a specific microbial state shall be designed, manufactured and packaged to ensure that they remain in that state when placed on the market and remain so under the transport and storage conditions specified by the manufacturer until the protective packaging is damaged and/or opened. Select Documents 25 Documents Selected" [ref=e1483]:
+                      - cell "11.3" [ref=e1484]:
+                        - generic [ref=e1486]: "11.3"
+                      - cell "Devices labelled as having a specific microbial state shall be designed, manufactured and packaged to ensure that they remain in that state when placed on the market and remain so under the transport and storage conditions specified by the manufacturer until the protective packaging is damaged and/or opened." [ref=e1487]:
+                        - generic [ref=e1489]: Devices labelled as having a specific microbial state shall be designed, manufactured and packaged to ensure that they remain in that state when placed on the market and remain so under the transport and storage conditions specified by the manufacturer until the protective packaging is damaged and/or opened.
+                      - cell [ref=e1490]:
+                        - radiogroup [ref=e1492]:
+                          - radio "Yes" [ref=e1493] [cursor=pointer]:
+                            - generic [ref=e1496]: "Yes"
+                          - radio "No" [ref=e1497] [cursor=pointer]:
+                            - generic [ref=e1500]: "No"
+                      - cell [ref=e1501]:
+                        - textbox "Type" [disabled] [ref=e1503]
+                      - cell [ref=e1504]:
+                        - radiogroup [ref=e1507]:
+                          - generic [ref=e1509]:
+                            - radio [checked] [ref=e1510] [cursor=pointer]
+                            - button "Select from list" [ref=e1513] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e1514]
+                          - radio "Add Method" [ref=e1517] [cursor=pointer]:
+                            - generic [ref=e1520]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e1521]:
+                        - generic [ref=e1523]:
+                          - button "Select Documents" [ref=e1524] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e1525]
+                          - generic [ref=e1527]: 25 Documents Selected
+                      - cell [ref=e1528]:
+                        - radiogroup [ref=e1530]:
+                          - radio "Yes" [ref=e1531] [cursor=pointer]:
+                            - generic [ref=e1534]: "Yes"
+                          - radio "No" [ref=e1535] [cursor=pointer]:
+                            - generic [ref=e1538]: "No"
+                    - row "11.4 Devices delivered in a sterile state shall be designed, manufactured, and packaged in accordance with appropriate procedures, to ensure that they are sterile when placed on the market and that, unless the packaging which is intended to maintain their sterile condition is damaged, they remain sterile, under the transport and storage conditions specified by the manufacturer, until that packaging is opened at the point of use. It shall be ensured that the integrity of that packaging is clearly evident to the final user. Select Documents 25 Documents Selected" [ref=e1539]:
+                      - cell "11.4" [ref=e1540]:
+                        - generic [ref=e1542]: "11.4"
+                      - cell "Devices delivered in a sterile state shall be designed, manufactured, and packaged in accordance with appropriate procedures, to ensure that they are sterile when placed on the market and that, unless the packaging which is intended to maintain their sterile condition is damaged, they remain sterile, under the transport and storage conditions specified by the manufacturer, until that packaging is opened at the point of use. It shall be ensured that the integrity of that packaging is clearly evident to the final user." [ref=e1543]:
+                        - generic [ref=e1545]: Devices delivered in a sterile state shall be designed, manufactured, and packaged in accordance with appropriate procedures, to ensure that they are sterile when placed on the market and that, unless the packaging which is intended to maintain their sterile condition is damaged, they remain sterile, under the transport and storage conditions specified by the manufacturer, until that packaging is opened at the point of use. It shall be ensured that the integrity of that packaging is clearly evident to the final user.
+                      - cell [ref=e1546]:
+                        - radiogroup [ref=e1548]:
+                          - radio "Yes" [checked] [ref=e1549] [cursor=pointer]:
+                            - generic [ref=e1552]: "Yes"
+                          - radio "No" [ref=e1553] [cursor=pointer]:
+                            - generic [ref=e1556]: "No"
+                      - cell [ref=e1557]:
+                        - textbox "Type" [disabled] [ref=e1559]
+                      - cell [ref=e1560]:
+                        - radiogroup [ref=e1563]:
+                          - generic [ref=e1565]:
+                            - radio [checked] [ref=e1566] [cursor=pointer]
+                            - button "Select from list" [ref=e1569] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e1570]
+                          - radio "Add Method" [ref=e1573] [cursor=pointer]:
+                            - generic [ref=e1576]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e1577]:
+                        - generic [ref=e1579]:
+                          - button "Select Documents" [ref=e1580] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e1581]
+                          - generic [ref=e1583]: 25 Documents Selected
+                      - cell [ref=e1584]:
+                        - radiogroup [ref=e1586]:
+                          - radio "Yes" [checked] [ref=e1587] [cursor=pointer]:
+                            - generic [ref=e1590]: "Yes"
+                          - radio "No" [ref=e1591] [cursor=pointer]:
+                            - generic [ref=e1594]: "No"
+                    - row "11.5 Devices labelled as sterile shall be processed, manufactured, packaged, and sterilised by means of appropriate, validated methods. Select Documents 25 Documents Selected" [ref=e1595]:
+                      - cell "11.5" [ref=e1596]:
+                        - generic [ref=e1598]: "11.5"
+                      - cell "Devices labelled as sterile shall be processed, manufactured, packaged, and sterilised by means of appropriate, validated methods." [ref=e1599]:
+                        - generic [ref=e1601]: Devices labelled as sterile shall be processed, manufactured, packaged, and sterilised by means of appropriate, validated methods.
+                      - cell [ref=e1602]:
+                        - radiogroup [ref=e1604]:
+                          - radio "Yes" [checked] [ref=e1605] [cursor=pointer]:
+                            - generic [ref=e1608]: "Yes"
+                          - radio "No" [ref=e1609] [cursor=pointer]:
+                            - generic [ref=e1612]: "No"
+                      - cell [ref=e1613]:
+                        - textbox "Type" [disabled] [ref=e1615]
+                      - cell [ref=e1616]:
+                        - radiogroup [ref=e1619]:
+                          - generic [ref=e1621]:
+                            - radio [checked] [ref=e1622] [cursor=pointer]
+                            - button "Select from list" [ref=e1625] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e1626]
+                          - radio "Add Method" [ref=e1629] [cursor=pointer]:
+                            - generic [ref=e1632]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e1633]:
+                        - generic [ref=e1635]:
+                          - button "Select Documents" [ref=e1636] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e1637]
+                          - generic [ref=e1639]: 25 Documents Selected
+                      - cell [ref=e1640]:
+                        - radiogroup [ref=e1642]:
+                          - radio "Yes" [checked] [ref=e1643] [cursor=pointer]:
+                            - generic [ref=e1646]: "Yes"
+                          - radio "No" [ref=e1647] [cursor=pointer]:
+                            - generic [ref=e1650]: "No"
+                    - row "11.6 Devices intended to be sterilised shall be manufactured and packaged in appropriate and controlled conditions and facilities. Select Documents 25 Documents Selected" [ref=e1651]:
+                      - cell "11.6" [ref=e1652]:
+                        - generic [ref=e1654]: "11.6"
+                      - cell "Devices intended to be sterilised shall be manufactured and packaged in appropriate and controlled conditions and facilities." [ref=e1655]:
+                        - generic [ref=e1657]: Devices intended to be sterilised shall be manufactured and packaged in appropriate and controlled conditions and facilities.
+                      - cell [ref=e1658]:
+                        - radiogroup [ref=e1660]:
+                          - radio "Yes" [checked] [ref=e1661] [cursor=pointer]:
+                            - generic [ref=e1664]: "Yes"
+                          - radio "No" [ref=e1665] [cursor=pointer]:
+                            - generic [ref=e1668]: "No"
+                      - cell [ref=e1669]:
+                        - textbox "Type" [disabled] [ref=e1671]
+                      - cell [ref=e1672]:
+                        - radiogroup [ref=e1675]:
+                          - generic [ref=e1677]:
+                            - radio [checked] [ref=e1678] [cursor=pointer]
+                            - button "Select from list" [ref=e1681] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e1682]
+                          - radio "Add Method" [ref=e1685] [cursor=pointer]:
+                            - generic [ref=e1688]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e1689]:
+                        - generic [ref=e1691]:
+                          - button "Select Documents" [ref=e1692] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e1693]
+                          - generic [ref=e1695]: 25 Documents Selected
+                      - cell [ref=e1696]:
+                        - radiogroup [ref=e1698]:
+                          - radio "Yes" [checked] [ref=e1699] [cursor=pointer]:
+                            - generic [ref=e1702]: "Yes"
+                          - radio "No" [ref=e1703] [cursor=pointer]:
+                            - generic [ref=e1706]: "No"
+                    - row "11.7 Packaging systems for non-sterile devices shall maintain the integrity and cleanliness of the product until the devices are to be sterilised prior to use, minimise the risk of microbial contamination; the packaging system shall be suitable taking account of the method of sterilisation indicated by the manufacturer. Select Documents 25 Documents Selected" [ref=e1707]:
+                      - cell "11.7" [ref=e1708]:
+                        - generic [ref=e1710]: "11.7"
+                      - cell "Packaging systems for non-sterile devices shall maintain the integrity and cleanliness of the product until the devices are to be sterilised prior to use, minimise the risk of microbial contamination; the packaging system shall be suitable taking account of the method of sterilisation indicated by the manufacturer." [ref=e1711]:
+                        - generic [ref=e1713]: Packaging systems for non-sterile devices shall maintain the integrity and cleanliness of the product until the devices are to be sterilised prior to use, minimise the risk of microbial contamination; the packaging system shall be suitable taking account of the method of sterilisation indicated by the manufacturer.
+                      - cell [ref=e1714]:
+                        - radiogroup [ref=e1716]:
+                          - radio "Yes" [checked] [ref=e1717] [cursor=pointer]:
+                            - generic [ref=e1720]: "Yes"
+                          - radio "No" [ref=e1721] [cursor=pointer]:
+                            - generic [ref=e1724]: "No"
+                      - cell [ref=e1725]:
+                        - textbox "Type" [disabled] [ref=e1727]
+                      - cell [ref=e1728]:
+                        - radiogroup [ref=e1731]:
+                          - generic [ref=e1733]:
+                            - radio [checked] [ref=e1734] [cursor=pointer]
+                            - button "Select from list" [ref=e1737] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e1738]
+                          - radio "Add Method" [ref=e1741] [cursor=pointer]:
+                            - generic [ref=e1744]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e1745]:
+                        - generic [ref=e1747]:
+                          - button "Select Documents" [ref=e1748] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e1749]
+                          - generic [ref=e1751]: 25 Documents Selected
+                      - cell [ref=e1752]:
+                        - radiogroup [ref=e1754]:
+                          - radio "Yes" [checked] [ref=e1755] [cursor=pointer]:
+                            - generic [ref=e1758]: "Yes"
+                          - radio "No" [ref=e1759] [cursor=pointer]:
+                            - generic [ref=e1762]: "No"
+                    - row "11.8 The labelling of the device shall distinguish between identical or similar devices placed on the market in both a sterile and a non-sterile condition, additional to the indication on the label that devices are sterile. Select Documents 25 Documents Selected" [ref=e1763]:
+                      - cell "11.8" [ref=e1764]:
+                        - generic [ref=e1766]: "11.8"
+                      - cell "The labelling of the device shall distinguish between identical or similar devices placed on the market in both a sterile and a non-sterile condition, additional to the indication on the label that devices are sterile." [ref=e1767]:
+                        - generic [ref=e1769]: The labelling of the device shall distinguish between identical or similar devices placed on the market in both a sterile and a non-sterile condition, additional to the indication on the label that devices are sterile.
+                      - cell [ref=e1770]:
+                        - radiogroup [ref=e1772]:
+                          - radio "Yes" [ref=e1773] [cursor=pointer]:
+                            - generic [ref=e1776]: "Yes"
+                          - radio "No" [ref=e1777] [cursor=pointer]:
+                            - generic [ref=e1780]: "No"
+                      - cell [ref=e1781]:
+                        - textbox "Type" [disabled] [ref=e1783]
+                      - cell [ref=e1784]:
+                        - radiogroup [ref=e1787]:
+                          - generic [ref=e1789]:
+                            - radio [checked] [ref=e1790] [cursor=pointer]
+                            - button "Select from list" [ref=e1793] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e1794]
+                          - radio "Add Method" [ref=e1797] [cursor=pointer]:
+                            - generic [ref=e1800]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e1801]:
+                        - generic [ref=e1803]:
+                          - button "Select Documents" [ref=e1804] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e1805]
+                          - generic [ref=e1807]: 25 Documents Selected
+                      - cell [ref=e1808]:
+                        - radiogroup [ref=e1810]:
+                          - radio "Yes" [ref=e1811] [cursor=pointer]:
+                            - generic [ref=e1814]: "Yes"
+                          - radio "No" [ref=e1815] [cursor=pointer]:
+                            - generic [ref=e1818]: "No"
+              - generic [ref=e1823]:
+                - table [ref=e1825]:
+                  - rowgroup [ref=e1826]:
+                    - row "12 Devices incorporating a substance considered to be a medicinal product and devices that are composed of substances or of combinations of substances that are absorbed by or locally dispersed in the human body." [ref=e1827]:
+                      - columnheader "12" [ref=e1828]
+                      - columnheader "Devices incorporating a substance considered to be a medicinal product and devices that are composed of substances or of combinations of substances that are absorbed by or locally dispersed in the human body." [ref=e1829]:
+                        - generic [ref=e1830]: Devices incorporating a substance considered to be a medicinal product and devices that are composed of substances or of combinations of substances that are absorbed by or locally dispersed in the human body.
+                    - row "# GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1 Applicable? Rationale for non-applicable requirements Method(s) used to demonstrate conformity Technical Document Reference Met Requirement?" [ref=e1831]:
+                      - columnheader "#" [ref=e1832]
+                      - columnheader "GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1" [ref=e1833]
+                      - columnheader "Applicable?" [ref=e1834]
+                      - columnheader "Rationale for non-applicable requirements" [ref=e1835]
+                      - columnheader "Method(s) used to demonstrate conformity" [ref=e1836]
+                      - columnheader "Technical Document Reference" [ref=e1837]
+                      - columnheader "Met Requirement?" [ref=e1838]
+                - table [ref=e1840]:
+                  - rowgroup [ref=e1841]:
+                    - row "12.1 In the case of devices referred to in the first subparagraph of Article 1(8), the quality, safety and usefulness of the substance which, if used separately, would be considered to be a medicinal product within the meaning of point (2) of Article 1 of Directive 2001/83/EC, shall be verified by analogy with the methods specified in Annex I to Directive 2001/83/EC, as required by the applicable conformity assessment procedure under this Regulation. Select Documents 25 Documents Selected" [ref=e1842]:
+                      - cell "12.1" [ref=e1843]:
+                        - generic [ref=e1845]: "12.1"
+                      - cell "In the case of devices referred to in the first subparagraph of Article 1(8), the quality, safety and usefulness of the substance which, if used separately, would be considered to be a medicinal product within the meaning of point (2) of Article 1 of Directive 2001/83/EC, shall be verified by analogy with the methods specified in Annex I to Directive 2001/83/EC, as required by the applicable conformity assessment procedure under this Regulation." [ref=e1846]:
+                        - generic [ref=e1848]: In the case of devices referred to in the first subparagraph of Article 1(8), the quality, safety and usefulness of the substance which, if used separately, would be considered to be a medicinal product within the meaning of point (2) of Article 1 of Directive 2001/83/EC, shall be verified by analogy with the methods specified in Annex I to Directive 2001/83/EC, as required by the applicable conformity assessment procedure under this Regulation.
+                      - cell [ref=e1849]:
+                        - radiogroup [ref=e1851]:
+                          - radio "Yes" [checked] [ref=e1852] [cursor=pointer]:
+                            - generic [ref=e1855]: "Yes"
+                          - radio "No" [ref=e1856] [cursor=pointer]:
+                            - generic [ref=e1859]: "No"
+                      - cell [ref=e1860]:
+                        - textbox "Type" [disabled] [ref=e1862]
+                      - cell [ref=e1863]:
+                        - radiogroup [ref=e1866]:
+                          - generic [ref=e1868]:
+                            - radio [checked] [ref=e1869] [cursor=pointer]
+                            - button "Select from list" [ref=e1872] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e1873]
+                          - radio "Add Method" [ref=e1876] [cursor=pointer]:
+                            - generic [ref=e1879]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e1880]:
+                        - generic [ref=e1882]:
+                          - button "Select Documents" [ref=e1883] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e1884]
+                          - generic [ref=e1886]: 25 Documents Selected
+                      - cell [ref=e1887]:
+                        - radiogroup [ref=e1889]:
+                          - radio "Yes" [checked] [ref=e1890] [cursor=pointer]:
+                            - generic [ref=e1893]: "Yes"
+                          - radio "No" [ref=e1894] [cursor=pointer]:
+                            - generic [ref=e1897]: "No"
+                    - row "12.2 Devices that are composed of substances or of combinations of substances that are intended to be introduced into the human body, and that are absorbed by or locally dispersed in the human body shall comply, where applicable and in a manner limited to the aspects not covered by this Regulation, with the relevant requirements laid down in Annex I to Directive 2001/83/EC for the evaluation of absorption, distribution, metabolism, excretion, local tolerance, toxicity, interaction with other devices, medicinal products or other substances and potential for adverse reactions, as required by the applicable conformity assessment procedure under this Regulation Select Documents 25 Documents Selected" [ref=e1898]:
+                      - cell "12.2" [ref=e1899]:
+                        - generic [ref=e1901]: "12.2"
+                      - cell "Devices that are composed of substances or of combinations of substances that are intended to be introduced into the human body, and that are absorbed by or locally dispersed in the human body shall comply, where applicable and in a manner limited to the aspects not covered by this Regulation, with the relevant requirements laid down in Annex I to Directive 2001/83/EC for the evaluation of absorption, distribution, metabolism, excretion, local tolerance, toxicity, interaction with other devices, medicinal products or other substances and potential for adverse reactions, as required by the applicable conformity assessment procedure under this Regulation" [ref=e1902]:
+                        - generic [ref=e1904]: Devices that are composed of substances or of combinations of substances that are intended to be introduced into the human body, and that are absorbed by or locally dispersed in the human body shall comply, where applicable and in a manner limited to the aspects not covered by this Regulation, with the relevant requirements laid down in Annex I to Directive 2001/83/EC for the evaluation of absorption, distribution, metabolism, excretion, local tolerance, toxicity, interaction with other devices, medicinal products or other substances and potential for adverse reactions, as required by the applicable conformity assessment procedure under this Regulation
+                      - cell [ref=e1905]:
+                        - radiogroup [ref=e1907]:
+                          - radio "Yes" [checked] [ref=e1908] [cursor=pointer]:
+                            - generic [ref=e1911]: "Yes"
+                          - radio "No" [ref=e1912] [cursor=pointer]:
+                            - generic [ref=e1915]: "No"
+                      - cell [ref=e1916]:
+                        - textbox "Type" [disabled] [ref=e1918]
+                      - cell [ref=e1919]:
+                        - radiogroup [ref=e1922]:
+                          - generic [ref=e1924]:
+                            - radio [checked] [ref=e1925] [cursor=pointer]
+                            - button "Select from list" [ref=e1928] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e1929]
+                          - radio "Add Method" [ref=e1932] [cursor=pointer]:
+                            - generic [ref=e1935]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e1936]:
+                        - generic [ref=e1938]:
+                          - button "Select Documents" [ref=e1939] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e1940]
+                          - generic [ref=e1942]: 25 Documents Selected
+                      - cell [ref=e1943]:
+                        - radiogroup [ref=e1945]:
+                          - radio "Yes" [checked] [ref=e1946] [cursor=pointer]:
+                            - generic [ref=e1949]: "Yes"
+                          - radio "No" [ref=e1950] [cursor=pointer]:
+                            - generic [ref=e1953]: "No"
+              - generic [ref=e1958]:
+                - table [ref=e1960]:
+                  - rowgroup [ref=e1961]:
+                    - row "13 Devices incorporating materials of biological origin" [ref=e1962]:
+                      - columnheader "13" [ref=e1963]
+                      - columnheader "Devices incorporating materials of biological origin" [ref=e1964]:
+                        - generic [ref=e1965]: Devices incorporating materials of biological origin
+                    - row "# GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1 Applicable? Rationale for non-applicable requirements Method(s) used to demonstrate conformity Technical Document Reference Met Requirement?" [ref=e1966]:
+                      - columnheader "#" [ref=e1967]
+                      - columnheader "GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1" [ref=e1968]
+                      - columnheader "Applicable?" [ref=e1969]
+                      - columnheader "Rationale for non-applicable requirements" [ref=e1970]
+                      - columnheader "Method(s) used to demonstrate conformity" [ref=e1971]
+                      - columnheader "Technical Document Reference" [ref=e1972]
+                      - columnheader "Met Requirement?" [ref=e1973]
+                - table [ref=e1975]:
+                  - rowgroup [ref=e1976]:
+                    - row [ref=e1977]:
+                      - cell "13.1" [ref=e1978]:
+                        - generic [ref=e1980]: "13.1"
+                      - cell [ref=e1981]:
+                        - generic [ref=e1983]: "For devices manufactured utilising derivatives of tissues or cells of human origin which are non-viable or are rendered non-viable covered by this Regulation in accordance with point (g) of Article 1(6), the following shall apply: (a) donation, procurement and testing of the tissues and cells shall be done in accordance with Directive 2004/23/EC; (b) processing, preservation and any other handling of those tissues and cells or their derivatives shall be carried out so as to provide safety for patients, users and, where applicable, other persons. In particular, safety with regard to viruses and other transmissible agents shall be addressed by appropriate methods of sourcing and by implementation of validated methods of elimination or inactivation in the course of the manufacturing process; (c) the traceability system for those devices shall be complementary and compatible with the traceability and data protection requirements laid down in Directive 2004/23/EC and in Directive 2002/98/EC"
+                      - cell [ref=e1984]:
+                        - radiogroup [ref=e1986]:
+                          - radio "Yes" [checked] [ref=e1987] [cursor=pointer]:
+                            - generic [ref=e1990]: "Yes"
+                          - radio "No" [ref=e1991] [cursor=pointer]:
+                            - generic [ref=e1994]: "No"
+                      - cell [ref=e1995]:
+                        - textbox "Type" [disabled] [ref=e1997]
+                      - cell [ref=e1998]:
+                        - radiogroup [ref=e2001]:
+                          - generic [ref=e2003]:
+                            - radio [checked] [ref=e2004] [cursor=pointer]
+                            - button "Select from list" [ref=e2007] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e2008]
+                          - radio "Add Method" [ref=e2011] [cursor=pointer]:
+                            - generic [ref=e2014]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e2015]:
+                        - generic [ref=e2017]:
+                          - button "Select Documents" [ref=e2018] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e2019]
+                          - generic [ref=e2021]: 25 Documents Selected
+                      - cell [ref=e2022]:
+                        - radiogroup [ref=e2024]:
+                          - radio "Yes" [checked] [ref=e2025] [cursor=pointer]:
+                            - generic [ref=e2028]: "Yes"
+                          - radio "No" [ref=e2029] [cursor=pointer]:
+                            - generic [ref=e2032]: "No"
+                    - row [ref=e2033]:
+                      - cell "13.2" [ref=e2034]:
+                        - generic [ref=e2036]: "13.2"
+                      - cell [ref=e2037]:
+                        - generic [ref=e2039]: "For devices manufactured utilising tissues or cells of animal origin, or their derivatives, which are non-viable or rendered non-viable the following shall apply: (a) where feasible taking into account the animal species, tissues and cells of animal origin, or their derivatives, shall originate from animals that have been subjected to veterinary controls that are adapted to the intended use of the tissues. Information on the geographical origin of the animals shall be retained by manufacturers; (b) sourcing, processing, preservation, testing and handling of tissues, cells and substances of animal origin, or their derivatives, shall be carried out so as to provide safety for patients, users and, where applicable, other persons. In particular safety with regard to viruses and other transmissible agents shall be addressed by implementation of validated methods of elimination or viral inactivation in the course of the manufacturing process, except when the use of such methods would lead to unacceptable degradation compromising the clinical benefit of the device; (c) in the case of devices manufactured utilising tissues or cells of animal origin, or their derivatives, as referred to in Regulation (EU) No 722/2012 the particular requirements laid down in that Regulation shall apply."
+                      - cell [ref=e2040]:
+                        - radiogroup [ref=e2042]:
+                          - radio "Yes" [checked] [ref=e2043] [cursor=pointer]:
+                            - generic [ref=e2046]: "Yes"
+                          - radio "No" [ref=e2047] [cursor=pointer]:
+                            - generic [ref=e2050]: "No"
+                      - cell [ref=e2051]:
+                        - textbox "Type" [disabled] [ref=e2053]
+                      - cell [ref=e2054]:
+                        - radiogroup [ref=e2057]:
+                          - generic [ref=e2059]:
+                            - radio [checked] [ref=e2060] [cursor=pointer]
+                            - button "Select from list" [ref=e2063] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e2064]
+                          - radio "Add Method" [ref=e2067] [cursor=pointer]:
+                            - generic [ref=e2070]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e2071]:
+                        - generic [ref=e2073]:
+                          - button "Select Documents" [ref=e2074] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e2075]
+                          - generic [ref=e2077]: 25 Documents Selected
+                      - cell [ref=e2078]:
+                        - radiogroup [ref=e2080]:
+                          - radio "Yes" [checked] [ref=e2081] [cursor=pointer]:
+                            - generic [ref=e2084]: "Yes"
+                          - radio "No" [ref=e2085] [cursor=pointer]:
+                            - generic [ref=e2088]: "No"
+                    - row "13.3 For devices manufactured utilising non-viable biological substances other than those referred to in Sections 13.1 and 13.2, the processing, preservation, testing and handling of those substances shall be carried out so as to provide safety for patients, users and, where applicable, other persons, including in the waste disposal chain. In particular, safety with regard to viruses and other transmissible agents shall be addressed by appropriate methods of sourcing and by implementation of validated methods of elimination or inactivation in the course of the manufacturing process. Select Documents 25 Documents Selected" [ref=e2089]:
+                      - cell "13.3" [ref=e2090]:
+                        - generic [ref=e2092]: "13.3"
+                      - cell "For devices manufactured utilising non-viable biological substances other than those referred to in Sections 13.1 and 13.2, the processing, preservation, testing and handling of those substances shall be carried out so as to provide safety for patients, users and, where applicable, other persons, including in the waste disposal chain. In particular, safety with regard to viruses and other transmissible agents shall be addressed by appropriate methods of sourcing and by implementation of validated methods of elimination or inactivation in the course of the manufacturing process." [ref=e2093]:
+                        - generic [ref=e2095]: For devices manufactured utilising non-viable biological substances other than those referred to in Sections 13.1 and 13.2, the processing, preservation, testing and handling of those substances shall be carried out so as to provide safety for patients, users and, where applicable, other persons, including in the waste disposal chain. In particular, safety with regard to viruses and other transmissible agents shall be addressed by appropriate methods of sourcing and by implementation of validated methods of elimination or inactivation in the course of the manufacturing process.
+                      - cell [ref=e2096]:
+                        - radiogroup [ref=e2098]:
+                          - radio "Yes" [checked] [ref=e2099] [cursor=pointer]:
+                            - generic [ref=e2102]: "Yes"
+                          - radio "No" [ref=e2103] [cursor=pointer]:
+                            - generic [ref=e2106]: "No"
+                      - cell [ref=e2107]:
+                        - textbox "Type" [disabled] [ref=e2109]
+                      - cell [ref=e2110]:
+                        - radiogroup [ref=e2113]:
+                          - generic [ref=e2115]:
+                            - radio [checked] [ref=e2116] [cursor=pointer]
+                            - button "Select from list" [ref=e2119] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e2120]
+                          - radio "Add Method" [ref=e2123] [cursor=pointer]:
+                            - generic [ref=e2126]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e2127]:
+                        - generic [ref=e2129]:
+                          - button "Select Documents" [ref=e2130] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e2131]
+                          - generic [ref=e2133]: 25 Documents Selected
+                      - cell [ref=e2134]:
+                        - radiogroup [ref=e2136]:
+                          - radio "Yes" [checked] [ref=e2137] [cursor=pointer]:
+                            - generic [ref=e2140]: "Yes"
+                          - radio "No" [ref=e2141] [cursor=pointer]:
+                            - generic [ref=e2144]: "No"
+              - generic [ref=e2149]:
+                - table [ref=e2151]:
+                  - rowgroup [ref=e2152]:
+                    - row "14 Construction of devices and interaction with their environment" [ref=e2153]:
+                      - columnheader "14" [ref=e2154]
+                      - columnheader "Construction of devices and interaction with their environment" [ref=e2155]:
+                        - generic [ref=e2156]: Construction of devices and interaction with their environment
+                    - row "# GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1 Applicable? Rationale for non-applicable requirements Method(s) used to demonstrate conformity Technical Document Reference Met Requirement?" [ref=e2157]:
+                      - columnheader "#" [ref=e2158]
+                      - columnheader "GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1" [ref=e2159]
+                      - columnheader "Applicable?" [ref=e2160]
+                      - columnheader "Rationale for non-applicable requirements" [ref=e2161]
+                      - columnheader "Method(s) used to demonstrate conformity" [ref=e2162]
+                      - columnheader "Technical Document Reference" [ref=e2163]
+                      - columnheader "Met Requirement?" [ref=e2164]
+                - table [ref=e2166]:
+                  - rowgroup [ref=e2167]:
+                    - row "14.1 If the device is intended for use in combination with other devices or equipment the whole combination, including the connection system shall be safe and shall not impair the specified performance of the devices. Any restrictions on use applying to such combinations shall be indicated on the label and/or in the instructions for use. Connections which the user has to handle, such as fluid, gas transfer, electrical or mechanical coupling, shall be designed and constructed in such a way as to minimise all possible risks, such as misconnection. Select Documents 25 Documents Selected" [ref=e2168]:
+                      - cell "14.1" [ref=e2169]:
+                        - generic [ref=e2171]: "14.1"
+                      - cell "If the device is intended for use in combination with other devices or equipment the whole combination, including the connection system shall be safe and shall not impair the specified performance of the devices. Any restrictions on use applying to such combinations shall be indicated on the label and/or in the instructions for use. Connections which the user has to handle, such as fluid, gas transfer, electrical or mechanical coupling, shall be designed and constructed in such a way as to minimise all possible risks, such as misconnection." [ref=e2172]:
+                        - generic [ref=e2174]: If the device is intended for use in combination with other devices or equipment the whole combination, including the connection system shall be safe and shall not impair the specified performance of the devices. Any restrictions on use applying to such combinations shall be indicated on the label and/or in the instructions for use. Connections which the user has to handle, such as fluid, gas transfer, electrical or mechanical coupling, shall be designed and constructed in such a way as to minimise all possible risks, such as misconnection.
+                      - cell [ref=e2175]:
+                        - radiogroup [ref=e2177]:
+                          - radio "Yes" [checked] [ref=e2178] [cursor=pointer]:
+                            - generic [ref=e2181]: "Yes"
+                          - radio "No" [ref=e2182] [cursor=pointer]:
+                            - generic [ref=e2185]: "No"
+                      - cell [ref=e2186]:
+                        - textbox "Type" [disabled] [ref=e2188]
+                      - cell [ref=e2189]:
+                        - radiogroup [ref=e2192]:
+                          - generic [ref=e2194]:
+                            - radio [checked] [ref=e2195] [cursor=pointer]
+                            - button "Select from list" [ref=e2198] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e2199]
+                          - radio "Add Method" [ref=e2202] [cursor=pointer]:
+                            - generic [ref=e2205]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e2206]:
+                        - generic [ref=e2208]:
+                          - button "Select Documents" [ref=e2209] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e2210]
+                          - generic [ref=e2212]: 25 Documents Selected
+                      - cell [ref=e2213]:
+                        - radiogroup [ref=e2215]:
+                          - radio "Yes" [checked] [ref=e2216] [cursor=pointer]:
+                            - generic [ref=e2219]: "Yes"
+                          - radio "No" [ref=e2220] [cursor=pointer]:
+                            - generic [ref=e2223]: "No"
+                    - row [ref=e2224]:
+                      - cell "14.2" [ref=e2225]:
+                        - generic [ref=e2227]: "14.2"
+                      - cell [ref=e2228]:
+                        - generic [ref=e2230]: "Devices shall be designed and manufactured in such a way as to remove or reduce as far as possible: (a) the risk of injury, in connection with their physical features, including the volume/pressure ratio, dimensional and where appropriate ergonomic features; (b) risks connected with reasonably foreseeable external influences or environmental conditions, such as magnetic fields, external electrical and electromagnetic effects, electrostatic discharge, radiation associated with diagnostic or therapeutic procedures, pressure, humidity, temperature, variations in pressure and acceleration or radio signal interferences; (c) the risks associated with the use of the device when it comes into contact with materials, liquids, and substances, including gases, to which it is exposed during normal conditions of use; (d) the risks associated with the possible negative interaction between software and the IT environment within which it operates and interacts; (e) the risks of accidental ingress of substances into the device; (f) the risks of reciprocal interference with other devices normally used in the investigations or for the treatment given; and (g) risks arising where maintenance or calibration are not possible (as with implants), from ageing of materials used or loss of accuracy of any measuring or control mechanism."
+                      - cell [ref=e2231]:
+                        - radiogroup [ref=e2233]:
+                          - radio "Yes" [ref=e2234] [cursor=pointer]:
+                            - generic [ref=e2237]: "Yes"
+                          - radio "No" [ref=e2238] [cursor=pointer]:
+                            - generic [ref=e2241]: "No"
+                      - cell [ref=e2242]:
+                        - textbox "Type" [disabled] [ref=e2244]
+                      - cell [ref=e2245]:
+                        - radiogroup [ref=e2248]:
+                          - generic [ref=e2250]:
+                            - radio [checked] [ref=e2251] [cursor=pointer]
+                            - button "Select from list" [ref=e2254] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e2255]
+                          - radio "Add Method" [ref=e2258] [cursor=pointer]:
+                            - generic [ref=e2261]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e2262]:
+                        - generic [ref=e2264]:
+                          - button "Select Documents" [ref=e2265] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e2266]
+                          - generic [ref=e2268]: 25 Documents Selected
+                      - cell [ref=e2269]:
+                        - radiogroup [ref=e2271]:
+                          - radio "Yes" [ref=e2272] [cursor=pointer]:
+                            - generic [ref=e2275]: "Yes"
+                          - radio "No" [ref=e2276] [cursor=pointer]:
+                            - generic [ref=e2279]: "No"
+                    - row "14.3 Devices shall be designed and manufactured in such a way as to minimise the risks of fire or explosion during normal use and in single fault condition. Particular attention shall be paid to devices the intended use of which includes exposure to or use in association with flammable or explosive substances or substances which could cause combustion. Select Documents 25 Documents Selected" [ref=e2280]:
+                      - cell "14.3" [ref=e2281]:
+                        - generic [ref=e2283]: "14.3"
+                      - cell "Devices shall be designed and manufactured in such a way as to minimise the risks of fire or explosion during normal use and in single fault condition. Particular attention shall be paid to devices the intended use of which includes exposure to or use in association with flammable or explosive substances or substances which could cause combustion." [ref=e2284]:
+                        - generic [ref=e2286]: Devices shall be designed and manufactured in such a way as to minimise the risks of fire or explosion during normal use and in single fault condition. Particular attention shall be paid to devices the intended use of which includes exposure to or use in association with flammable or explosive substances or substances which could cause combustion.
+                      - cell [ref=e2287]:
+                        - radiogroup [ref=e2289]:
+                          - radio "Yes" [checked] [ref=e2290] [cursor=pointer]:
+                            - generic [ref=e2293]: "Yes"
+                          - radio "No" [ref=e2294] [cursor=pointer]:
+                            - generic [ref=e2297]: "No"
+                      - cell [ref=e2298]:
+                        - textbox "Type" [disabled] [ref=e2300]
+                      - cell [ref=e2301]:
+                        - radiogroup [ref=e2304]:
+                          - generic [ref=e2306]:
+                            - radio [checked] [ref=e2307] [cursor=pointer]
+                            - button "Select from list" [ref=e2310] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e2311]
+                          - radio "Add Method" [ref=e2314] [cursor=pointer]:
+                            - generic [ref=e2317]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e2318]:
+                        - generic [ref=e2320]:
+                          - button "Select Documents" [ref=e2321] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e2322]
+                          - generic [ref=e2324]: 25 Documents Selected
+                      - cell [ref=e2325]:
+                        - radiogroup [ref=e2327]:
+                          - radio "Yes" [checked] [ref=e2328] [cursor=pointer]:
+                            - generic [ref=e2331]: "Yes"
+                          - radio "No" [ref=e2332] [cursor=pointer]:
+                            - generic [ref=e2335]: "No"
+                    - row "14.4 Devices shall be designed and manufactured in such a way that adjustment, calibration, and maintenance can be done safely and effectively. Select Documents 25 Documents Selected" [ref=e2336]:
+                      - cell "14.4" [ref=e2337]:
+                        - generic [ref=e2339]: "14.4"
+                      - cell "Devices shall be designed and manufactured in such a way that adjustment, calibration, and maintenance can be done safely and effectively." [ref=e2340]:
+                        - generic [ref=e2342]: Devices shall be designed and manufactured in such a way that adjustment, calibration, and maintenance can be done safely and effectively.
+                      - cell [ref=e2343]:
+                        - radiogroup [ref=e2345]:
+                          - radio "Yes" [checked] [ref=e2346] [cursor=pointer]:
+                            - generic [ref=e2349]: "Yes"
+                          - radio "No" [ref=e2350] [cursor=pointer]:
+                            - generic [ref=e2353]: "No"
+                      - cell [ref=e2354]:
+                        - textbox "Type" [disabled] [ref=e2356]
+                      - cell [ref=e2357]:
+                        - radiogroup [ref=e2360]:
+                          - generic [ref=e2362]:
+                            - radio [checked] [ref=e2363] [cursor=pointer]
+                            - button "Select from list" [ref=e2366] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e2367]
+                          - radio "Add Method" [ref=e2370] [cursor=pointer]:
+                            - generic [ref=e2373]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e2374]:
+                        - generic [ref=e2376]:
+                          - button "Select Documents" [ref=e2377] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e2378]
+                          - generic [ref=e2380]: 25 Documents Selected
+                      - cell [ref=e2381]:
+                        - radiogroup [ref=e2383]:
+                          - radio "Yes" [checked] [ref=e2384] [cursor=pointer]:
+                            - generic [ref=e2387]: "Yes"
+                          - radio "No" [ref=e2388] [cursor=pointer]:
+                            - generic [ref=e2391]: "No"
+                    - row "14.5 Devices that are intended to be operated together with other devices or products shall be designed and manufactured in such a way that the interoperability and compatibility are reliable and safe Select Documents 25 Documents Selected" [ref=e2392]:
+                      - cell "14.5" [ref=e2393]:
+                        - generic [ref=e2395]: "14.5"
+                      - cell "Devices that are intended to be operated together with other devices or products shall be designed and manufactured in such a way that the interoperability and compatibility are reliable and safe" [ref=e2396]:
+                        - generic [ref=e2398]: Devices that are intended to be operated together with other devices or products shall be designed and manufactured in such a way that the interoperability and compatibility are reliable and safe
+                      - cell [ref=e2399]:
+                        - radiogroup [ref=e2401]:
+                          - radio "Yes" [checked] [ref=e2402] [cursor=pointer]:
+                            - generic [ref=e2405]: "Yes"
+                          - radio "No" [ref=e2406] [cursor=pointer]:
+                            - generic [ref=e2409]: "No"
+                      - cell [ref=e2410]:
+                        - textbox "Type" [disabled] [ref=e2412]
+                      - cell [ref=e2413]:
+                        - radiogroup [ref=e2416]:
+                          - generic [ref=e2418]:
+                            - radio [checked] [ref=e2419] [cursor=pointer]
+                            - button "Select from list" [ref=e2422] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e2423]
+                          - radio "Add Method" [ref=e2426] [cursor=pointer]:
+                            - generic [ref=e2429]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e2430]:
+                        - generic [ref=e2432]:
+                          - button "Select Documents" [ref=e2433] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e2434]
+                          - generic [ref=e2436]: 25 Documents Selected
+                      - cell [ref=e2437]:
+                        - radiogroup [ref=e2439]:
+                          - radio "Yes" [checked] [ref=e2440] [cursor=pointer]:
+                            - generic [ref=e2443]: "Yes"
+                          - radio "No" [ref=e2444] [cursor=pointer]:
+                            - generic [ref=e2447]: "No"
+                    - row "14.6 Any measurement, monitoring or display scale shall be designed and manufactured in line with ergonomic principles, taking account of the intended purpose, users and the environmental conditions in which the devices are intended to be used. Select Documents 25 Documents Selected" [ref=e2448]:
+                      - cell "14.6" [ref=e2449]:
+                        - generic [ref=e2451]: "14.6"
+                      - cell "Any measurement, monitoring or display scale shall be designed and manufactured in line with ergonomic principles, taking account of the intended purpose, users and the environmental conditions in which the devices are intended to be used." [ref=e2452]:
+                        - generic [ref=e2454]: Any measurement, monitoring or display scale shall be designed and manufactured in line with ergonomic principles, taking account of the intended purpose, users and the environmental conditions in which the devices are intended to be used.
+                      - cell [ref=e2455]:
+                        - radiogroup [ref=e2457]:
+                          - radio "Yes" [checked] [ref=e2458] [cursor=pointer]:
+                            - generic [ref=e2461]: "Yes"
+                          - radio "No" [ref=e2462] [cursor=pointer]:
+                            - generic [ref=e2465]: "No"
+                      - cell [ref=e2466]:
+                        - textbox "Type" [disabled] [ref=e2468]
+                      - cell [ref=e2469]:
+                        - radiogroup [ref=e2472]:
+                          - generic [ref=e2474]:
+                            - radio [checked] [ref=e2475] [cursor=pointer]
+                            - button "Select from list" [ref=e2478] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e2479]
+                          - radio "Add Method" [ref=e2482] [cursor=pointer]:
+                            - generic [ref=e2485]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e2486]:
+                        - generic [ref=e2488]:
+                          - button "Select Documents" [ref=e2489] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e2490]
+                          - generic [ref=e2492]: 25 Documents Selected
+                      - cell [ref=e2493]:
+                        - radiogroup [ref=e2495]:
+                          - radio "Yes" [checked] [ref=e2496] [cursor=pointer]:
+                            - generic [ref=e2499]: "Yes"
+                          - radio "No" [ref=e2500] [cursor=pointer]:
+                            - generic [ref=e2503]: "No"
+                    - row "14.7 Devices shall be designed and manufactured in such a way as to facilitate their safe disposal and the safe disposal of related waste substances by the user, patient or other person. To that end, manufacturers shall identify and test procedures and measures as a result of which their devices can be safely disposed after use. Such procedures shall be described in the instructions for use. Select Documents 25 Documents Selected" [ref=e2504]:
+                      - cell "14.7" [ref=e2505]:
+                        - generic [ref=e2507]: "14.7"
+                      - cell "Devices shall be designed and manufactured in such a way as to facilitate their safe disposal and the safe disposal of related waste substances by the user, patient or other person. To that end, manufacturers shall identify and test procedures and measures as a result of which their devices can be safely disposed after use. Such procedures shall be described in the instructions for use." [ref=e2508]:
+                        - generic [ref=e2510]: Devices shall be designed and manufactured in such a way as to facilitate their safe disposal and the safe disposal of related waste substances by the user, patient or other person. To that end, manufacturers shall identify and test procedures and measures as a result of which their devices can be safely disposed after use. Such procedures shall be described in the instructions for use.
+                      - cell [ref=e2511]:
+                        - radiogroup [ref=e2513]:
+                          - radio "Yes" [checked] [ref=e2514] [cursor=pointer]:
+                            - generic [ref=e2517]: "Yes"
+                          - radio "No" [ref=e2518] [cursor=pointer]:
+                            - generic [ref=e2521]: "No"
+                      - cell [ref=e2522]:
+                        - textbox "Type" [disabled] [ref=e2524]
+                      - cell [ref=e2525]:
+                        - radiogroup [ref=e2528]:
+                          - generic [ref=e2530]:
+                            - radio [checked] [ref=e2531] [cursor=pointer]
+                            - button "Select from list" [ref=e2534] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e2535]
+                          - radio "Add Method" [ref=e2538] [cursor=pointer]:
+                            - generic [ref=e2541]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e2542]:
+                        - generic [ref=e2544]:
+                          - button "Select Documents" [ref=e2545] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e2546]
+                          - generic [ref=e2548]: 25 Documents Selected
+                      - cell [ref=e2549]:
+                        - radiogroup [ref=e2551]:
+                          - radio "Yes" [checked] [ref=e2552] [cursor=pointer]:
+                            - generic [ref=e2555]: "Yes"
+                          - radio "No" [ref=e2556] [cursor=pointer]:
+                            - generic [ref=e2559]: "No"
+              - generic [ref=e2564]:
+                - table [ref=e2566]:
+                  - rowgroup [ref=e2567]:
+                    - row "15 Devices with a diagnostic or measuring function" [ref=e2568]:
+                      - columnheader "15" [ref=e2569]
+                      - columnheader "Devices with a diagnostic or measuring function" [ref=e2570]:
+                        - generic [ref=e2571]: Devices with a diagnostic or measuring function
+                    - row "# GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1 Applicable? Rationale for non-applicable requirements Method(s) used to demonstrate conformity Technical Document Reference Met Requirement?" [ref=e2572]:
+                      - columnheader "#" [ref=e2573]
+                      - columnheader "GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1" [ref=e2574]
+                      - columnheader "Applicable?" [ref=e2575]
+                      - columnheader "Rationale for non-applicable requirements" [ref=e2576]
+                      - columnheader "Method(s) used to demonstrate conformity" [ref=e2577]
+                      - columnheader "Technical Document Reference" [ref=e2578]
+                      - columnheader "Met Requirement?" [ref=e2579]
+                - table [ref=e2581]:
+                  - rowgroup [ref=e2582]:
+                    - row "15.1 Diagnostic devices and devices with a measuring function, shall be designed and manufactured in such a way as to provide sufficient accuracy, precision and stability for their intended purpose, based on appropriate scientific and technical methods. The limits of accuracy shall be indicated by the manufacturer. Select Documents 25 Documents Selected" [ref=e2583]:
+                      - cell "15.1" [ref=e2584]:
+                        - generic [ref=e2586]: "15.1"
+                      - cell "Diagnostic devices and devices with a measuring function, shall be designed and manufactured in such a way as to provide sufficient accuracy, precision and stability for their intended purpose, based on appropriate scientific and technical methods. The limits of accuracy shall be indicated by the manufacturer." [ref=e2587]:
+                        - generic [ref=e2589]: Diagnostic devices and devices with a measuring function, shall be designed and manufactured in such a way as to provide sufficient accuracy, precision and stability for their intended purpose, based on appropriate scientific and technical methods. The limits of accuracy shall be indicated by the manufacturer.
+                      - cell [ref=e2590]:
+                        - radiogroup [ref=e2592]:
+                          - radio "Yes" [checked] [ref=e2593] [cursor=pointer]:
+                            - generic [ref=e2596]: "Yes"
+                          - radio "No" [ref=e2597] [cursor=pointer]:
+                            - generic [ref=e2600]: "No"
+                      - cell [ref=e2601]:
+                        - textbox "Type" [disabled] [ref=e2603]
+                      - cell [ref=e2604]:
+                        - radiogroup [ref=e2607]:
+                          - generic [ref=e2609]:
+                            - radio [checked] [ref=e2610] [cursor=pointer]
+                            - button "Select from list" [ref=e2613] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e2614]
+                          - radio "Add Method" [ref=e2617] [cursor=pointer]:
+                            - generic [ref=e2620]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e2621]:
+                        - generic [ref=e2623]:
+                          - button "Select Documents" [ref=e2624] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e2625]
+                          - generic [ref=e2627]: 25 Documents Selected
+                      - cell [ref=e2628]:
+                        - radiogroup [ref=e2630]:
+                          - radio "Yes" [checked] [ref=e2631] [cursor=pointer]:
+                            - generic [ref=e2634]: "Yes"
+                          - radio "No" [ref=e2635] [cursor=pointer]:
+                            - generic [ref=e2638]: "No"
+                    - row "15.2 The measurements made by devices with a measuring function shall be expressed in legal units conforming to the provisions of Council Directive 80/181/EEC [1]. Select Documents 25 Documents Selected" [ref=e2639]:
+                      - cell "15.2" [ref=e2640]:
+                        - generic [ref=e2642]: "15.2"
+                      - cell "The measurements made by devices with a measuring function shall be expressed in legal units conforming to the provisions of Council Directive 80/181/EEC [1]." [ref=e2643]:
+                        - generic [ref=e2645]: The measurements made by devices with a measuring function shall be expressed in legal units conforming to the provisions of Council Directive 80/181/EEC [1].
+                      - cell [ref=e2646]:
+                        - radiogroup [ref=e2648]:
+                          - radio "Yes" [checked] [ref=e2649] [cursor=pointer]:
+                            - generic [ref=e2652]: "Yes"
+                          - radio "No" [ref=e2653] [cursor=pointer]:
+                            - generic [ref=e2656]: "No"
+                      - cell [ref=e2657]:
+                        - textbox "Type" [disabled] [ref=e2659]
+                      - cell [ref=e2660]:
+                        - radiogroup [ref=e2663]:
+                          - generic [ref=e2665]:
+                            - radio [checked] [ref=e2666] [cursor=pointer]
+                            - button "Select from list" [ref=e2669] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e2670]
+                          - radio "Add Method" [ref=e2673] [cursor=pointer]:
+                            - generic [ref=e2676]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e2677]:
+                        - generic [ref=e2679]:
+                          - button "Select Documents" [ref=e2680] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e2681]
+                          - generic [ref=e2683]: 25 Documents Selected
+                      - cell [ref=e2684]:
+                        - radiogroup [ref=e2686]:
+                          - radio "Yes" [checked] [ref=e2687] [cursor=pointer]:
+                            - generic [ref=e2690]: "Yes"
+                          - radio "No" [ref=e2691] [cursor=pointer]:
+                            - generic [ref=e2694]: "No"
+              - generic [ref=e2699]:
+                - table [ref=e2701]:
+                  - rowgroup [ref=e2702]:
+                    - row "16 Protection against radiation" [ref=e2703]:
+                      - columnheader "16" [ref=e2704]
+                      - columnheader "Protection against radiation" [ref=e2705]:
+                        - generic [ref=e2706]: Protection against radiation
+                    - row "# GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1 Applicable? Rationale for non-applicable requirements Method(s) used to demonstrate conformity Technical Document Reference Met Requirement?" [ref=e2707]:
+                      - columnheader "#" [ref=e2708]
+                      - columnheader "GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1" [ref=e2709]
+                      - columnheader "Applicable?" [ref=e2710]
+                      - columnheader "Rationale for non-applicable requirements" [ref=e2711]
+                      - columnheader "Method(s) used to demonstrate conformity" [ref=e2712]
+                      - columnheader "Technical Document Reference" [ref=e2713]
+                      - columnheader "Met Requirement?" [ref=e2714]
+                - table [ref=e2716]:
+                  - rowgroup [ref=e2717]:
+                    - row "16.1 General (a) Devices shall be designed, manufactured and packaged in such a way that exposure of patients, users and other persons to radiation is reduced as far as possible, and in a manner that is compatible with the intended purpose, whilst not restricting the application of appropriate specified levels for therapeutic and diagnostic purposes. (b) The operating instructions for devices emitting hazardous or potentially hazardous radiation shall contain detailed information as to the nature of the emitted radiation, the means of protecting the patient and the user, and on ways of avoiding misuse and of reducing the risks inherent to installation as far as possible and appropriate. Information regarding the acceptance and performance testing, the acceptance criteria, and the maintenance procedure shall also be specified. Select Documents 25 Documents Selected" [ref=e2718]:
+                      - cell "16.1" [ref=e2719]:
+                        - generic [ref=e2721]: "16.1"
+                      - cell "General (a) Devices shall be designed, manufactured and packaged in such a way that exposure of patients, users and other persons to radiation is reduced as far as possible, and in a manner that is compatible with the intended purpose, whilst not restricting the application of appropriate specified levels for therapeutic and diagnostic purposes. (b) The operating instructions for devices emitting hazardous or potentially hazardous radiation shall contain detailed information as to the nature of the emitted radiation, the means of protecting the patient and the user, and on ways of avoiding misuse and of reducing the risks inherent to installation as far as possible and appropriate. Information regarding the acceptance and performance testing, the acceptance criteria, and the maintenance procedure shall also be specified." [ref=e2722]:
+                        - generic [ref=e2724]: General (a) Devices shall be designed, manufactured and packaged in such a way that exposure of patients, users and other persons to radiation is reduced as far as possible, and in a manner that is compatible with the intended purpose, whilst not restricting the application of appropriate specified levels for therapeutic and diagnostic purposes. (b) The operating instructions for devices emitting hazardous or potentially hazardous radiation shall contain detailed information as to the nature of the emitted radiation, the means of protecting the patient and the user, and on ways of avoiding misuse and of reducing the risks inherent to installation as far as possible and appropriate. Information regarding the acceptance and performance testing, the acceptance criteria, and the maintenance procedure shall also be specified.
+                      - cell [ref=e2725]:
+                        - radiogroup [ref=e2727]:
+                          - radio "Yes" [checked] [ref=e2728] [cursor=pointer]:
+                            - generic [ref=e2731]: "Yes"
+                          - radio "No" [ref=e2732] [cursor=pointer]:
+                            - generic [ref=e2735]: "No"
+                      - cell [ref=e2736]:
+                        - textbox "Type" [disabled] [ref=e2738]
+                      - cell [ref=e2739]:
+                        - radiogroup [ref=e2742]:
+                          - generic [ref=e2744]:
+                            - radio [checked] [ref=e2745] [cursor=pointer]
+                            - button "Select from list" [ref=e2748] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e2749]
+                          - radio "Add Method" [ref=e2752] [cursor=pointer]:
+                            - generic [ref=e2755]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e2756]:
+                        - generic [ref=e2758]:
+                          - button "Select Documents" [ref=e2759] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e2760]
+                          - generic [ref=e2762]: 25 Documents Selected
+                      - cell [ref=e2763]:
+                        - radiogroup [ref=e2765]:
+                          - radio "Yes" [checked] [ref=e2766] [cursor=pointer]:
+                            - generic [ref=e2769]: "Yes"
+                          - radio "No" [ref=e2770] [cursor=pointer]:
+                            - generic [ref=e2773]: "No"
+                    - row "16.2 Intended radiation (a) Where devices are designed to emit hazardous, or potentially hazardous, levels of ionizing and/or non- ionizing radiation necessary for a specific medical purpose the benefit of which is considered to outweigh the risks inherent to the emission, it shall be possible for the user to control the emissions. Such devices shall be designed and manufactured to ensure reproducibility of relevant variable parameters within an acceptable tolerance. (b) Where devices are intended to emit hazardous, or potentially hazardous, ionizing and/or non-ionizing radiation, they shall be fitted, where possible, with visual displays and/or audible warnings of such emissions. Select Documents 25 Documents Selected" [ref=e2774]:
+                      - cell "16.2" [ref=e2775]:
+                        - generic [ref=e2777]: "16.2"
+                      - cell "Intended radiation (a) Where devices are designed to emit hazardous, or potentially hazardous, levels of ionizing and/or non- ionizing radiation necessary for a specific medical purpose the benefit of which is considered to outweigh the risks inherent to the emission, it shall be possible for the user to control the emissions. Such devices shall be designed and manufactured to ensure reproducibility of relevant variable parameters within an acceptable tolerance. (b) Where devices are intended to emit hazardous, or potentially hazardous, ionizing and/or non-ionizing radiation, they shall be fitted, where possible, with visual displays and/or audible warnings of such emissions." [ref=e2778]:
+                        - generic [ref=e2780]: Intended radiation (a) Where devices are designed to emit hazardous, or potentially hazardous, levels of ionizing and/or non- ionizing radiation necessary for a specific medical purpose the benefit of which is considered to outweigh the risks inherent to the emission, it shall be possible for the user to control the emissions. Such devices shall be designed and manufactured to ensure reproducibility of relevant variable parameters within an acceptable tolerance. (b) Where devices are intended to emit hazardous, or potentially hazardous, ionizing and/or non-ionizing radiation, they shall be fitted, where possible, with visual displays and/or audible warnings of such emissions.
+                      - cell [ref=e2781]:
+                        - radiogroup [ref=e2783]:
+                          - radio "Yes" [checked] [ref=e2784] [cursor=pointer]:
+                            - generic [ref=e2787]: "Yes"
+                          - radio "No" [ref=e2788] [cursor=pointer]:
+                            - generic [ref=e2791]: "No"
+                      - cell [ref=e2792]:
+                        - textbox "Type" [disabled] [ref=e2794]
+                      - cell [ref=e2795]:
+                        - radiogroup [ref=e2798]:
+                          - generic [ref=e2800]:
+                            - radio [checked] [ref=e2801] [cursor=pointer]
+                            - button "Select from list" [ref=e2804] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e2805]
+                          - radio "Add Method" [ref=e2808] [cursor=pointer]:
+                            - generic [ref=e2811]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e2812]:
+                        - generic [ref=e2814]:
+                          - button "Select Documents" [ref=e2815] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e2816]
+                          - generic [ref=e2818]: 25 Documents Selected
+                      - cell [ref=e2819]:
+                        - radiogroup [ref=e2821]:
+                          - radio "Yes" [checked] [ref=e2822] [cursor=pointer]:
+                            - generic [ref=e2825]: "Yes"
+                          - radio "No" [ref=e2826] [cursor=pointer]:
+                            - generic [ref=e2829]: "No"
+                    - row "16.3 Devices shall be designed and manufactured in such a way that exposure of patients, users and other persons to the emission of unintended, stray or scattered radiation is reduced as far as possible. Where possible and appropriate, methods shall be selected which reduce the exposure to radiation of patients, users and other persons who may be affected. Select Documents 25 Documents Selected" [ref=e2830]:
+                      - cell "16.3" [ref=e2831]:
+                        - generic [ref=e2833]: "16.3"
+                      - cell "Devices shall be designed and manufactured in such a way that exposure of patients, users and other persons to the emission of unintended, stray or scattered radiation is reduced as far as possible. Where possible and appropriate, methods shall be selected which reduce the exposure to radiation of patients, users and other persons who may be affected." [ref=e2834]:
+                        - generic [ref=e2836]: Devices shall be designed and manufactured in such a way that exposure of patients, users and other persons to the emission of unintended, stray or scattered radiation is reduced as far as possible. Where possible and appropriate, methods shall be selected which reduce the exposure to radiation of patients, users and other persons who may be affected.
+                      - cell [ref=e2837]:
+                        - radiogroup [ref=e2839]:
+                          - radio "Yes" [checked] [ref=e2840] [cursor=pointer]:
+                            - generic [ref=e2843]: "Yes"
+                          - radio "No" [ref=e2844] [cursor=pointer]:
+                            - generic [ref=e2847]: "No"
+                      - cell [ref=e2848]:
+                        - textbox "Type" [disabled] [ref=e2850]
+                      - cell [ref=e2851]:
+                        - radiogroup [ref=e2854]:
+                          - generic [ref=e2856]:
+                            - radio [checked] [ref=e2857] [cursor=pointer]
+                            - button "Select from list" [ref=e2860] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e2861]
+                          - radio "Add Method" [ref=e2864] [cursor=pointer]:
+                            - generic [ref=e2867]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e2868]:
+                        - generic [ref=e2870]:
+                          - button "Select Documents" [ref=e2871] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e2872]
+                          - generic [ref=e2874]: 25 Documents Selected
+                      - cell [ref=e2875]:
+                        - radiogroup [ref=e2877]:
+                          - radio "Yes" [checked] [ref=e2878] [cursor=pointer]:
+                            - generic [ref=e2881]: "Yes"
+                          - radio "No" [ref=e2882] [cursor=pointer]:
+                            - generic [ref=e2885]: "No"
+                    - row [ref=e2886]:
+                      - cell "16.4" [ref=e2887]:
+                        - generic [ref=e2889]: "16.4"
+                      - cell [ref=e2890]:
+                        - generic [ref=e2892]: Ionising radiation (a) Devices intended to emit ionizing radiation shall be designed and manufactured taking into account the requirements of the Directive 2013/59/Euratom laying down basic safety standards for protection against the dangers arising from exposure to ionising radiation. (b) Devices intended to emit ionising radiation shall be designed and manufactured in such a way as to ensure that, where possible, taking into account the intended use, the quantity, geometry and quality of the radiation emitted can be varied and controlled, and, if possible, monitored during treatment. (c) Devices emitting ionising radiation intended for diagnostic radiology shall be designed and manufactured in such a way as to achieve an image and/or output quality that are appropriate to the intended medical purpose whilst minimising radiation exposure of the patient and user. (d) Devices that emit ionising radiation and are intended for therapeutic radiology shall be designed and manufactured in such a way as to enable reliable monitoring and control of the delivered dose, the beam type, energy and, where appropriate, the quality of radiation.
+                      - cell [ref=e2893]:
+                        - radiogroup [ref=e2895]:
+                          - radio "Yes" [checked] [ref=e2896] [cursor=pointer]:
+                            - generic [ref=e2899]: "Yes"
+                          - radio "No" [ref=e2900] [cursor=pointer]:
+                            - generic [ref=e2903]: "No"
+                      - cell [ref=e2904]:
+                        - textbox "Type" [disabled] [ref=e2906]
+                      - cell [ref=e2907]:
+                        - radiogroup [ref=e2910]:
+                          - generic [ref=e2912]:
+                            - radio [checked] [ref=e2913] [cursor=pointer]
+                            - button "Select from list" [ref=e2916] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e2917]
+                          - radio "Add Method" [ref=e2920] [cursor=pointer]:
+                            - generic [ref=e2923]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e2924]:
+                        - generic [ref=e2926]:
+                          - button "Select Documents" [ref=e2927] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e2928]
+                          - generic [ref=e2930]: 25 Documents Selected
+                      - cell [ref=e2931]:
+                        - radiogroup [ref=e2933]:
+                          - radio "Yes" [checked] [ref=e2934] [cursor=pointer]:
+                            - generic [ref=e2937]: "Yes"
+                          - radio "No" [ref=e2938] [cursor=pointer]:
+                            - generic [ref=e2941]: "No"
+              - generic [ref=e2946]:
+                - table [ref=e2948]:
+                  - rowgroup [ref=e2949]:
+                    - row "17 Electronic programmable systems — devices that incorporate electronic programmable systems and software that are devices in themselves" [ref=e2950]:
+                      - columnheader "17" [ref=e2951]
+                      - columnheader "Electronic programmable systems — devices that incorporate electronic programmable systems and software that are devices in themselves" [ref=e2952]:
+                        - generic [ref=e2953]: Electronic programmable systems — devices that incorporate electronic programmable systems and software that are devices in themselves
+                    - row "# GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1 Applicable? Rationale for non-applicable requirements Method(s) used to demonstrate conformity Technical Document Reference Met Requirement?" [ref=e2954]:
+                      - columnheader "#" [ref=e2955]
+                      - columnheader "GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1" [ref=e2956]
+                      - columnheader "Applicable?" [ref=e2957]
+                      - columnheader "Rationale for non-applicable requirements" [ref=e2958]
+                      - columnheader "Method(s) used to demonstrate conformity" [ref=e2959]
+                      - columnheader "Technical Document Reference" [ref=e2960]
+                      - columnheader "Met Requirement?" [ref=e2961]
+                - table [ref=e2963]:
+                  - rowgroup [ref=e2964]:
+                    - row "17.1 Devices that incorporate electronic programmable systems, including software, or software that are devices in themselves, shall be designed to ensure repeatability, reliability and performance in line with their intended use. In the event of a single fault condition, appropriate means shall be adopted to eliminate or reduce as far as possible consequent risks or impairment of performance. Select Documents 25 Documents Selected" [ref=e2965]:
+                      - cell "17.1" [ref=e2966]:
+                        - generic [ref=e2968]: "17.1"
+                      - cell "Devices that incorporate electronic programmable systems, including software, or software that are devices in themselves, shall be designed to ensure repeatability, reliability and performance in line with their intended use. In the event of a single fault condition, appropriate means shall be adopted to eliminate or reduce as far as possible consequent risks or impairment of performance." [ref=e2969]:
+                        - generic [ref=e2971]: Devices that incorporate electronic programmable systems, including software, or software that are devices in themselves, shall be designed to ensure repeatability, reliability and performance in line with their intended use. In the event of a single fault condition, appropriate means shall be adopted to eliminate or reduce as far as possible consequent risks or impairment of performance.
+                      - cell [ref=e2972]:
+                        - radiogroup [ref=e2974]:
+                          - radio "Yes" [checked] [ref=e2975] [cursor=pointer]:
+                            - generic [ref=e2978]: "Yes"
+                          - radio "No" [ref=e2979] [cursor=pointer]:
+                            - generic [ref=e2982]: "No"
+                      - cell [ref=e2983]:
+                        - textbox "Type" [disabled] [ref=e2985]
+                      - cell [ref=e2986]:
+                        - radiogroup [ref=e2989]:
+                          - generic [ref=e2991]:
+                            - radio [checked] [ref=e2992] [cursor=pointer]
+                            - button "Select from list" [ref=e2995] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e2996]
+                          - radio "Add Method" [ref=e2999] [cursor=pointer]:
+                            - generic [ref=e3002]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e3003]:
+                        - generic [ref=e3005]:
+                          - button "Select Documents" [ref=e3006] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e3007]
+                          - generic [ref=e3009]: 25 Documents Selected
+                      - cell [ref=e3010]:
+                        - radiogroup [ref=e3012]:
+                          - radio "Yes" [checked] [ref=e3013] [cursor=pointer]:
+                            - generic [ref=e3016]: "Yes"
+                          - radio "No" [ref=e3017] [cursor=pointer]:
+                            - generic [ref=e3020]: "No"
+                    - row "17.2 For devices that incorporate software or for software that are devices in themselves, the software shall be developed and manufactured in accordance with the state of the art taking into account the principles of development life cycle, risk management, including information security, verification and validation. Select Documents 25 Documents Selected" [ref=e3021]:
+                      - cell "17.2" [ref=e3022]:
+                        - generic [ref=e3024]: "17.2"
+                      - cell "For devices that incorporate software or for software that are devices in themselves, the software shall be developed and manufactured in accordance with the state of the art taking into account the principles of development life cycle, risk management, including information security, verification and validation." [ref=e3025]:
+                        - generic [ref=e3027]: For devices that incorporate software or for software that are devices in themselves, the software shall be developed and manufactured in accordance with the state of the art taking into account the principles of development life cycle, risk management, including information security, verification and validation.
+                      - cell [ref=e3028]:
+                        - radiogroup [ref=e3030]:
+                          - radio "Yes" [checked] [ref=e3031] [cursor=pointer]:
+                            - generic [ref=e3034]: "Yes"
+                          - radio "No" [ref=e3035] [cursor=pointer]:
+                            - generic [ref=e3038]: "No"
+                      - cell [ref=e3039]:
+                        - textbox "Type" [disabled] [ref=e3041]
+                      - cell [ref=e3042]:
+                        - radiogroup [ref=e3045]:
+                          - generic [ref=e3047]:
+                            - radio [checked] [ref=e3048] [cursor=pointer]
+                            - button "Select from list" [ref=e3051] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e3052]
+                          - radio "Add Method" [ref=e3055] [cursor=pointer]:
+                            - generic [ref=e3058]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e3059]:
+                        - generic [ref=e3061]:
+                          - button "Select Documents" [ref=e3062] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e3063]
+                          - generic [ref=e3065]: 25 Documents Selected
+                      - cell [ref=e3066]:
+                        - radiogroup [ref=e3068]:
+                          - radio "Yes" [checked] [ref=e3069] [cursor=pointer]:
+                            - generic [ref=e3072]: "Yes"
+                          - radio "No" [ref=e3073] [cursor=pointer]:
+                            - generic [ref=e3076]: "No"
+                    - row "17.3 Software referred to in this Section that is intended to be used in combination with mobile computing platforms shall be designed and manufactured taking into account the specific features of the mobile platform (e.g. size and contrast ratio of the screen) and the external factors related to their use (varying environment as regards level of light or noise). Select Documents 25 Documents Selected" [ref=e3077]:
+                      - cell "17.3" [ref=e3078]:
+                        - generic [ref=e3080]: "17.3"
+                      - cell "Software referred to in this Section that is intended to be used in combination with mobile computing platforms shall be designed and manufactured taking into account the specific features of the mobile platform (e.g. size and contrast ratio of the screen) and the external factors related to their use (varying environment as regards level of light or noise)." [ref=e3081]:
+                        - generic [ref=e3083]: Software referred to in this Section that is intended to be used in combination with mobile computing platforms shall be designed and manufactured taking into account the specific features of the mobile platform (e.g. size and contrast ratio of the screen) and the external factors related to their use (varying environment as regards level of light or noise).
+                      - cell [ref=e3084]:
+                        - radiogroup [ref=e3086]:
+                          - radio "Yes" [checked] [ref=e3087] [cursor=pointer]:
+                            - generic [ref=e3090]: "Yes"
+                          - radio "No" [ref=e3091] [cursor=pointer]:
+                            - generic [ref=e3094]: "No"
+                      - cell [ref=e3095]:
+                        - textbox "Type" [disabled] [ref=e3097]
+                      - cell [ref=e3098]:
+                        - radiogroup [ref=e3101]:
+                          - generic [ref=e3103]:
+                            - radio [checked] [ref=e3104] [cursor=pointer]
+                            - button "Select from list" [ref=e3107] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e3108]
+                          - radio "Add Method" [ref=e3111] [cursor=pointer]:
+                            - generic [ref=e3114]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e3115]:
+                        - generic [ref=e3117]:
+                          - button "Select Documents" [ref=e3118] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e3119]
+                          - generic [ref=e3121]: 25 Documents Selected
+                      - cell [ref=e3122]:
+                        - radiogroup [ref=e3124]:
+                          - radio "Yes" [checked] [ref=e3125] [cursor=pointer]:
+                            - generic [ref=e3128]: "Yes"
+                          - radio "No" [ref=e3129] [cursor=pointer]:
+                            - generic [ref=e3132]: "No"
+                    - row "17.4 Manufacturers shall set out minimum requirements concerning hardware, IT networks characteristics and IT security measures, including protection against unauthorised access, necessary to run the software as intended. Select Documents 25 Documents Selected" [ref=e3133]:
+                      - cell "17.4" [ref=e3134]:
+                        - generic [ref=e3136]: "17.4"
+                      - cell "Manufacturers shall set out minimum requirements concerning hardware, IT networks characteristics and IT security measures, including protection against unauthorised access, necessary to run the software as intended." [ref=e3137]:
+                        - generic [ref=e3139]: Manufacturers shall set out minimum requirements concerning hardware, IT networks characteristics and IT security measures, including protection against unauthorised access, necessary to run the software as intended.
+                      - cell [ref=e3140]:
+                        - radiogroup [ref=e3142]:
+                          - radio "Yes" [ref=e3143] [cursor=pointer]:
+                            - generic [ref=e3146]: "Yes"
+                          - radio "No" [ref=e3147] [cursor=pointer]:
+                            - generic [ref=e3150]: "No"
+                      - cell [ref=e3151]:
+                        - textbox "Type" [disabled] [ref=e3153]
+                      - cell [ref=e3154]:
+                        - radiogroup [ref=e3157]:
+                          - generic [ref=e3159]:
+                            - radio [checked] [ref=e3160] [cursor=pointer]
+                            - button "Select from list" [ref=e3163] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e3164]
+                          - radio "Add Method" [ref=e3167] [cursor=pointer]:
+                            - generic [ref=e3170]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e3171]:
+                        - generic [ref=e3173]:
+                          - button "Select Documents" [ref=e3174] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e3175]
+                          - generic [ref=e3177]: 25 Documents Selected
+                      - cell [ref=e3178]:
+                        - radiogroup [ref=e3180]:
+                          - radio "Yes" [ref=e3181] [cursor=pointer]:
+                            - generic [ref=e3184]: "Yes"
+                          - radio "No" [ref=e3185] [cursor=pointer]:
+                            - generic [ref=e3188]: "No"
+              - generic [ref=e3193]:
+                - table [ref=e3195]:
+                  - rowgroup [ref=e3196]:
+                    - row "18 Active devices and devices connected to them" [ref=e3197]:
+                      - columnheader "18" [ref=e3198]
+                      - columnheader "Active devices and devices connected to them" [ref=e3199]:
+                        - generic [ref=e3200]: Active devices and devices connected to them
+                    - row "# GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1 Applicable? Rationale for non-applicable requirements Method(s) used to demonstrate conformity Technical Document Reference Met Requirement?" [ref=e3201]:
+                      - columnheader "#" [ref=e3202]
+                      - columnheader "GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1" [ref=e3203]
+                      - columnheader "Applicable?" [ref=e3204]
+                      - columnheader "Rationale for non-applicable requirements" [ref=e3205]
+                      - columnheader "Method(s) used to demonstrate conformity" [ref=e3206]
+                      - columnheader "Technical Document Reference" [ref=e3207]
+                      - columnheader "Met Requirement?" [ref=e3208]
+                - table [ref=e3210]:
+                  - rowgroup [ref=e3211]:
+                    - row "18.1 For non-implantable active devices, in the event of a single fault condition, appropriate means shall be adopted to eliminate or reduce as far as possible consequent risks Select Documents 25 Documents Selected" [ref=e3212]:
+                      - cell "18.1" [ref=e3213]:
+                        - generic [ref=e3215]: "18.1"
+                      - cell "For non-implantable active devices, in the event of a single fault condition, appropriate means shall be adopted to eliminate or reduce as far as possible consequent risks" [ref=e3216]:
+                        - generic [ref=e3218]: For non-implantable active devices, in the event of a single fault condition, appropriate means shall be adopted to eliminate or reduce as far as possible consequent risks
+                      - cell [ref=e3219]:
+                        - radiogroup [ref=e3221]:
+                          - radio "Yes" [checked] [ref=e3222] [cursor=pointer]:
+                            - generic [ref=e3225]: "Yes"
+                          - radio "No" [ref=e3226] [cursor=pointer]:
+                            - generic [ref=e3229]: "No"
+                      - cell [ref=e3230]:
+                        - textbox "Type" [disabled] [ref=e3232]
+                      - cell [ref=e3233]:
+                        - radiogroup [ref=e3236]:
+                          - generic [ref=e3238]:
+                            - radio [checked] [ref=e3239] [cursor=pointer]
+                            - button "Select from list" [ref=e3242] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e3243]
+                          - radio "Add Method" [ref=e3246] [cursor=pointer]:
+                            - generic [ref=e3249]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e3250]:
+                        - generic [ref=e3252]:
+                          - button "Select Documents" [ref=e3253] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e3254]
+                          - generic [ref=e3256]: 25 Documents Selected
+                      - cell [ref=e3257]:
+                        - radiogroup [ref=e3259]:
+                          - radio "Yes" [checked] [ref=e3260] [cursor=pointer]:
+                            - generic [ref=e3263]: "Yes"
+                          - radio "No" [ref=e3264] [cursor=pointer]:
+                            - generic [ref=e3267]: "No"
+                    - row "18.2 Devices where the safety of the patient depends on an internal power supply shall be equipped with a means of determining the state of the power supply and an appropriate warning or indication for when the capacity of the power supply becomes critical. If necessary, such warning or indication shall be given prior to the power supply becoming critical. Select Documents 25 Documents Selected" [ref=e3268]:
+                      - cell "18.2" [ref=e3269]:
+                        - generic [ref=e3271]: "18.2"
+                      - cell "Devices where the safety of the patient depends on an internal power supply shall be equipped with a means of determining the state of the power supply and an appropriate warning or indication for when the capacity of the power supply becomes critical. If necessary, such warning or indication shall be given prior to the power supply becoming critical." [ref=e3272]:
+                        - generic [ref=e3274]: Devices where the safety of the patient depends on an internal power supply shall be equipped with a means of determining the state of the power supply and an appropriate warning or indication for when the capacity of the power supply becomes critical. If necessary, such warning or indication shall be given prior to the power supply becoming critical.
+                      - cell [ref=e3275]:
+                        - radiogroup [ref=e3277]:
+                          - radio "Yes" [checked] [ref=e3278] [cursor=pointer]:
+                            - generic [ref=e3281]: "Yes"
+                          - radio "No" [ref=e3282] [cursor=pointer]:
+                            - generic [ref=e3285]: "No"
+                      - cell [ref=e3286]:
+                        - textbox "Type" [disabled] [ref=e3288]
+                      - cell [ref=e3289]:
+                        - radiogroup [ref=e3292]:
+                          - generic [ref=e3294]:
+                            - radio [checked] [ref=e3295] [cursor=pointer]
+                            - button "Select from list" [ref=e3298] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e3299]
+                          - radio "Add Method" [ref=e3302] [cursor=pointer]:
+                            - generic [ref=e3305]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e3306]:
+                        - generic [ref=e3308]:
+                          - button "Select Documents" [ref=e3309] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e3310]
+                          - generic [ref=e3312]: 25 Documents Selected
+                      - cell [ref=e3313]:
+                        - radiogroup [ref=e3315]:
+                          - radio "Yes" [checked] [ref=e3316] [cursor=pointer]:
+                            - generic [ref=e3319]: "Yes"
+                          - radio "No" [ref=e3320] [cursor=pointer]:
+                            - generic [ref=e3323]: "No"
+                    - row "18.3 Devices where the safety of the patient depends on an external power supply shall include an alarm system to signal any power failure. Select Documents 25 Documents Selected" [ref=e3324]:
+                      - cell "18.3" [ref=e3325]:
+                        - generic [ref=e3327]: "18.3"
+                      - cell "Devices where the safety of the patient depends on an external power supply shall include an alarm system to signal any power failure." [ref=e3328]:
+                        - generic [ref=e3330]: Devices where the safety of the patient depends on an external power supply shall include an alarm system to signal any power failure.
+                      - cell [ref=e3331]:
+                        - radiogroup [ref=e3333]:
+                          - radio "Yes" [checked] [ref=e3334] [cursor=pointer]:
+                            - generic [ref=e3337]: "Yes"
+                          - radio "No" [ref=e3338] [cursor=pointer]:
+                            - generic [ref=e3341]: "No"
+                      - cell [ref=e3342]:
+                        - textbox "Type" [disabled] [ref=e3344]
+                      - cell [ref=e3345]:
+                        - radiogroup [ref=e3348]:
+                          - generic [ref=e3350]:
+                            - radio [checked] [ref=e3351] [cursor=pointer]
+                            - button "Select from list" [ref=e3354] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e3355]
+                          - radio "Add Method" [ref=e3358] [cursor=pointer]:
+                            - generic [ref=e3361]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e3362]:
+                        - generic [ref=e3364]:
+                          - button "Select Documents" [ref=e3365] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e3366]
+                          - generic [ref=e3368]: 25 Documents Selected
+                      - cell [ref=e3369]:
+                        - radiogroup [ref=e3371]:
+                          - radio "Yes" [checked] [ref=e3372] [cursor=pointer]:
+                            - generic [ref=e3375]: "Yes"
+                          - radio "No" [ref=e3376] [cursor=pointer]:
+                            - generic [ref=e3379]: "No"
+                    - row "18.4 Devices intended to monitor one or more clinical parameters of a patient shall be equipped with appropriate alarm systems to alert the user of situations which could lead to death or severe deterioration of the patient's state of health. Select Documents 25 Documents Selected" [ref=e3380]:
+                      - cell "18.4" [ref=e3381]:
+                        - generic [ref=e3383]: "18.4"
+                      - cell "Devices intended to monitor one or more clinical parameters of a patient shall be equipped with appropriate alarm systems to alert the user of situations which could lead to death or severe deterioration of the patient's state of health." [ref=e3384]:
+                        - generic [ref=e3386]: Devices intended to monitor one or more clinical parameters of a patient shall be equipped with appropriate alarm systems to alert the user of situations which could lead to death or severe deterioration of the patient's state of health.
+                      - cell [ref=e3387]:
+                        - radiogroup [ref=e3389]:
+                          - radio "Yes" [checked] [ref=e3390] [cursor=pointer]:
+                            - generic [ref=e3393]: "Yes"
+                          - radio "No" [ref=e3394] [cursor=pointer]:
+                            - generic [ref=e3397]: "No"
+                      - cell [ref=e3398]:
+                        - textbox "Type" [disabled] [ref=e3400]
+                      - cell [ref=e3401]:
+                        - radiogroup [ref=e3404]:
+                          - generic [ref=e3406]:
+                            - radio [checked] [ref=e3407] [cursor=pointer]
+                            - button "Select from list" [ref=e3410] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e3411]
+                          - radio "Add Method" [ref=e3414] [cursor=pointer]:
+                            - generic [ref=e3417]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e3418]:
+                        - generic [ref=e3420]:
+                          - button "Select Documents" [ref=e3421] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e3422]
+                          - generic [ref=e3424]: 25 Documents Selected
+                      - cell [ref=e3425]:
+                        - radiogroup [ref=e3427]:
+                          - radio "Yes" [checked] [ref=e3428] [cursor=pointer]:
+                            - generic [ref=e3431]: "Yes"
+                          - radio "No" [ref=e3432] [cursor=pointer]:
+                            - generic [ref=e3435]: "No"
+                    - row "18.5 Devices shall be designed and manufactured in such a way as to reduce as far as possible the risks of creating electromagnetic interference which could impair the operation of the device in question or other devices or equipment in the intended environment. Select Documents 25 Documents Selected" [ref=e3436]:
+                      - cell "18.5" [ref=e3437]:
+                        - generic [ref=e3439]: "18.5"
+                      - cell "Devices shall be designed and manufactured in such a way as to reduce as far as possible the risks of creating electromagnetic interference which could impair the operation of the device in question or other devices or equipment in the intended environment." [ref=e3440]:
+                        - generic [ref=e3442]: Devices shall be designed and manufactured in such a way as to reduce as far as possible the risks of creating electromagnetic interference which could impair the operation of the device in question or other devices or equipment in the intended environment.
+                      - cell [ref=e3443]:
+                        - radiogroup [ref=e3445]:
+                          - radio "Yes" [checked] [ref=e3446] [cursor=pointer]:
+                            - generic [ref=e3449]: "Yes"
+                          - radio "No" [ref=e3450] [cursor=pointer]:
+                            - generic [ref=e3453]: "No"
+                      - cell [ref=e3454]:
+                        - textbox "Type" [disabled] [ref=e3456]
+                      - cell [ref=e3457]:
+                        - radiogroup [ref=e3460]:
+                          - generic [ref=e3462]:
+                            - radio [checked] [ref=e3463] [cursor=pointer]
+                            - button "Select from list" [ref=e3466] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e3467]
+                          - radio "Add Method" [ref=e3470] [cursor=pointer]:
+                            - generic [ref=e3473]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e3474]:
+                        - generic [ref=e3476]:
+                          - button "Select Documents" [ref=e3477] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e3478]
+                          - generic [ref=e3480]: 25 Documents Selected
+                      - cell [ref=e3481]:
+                        - radiogroup [ref=e3483]:
+                          - radio "Yes" [checked] [ref=e3484] [cursor=pointer]:
+                            - generic [ref=e3487]: "Yes"
+                          - radio "No" [ref=e3488] [cursor=pointer]:
+                            - generic [ref=e3491]: "No"
+                    - row "18.6 Devices shall be designed and manufactured in such a way as to provide a level of intrinsic immunity to electromagnetic interference such that is adequate to enable them to operate as intended. Select Documents 25 Documents Selected" [ref=e3492]:
+                      - cell "18.6" [ref=e3493]:
+                        - generic [ref=e3495]: "18.6"
+                      - cell "Devices shall be designed and manufactured in such a way as to provide a level of intrinsic immunity to electromagnetic interference such that is adequate to enable them to operate as intended." [ref=e3496]:
+                        - generic [ref=e3498]: Devices shall be designed and manufactured in such a way as to provide a level of intrinsic immunity to electromagnetic interference such that is adequate to enable them to operate as intended.
+                      - cell [ref=e3499]:
+                        - radiogroup [ref=e3501]:
+                          - radio "Yes" [checked] [ref=e3502] [cursor=pointer]:
+                            - generic [ref=e3505]: "Yes"
+                          - radio "No" [ref=e3506] [cursor=pointer]:
+                            - generic [ref=e3509]: "No"
+                      - cell [ref=e3510]:
+                        - textbox "Type" [disabled] [ref=e3512]
+                      - cell [ref=e3513]:
+                        - radiogroup [ref=e3516]:
+                          - generic [ref=e3518]:
+                            - radio [checked] [ref=e3519] [cursor=pointer]
+                            - button "Select from list" [ref=e3522] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e3523]
+                          - radio "Add Method" [ref=e3526] [cursor=pointer]:
+                            - generic [ref=e3529]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e3530]:
+                        - generic [ref=e3532]:
+                          - button "Select Documents" [ref=e3533] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e3534]
+                          - generic [ref=e3536]: 25 Documents Selected
+                      - cell [ref=e3537]:
+                        - radiogroup [ref=e3539]:
+                          - radio "Yes" [checked] [ref=e3540] [cursor=pointer]:
+                            - generic [ref=e3543]: "Yes"
+                          - radio "No" [ref=e3544] [cursor=pointer]:
+                            - generic [ref=e3547]: "No"
+                    - row "18.7 Devices shall be designed and manufactured in such a way as to avoid, as far as possible, the risk of accidental electric shocks to the patient, user or any other person, both during normal use of the device and in the event of a single fault condition in the device, provided the device is installed and maintained as indicated by the manufacturer. Select Documents 25 Documents Selected" [ref=e3548]:
+                      - cell "18.7" [ref=e3549]:
+                        - generic [ref=e3551]: "18.7"
+                      - cell "Devices shall be designed and manufactured in such a way as to avoid, as far as possible, the risk of accidental electric shocks to the patient, user or any other person, both during normal use of the device and in the event of a single fault condition in the device, provided the device is installed and maintained as indicated by the manufacturer." [ref=e3552]:
+                        - generic [ref=e3554]: Devices shall be designed and manufactured in such a way as to avoid, as far as possible, the risk of accidental electric shocks to the patient, user or any other person, both during normal use of the device and in the event of a single fault condition in the device, provided the device is installed and maintained as indicated by the manufacturer.
+                      - cell [ref=e3555]:
+                        - radiogroup [ref=e3557]:
+                          - radio "Yes" [checked] [ref=e3558] [cursor=pointer]:
+                            - generic [ref=e3561]: "Yes"
+                          - radio "No" [ref=e3562] [cursor=pointer]:
+                            - generic [ref=e3565]: "No"
+                      - cell [ref=e3566]:
+                        - textbox "Type" [disabled] [ref=e3568]
+                      - cell [ref=e3569]:
+                        - radiogroup [ref=e3572]:
+                          - generic [ref=e3574]:
+                            - radio [checked] [ref=e3575] [cursor=pointer]
+                            - button "Select from list" [ref=e3578] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e3579]
+                          - radio "Add Method" [ref=e3582] [cursor=pointer]:
+                            - generic [ref=e3585]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e3586]:
+                        - generic [ref=e3588]:
+                          - button "Select Documents" [ref=e3589] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e3590]
+                          - generic [ref=e3592]: 25 Documents Selected
+                      - cell [ref=e3593]:
+                        - radiogroup [ref=e3595]:
+                          - radio "Yes" [checked] [ref=e3596] [cursor=pointer]:
+                            - generic [ref=e3599]: "Yes"
+                          - radio "No" [ref=e3600] [cursor=pointer]:
+                            - generic [ref=e3603]: "No"
+                    - row "18.8 Devices shall be designed and manufactured in such a way as to protect, as far as possible, against unauthorised access that could hamper the device from functioning as intended. Select Documents 25 Documents Selected" [ref=e3604]:
+                      - cell "18.8" [ref=e3605]:
+                        - generic [ref=e3607]: "18.8"
+                      - cell "Devices shall be designed and manufactured in such a way as to protect, as far as possible, against unauthorised access that could hamper the device from functioning as intended." [ref=e3608]:
+                        - generic [ref=e3610]: Devices shall be designed and manufactured in such a way as to protect, as far as possible, against unauthorised access that could hamper the device from functioning as intended.
+                      - cell [ref=e3611]:
+                        - radiogroup [ref=e3613]:
+                          - radio "Yes" [checked] [ref=e3614] [cursor=pointer]:
+                            - generic [ref=e3617]: "Yes"
+                          - radio "No" [ref=e3618] [cursor=pointer]:
+                            - generic [ref=e3621]: "No"
+                      - cell [ref=e3622]:
+                        - textbox "Type" [disabled] [ref=e3624]
+                      - cell [ref=e3625]:
+                        - radiogroup [ref=e3628]:
+                          - generic [ref=e3630]:
+                            - radio [checked] [ref=e3631] [cursor=pointer]
+                            - button "Select from list" [ref=e3634] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e3635]
+                          - radio "Add Method" [ref=e3638] [cursor=pointer]:
+                            - generic [ref=e3641]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e3642]:
+                        - generic [ref=e3644]:
+                          - button "Select Documents" [ref=e3645] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e3646]
+                          - generic [ref=e3648]: 25 Documents Selected
+                      - cell [ref=e3649]:
+                        - radiogroup [ref=e3651]:
+                          - radio "Yes" [checked] [ref=e3652] [cursor=pointer]:
+                            - generic [ref=e3655]: "Yes"
+                          - radio "No" [ref=e3656] [cursor=pointer]:
+                            - generic [ref=e3659]: "No"
+              - generic [ref=e3664]:
+                - table [ref=e3666]:
+                  - rowgroup [ref=e3667]:
+                    - row "19 Particular requirements for active implantable devices" [ref=e3668]:
+                      - columnheader "19" [ref=e3669]
+                      - columnheader "Particular requirements for active implantable devices" [ref=e3670]:
+                        - generic [ref=e3671]: Particular requirements for active implantable devices
+                    - row "# GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1 Applicable? Rationale for non-applicable requirements Method(s) used to demonstrate conformity Technical Document Reference Met Requirement?" [ref=e3672]:
+                      - columnheader "#" [ref=e3673]
+                      - columnheader "GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1" [ref=e3674]
+                      - columnheader "Applicable?" [ref=e3675]
+                      - columnheader "Rationale for non-applicable requirements" [ref=e3676]
+                      - columnheader "Method(s) used to demonstrate conformity" [ref=e3677]
+                      - columnheader "Technical Document Reference" [ref=e3678]
+                      - columnheader "Met Requirement?" [ref=e3679]
+                - table [ref=e3681]:
+                  - rowgroup [ref=e3682]:
+                    - 'row "19.1 Active implantable devices shall be designed and manufactured in such a way as to remove or minimize as far as possible: (a) risks connected with the use of energy sources with particular reference, where electricity is used, to insulation, leakage currents and overheating of the devices, (b) risks connected with medical treatment, in particular those resulting from the use of defibrillators or high- frequency surgical equipment, and (c) risks which may arise where maintenance and calibration are impossible, including: — excessive increase of leakage currents, — ageing of the materials used, — excess heat generated by the device, — decreased accuracy of any measuring or control mechanism. Select Documents 25 Documents Selected" [ref=e3683]':
+                      - cell "19.1" [ref=e3684]:
+                        - generic [ref=e3686]: "19.1"
+                      - 'cell "Active implantable devices shall be designed and manufactured in such a way as to remove or minimize as far as possible: (a) risks connected with the use of energy sources with particular reference, where electricity is used, to insulation, leakage currents and overheating of the devices, (b) risks connected with medical treatment, in particular those resulting from the use of defibrillators or high- frequency surgical equipment, and (c) risks which may arise where maintenance and calibration are impossible, including: — excessive increase of leakage currents, — ageing of the materials used, — excess heat generated by the device, — decreased accuracy of any measuring or control mechanism." [ref=e3687]':
+                        - generic [ref=e3689]: "Active implantable devices shall be designed and manufactured in such a way as to remove or minimize as far as possible: (a) risks connected with the use of energy sources with particular reference, where electricity is used, to insulation, leakage currents and overheating of the devices, (b) risks connected with medical treatment, in particular those resulting from the use of defibrillators or high- frequency surgical equipment, and (c) risks which may arise where maintenance and calibration are impossible, including: — excessive increase of leakage currents, — ageing of the materials used, — excess heat generated by the device, — decreased accuracy of any measuring or control mechanism."
+                      - cell [ref=e3690]:
+                        - radiogroup [ref=e3692]:
+                          - radio "Yes" [ref=e3693] [cursor=pointer]:
+                            - generic [ref=e3696]: "Yes"
+                          - radio "No" [ref=e3697] [cursor=pointer]:
+                            - generic [ref=e3700]: "No"
+                      - cell [ref=e3701]:
+                        - textbox "Type" [disabled] [ref=e3703]
+                      - cell [ref=e3704]:
+                        - radiogroup [ref=e3707]:
+                          - generic [ref=e3709]:
+                            - radio [checked] [ref=e3710] [cursor=pointer]
+                            - button "Select from list" [ref=e3713] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e3714]
+                          - radio "Add Method" [ref=e3717] [cursor=pointer]:
+                            - generic [ref=e3720]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e3721]:
+                        - generic [ref=e3723]:
+                          - button "Select Documents" [ref=e3724] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e3725]
+                          - generic [ref=e3727]: 25 Documents Selected
+                      - cell [ref=e3728]:
+                        - radiogroup [ref=e3730]:
+                          - radio "Yes" [ref=e3731] [cursor=pointer]:
+                            - generic [ref=e3734]: "Yes"
+                          - radio "No" [ref=e3735] [cursor=pointer]:
+                            - generic [ref=e3738]: "No"
+                    - row "19.2 Active implantable devices shall be designed and manufactured in such a way as to ensure — if applicable, the compatibility of the devices with the substances they are intended to administer, and — the reliability of the source of energy. Select Documents 25 Documents Selected" [ref=e3739]:
+                      - cell "19.2" [ref=e3740]:
+                        - generic [ref=e3742]: "19.2"
+                      - cell "Active implantable devices shall be designed and manufactured in such a way as to ensure — if applicable, the compatibility of the devices with the substances they are intended to administer, and — the reliability of the source of energy." [ref=e3743]:
+                        - generic [ref=e3745]: Active implantable devices shall be designed and manufactured in such a way as to ensure — if applicable, the compatibility of the devices with the substances they are intended to administer, and — the reliability of the source of energy.
+                      - cell [ref=e3746]:
+                        - radiogroup [ref=e3748]:
+                          - radio "Yes" [checked] [ref=e3749] [cursor=pointer]:
+                            - generic [ref=e3752]: "Yes"
+                          - radio "No" [ref=e3753] [cursor=pointer]:
+                            - generic [ref=e3756]: "No"
+                      - cell [ref=e3757]:
+                        - textbox "Type" [disabled] [ref=e3759]
+                      - cell [ref=e3760]:
+                        - radiogroup [ref=e3763]:
+                          - generic [ref=e3765]:
+                            - radio [checked] [ref=e3766] [cursor=pointer]
+                            - button "Select from list" [ref=e3769] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e3770]
+                          - radio "Add Method" [ref=e3773] [cursor=pointer]:
+                            - generic [ref=e3776]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e3777]:
+                        - generic [ref=e3779]:
+                          - button "Select Documents" [ref=e3780] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e3781]
+                          - generic [ref=e3783]: 25 Documents Selected
+                      - cell [ref=e3784]:
+                        - radiogroup [ref=e3786]:
+                          - radio "Yes" [checked] [ref=e3787] [cursor=pointer]:
+                            - generic [ref=e3790]: "Yes"
+                          - radio "No" [ref=e3791] [cursor=pointer]:
+                            - generic [ref=e3794]: "No"
+                    - row "19.3 Active implantable devices and, if appropriate, their component parts shall be identifiable to allow any necessary measure to be taken following the discovery of a potential risk in connection with the devices or their component parts. Select Documents 25 Documents Selected" [ref=e3795]:
+                      - cell "19.3" [ref=e3796]:
+                        - generic [ref=e3798]: "19.3"
+                      - cell "Active implantable devices and, if appropriate, their component parts shall be identifiable to allow any necessary measure to be taken following the discovery of a potential risk in connection with the devices or their component parts." [ref=e3799]:
+                        - generic [ref=e3801]: Active implantable devices and, if appropriate, their component parts shall be identifiable to allow any necessary measure to be taken following the discovery of a potential risk in connection with the devices or their component parts.
+                      - cell [ref=e3802]:
+                        - radiogroup [ref=e3804]:
+                          - radio "Yes" [checked] [ref=e3805] [cursor=pointer]:
+                            - generic [ref=e3808]: "Yes"
+                          - radio "No" [ref=e3809] [cursor=pointer]:
+                            - generic [ref=e3812]: "No"
+                      - cell [ref=e3813]:
+                        - textbox "Type" [disabled] [ref=e3815]
+                      - cell [ref=e3816]:
+                        - radiogroup [ref=e3819]:
+                          - generic [ref=e3821]:
+                            - radio [checked] [ref=e3822] [cursor=pointer]
+                            - button "Select from list" [ref=e3825] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e3826]
+                          - radio "Add Method" [ref=e3829] [cursor=pointer]:
+                            - generic [ref=e3832]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e3833]:
+                        - generic [ref=e3835]:
+                          - button "Select Documents" [ref=e3836] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e3837]
+                          - generic [ref=e3839]: 25 Documents Selected
+                      - cell [ref=e3840]:
+                        - radiogroup [ref=e3842]:
+                          - radio "Yes" [checked] [ref=e3843] [cursor=pointer]:
+                            - generic [ref=e3846]: "Yes"
+                          - radio "No" [ref=e3847] [cursor=pointer]:
+                            - generic [ref=e3850]: "No"
+                    - row "19.4 Active implantable devices shall bear a code by which they and their manufacturer can be unequivocally identified (particularly with regard to the type of device and its year of manufacture); it shall be possible to read this code, if necessary, without the need for a surgical operation Select Documents 25 Documents Selected" [ref=e3851]:
+                      - cell "19.4" [ref=e3852]:
+                        - generic [ref=e3854]: "19.4"
+                      - cell "Active implantable devices shall bear a code by which they and their manufacturer can be unequivocally identified (particularly with regard to the type of device and its year of manufacture); it shall be possible to read this code, if necessary, without the need for a surgical operation" [ref=e3855]:
+                        - generic [ref=e3857]: Active implantable devices shall bear a code by which they and their manufacturer can be unequivocally identified (particularly with regard to the type of device and its year of manufacture); it shall be possible to read this code, if necessary, without the need for a surgical operation
+                      - cell [ref=e3858]:
+                        - radiogroup [ref=e3860]:
+                          - radio "Yes" [checked] [ref=e3861] [cursor=pointer]:
+                            - generic [ref=e3864]: "Yes"
+                          - radio "No" [ref=e3865] [cursor=pointer]:
+                            - generic [ref=e3868]: "No"
+                      - cell [ref=e3869]:
+                        - textbox "Type" [disabled] [ref=e3871]
+                      - cell [ref=e3872]:
+                        - radiogroup [ref=e3875]:
+                          - generic [ref=e3877]:
+                            - radio [checked] [ref=e3878] [cursor=pointer]
+                            - button "Select from list" [ref=e3881] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e3882]
+                          - radio "Add Method" [ref=e3885] [cursor=pointer]:
+                            - generic [ref=e3888]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e3889]:
+                        - generic [ref=e3891]:
+                          - button "Select Documents" [ref=e3892] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e3893]
+                          - generic [ref=e3895]: 25 Documents Selected
+                      - cell [ref=e3896]:
+                        - radiogroup [ref=e3898]:
+                          - radio "Yes" [checked] [ref=e3899] [cursor=pointer]:
+                            - generic [ref=e3902]: "Yes"
+                          - radio "No" [ref=e3903] [cursor=pointer]:
+                            - generic [ref=e3906]: "No"
+              - generic [ref=e3911]:
+                - table [ref=e3913]:
+                  - rowgroup [ref=e3914]:
+                    - row "20 Protection against mechanical and thermal risks" [ref=e3915]:
+                      - columnheader "20" [ref=e3916]
+                      - columnheader "Protection against mechanical and thermal risks" [ref=e3917]:
+                        - generic [ref=e3918]: Protection against mechanical and thermal risks
+                    - row "# GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1 Applicable? Rationale for non-applicable requirements Method(s) used to demonstrate conformity Technical Document Reference Met Requirement?" [ref=e3919]:
+                      - columnheader "#" [ref=e3920]
+                      - columnheader "GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1" [ref=e3921]
+                      - columnheader "Applicable?" [ref=e3922]
+                      - columnheader "Rationale for non-applicable requirements" [ref=e3923]
+                      - columnheader "Method(s) used to demonstrate conformity" [ref=e3924]
+                      - columnheader "Technical Document Reference" [ref=e3925]
+                      - columnheader "Met Requirement?" [ref=e3926]
+                - table [ref=e3928]:
+                  - rowgroup [ref=e3929]:
+                    - row "20.1 Devices shall be designed and manufactured in such a way as to protect patients and users against mechanical risks connected with, for example, resistance to movement, instability and moving parts. Select Documents 25 Documents Selected" [ref=e3930]:
+                      - cell "20.1" [ref=e3931]:
+                        - generic [ref=e3933]: "20.1"
+                      - cell "Devices shall be designed and manufactured in such a way as to protect patients and users against mechanical risks connected with, for example, resistance to movement, instability and moving parts." [ref=e3934]:
+                        - generic [ref=e3936]: Devices shall be designed and manufactured in such a way as to protect patients and users against mechanical risks connected with, for example, resistance to movement, instability and moving parts.
+                      - cell [ref=e3937]:
+                        - radiogroup [ref=e3939]:
+                          - radio "Yes" [ref=e3940] [cursor=pointer]:
+                            - generic [ref=e3943]: "Yes"
+                          - radio "No" [ref=e3944] [cursor=pointer]:
+                            - generic [ref=e3947]: "No"
+                      - cell [ref=e3948]:
+                        - textbox "Type" [disabled] [ref=e3950]
+                      - cell [ref=e3951]:
+                        - radiogroup [ref=e3954]:
+                          - generic [ref=e3956]:
+                            - radio [checked] [ref=e3957] [cursor=pointer]
+                            - button "Select from list" [ref=e3960] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e3961]
+                          - radio "Add Method" [ref=e3964] [cursor=pointer]:
+                            - generic [ref=e3967]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e3968]:
+                        - generic [ref=e3970]:
+                          - button "Select Documents" [ref=e3971] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e3972]
+                          - generic [ref=e3974]: 25 Documents Selected
+                      - cell [ref=e3975]:
+                        - radiogroup [ref=e3977]:
+                          - radio "Yes" [ref=e3978] [cursor=pointer]:
+                            - generic [ref=e3981]: "Yes"
+                          - radio "No" [ref=e3982] [cursor=pointer]:
+                            - generic [ref=e3985]: "No"
+                    - row "20.2 Devices shall be designed and manufactured in such a way as to reduce to the lowest possible level the risks arising from vibration generated by the devices, taking account of technical progress and of the means available for limiting vibrations, particularly at source, unless the vibrations are part of the specified performance. Select Documents 25 Documents Selected" [ref=e3986]:
+                      - cell "20.2" [ref=e3987]:
+                        - generic [ref=e3989]: "20.2"
+                      - cell "Devices shall be designed and manufactured in such a way as to reduce to the lowest possible level the risks arising from vibration generated by the devices, taking account of technical progress and of the means available for limiting vibrations, particularly at source, unless the vibrations are part of the specified performance." [ref=e3990]:
+                        - generic [ref=e3992]: Devices shall be designed and manufactured in such a way as to reduce to the lowest possible level the risks arising from vibration generated by the devices, taking account of technical progress and of the means available for limiting vibrations, particularly at source, unless the vibrations are part of the specified performance.
+                      - cell [ref=e3993]:
+                        - radiogroup [ref=e3995]:
+                          - radio "Yes" [ref=e3996] [cursor=pointer]:
+                            - generic [ref=e3999]: "Yes"
+                          - radio "No" [ref=e4000] [cursor=pointer]:
+                            - generic [ref=e4003]: "No"
+                      - cell [ref=e4004]:
+                        - textbox "Type" [disabled] [ref=e4006]
+                      - cell [ref=e4007]:
+                        - radiogroup [ref=e4010]:
+                          - generic [ref=e4012]:
+                            - radio [checked] [ref=e4013] [cursor=pointer]
+                            - button "Select from list" [ref=e4016] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e4017]
+                          - radio "Add Method" [ref=e4020] [cursor=pointer]:
+                            - generic [ref=e4023]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e4024]:
+                        - generic [ref=e4026]:
+                          - button "Select Documents" [ref=e4027] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e4028]
+                          - generic [ref=e4030]: 25 Documents Selected
+                      - cell [ref=e4031]:
+                        - radiogroup [ref=e4033]:
+                          - radio "Yes" [ref=e4034] [cursor=pointer]:
+                            - generic [ref=e4037]: "Yes"
+                          - radio "No" [ref=e4038] [cursor=pointer]:
+                            - generic [ref=e4041]: "No"
+                    - row "20.3 Devices shall be designed and manufactured in such a way as to reduce to the lowest possible level the risks arising from the noise emitted, taking account of technical progress and of the means available to reduce noise, particularly at source, unless the noise emitted is part of the specified performance. Select Documents 25 Documents Selected" [ref=e4042]:
+                      - cell "20.3" [ref=e4043]:
+                        - generic [ref=e4045]: "20.3"
+                      - cell "Devices shall be designed and manufactured in such a way as to reduce to the lowest possible level the risks arising from the noise emitted, taking account of technical progress and of the means available to reduce noise, particularly at source, unless the noise emitted is part of the specified performance." [ref=e4046]:
+                        - generic [ref=e4048]: Devices shall be designed and manufactured in such a way as to reduce to the lowest possible level the risks arising from the noise emitted, taking account of technical progress and of the means available to reduce noise, particularly at source, unless the noise emitted is part of the specified performance.
+                      - cell [ref=e4049]:
+                        - radiogroup [ref=e4051]:
+                          - radio "Yes" [ref=e4052] [cursor=pointer]:
+                            - generic [ref=e4055]: "Yes"
+                          - radio "No" [ref=e4056] [cursor=pointer]:
+                            - generic [ref=e4059]: "No"
+                      - cell [ref=e4060]:
+                        - textbox "Type" [disabled] [ref=e4062]
+                      - cell [ref=e4063]:
+                        - radiogroup [ref=e4066]:
+                          - generic [ref=e4068]:
+                            - radio [checked] [ref=e4069] [cursor=pointer]
+                            - button "Select from list" [ref=e4072] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e4073]
+                          - radio "Add Method" [ref=e4076] [cursor=pointer]:
+                            - generic [ref=e4079]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e4080]:
+                        - generic [ref=e4082]:
+                          - button "Select Documents" [ref=e4083] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e4084]
+                          - generic [ref=e4086]: 25 Documents Selected
+                      - cell [ref=e4087]:
+                        - radiogroup [ref=e4089]:
+                          - radio "Yes" [ref=e4090] [cursor=pointer]:
+                            - generic [ref=e4093]: "Yes"
+                          - radio "No" [ref=e4094] [cursor=pointer]:
+                            - generic [ref=e4097]: "No"
+                    - row "20.4 Terminals and connectors to the electricity, gas or hydraulic and pneumatic energy supplies which the user or other person has to handle, shall be designed and constructed in such a way as to minimise all possible risks. Select Documents 25 Documents Selected" [ref=e4098]:
+                      - cell "20.4" [ref=e4099]:
+                        - generic [ref=e4101]: "20.4"
+                      - cell "Terminals and connectors to the electricity, gas or hydraulic and pneumatic energy supplies which the user or other person has to handle, shall be designed and constructed in such a way as to minimise all possible risks." [ref=e4102]:
+                        - generic [ref=e4104]: Terminals and connectors to the electricity, gas or hydraulic and pneumatic energy supplies which the user or other person has to handle, shall be designed and constructed in such a way as to minimise all possible risks.
+                      - cell [ref=e4105]:
+                        - radiogroup [ref=e4107]:
+                          - radio "Yes" [ref=e4108] [cursor=pointer]:
+                            - generic [ref=e4111]: "Yes"
+                          - radio "No" [ref=e4112] [cursor=pointer]:
+                            - generic [ref=e4115]: "No"
+                      - cell [ref=e4116]:
+                        - textbox "Type" [disabled] [ref=e4118]
+                      - cell [ref=e4119]:
+                        - radiogroup [ref=e4122]:
+                          - generic [ref=e4124]:
+                            - radio [checked] [ref=e4125] [cursor=pointer]
+                            - button "Select from list" [ref=e4128] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e4129]
+                          - radio "Add Method" [ref=e4132] [cursor=pointer]:
+                            - generic [ref=e4135]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e4136]:
+                        - generic [ref=e4138]:
+                          - button "Select Documents" [ref=e4139] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e4140]
+                          - generic [ref=e4142]: 25 Documents Selected
+                      - cell [ref=e4143]:
+                        - radiogroup [ref=e4145]:
+                          - radio "Yes" [ref=e4146] [cursor=pointer]:
+                            - generic [ref=e4149]: "Yes"
+                          - radio "No" [ref=e4150] [cursor=pointer]:
+                            - generic [ref=e4153]: "No"
+                    - row "20.5 Errors likely to be made when fitting or refitting certain parts which could be a source of risk shall be made impossible by the design and construction of such parts or, failing this, by information given on the parts themselves and/or their housings. The same information shall be given on moving parts and/or their housings where the direction of movement needs to be known in order to avoid a risk. Select Documents 25 Documents Selected" [ref=e4154]:
+                      - cell "20.5" [ref=e4155]:
+                        - generic [ref=e4157]: "20.5"
+                      - cell "Errors likely to be made when fitting or refitting certain parts which could be a source of risk shall be made impossible by the design and construction of such parts or, failing this, by information given on the parts themselves and/or their housings. The same information shall be given on moving parts and/or their housings where the direction of movement needs to be known in order to avoid a risk." [ref=e4158]:
+                        - generic [ref=e4160]: Errors likely to be made when fitting or refitting certain parts which could be a source of risk shall be made impossible by the design and construction of such parts or, failing this, by information given on the parts themselves and/or their housings. The same information shall be given on moving parts and/or their housings where the direction of movement needs to be known in order to avoid a risk.
+                      - cell [ref=e4161]:
+                        - radiogroup [ref=e4163]:
+                          - radio "Yes" [ref=e4164] [cursor=pointer]:
+                            - generic [ref=e4167]: "Yes"
+                          - radio "No" [ref=e4168] [cursor=pointer]:
+                            - generic [ref=e4171]: "No"
+                      - cell [ref=e4172]:
+                        - textbox "Type" [disabled] [ref=e4174]
+                      - cell [ref=e4175]:
+                        - radiogroup [ref=e4178]:
+                          - generic [ref=e4180]:
+                            - radio [checked] [ref=e4181] [cursor=pointer]
+                            - button "Select from list" [ref=e4184] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e4185]
+                          - radio "Add Method" [ref=e4188] [cursor=pointer]:
+                            - generic [ref=e4191]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e4192]:
+                        - generic [ref=e4194]:
+                          - button "Select Documents" [ref=e4195] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e4196]
+                          - generic [ref=e4198]: 25 Documents Selected
+                      - cell [ref=e4199]:
+                        - radiogroup [ref=e4201]:
+                          - radio "Yes" [ref=e4202] [cursor=pointer]:
+                            - generic [ref=e4205]: "Yes"
+                          - radio "No" [ref=e4206] [cursor=pointer]:
+                            - generic [ref=e4209]: "No"
+                    - row "20.6 Accessible parts of devices (excluding the parts or areas intended to supply heat or reach given temperatures) and their surroundings shall not attain potentially dangerous temperatures under normal conditions of use. Select Documents 25 Documents Selected" [ref=e4210]:
+                      - cell "20.6" [ref=e4211]:
+                        - generic [ref=e4213]: "20.6"
+                      - cell "Accessible parts of devices (excluding the parts or areas intended to supply heat or reach given temperatures) and their surroundings shall not attain potentially dangerous temperatures under normal conditions of use." [ref=e4214]:
+                        - generic [ref=e4216]: Accessible parts of devices (excluding the parts or areas intended to supply heat or reach given temperatures) and their surroundings shall not attain potentially dangerous temperatures under normal conditions of use.
+                      - cell [ref=e4217]:
+                        - radiogroup [ref=e4219]:
+                          - radio "Yes" [ref=e4220] [cursor=pointer]:
+                            - generic [ref=e4223]: "Yes"
+                          - radio "No" [ref=e4224] [cursor=pointer]:
+                            - generic [ref=e4227]: "No"
+                      - cell [ref=e4228]:
+                        - textbox "Type" [disabled] [ref=e4230]
+                      - cell [ref=e4231]:
+                        - radiogroup [ref=e4234]:
+                          - generic [ref=e4236]:
+                            - radio [checked] [ref=e4237] [cursor=pointer]
+                            - button "Select from list" [ref=e4240] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e4241]
+                          - radio "Add Method" [ref=e4244] [cursor=pointer]:
+                            - generic [ref=e4247]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e4248]:
+                        - generic [ref=e4250]:
+                          - button "Select Documents" [ref=e4251] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e4252]
+                          - generic [ref=e4254]: 25 Documents Selected
+                      - cell [ref=e4255]:
+                        - radiogroup [ref=e4257]:
+                          - radio "Yes" [ref=e4258] [cursor=pointer]:
+                            - generic [ref=e4261]: "Yes"
+                          - radio "No" [ref=e4262] [cursor=pointer]:
+                            - generic [ref=e4265]: "No"
+              - generic [ref=e4270]:
+                - table [ref=e4272]:
+                  - rowgroup [ref=e4273]:
+                    - row "21 Protection against the risks posed to the patient or user by devices supplying energy or substances" [ref=e4274]:
+                      - columnheader "21" [ref=e4275]
+                      - columnheader "Protection against the risks posed to the patient or user by devices supplying energy or substances" [ref=e4276]:
+                        - generic [ref=e4277]: Protection against the risks posed to the patient or user by devices supplying energy or substances
+                    - row "# GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1 Applicable? Rationale for non-applicable requirements Method(s) used to demonstrate conformity Technical Document Reference Met Requirement?" [ref=e4278]:
+                      - columnheader "#" [ref=e4279]
+                      - columnheader "GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1" [ref=e4280]
+                      - columnheader "Applicable?" [ref=e4281]
+                      - columnheader "Rationale for non-applicable requirements" [ref=e4282]
+                      - columnheader "Method(s) used to demonstrate conformity" [ref=e4283]
+                      - columnheader "Technical Document Reference" [ref=e4284]
+                      - columnheader "Met Requirement?" [ref=e4285]
+                - table [ref=e4287]:
+                  - rowgroup [ref=e4288]:
+                    - row "21.1 Devices for supplying the patient with energy or substances shall be designed and constructed in such a way that the amount to be delivered can be set and maintained accurately enough to ensure the safety of the patient and of the user. Select Documents 25 Documents Selected" [ref=e4289]:
+                      - cell "21.1" [ref=e4290]:
+                        - generic [ref=e4292]: "21.1"
+                      - cell "Devices for supplying the patient with energy or substances shall be designed and constructed in such a way that the amount to be delivered can be set and maintained accurately enough to ensure the safety of the patient and of the user." [ref=e4293]:
+                        - generic [ref=e4295]: Devices for supplying the patient with energy or substances shall be designed and constructed in such a way that the amount to be delivered can be set and maintained accurately enough to ensure the safety of the patient and of the user.
+                      - cell [ref=e4296]:
+                        - radiogroup [ref=e4298]:
+                          - radio "Yes" [ref=e4299] [cursor=pointer]:
+                            - generic [ref=e4302]: "Yes"
+                          - radio "No" [ref=e4303] [cursor=pointer]:
+                            - generic [ref=e4306]: "No"
+                      - cell [ref=e4307]:
+                        - textbox "Type" [disabled] [ref=e4309]
+                      - cell [ref=e4310]:
+                        - radiogroup [ref=e4313]:
+                          - generic [ref=e4315]:
+                            - radio [checked] [ref=e4316] [cursor=pointer]
+                            - button "Select from list" [ref=e4319] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e4320]
+                          - radio "Add Method" [ref=e4323] [cursor=pointer]:
+                            - generic [ref=e4326]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e4327]:
+                        - generic [ref=e4329]:
+                          - button "Select Documents" [ref=e4330] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e4331]
+                          - generic [ref=e4333]: 25 Documents Selected
+                      - cell [ref=e4334]:
+                        - radiogroup [ref=e4336]:
+                          - radio "Yes" [ref=e4337] [cursor=pointer]:
+                            - generic [ref=e4340]: "Yes"
+                          - radio "No" [ref=e4341] [cursor=pointer]:
+                            - generic [ref=e4344]: "No"
+                    - row "21.2 Devices shall be fitted with the means of preventing and/or indicating any inadequacies in the amount of energy delivered or substances delivered which could pose a danger. Devices shall incorporate suitable means to prevent, as far as possible, the accidental release of dangerous levels of energy or substances from an energy and/or substance source. Select Documents 25 Documents Selected" [ref=e4345]:
+                      - cell "21.2" [ref=e4346]:
+                        - generic [ref=e4348]: "21.2"
+                      - cell "Devices shall be fitted with the means of preventing and/or indicating any inadequacies in the amount of energy delivered or substances delivered which could pose a danger. Devices shall incorporate suitable means to prevent, as far as possible, the accidental release of dangerous levels of energy or substances from an energy and/or substance source." [ref=e4349]:
+                        - generic [ref=e4351]: Devices shall be fitted with the means of preventing and/or indicating any inadequacies in the amount of energy delivered or substances delivered which could pose a danger. Devices shall incorporate suitable means to prevent, as far as possible, the accidental release of dangerous levels of energy or substances from an energy and/or substance source.
+                      - cell [ref=e4352]:
+                        - radiogroup [ref=e4354]:
+                          - radio "Yes" [ref=e4355] [cursor=pointer]:
+                            - generic [ref=e4358]: "Yes"
+                          - radio "No" [ref=e4359] [cursor=pointer]:
+                            - generic [ref=e4362]: "No"
+                      - cell [ref=e4363]:
+                        - textbox "Type" [disabled] [ref=e4365]
+                      - cell [ref=e4366]:
+                        - radiogroup [ref=e4369]:
+                          - generic [ref=e4371]:
+                            - radio [checked] [ref=e4372] [cursor=pointer]
+                            - button "Select from list" [ref=e4375] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e4376]
+                          - radio "Add Method" [ref=e4379] [cursor=pointer]:
+                            - generic [ref=e4382]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e4383]:
+                        - generic [ref=e4385]:
+                          - button "Select Documents" [ref=e4386] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e4387]
+                          - generic [ref=e4389]: 25 Documents Selected
+                      - cell [ref=e4390]:
+                        - radiogroup [ref=e4392]:
+                          - radio "Yes" [ref=e4393] [cursor=pointer]:
+                            - generic [ref=e4396]: "Yes"
+                          - radio "No" [ref=e4397] [cursor=pointer]:
+                            - generic [ref=e4400]: "No"
+                    - row "21.3 The function of the controls and indicators shall be clearly specified on the devices. Where a device bears instructions required for its operation or indicates operating or adjustment parameters by means of a visual system, such information shall be understandable to the user and, as appropriate, the patient. Select Documents 25 Documents Selected" [ref=e4401]:
+                      - cell "21.3" [ref=e4402]:
+                        - generic [ref=e4404]: "21.3"
+                      - cell "The function of the controls and indicators shall be clearly specified on the devices. Where a device bears instructions required for its operation or indicates operating or adjustment parameters by means of a visual system, such information shall be understandable to the user and, as appropriate, the patient." [ref=e4405]:
+                        - generic [ref=e4407]: The function of the controls and indicators shall be clearly specified on the devices. Where a device bears instructions required for its operation or indicates operating or adjustment parameters by means of a visual system, such information shall be understandable to the user and, as appropriate, the patient.
+                      - cell [ref=e4408]:
+                        - radiogroup [ref=e4410]:
+                          - radio "Yes" [ref=e4411] [cursor=pointer]:
+                            - generic [ref=e4414]: "Yes"
+                          - radio "No" [ref=e4415] [cursor=pointer]:
+                            - generic [ref=e4418]: "No"
+                      - cell [ref=e4419]:
+                        - textbox "Type" [disabled] [ref=e4421]
+                      - cell [ref=e4422]:
+                        - radiogroup [ref=e4425]:
+                          - generic [ref=e4427]:
+                            - radio [checked] [ref=e4428] [cursor=pointer]
+                            - button "Select from list" [ref=e4431] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e4432]
+                          - radio "Add Method" [ref=e4435] [cursor=pointer]:
+                            - generic [ref=e4438]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e4439]:
+                        - generic [ref=e4441]:
+                          - button "Select Documents" [ref=e4442] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e4443]
+                          - generic [ref=e4445]: 25 Documents Selected
+                      - cell [ref=e4446]:
+                        - radiogroup [ref=e4448]:
+                          - radio "Yes" [ref=e4449] [cursor=pointer]:
+                            - generic [ref=e4452]: "Yes"
+                          - radio "No" [ref=e4453] [cursor=pointer]:
+                            - generic [ref=e4456]: "No"
+              - generic [ref=e4461]:
+                - table [ref=e4463]:
+                  - rowgroup [ref=e4464]:
+                    - row "22 Protection against the risks posed by medical devices intended by the manufacturer for use by lay persons" [ref=e4465]:
+                      - columnheader "22" [ref=e4466]
+                      - columnheader "Protection against the risks posed by medical devices intended by the manufacturer for use by lay persons" [ref=e4467]:
+                        - generic [ref=e4468]: Protection against the risks posed by medical devices intended by the manufacturer for use by lay persons
+                    - row "# GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1 Applicable? Rationale for non-applicable requirements Method(s) used to demonstrate conformity Technical Document Reference Met Requirement?" [ref=e4469]:
+                      - columnheader "#" [ref=e4470]
+                      - columnheader "GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1" [ref=e4471]
+                      - columnheader "Applicable?" [ref=e4472]
+                      - columnheader "Rationale for non-applicable requirements" [ref=e4473]
+                      - columnheader "Method(s) used to demonstrate conformity" [ref=e4474]
+                      - columnheader "Technical Document Reference" [ref=e4475]
+                      - columnheader "Met Requirement?" [ref=e4476]
+                - table [ref=e4478]:
+                  - rowgroup [ref=e4479]:
+                    - row "22.1 Devices for use by lay persons shall be designed and manufactured in such a way that they perform appropriately for their intended purpose taking into account the skills and the means available to lay persons and the influence resulting from variation that can be reasonably anticipated in the lay person's technique and environment. The information and instructions provided by the manufacturer shall be easy for the lay person to understand and apply. Select Documents 25 Documents Selected" [ref=e4480]:
+                      - cell "22.1" [ref=e4481]:
+                        - generic [ref=e4483]: "22.1"
+                      - cell "Devices for use by lay persons shall be designed and manufactured in such a way that they perform appropriately for their intended purpose taking into account the skills and the means available to lay persons and the influence resulting from variation that can be reasonably anticipated in the lay person's technique and environment. The information and instructions provided by the manufacturer shall be easy for the lay person to understand and apply." [ref=e4484]:
+                        - generic [ref=e4486]: Devices for use by lay persons shall be designed and manufactured in such a way that they perform appropriately for their intended purpose taking into account the skills and the means available to lay persons and the influence resulting from variation that can be reasonably anticipated in the lay person's technique and environment. The information and instructions provided by the manufacturer shall be easy for the lay person to understand and apply.
+                      - cell [ref=e4487]:
+                        - radiogroup [ref=e4489]:
+                          - radio "Yes" [ref=e4490] [cursor=pointer]:
+                            - generic [ref=e4493]: "Yes"
+                          - radio "No" [ref=e4494] [cursor=pointer]:
+                            - generic [ref=e4497]: "No"
+                      - cell [ref=e4498]:
+                        - textbox "Type" [disabled] [ref=e4500]
+                      - cell [ref=e4501]:
+                        - radiogroup [ref=e4504]:
+                          - generic [ref=e4506]:
+                            - radio [checked] [ref=e4507] [cursor=pointer]
+                            - button "Select from list" [ref=e4510] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e4511]
+                          - radio "Add Method" [ref=e4514] [cursor=pointer]:
+                            - generic [ref=e4517]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e4518]:
+                        - generic [ref=e4520]:
+                          - button "Select Documents" [ref=e4521] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e4522]
+                          - generic [ref=e4524]: 25 Documents Selected
+                      - cell [ref=e4525]:
+                        - radiogroup [ref=e4527]:
+                          - radio "Yes" [ref=e4528] [cursor=pointer]:
+                            - generic [ref=e4531]: "Yes"
+                          - radio "No" [ref=e4532] [cursor=pointer]:
+                            - generic [ref=e4535]: "No"
+                    - 'row "22.2 Devices for use by lay persons shall be designed and manufactured in such a way as to: — ensure that the device can be used safely and accurately by the intended user at all stages of the procedure, if necessary after appropriate training and/or information, — reduce, as far as possible and appropriate, the risk from unintended cuts and pricks such as needle stick injuries, and — reduce as far as possible the risk of error by the intended user in the handling of the device and, if applicable, in the interpretation of the results. Select Documents 25 Documents Selected" [ref=e4536]':
+                      - cell "22.2" [ref=e4537]:
+                        - generic [ref=e4539]: "22.2"
+                      - 'cell "Devices for use by lay persons shall be designed and manufactured in such a way as to: — ensure that the device can be used safely and accurately by the intended user at all stages of the procedure, if necessary after appropriate training and/or information, — reduce, as far as possible and appropriate, the risk from unintended cuts and pricks such as needle stick injuries, and — reduce as far as possible the risk of error by the intended user in the handling of the device and, if applicable, in the interpretation of the results." [ref=e4540]':
+                        - generic [ref=e4542]: "Devices for use by lay persons shall be designed and manufactured in such a way as to: — ensure that the device can be used safely and accurately by the intended user at all stages of the procedure, if necessary after appropriate training and/or information, — reduce, as far as possible and appropriate, the risk from unintended cuts and pricks such as needle stick injuries, and — reduce as far as possible the risk of error by the intended user in the handling of the device and, if applicable, in the interpretation of the results."
+                      - cell [ref=e4543]:
+                        - radiogroup [ref=e4545]:
+                          - radio "Yes" [ref=e4546] [cursor=pointer]:
+                            - generic [ref=e4549]: "Yes"
+                          - radio "No" [ref=e4550] [cursor=pointer]:
+                            - generic [ref=e4553]: "No"
+                      - cell [ref=e4554]:
+                        - textbox "Type" [disabled] [ref=e4556]
+                      - cell [ref=e4557]:
+                        - radiogroup [ref=e4560]:
+                          - generic [ref=e4562]:
+                            - radio [checked] [ref=e4563] [cursor=pointer]
+                            - button "Select from list" [ref=e4566] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e4567]
+                          - radio "Add Method" [ref=e4570] [cursor=pointer]:
+                            - generic [ref=e4573]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e4574]:
+                        - generic [ref=e4576]:
+                          - button "Select Documents" [ref=e4577] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e4578]
+                          - generic [ref=e4580]: 25 Documents Selected
+                      - cell [ref=e4581]:
+                        - radiogroup [ref=e4583]:
+                          - radio "Yes" [ref=e4584] [cursor=pointer]:
+                            - generic [ref=e4587]: "Yes"
+                          - radio "No" [ref=e4588] [cursor=pointer]:
+                            - generic [ref=e4591]: "No"
+                    - 'row "22.3 Devices for use by lay persons shall, where appropriate, include a procedure by which the lay person: — can verify that, at the time of use, the device will perform as intended by the manufacturer, and — if applicable, is warned if the device has failed to provide a valid result. Select Documents 25 Documents Selected" [ref=e4592]':
+                      - cell "22.3" [ref=e4593]:
+                        - generic [ref=e4595]: "22.3"
+                      - 'cell "Devices for use by lay persons shall, where appropriate, include a procedure by which the lay person: — can verify that, at the time of use, the device will perform as intended by the manufacturer, and — if applicable, is warned if the device has failed to provide a valid result." [ref=e4596]':
+                        - generic [ref=e4598]: "Devices for use by lay persons shall, where appropriate, include a procedure by which the lay person: — can verify that, at the time of use, the device will perform as intended by the manufacturer, and — if applicable, is warned if the device has failed to provide a valid result."
+                      - cell [ref=e4599]:
+                        - radiogroup [ref=e4601]:
+                          - radio "Yes" [ref=e4602] [cursor=pointer]:
+                            - generic [ref=e4605]: "Yes"
+                          - radio "No" [ref=e4606] [cursor=pointer]:
+                            - generic [ref=e4609]: "No"
+                      - cell [ref=e4610]:
+                        - textbox "Type" [disabled] [ref=e4612]
+                      - cell [ref=e4613]:
+                        - radiogroup [ref=e4616]:
+                          - generic [ref=e4618]:
+                            - radio [checked] [ref=e4619] [cursor=pointer]
+                            - button "Select from list" [ref=e4622] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e4623]
+                          - radio "Add Method" [ref=e4626] [cursor=pointer]:
+                            - generic [ref=e4629]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e4630]:
+                        - generic [ref=e4632]:
+                          - button "Select Documents" [ref=e4633] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e4634]
+                          - generic [ref=e4636]: 25 Documents Selected
+                      - cell [ref=e4637]:
+                        - radiogroup [ref=e4639]:
+                          - radio "Yes" [ref=e4640] [cursor=pointer]:
+                            - generic [ref=e4643]: "Yes"
+                          - radio "No" [ref=e4644] [cursor=pointer]:
+                            - generic [ref=e4647]: "No"
+              - paragraph [ref=e4651]: III. REQUIREMENTS REGARDING THE INFORMATION SUPPLIED WITH THE DEVICE
+              - generic [ref=e4656]:
+                - table [ref=e4658]:
+                  - rowgroup [ref=e4659]:
+                    - row "23 Label and instructions for use" [ref=e4660]:
+                      - columnheader "23" [ref=e4661]
+                      - columnheader "Label and instructions for use" [ref=e4662]:
+                        - generic [ref=e4663]: Label and instructions for use
+                    - row "# GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1 Applicable? Rationale for non-applicable requirements Method(s) used to demonstrate conformity Technical Document Reference Met Requirement?" [ref=e4664]:
+                      - columnheader "#" [ref=e4665]
+                      - columnheader "GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1" [ref=e4666]
+                      - columnheader "Applicable?" [ref=e4667]
+                      - columnheader "Rationale for non-applicable requirements" [ref=e4668]
+                      - columnheader "Method(s) used to demonstrate conformity" [ref=e4669]
+                      - columnheader "Technical Document Reference" [ref=e4670]
+                      - columnheader "Met Requirement?" [ref=e4671]
+                - table [ref=e4673]:
+                  - rowgroup [ref=e4674]:
+                    - row "23.1 General requirements regarding the information supplied by the manufacturer Each device shall be accompanied by the information needed to identify the device and its manufacturer, and by any safety and performance information relevant to the user, or any other person, as appropriate. Such information may appear on the device itself, on the packaging or in the instructions for use, and shall, if the manufacturer has a website, be made available and kept up to date on the website, taking into account the following:" [ref=e4675]:
+                      - cell "23.1" [ref=e4676]:
+                        - generic [ref=e4678]: "23.1"
+                      - cell "General requirements regarding the information supplied by the manufacturer Each device shall be accompanied by the information needed to identify the device and its manufacturer, and by any safety and performance information relevant to the user, or any other person, as appropriate. Such information may appear on the device itself, on the packaging or in the instructions for use, and shall, if the manufacturer has a website, be made available and kept up to date on the website, taking into account the following:" [ref=e4679]:
+                        - generic [ref=e4681]: "General requirements regarding the information supplied by the manufacturer Each device shall be accompanied by the information needed to identify the device and its manufacturer, and by any safety and performance information relevant to the user, or any other person, as appropriate. Such information may appear on the device itself, on the packaging or in the instructions for use, and shall, if the manufacturer has a website, be made available and kept up to date on the website, taking into account the following:"
+                      - cell [ref=e4682]
+                      - cell [ref=e4683]
+                      - cell [ref=e4684]
+                      - cell [ref=e4685]
+                      - cell [ref=e4686]
+                    - row "(a) The medium, format, content, legibility, and location of the label and instructions for use shall be appropriate to the particular device, its intended purpose and the technical knowledge, experience, education or training of the intended user(s). In particular, instructions for use shall be written in terms readily understood by the intended user and, where appropriate, supplemented with drawings and diagrams. Select Documents 25 Documents Selected" [ref=e4687]:
+                      - cell [ref=e4688]
+                      - cell "(a) The medium, format, content, legibility, and location of the label and instructions for use shall be appropriate to the particular device, its intended purpose and the technical knowledge, experience, education or training of the intended user(s). In particular, instructions for use shall be written in terms readily understood by the intended user and, where appropriate, supplemented with drawings and diagrams." [ref=e4689]:
+                        - generic [ref=e4691]: (a) The medium, format, content, legibility, and location of the label and instructions for use shall be appropriate to the particular device, its intended purpose and the technical knowledge, experience, education or training of the intended user(s). In particular, instructions for use shall be written in terms readily understood by the intended user and, where appropriate, supplemented with drawings and diagrams.
+                      - cell [ref=e4692]:
+                        - radiogroup [ref=e4694]:
+                          - radio "Yes" [ref=e4695] [cursor=pointer]:
+                            - generic [ref=e4698]: "Yes"
+                          - radio "No" [ref=e4699] [cursor=pointer]:
+                            - generic [ref=e4702]: "No"
+                      - cell [ref=e4703]:
+                        - textbox "Type" [disabled] [ref=e4705]
+                      - cell [ref=e4706]:
+                        - radiogroup [ref=e4709]:
+                          - generic [ref=e4711]:
+                            - radio [checked] [ref=e4712] [cursor=pointer]
+                            - button "Select from list" [ref=e4715] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e4716]
+                          - radio "Add Method" [ref=e4719] [cursor=pointer]:
+                            - generic [ref=e4722]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e4723]:
+                        - generic [ref=e4725]:
+                          - button "Select Documents" [ref=e4726] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e4727]
+                          - generic [ref=e4729]: 25 Documents Selected
+                      - cell [ref=e4730]:
+                        - radiogroup [ref=e4732]:
+                          - radio "Yes" [ref=e4733] [cursor=pointer]:
+                            - generic [ref=e4736]: "Yes"
+                          - radio "No" [ref=e4737] [cursor=pointer]:
+                            - generic [ref=e4740]: "No"
+                    - row "(b) The information required on the label shall be provided on the device itself. If this is not practicable or appropriate, some or all of the information may appear on the packaging for each unit, and/or on the packaging of multiple devices. Select Documents 25 Documents Selected" [ref=e4741]:
+                      - cell [ref=e4742]
+                      - cell "(b) The information required on the label shall be provided on the device itself. If this is not practicable or appropriate, some or all of the information may appear on the packaging for each unit, and/or on the packaging of multiple devices." [ref=e4743]:
+                        - generic [ref=e4745]: (b) The information required on the label shall be provided on the device itself. If this is not practicable or appropriate, some or all of the information may appear on the packaging for each unit, and/or on the packaging of multiple devices.
+                      - cell [ref=e4746]:
+                        - radiogroup [ref=e4748]:
+                          - radio "Yes" [ref=e4749] [cursor=pointer]:
+                            - generic [ref=e4752]: "Yes"
+                          - radio "No" [ref=e4753] [cursor=pointer]:
+                            - generic [ref=e4756]: "No"
+                      - cell [ref=e4757]:
+                        - textbox "Type" [disabled] [ref=e4759]
+                      - cell [ref=e4760]:
+                        - radiogroup [ref=e4763]:
+                          - generic [ref=e4765]:
+                            - radio [checked] [ref=e4766] [cursor=pointer]
+                            - button "Select from list" [ref=e4769] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e4770]
+                          - radio "Add Method" [ref=e4773] [cursor=pointer]:
+                            - generic [ref=e4776]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e4777]:
+                        - generic [ref=e4779]:
+                          - button "Select Documents" [ref=e4780] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e4781]
+                          - generic [ref=e4783]: 25 Documents Selected
+                      - cell [ref=e4784]:
+                        - radiogroup [ref=e4786]:
+                          - radio "Yes" [ref=e4787] [cursor=pointer]:
+                            - generic [ref=e4790]: "Yes"
+                          - radio "No" [ref=e4791] [cursor=pointer]:
+                            - generic [ref=e4794]: "No"
+                    - row "(c) Labels shall be provided in a human-readable format and may be supplemented by machine-readable information, such as radio-frequency identification (‘RFID’) or bar codes. Select Documents 25 Documents Selected" [ref=e4795]:
+                      - cell [ref=e4796]
+                      - cell "(c) Labels shall be provided in a human-readable format and may be supplemented by machine-readable information, such as radio-frequency identification (‘RFID’) or bar codes." [ref=e4797]:
+                        - generic [ref=e4799]: (c) Labels shall be provided in a human-readable format and may be supplemented by machine-readable information, such as radio-frequency identification (‘RFID’) or bar codes.
+                      - cell [ref=e4800]:
+                        - radiogroup [ref=e4802]:
+                          - radio "Yes" [ref=e4803] [cursor=pointer]:
+                            - generic [ref=e4806]: "Yes"
+                          - radio "No" [ref=e4807] [cursor=pointer]:
+                            - generic [ref=e4810]: "No"
+                      - cell [ref=e4811]:
+                        - textbox "Type" [disabled] [ref=e4813]
+                      - cell [ref=e4814]:
+                        - radiogroup [ref=e4817]:
+                          - generic [ref=e4819]:
+                            - radio [checked] [ref=e4820] [cursor=pointer]
+                            - button "Select from list" [ref=e4823] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e4824]
+                          - radio "Add Method" [ref=e4827] [cursor=pointer]:
+                            - generic [ref=e4830]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e4831]:
+                        - generic [ref=e4833]:
+                          - button "Select Documents" [ref=e4834] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e4835]
+                          - generic [ref=e4837]: 25 Documents Selected
+                      - cell [ref=e4838]:
+                        - radiogroup [ref=e4840]:
+                          - radio "Yes" [ref=e4841] [cursor=pointer]:
+                            - generic [ref=e4844]: "Yes"
+                          - radio "No" [ref=e4845] [cursor=pointer]:
+                            - generic [ref=e4848]: "No"
+                    - row "(d) Instructions for use shall be provided together with devices. By way of exception, instructions for use shall not be required for class I and class IIa devices if such devices can be used safely without any such instructions and unless otherwise provided for elsewhere in this Section. Select Documents 25 Documents Selected" [ref=e4849]:
+                      - cell [ref=e4850]
+                      - cell "(d) Instructions for use shall be provided together with devices. By way of exception, instructions for use shall not be required for class I and class IIa devices if such devices can be used safely without any such instructions and unless otherwise provided for elsewhere in this Section." [ref=e4851]:
+                        - generic [ref=e4853]: (d) Instructions for use shall be provided together with devices. By way of exception, instructions for use shall not be required for class I and class IIa devices if such devices can be used safely without any such instructions and unless otherwise provided for elsewhere in this Section.
+                      - cell [ref=e4854]:
+                        - radiogroup [ref=e4856]:
+                          - radio "Yes" [ref=e4857] [cursor=pointer]:
+                            - generic [ref=e4860]: "Yes"
+                          - radio "No" [ref=e4861] [cursor=pointer]:
+                            - generic [ref=e4864]: "No"
+                      - cell [ref=e4865]:
+                        - textbox "Type" [disabled] [ref=e4867]
+                      - cell [ref=e4868]:
+                        - radiogroup [ref=e4871]:
+                          - generic [ref=e4873]:
+                            - radio [checked] [ref=e4874] [cursor=pointer]
+                            - button "Select from list" [ref=e4877] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e4878]
+                          - radio "Add Method" [ref=e4881] [cursor=pointer]:
+                            - generic [ref=e4884]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e4885]:
+                        - generic [ref=e4887]:
+                          - button "Select Documents" [ref=e4888] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e4889]
+                          - generic [ref=e4891]: 25 Documents Selected
+                      - cell [ref=e4892]:
+                        - radiogroup [ref=e4894]:
+                          - radio "Yes" [ref=e4895] [cursor=pointer]:
+                            - generic [ref=e4898]: "Yes"
+                          - radio "No" [ref=e4899] [cursor=pointer]:
+                            - generic [ref=e4902]: "No"
+                    - row "(e) Where multiple devices are supplied to a single user and/or location, a single copy of the instructions for use may be provided if so agreed by the purchaser who in any case may request further copies to be provided free of charge. Select Documents 25 Documents Selected" [ref=e4903]:
+                      - cell [ref=e4904]
+                      - cell "(e) Where multiple devices are supplied to a single user and/or location, a single copy of the instructions for use may be provided if so agreed by the purchaser who in any case may request further copies to be provided free of charge." [ref=e4905]:
+                        - generic [ref=e4907]: (e) Where multiple devices are supplied to a single user and/or location, a single copy of the instructions for use may be provided if so agreed by the purchaser who in any case may request further copies to be provided free of charge.
+                      - cell [ref=e4908]:
+                        - radiogroup [ref=e4910]:
+                          - radio "Yes" [ref=e4911] [cursor=pointer]:
+                            - generic [ref=e4914]: "Yes"
+                          - radio "No" [ref=e4915] [cursor=pointer]:
+                            - generic [ref=e4918]: "No"
+                      - cell [ref=e4919]:
+                        - textbox "Type" [disabled] [ref=e4921]
+                      - cell [ref=e4922]:
+                        - radiogroup [ref=e4925]:
+                          - generic [ref=e4927]:
+                            - radio [checked] [ref=e4928] [cursor=pointer]
+                            - button "Select from list" [ref=e4931] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e4932]
+                          - radio "Add Method" [ref=e4935] [cursor=pointer]:
+                            - generic [ref=e4938]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e4939]:
+                        - generic [ref=e4941]:
+                          - button "Select Documents" [ref=e4942] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e4943]
+                          - generic [ref=e4945]: 25 Documents Selected
+                      - cell [ref=e4946]:
+                        - radiogroup [ref=e4948]:
+                          - radio "Yes" [ref=e4949] [cursor=pointer]:
+                            - generic [ref=e4952]: "Yes"
+                          - radio "No" [ref=e4953] [cursor=pointer]:
+                            - generic [ref=e4956]: "No"
+                    - row "(f) Instructions for use may be provided to the user in non-paper format (e.g. electronic) to the extent, and only under the conditions, set out in Regulation (EU) No 207/2012 or in any subsequent implementing rules adopted pursuant to this Regulation. Select Documents 25 Documents Selected" [ref=e4957]:
+                      - cell [ref=e4958]
+                      - cell "(f) Instructions for use may be provided to the user in non-paper format (e.g. electronic) to the extent, and only under the conditions, set out in Regulation (EU) No 207/2012 or in any subsequent implementing rules adopted pursuant to this Regulation." [ref=e4959]:
+                        - generic [ref=e4961]: (f) Instructions for use may be provided to the user in non-paper format (e.g. electronic) to the extent, and only under the conditions, set out in Regulation (EU) No 207/2012 or in any subsequent implementing rules adopted pursuant to this Regulation.
+                      - cell [ref=e4962]:
+                        - radiogroup [ref=e4964]:
+                          - radio "Yes" [ref=e4965] [cursor=pointer]:
+                            - generic [ref=e4968]: "Yes"
+                          - radio "No" [ref=e4969] [cursor=pointer]:
+                            - generic [ref=e4972]: "No"
+                      - cell [ref=e4973]:
+                        - textbox "Type" [disabled] [ref=e4975]
+                      - cell [ref=e4976]:
+                        - radiogroup [ref=e4979]:
+                          - generic [ref=e4981]:
+                            - radio [checked] [ref=e4982] [cursor=pointer]
+                            - button "Select from list" [ref=e4985] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e4986]
+                          - radio "Add Method" [ref=e4989] [cursor=pointer]:
+                            - generic [ref=e4992]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e4993]:
+                        - generic [ref=e4995]:
+                          - button "Select Documents" [ref=e4996] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e4997]
+                          - generic [ref=e4999]: 25 Documents Selected
+                      - cell [ref=e5000]:
+                        - radiogroup [ref=e5002]:
+                          - radio "Yes" [ref=e5003] [cursor=pointer]:
+                            - generic [ref=e5006]: "Yes"
+                          - radio "No" [ref=e5007] [cursor=pointer]:
+                            - generic [ref=e5010]: "No"
+                    - row "(g) Residual risks which are required to be communicated to the user and/or other person shall be included as limitations, contra-indications, precautions or warnings in the information supplied by the manufacturer. Select Documents 25 Documents Selected" [ref=e5011]:
+                      - cell [ref=e5012]
+                      - cell "(g) Residual risks which are required to be communicated to the user and/or other person shall be included as limitations, contra-indications, precautions or warnings in the information supplied by the manufacturer." [ref=e5013]:
+                        - generic [ref=e5015]: (g) Residual risks which are required to be communicated to the user and/or other person shall be included as limitations, contra-indications, precautions or warnings in the information supplied by the manufacturer.
+                      - cell [ref=e5016]:
+                        - radiogroup [ref=e5018]:
+                          - radio "Yes" [ref=e5019] [cursor=pointer]:
+                            - generic [ref=e5022]: "Yes"
+                          - radio "No" [ref=e5023] [cursor=pointer]:
+                            - generic [ref=e5026]: "No"
+                      - cell [ref=e5027]:
+                        - textbox "Type" [disabled] [ref=e5029]
+                      - cell [ref=e5030]:
+                        - radiogroup [ref=e5033]:
+                          - generic [ref=e5035]:
+                            - radio [checked] [ref=e5036] [cursor=pointer]
+                            - button "Select from list" [ref=e5039] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e5040]
+                          - radio "Add Method" [ref=e5043] [cursor=pointer]:
+                            - generic [ref=e5046]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e5047]:
+                        - generic [ref=e5049]:
+                          - button "Select Documents" [ref=e5050] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e5051]
+                          - generic [ref=e5053]: 25 Documents Selected
+                      - cell [ref=e5054]:
+                        - radiogroup [ref=e5056]:
+                          - radio "Yes" [checked] [ref=e5057] [cursor=pointer]:
+                            - generic [ref=e5060]: "Yes"
+                          - radio "No" [ref=e5061] [cursor=pointer]:
+                            - generic [ref=e5064]: "No"
+                    - row "(h) Where appropriate, the information supplied by the manufacturer shall take the form of internationally recognised symbols. Any symbol or identification colour used shall conform to the harmonised standards or Common Specifications (CS). In areas for which no harmonised standards or CS exist, the symbols and colours shall be described in the documentation supplied with the device. Select Documents 25 Documents Selected" [ref=e5065]:
+                      - cell [ref=e5066]
+                      - cell "(h) Where appropriate, the information supplied by the manufacturer shall take the form of internationally recognised symbols. Any symbol or identification colour used shall conform to the harmonised standards or Common Specifications (CS). In areas for which no harmonised standards or CS exist, the symbols and colours shall be described in the documentation supplied with the device." [ref=e5067]:
+                        - generic [ref=e5069]: (h) Where appropriate, the information supplied by the manufacturer shall take the form of internationally recognised symbols. Any symbol or identification colour used shall conform to the harmonised standards or Common Specifications (CS). In areas for which no harmonised standards or CS exist, the symbols and colours shall be described in the documentation supplied with the device.
+                      - cell [ref=e5070]:
+                        - radiogroup [ref=e5072]:
+                          - radio "Yes" [checked] [ref=e5073] [cursor=pointer]:
+                            - generic [ref=e5076]: "Yes"
+                          - radio "No" [ref=e5077] [cursor=pointer]:
+                            - generic [ref=e5080]: "No"
+                      - cell [ref=e5081]:
+                        - textbox "Type" [disabled] [ref=e5083]
+                      - cell [ref=e5084]:
+                        - radiogroup [ref=e5087]:
+                          - generic [ref=e5089]:
+                            - radio [checked] [ref=e5090] [cursor=pointer]
+                            - button "Select from list" [ref=e5093] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e5094]
+                          - radio "Add Method" [ref=e5097] [cursor=pointer]:
+                            - generic [ref=e5100]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e5101]:
+                        - generic [ref=e5103]:
+                          - button "Select Documents" [ref=e5104] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e5105]
+                          - generic [ref=e5107]: 25 Documents Selected
+                      - cell [ref=e5108]:
+                        - radiogroup [ref=e5110]:
+                          - radio "Yes" [checked] [ref=e5111] [cursor=pointer]:
+                            - generic [ref=e5114]: "Yes"
+                          - radio "No" [ref=e5115] [cursor=pointer]:
+                            - generic [ref=e5118]: "No"
+              - generic [ref=e5123]:
+                - table [ref=e5125]:
+                  - rowgroup [ref=e5126]:
+                    - row "23.2 Information on the label" [ref=e5127]:
+                      - columnheader "23.2" [ref=e5128]
+                      - columnheader "Information on the label" [ref=e5129]:
+                        - generic [ref=e5130]: Information on the label
+                    - row "# GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1 Applicable? Rationale for non-applicable requirements Method(s) used to demonstrate conformity Technical Document Reference Met Requirement?" [ref=e5131]:
+                      - columnheader "#" [ref=e5132]
+                      - columnheader "GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1" [ref=e5133]
+                      - columnheader "Applicable?" [ref=e5134]
+                      - columnheader "Rationale for non-applicable requirements" [ref=e5135]
+                      - columnheader "Method(s) used to demonstrate conformity" [ref=e5136]
+                      - columnheader "Technical Document Reference" [ref=e5137]
+                      - columnheader "Met Requirement?" [ref=e5138]
+                - table [ref=e5140]:
+                  - rowgroup [ref=e5141]:
+                    - 'row "23.2 Information on the label The label shall bear all of the following particulars: Select Documents 25 Documents Selected" [ref=e5142]':
+                      - cell "23.2" [ref=e5143]:
+                        - generic [ref=e5145]: "23.2"
+                      - cell "Information on the label The label shall bear all of the following particulars:" [ref=e5146]:
+                        - generic [ref=e5148]: "Information on the label The label shall bear all of the following particulars:"
+                      - cell [ref=e5149]:
+                        - radiogroup [ref=e5151]:
+                          - radio "Yes" [ref=e5152] [cursor=pointer]:
+                            - generic [ref=e5155]: "Yes"
+                          - radio "No" [ref=e5156] [cursor=pointer]:
+                            - generic [ref=e5159]: "No"
+                      - cell [ref=e5160]:
+                        - textbox "Type" [disabled] [ref=e5162]
+                      - cell [ref=e5163]:
+                        - radiogroup [ref=e5166]:
+                          - generic [ref=e5168]:
+                            - radio [checked] [ref=e5169] [cursor=pointer]
+                            - button "Select from list" [ref=e5172] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e5173]
+                          - radio "Add Method" [ref=e5176] [cursor=pointer]:
+                            - generic [ref=e5179]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e5180]:
+                        - generic [ref=e5182]:
+                          - button "Select Documents" [ref=e5183] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e5184]
+                          - generic [ref=e5186]: 25 Documents Selected
+                      - cell [ref=e5187]:
+                        - radiogroup [ref=e5189]:
+                          - radio "Yes" [ref=e5190] [cursor=pointer]:
+                            - generic [ref=e5193]: "Yes"
+                          - radio "No" [ref=e5194] [cursor=pointer]:
+                            - generic [ref=e5197]: "No"
+                    - row "(a) the name or trade name of the device; Select Documents 25 Documents Selected" [ref=e5198]:
+                      - cell [ref=e5199]
+                      - cell "(a) the name or trade name of the device;" [ref=e5200]:
+                        - generic [ref=e5202]: (a) the name or trade name of the device;
+                      - cell [ref=e5203]:
+                        - radiogroup [ref=e5205]:
+                          - radio "Yes" [checked] [ref=e5206] [cursor=pointer]:
+                            - generic [ref=e5209]: "Yes"
+                          - radio "No" [ref=e5210] [cursor=pointer]:
+                            - generic [ref=e5213]: "No"
+                      - cell [ref=e5214]:
+                        - textbox "Type" [disabled] [ref=e5216]
+                      - cell [ref=e5217]:
+                        - radiogroup [ref=e5220]:
+                          - generic [ref=e5222]:
+                            - radio [checked] [ref=e5223] [cursor=pointer]
+                            - button "Select from list" [ref=e5226] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e5227]
+                          - radio "Add Method" [ref=e5230] [cursor=pointer]:
+                            - generic [ref=e5233]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e5234]:
+                        - generic [ref=e5236]:
+                          - button "Select Documents" [ref=e5237] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e5238]
+                          - generic [ref=e5240]: 25 Documents Selected
+                      - cell [ref=e5241]:
+                        - radiogroup [ref=e5243]:
+                          - radio "Yes" [checked] [ref=e5244] [cursor=pointer]:
+                            - generic [ref=e5247]: "Yes"
+                          - radio "No" [ref=e5248] [cursor=pointer]:
+                            - generic [ref=e5251]: "No"
+                    - row "(b) the details strictly necessary for a user to identify the device, the contents of the packaging and, where it is not obvious for the user, the intended purpose of the device; Select Documents 25 Documents Selected" [ref=e5252]:
+                      - cell [ref=e5253]
+                      - cell "(b) the details strictly necessary for a user to identify the device, the contents of the packaging and, where it is not obvious for the user, the intended purpose of the device;" [ref=e5254]:
+                        - generic [ref=e5256]: (b) the details strictly necessary for a user to identify the device, the contents of the packaging and, where it is not obvious for the user, the intended purpose of the device;
+                      - cell [ref=e5257]:
+                        - radiogroup [ref=e5259]:
+                          - radio "Yes" [checked] [ref=e5260] [cursor=pointer]:
+                            - generic [ref=e5263]: "Yes"
+                          - radio "No" [ref=e5264] [cursor=pointer]:
+                            - generic [ref=e5267]: "No"
+                      - cell [ref=e5268]:
+                        - textbox "Type" [disabled] [ref=e5270]
+                      - cell [ref=e5271]:
+                        - radiogroup [ref=e5274]:
+                          - generic [ref=e5276]:
+                            - radio [checked] [ref=e5277] [cursor=pointer]
+                            - button "Select from list" [ref=e5280] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e5281]
+                          - radio "Add Method" [ref=e5284] [cursor=pointer]:
+                            - generic [ref=e5287]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e5288]:
+                        - generic [ref=e5290]:
+                          - button "Select Documents" [ref=e5291] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e5292]
+                          - generic [ref=e5294]: 25 Documents Selected
+                      - cell [ref=e5295]:
+                        - radiogroup [ref=e5297]:
+                          - radio "Yes" [checked] [ref=e5298] [cursor=pointer]:
+                            - generic [ref=e5301]: "Yes"
+                          - radio "No" [ref=e5302] [cursor=pointer]:
+                            - generic [ref=e5305]: "No"
+                    - row "(c) the name, registered trade name or registered trade mark of the manufacturer and the address of its registered place of business; Select Documents 25 Documents Selected" [ref=e5306]:
+                      - cell [ref=e5307]
+                      - cell "(c) the name, registered trade name or registered trade mark of the manufacturer and the address of its registered place of business;" [ref=e5308]:
+                        - generic [ref=e5310]: (c) the name, registered trade name or registered trade mark of the manufacturer and the address of its registered place of business;
+                      - cell [ref=e5311]:
+                        - radiogroup [ref=e5313]:
+                          - radio "Yes" [checked] [ref=e5314] [cursor=pointer]:
+                            - generic [ref=e5317]: "Yes"
+                          - radio "No" [ref=e5318] [cursor=pointer]:
+                            - generic [ref=e5321]: "No"
+                      - cell [ref=e5322]:
+                        - textbox "Type" [disabled] [ref=e5324]
+                      - cell [ref=e5325]:
+                        - radiogroup [ref=e5328]:
+                          - generic [ref=e5330]:
+                            - radio [checked] [ref=e5331] [cursor=pointer]
+                            - button "Select from list" [ref=e5334] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e5335]
+                          - radio "Add Method" [ref=e5338] [cursor=pointer]:
+                            - generic [ref=e5341]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e5342]:
+                        - generic [ref=e5344]:
+                          - button "Select Documents" [ref=e5345] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e5346]
+                          - generic [ref=e5348]: 25 Documents Selected
+                      - cell [ref=e5349]:
+                        - radiogroup [ref=e5351]:
+                          - radio "Yes" [checked] [ref=e5352] [cursor=pointer]:
+                            - generic [ref=e5355]: "Yes"
+                          - radio "No" [ref=e5356] [cursor=pointer]:
+                            - generic [ref=e5359]: "No"
+                    - row "(d) if the manufacturer has its registered place of business outside the Union, the name of the authorised rep resentative and address of the registered place of business of the authorised representative; Select Documents 25 Documents Selected" [ref=e5360]:
+                      - cell [ref=e5361]
+                      - cell "(d) if the manufacturer has its registered place of business outside the Union, the name of the authorised rep resentative and address of the registered place of business of the authorised representative;" [ref=e5362]:
+                        - generic [ref=e5364]: (d) if the manufacturer has its registered place of business outside the Union, the name of the authorised rep resentative and address of the registered place of business of the authorised representative;
+                      - cell [ref=e5365]:
+                        - radiogroup [ref=e5367]:
+                          - radio "Yes" [checked] [ref=e5368] [cursor=pointer]:
+                            - generic [ref=e5371]: "Yes"
+                          - radio "No" [ref=e5372] [cursor=pointer]:
+                            - generic [ref=e5375]: "No"
+                      - cell [ref=e5376]:
+                        - textbox "Type" [disabled] [ref=e5378]
+                      - cell [ref=e5379]:
+                        - radiogroup [ref=e5382]:
+                          - generic [ref=e5384]:
+                            - radio [checked] [ref=e5385] [cursor=pointer]
+                            - button "Select from list" [ref=e5388] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e5389]
+                          - radio "Add Method" [ref=e5392] [cursor=pointer]:
+                            - generic [ref=e5395]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e5396]:
+                        - generic [ref=e5398]:
+                          - button "Select Documents" [ref=e5399] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e5400]
+                          - generic [ref=e5402]: 25 Documents Selected
+                      - cell [ref=e5403]:
+                        - radiogroup [ref=e5405]:
+                          - radio "Yes" [checked] [ref=e5406] [cursor=pointer]:
+                            - generic [ref=e5409]: "Yes"
+                          - radio "No" [ref=e5410] [cursor=pointer]:
+                            - generic [ref=e5413]: "No"
+                    - 'row "(e) where applicable, an indication that the device contains or incorporates: — a medicinal substance, including a human blood or plasma derivative, or — tissues or cells, or their derivatives, of human origin, or — tissues or cells of animal origin, or their derivatives, as referred to in Regulation (EU) No 722/2012; Select Documents 25 Documents Selected" [ref=e5414]':
+                      - cell [ref=e5415]
+                      - 'cell "(e) where applicable, an indication that the device contains or incorporates: — a medicinal substance, including a human blood or plasma derivative, or — tissues or cells, or their derivatives, of human origin, or — tissues or cells of animal origin, or their derivatives, as referred to in Regulation (EU) No 722/2012;" [ref=e5416]':
+                        - generic [ref=e5418]: "(e) where applicable, an indication that the device contains or incorporates: — a medicinal substance, including a human blood or plasma derivative, or — tissues or cells, or their derivatives, of human origin, or — tissues or cells of animal origin, or their derivatives, as referred to in Regulation (EU) No 722/2012;"
+                      - cell [ref=e5419]:
+                        - radiogroup [ref=e5421]:
+                          - radio "Yes" [checked] [ref=e5422] [cursor=pointer]:
+                            - generic [ref=e5425]: "Yes"
+                          - radio "No" [ref=e5426] [cursor=pointer]:
+                            - generic [ref=e5429]: "No"
+                      - cell [ref=e5430]:
+                        - textbox "Type" [disabled] [ref=e5432]
+                      - cell [ref=e5433]:
+                        - radiogroup [ref=e5436]:
+                          - generic [ref=e5438]:
+                            - radio [checked] [ref=e5439] [cursor=pointer]
+                            - button "Select from list" [ref=e5442] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e5443]
+                          - radio "Add Method" [ref=e5446] [cursor=pointer]:
+                            - generic [ref=e5449]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e5450]:
+                        - generic [ref=e5452]:
+                          - button "Select Documents" [ref=e5453] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e5454]
+                          - generic [ref=e5456]: 25 Documents Selected
+                      - cell [ref=e5457]:
+                        - radiogroup [ref=e5459]:
+                          - radio "Yes" [checked] [ref=e5460] [cursor=pointer]:
+                            - generic [ref=e5463]: "Yes"
+                          - radio "No" [ref=e5464] [cursor=pointer]:
+                            - generic [ref=e5467]: "No"
+                    - row "(f) where applicable, information labelled in accordance with Section 10.4.5.; Select Documents 25 Documents Selected" [ref=e5468]:
+                      - cell [ref=e5469]
+                      - cell "(f) where applicable, information labelled in accordance with Section 10.4.5.;" [ref=e5470]:
+                        - generic [ref=e5472]: (f) where applicable, information labelled in accordance with Section 10.4.5.;
+                      - cell [ref=e5473]:
+                        - radiogroup [ref=e5475]:
+                          - radio "Yes" [checked] [ref=e5476] [cursor=pointer]:
+                            - generic [ref=e5479]: "Yes"
+                          - radio "No" [ref=e5480] [cursor=pointer]:
+                            - generic [ref=e5483]: "No"
+                      - cell [ref=e5484]:
+                        - textbox "Type" [disabled] [ref=e5486]
+                      - cell [ref=e5487]:
+                        - radiogroup [ref=e5490]:
+                          - generic [ref=e5492]:
+                            - radio [checked] [ref=e5493] [cursor=pointer]
+                            - button "Select from list" [ref=e5496] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e5497]
+                          - radio "Add Method" [ref=e5500] [cursor=pointer]:
+                            - generic [ref=e5503]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e5504]:
+                        - generic [ref=e5506]:
+                          - button "Select Documents" [ref=e5507] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e5508]
+                          - generic [ref=e5510]: 25 Documents Selected
+                      - cell [ref=e5511]:
+                        - radiogroup [ref=e5513]:
+                          - radio "Yes" [checked] [ref=e5514] [cursor=pointer]:
+                            - generic [ref=e5517]: "Yes"
+                          - radio "No" [ref=e5518] [cursor=pointer]:
+                            - generic [ref=e5521]: "No"
+                    - row "(g) the lot number or the serial number of the device preceded by the words LOT NUMBER or SERIAL NUMBER or an equivalent symbol, as appropriate; Select Documents 25 Documents Selected" [ref=e5522]:
+                      - cell [ref=e5523]
+                      - cell "(g) the lot number or the serial number of the device preceded by the words LOT NUMBER or SERIAL NUMBER or an equivalent symbol, as appropriate;" [ref=e5524]:
+                        - generic [ref=e5526]: (g) the lot number or the serial number of the device preceded by the words LOT NUMBER or SERIAL NUMBER or an equivalent symbol, as appropriate;
+                      - cell [ref=e5527]:
+                        - radiogroup [ref=e5529]:
+                          - radio "Yes" [checked] [ref=e5530] [cursor=pointer]:
+                            - generic [ref=e5533]: "Yes"
+                          - radio "No" [ref=e5534] [cursor=pointer]:
+                            - generic [ref=e5537]: "No"
+                      - cell [ref=e5538]:
+                        - textbox "Type" [disabled] [ref=e5540]
+                      - cell [ref=e5541]:
+                        - radiogroup [ref=e5544]:
+                          - generic [ref=e5546]:
+                            - radio [checked] [ref=e5547] [cursor=pointer]
+                            - button "Select from list" [ref=e5550] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e5551]
+                          - radio "Add Method" [ref=e5554] [cursor=pointer]:
+                            - generic [ref=e5557]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e5558]:
+                        - generic [ref=e5560]:
+                          - button "Select Documents" [ref=e5561] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e5562]
+                          - generic [ref=e5564]: 25 Documents Selected
+                      - cell [ref=e5565]:
+                        - radiogroup [ref=e5567]:
+                          - radio "Yes" [checked] [ref=e5568] [cursor=pointer]:
+                            - generic [ref=e5571]: "Yes"
+                          - radio "No" [ref=e5572] [cursor=pointer]:
+                            - generic [ref=e5575]: "No"
+                    - row "(h) the UDI carrier referred to in Article 27(4) and Part C of Annex VII; Select Documents 25 Documents Selected" [ref=e5576]:
+                      - cell [ref=e5577]
+                      - cell "(h) the UDI carrier referred to in Article 27(4) and Part C of Annex VII;" [ref=e5578]:
+                        - generic [ref=e5580]: (h) the UDI carrier referred to in Article 27(4) and Part C of Annex VII;
+                      - cell [ref=e5581]:
+                        - radiogroup [ref=e5583]:
+                          - radio "Yes" [checked] [ref=e5584] [cursor=pointer]:
+                            - generic [ref=e5587]: "Yes"
+                          - radio "No" [ref=e5588] [cursor=pointer]:
+                            - generic [ref=e5591]: "No"
+                      - cell [ref=e5592]:
+                        - textbox "Type" [disabled] [ref=e5594]
+                      - cell [ref=e5595]:
+                        - radiogroup [ref=e5598]:
+                          - generic [ref=e5600]:
+                            - radio [checked] [ref=e5601] [cursor=pointer]
+                            - button "Select from list" [ref=e5604] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e5605]
+                          - radio "Add Method" [ref=e5608] [cursor=pointer]:
+                            - generic [ref=e5611]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e5612]:
+                        - generic [ref=e5614]:
+                          - button "Select Documents" [ref=e5615] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e5616]
+                          - generic [ref=e5618]: 25 Documents Selected
+                      - cell [ref=e5619]:
+                        - radiogroup [ref=e5621]:
+                          - radio "Yes" [checked] [ref=e5622] [cursor=pointer]:
+                            - generic [ref=e5625]: "Yes"
+                          - radio "No" [ref=e5626] [cursor=pointer]:
+                            - generic [ref=e5629]: "No"
+                    - row "(i) an unambiguous indication of t the time limit for using or implanting the device safely, expressed at least in terms of year and month, where this is relevant; Select Documents 25 Documents Selected" [ref=e5630]:
+                      - cell [ref=e5631]
+                      - cell "(i) an unambiguous indication of t the time limit for using or implanting the device safely, expressed at least in terms of year and month, where this is relevant;" [ref=e5632]:
+                        - generic [ref=e5634]: (i) an unambiguous indication of t the time limit for using or implanting the device safely, expressed at least in terms of year and month, where this is relevant;
+                      - cell [ref=e5635]:
+                        - radiogroup [ref=e5637]:
+                          - radio "Yes" [checked] [ref=e5638] [cursor=pointer]:
+                            - generic [ref=e5641]: "Yes"
+                          - radio "No" [ref=e5642] [cursor=pointer]:
+                            - generic [ref=e5645]: "No"
+                      - cell [ref=e5646]:
+                        - textbox "Type" [disabled] [ref=e5648]
+                      - cell [ref=e5649]:
+                        - radiogroup [ref=e5652]:
+                          - generic [ref=e5654]:
+                            - radio [checked] [ref=e5655] [cursor=pointer]
+                            - button "Select from list" [ref=e5658] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e5659]
+                          - radio "Add Method" [ref=e5662] [cursor=pointer]:
+                            - generic [ref=e5665]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e5666]:
+                        - generic [ref=e5668]:
+                          - button "Select Documents" [ref=e5669] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e5670]
+                          - generic [ref=e5672]: 25 Documents Selected
+                      - cell [ref=e5673]:
+                        - radiogroup [ref=e5675]:
+                          - radio "Yes" [checked] [ref=e5676] [cursor=pointer]:
+                            - generic [ref=e5679]: "Yes"
+                          - radio "No" [ref=e5680] [cursor=pointer]:
+                            - generic [ref=e5683]: "No"
+                    - row "(j) where there is no indication of the date until when it may be used safely, the date of manufacture. This date of manufacture may be included as part of the lot number or serial number, provided the date is clearly identifiable; Select Documents 25 Documents Selected" [ref=e5684]:
+                      - cell [ref=e5685]
+                      - cell "(j) where there is no indication of the date until when it may be used safely, the date of manufacture. This date of manufacture may be included as part of the lot number or serial number, provided the date is clearly identifiable;" [ref=e5686]:
+                        - generic [ref=e5688]: (j) where there is no indication of the date until when it may be used safely, the date of manufacture. This date of manufacture may be included as part of the lot number or serial number, provided the date is clearly identifiable;
+                      - cell [ref=e5689]:
+                        - radiogroup [ref=e5691]:
+                          - radio "Yes" [checked] [ref=e5692] [cursor=pointer]:
+                            - generic [ref=e5695]: "Yes"
+                          - radio "No" [ref=e5696] [cursor=pointer]:
+                            - generic [ref=e5699]: "No"
+                      - cell [ref=e5700]:
+                        - textbox "Type" [disabled] [ref=e5702]
+                      - cell [ref=e5703]:
+                        - radiogroup [ref=e5706]:
+                          - generic [ref=e5708]:
+                            - radio [checked] [ref=e5709] [cursor=pointer]
+                            - button "Select from list" [ref=e5712] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e5713]
+                          - radio "Add Method" [ref=e5716] [cursor=pointer]:
+                            - generic [ref=e5719]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e5720]:
+                        - generic [ref=e5722]:
+                          - button "Select Documents" [ref=e5723] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e5724]
+                          - generic [ref=e5726]: 25 Documents Selected
+                      - cell [ref=e5727]:
+                        - radiogroup [ref=e5729]:
+                          - radio "Yes" [checked] [ref=e5730] [cursor=pointer]:
+                            - generic [ref=e5733]: "Yes"
+                          - radio "No" [ref=e5734] [cursor=pointer]:
+                            - generic [ref=e5737]: "No"
+                    - row "(k) an indication of any special storage and/or handling condition that applies; Select Documents 25 Documents Selected" [ref=e5738]:
+                      - cell [ref=e5739]
+                      - cell "(k) an indication of any special storage and/or handling condition that applies;" [ref=e5740]:
+                        - generic [ref=e5742]: (k) an indication of any special storage and/or handling condition that applies;
+                      - cell [ref=e5743]:
+                        - radiogroup [ref=e5745]:
+                          - radio "Yes" [checked] [ref=e5746] [cursor=pointer]:
+                            - generic [ref=e5749]: "Yes"
+                          - radio "No" [ref=e5750] [cursor=pointer]:
+                            - generic [ref=e5753]: "No"
+                      - cell [ref=e5754]:
+                        - textbox "Type" [disabled] [ref=e5756]
+                      - cell [ref=e5757]:
+                        - radiogroup [ref=e5760]:
+                          - generic [ref=e5762]:
+                            - radio [checked] [ref=e5763] [cursor=pointer]
+                            - button "Select from list" [ref=e5766] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e5767]
+                          - radio "Add Method" [ref=e5770] [cursor=pointer]:
+                            - generic [ref=e5773]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e5774]:
+                        - generic [ref=e5776]:
+                          - button "Select Documents" [ref=e5777] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e5778]
+                          - generic [ref=e5780]: 25 Documents Selected
+                      - cell [ref=e5781]:
+                        - radiogroup [ref=e5783]:
+                          - radio "Yes" [checked] [ref=e5784] [cursor=pointer]:
+                            - generic [ref=e5787]: "Yes"
+                          - radio "No" [ref=e5788] [cursor=pointer]:
+                            - generic [ref=e5791]: "No"
+                    - row "(l) if the device is supplied sterile, an indication of its sterile state and the sterilisation method; Select Documents 25 Documents Selected" [ref=e5792]:
+                      - cell [ref=e5793]
+                      - cell "(l) if the device is supplied sterile, an indication of its sterile state and the sterilisation method;" [ref=e5794]:
+                        - generic [ref=e5796]: (l) if the device is supplied sterile, an indication of its sterile state and the sterilisation method;
+                      - cell [ref=e5797]:
+                        - radiogroup [ref=e5799]:
+                          - radio "Yes" [checked] [ref=e5800] [cursor=pointer]:
+                            - generic [ref=e5803]: "Yes"
+                          - radio "No" [ref=e5804] [cursor=pointer]:
+                            - generic [ref=e5807]: "No"
+                      - cell [ref=e5808]:
+                        - textbox "Type" [disabled] [ref=e5810]
+                      - cell [ref=e5811]:
+                        - radiogroup [ref=e5814]:
+                          - generic [ref=e5816]:
+                            - radio [checked] [ref=e5817] [cursor=pointer]
+                            - button "Select from list" [ref=e5820] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e5821]
+                          - radio "Add Method" [ref=e5824] [cursor=pointer]:
+                            - generic [ref=e5827]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e5828]:
+                        - generic [ref=e5830]:
+                          - button "Select Documents" [ref=e5831] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e5832]
+                          - generic [ref=e5834]: 25 Documents Selected
+                      - cell [ref=e5835]:
+                        - radiogroup [ref=e5837]:
+                          - radio "Yes" [checked] [ref=e5838] [cursor=pointer]:
+                            - generic [ref=e5841]: "Yes"
+                          - radio "No" [ref=e5842] [cursor=pointer]:
+                            - generic [ref=e5845]: "No"
+                    - row "(m) warnings or precautions to be taken that need to be brought to the immediate attention of the user of the device, and to any other person. This information may be kept to a minimum in which case more detailed information shall appear in the instructions for use, taking into account the intended users; Select Documents 25 Documents Selected" [ref=e5846]:
+                      - cell [ref=e5847]
+                      - cell "(m) warnings or precautions to be taken that need to be brought to the immediate attention of the user of the device, and to any other person. This information may be kept to a minimum in which case more detailed information shall appear in the instructions for use, taking into account the intended users;" [ref=e5848]:
+                        - generic [ref=e5850]: (m) warnings or precautions to be taken that need to be brought to the immediate attention of the user of the device, and to any other person. This information may be kept to a minimum in which case more detailed information shall appear in the instructions for use, taking into account the intended users;
+                      - cell [ref=e5851]:
+                        - radiogroup [ref=e5853]:
+                          - radio "Yes" [checked] [ref=e5854] [cursor=pointer]:
+                            - generic [ref=e5857]: "Yes"
+                          - radio "No" [ref=e5858] [cursor=pointer]:
+                            - generic [ref=e5861]: "No"
+                      - cell [ref=e5862]:
+                        - textbox "Type" [disabled] [ref=e5864]
+                      - cell [ref=e5865]:
+                        - radiogroup [ref=e5868]:
+                          - generic [ref=e5870]:
+                            - radio [checked] [ref=e5871] [cursor=pointer]
+                            - button "Select from list" [ref=e5874] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e5875]
+                          - radio "Add Method" [ref=e5878] [cursor=pointer]:
+                            - generic [ref=e5881]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e5882]:
+                        - generic [ref=e5884]:
+                          - button "Select Documents" [ref=e5885] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e5886]
+                          - generic [ref=e5888]: 25 Documents Selected
+                      - cell [ref=e5889]:
+                        - radiogroup [ref=e5891]:
+                          - radio "Yes" [checked] [ref=e5892] [cursor=pointer]:
+                            - generic [ref=e5895]: "Yes"
+                          - radio "No" [ref=e5896] [cursor=pointer]:
+                            - generic [ref=e5899]: "No"
+                    - row "(n) if the device is intended for single use, an indication of that fact. A manufacturer's indication of single use shall be consistent across the Union; Select Documents 25 Documents Selected" [ref=e5900]:
+                      - cell [ref=e5901]
+                      - cell "(n) if the device is intended for single use, an indication of that fact. A manufacturer's indication of single use shall be consistent across the Union;" [ref=e5902]:
+                        - generic [ref=e5904]: (n) if the device is intended for single use, an indication of that fact. A manufacturer's indication of single use shall be consistent across the Union;
+                      - cell [ref=e5905]:
+                        - radiogroup [ref=e5907]:
+                          - radio "Yes" [checked] [ref=e5908] [cursor=pointer]:
+                            - generic [ref=e5911]: "Yes"
+                          - radio "No" [ref=e5912] [cursor=pointer]:
+                            - generic [ref=e5915]: "No"
+                      - cell [ref=e5916]:
+                        - textbox "Type" [disabled] [ref=e5918]
+                      - cell [ref=e5919]:
+                        - radiogroup [ref=e5922]:
+                          - generic [ref=e5924]:
+                            - radio [checked] [ref=e5925] [cursor=pointer]
+                            - button "Select from list" [ref=e5928] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e5929]
+                          - radio "Add Method" [ref=e5932] [cursor=pointer]:
+                            - generic [ref=e5935]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e5936]:
+                        - generic [ref=e5938]:
+                          - button "Select Documents" [ref=e5939] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e5940]
+                          - generic [ref=e5942]: 25 Documents Selected
+                      - cell [ref=e5943]:
+                        - radiogroup [ref=e5945]:
+                          - radio "Yes" [checked] [ref=e5946] [cursor=pointer]:
+                            - generic [ref=e5949]: "Yes"
+                          - radio "No" [ref=e5950] [cursor=pointer]:
+                            - generic [ref=e5953]: "No"
+                    - row "(o) if the device is a single-use device that has been reprocessed, an indication of that fact, the number of reprocessing cycles already performed, and any limitation as regards the number of reprocessing cycles; Select Documents 25 Documents Selected" [ref=e5954]:
+                      - cell [ref=e5955]
+                      - cell "(o) if the device is a single-use device that has been reprocessed, an indication of that fact, the number of reprocessing cycles already performed, and any limitation as regards the number of reprocessing cycles;" [ref=e5956]:
+                        - generic [ref=e5958]: (o) if the device is a single-use device that has been reprocessed, an indication of that fact, the number of reprocessing cycles already performed, and any limitation as regards the number of reprocessing cycles;
+                      - cell [ref=e5959]:
+                        - radiogroup [ref=e5961]:
+                          - radio "Yes" [checked] [ref=e5962] [cursor=pointer]:
+                            - generic [ref=e5965]: "Yes"
+                          - radio "No" [ref=e5966] [cursor=pointer]:
+                            - generic [ref=e5969]: "No"
+                      - cell [ref=e5970]:
+                        - textbox "Type" [disabled] [ref=e5972]
+                      - cell [ref=e5973]:
+                        - radiogroup [ref=e5976]:
+                          - generic [ref=e5978]:
+                            - radio [checked] [ref=e5979] [cursor=pointer]
+                            - button "Select from list" [ref=e5982] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e5983]
+                          - radio "Add Method" [ref=e5986] [cursor=pointer]:
+                            - generic [ref=e5989]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e5990]:
+                        - generic [ref=e5992]:
+                          - button "Select Documents" [ref=e5993] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e5994]
+                          - generic [ref=e5996]: 25 Documents Selected
+                      - cell [ref=e5997]:
+                        - radiogroup [ref=e5999]:
+                          - radio "Yes" [checked] [ref=e6000] [cursor=pointer]:
+                            - generic [ref=e6003]: "Yes"
+                          - radio "No" [ref=e6004] [cursor=pointer]:
+                            - generic [ref=e6007]: "No"
+                    - row "(p) if the device is custom-made, the words ‘custom-made device’; Select Documents 25 Documents Selected" [ref=e6008]:
+                      - cell [ref=e6009]
+                      - cell "(p) if the device is custom-made, the words ‘custom-made device’;" [ref=e6010]:
+                        - generic [ref=e6012]: (p) if the device is custom-made, the words ‘custom-made device’;
+                      - cell [ref=e6013]:
+                        - radiogroup [ref=e6015]:
+                          - radio "Yes" [checked] [ref=e6016] [cursor=pointer]:
+                            - generic [ref=e6019]: "Yes"
+                          - radio "No" [ref=e6020] [cursor=pointer]:
+                            - generic [ref=e6023]: "No"
+                      - cell [ref=e6024]:
+                        - textbox "Type" [disabled] [ref=e6026]
+                      - cell [ref=e6027]:
+                        - radiogroup [ref=e6030]:
+                          - generic [ref=e6032]:
+                            - radio [checked] [ref=e6033] [cursor=pointer]
+                            - button "Select from list" [ref=e6036] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e6037]
+                          - radio "Add Method" [ref=e6040] [cursor=pointer]:
+                            - generic [ref=e6043]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e6044]:
+                        - generic [ref=e6046]:
+                          - button "Select Documents" [ref=e6047] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e6048]
+                          - generic [ref=e6050]: 25 Documents Selected
+                      - cell [ref=e6051]:
+                        - radiogroup [ref=e6053]:
+                          - radio "Yes" [checked] [ref=e6054] [cursor=pointer]:
+                            - generic [ref=e6057]: "Yes"
+                          - radio "No" [ref=e6058] [cursor=pointer]:
+                            - generic [ref=e6061]: "No"
+                    - row "(q) an indication that the device is a medical device. If the device is intended for clinical investigation only, the words ‘exclusively for clinical investigation’; Select Documents 25 Documents Selected" [ref=e6062]:
+                      - cell [ref=e6063]
+                      - cell "(q) an indication that the device is a medical device. If the device is intended for clinical investigation only, the words ‘exclusively for clinical investigation’;" [ref=e6064]:
+                        - generic [ref=e6066]: (q) an indication that the device is a medical device. If the device is intended for clinical investigation only, the words ‘exclusively for clinical investigation’;
+                      - cell [ref=e6067]:
+                        - radiogroup [ref=e6069]:
+                          - radio "Yes" [checked] [ref=e6070] [cursor=pointer]:
+                            - generic [ref=e6073]: "Yes"
+                          - radio "No" [ref=e6074] [cursor=pointer]:
+                            - generic [ref=e6077]: "No"
+                      - cell [ref=e6078]:
+                        - textbox "Type" [disabled] [ref=e6080]
+                      - cell [ref=e6081]:
+                        - radiogroup [ref=e6084]:
+                          - generic [ref=e6086]:
+                            - radio [checked] [ref=e6087] [cursor=pointer]
+                            - button "Select from list" [ref=e6090] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e6091]
+                          - radio "Add Method" [ref=e6094] [cursor=pointer]:
+                            - generic [ref=e6097]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e6098]:
+                        - generic [ref=e6100]:
+                          - button "Select Documents" [ref=e6101] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e6102]
+                          - generic [ref=e6104]: 25 Documents Selected
+                      - cell [ref=e6105]:
+                        - radiogroup [ref=e6107]:
+                          - radio "Yes" [checked] [ref=e6108] [cursor=pointer]:
+                            - generic [ref=e6111]: "Yes"
+                          - radio "No" [ref=e6112] [cursor=pointer]:
+                            - generic [ref=e6115]: "No"
+                    - row "(r) in the case of devices that are composed of substances or of combinations of substances that are intended to be introduced into the human body via a body orifice or applied to the skin and that are absorbed by or locally dispersed in the human body, the overall qualitative composition of the device and quantitative information on the main constituent or constituents responsible for achieving the principal intended action; Select Documents 25 Documents Selected" [ref=e6116]:
+                      - cell [ref=e6117]
+                      - cell "(r) in the case of devices that are composed of substances or of combinations of substances that are intended to be introduced into the human body via a body orifice or applied to the skin and that are absorbed by or locally dispersed in the human body, the overall qualitative composition of the device and quantitative information on the main constituent or constituents responsible for achieving the principal intended action;" [ref=e6118]:
+                        - generic [ref=e6120]: (r) in the case of devices that are composed of substances or of combinations of substances that are intended to be introduced into the human body via a body orifice or applied to the skin and that are absorbed by or locally dispersed in the human body, the overall qualitative composition of the device and quantitative information on the main constituent or constituents responsible for achieving the principal intended action;
+                      - cell [ref=e6121]:
+                        - radiogroup [ref=e6123]:
+                          - radio "Yes" [checked] [ref=e6124] [cursor=pointer]:
+                            - generic [ref=e6127]: "Yes"
+                          - radio "No" [ref=e6128] [cursor=pointer]:
+                            - generic [ref=e6131]: "No"
+                      - cell [ref=e6132]:
+                        - textbox "Type" [disabled] [ref=e6134]
+                      - cell [ref=e6135]:
+                        - radiogroup [ref=e6138]:
+                          - generic [ref=e6140]:
+                            - radio [checked] [ref=e6141] [cursor=pointer]
+                            - button "Select from list" [ref=e6144] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e6145]
+                          - radio "Add Method" [ref=e6148] [cursor=pointer]:
+                            - generic [ref=e6151]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e6152]:
+                        - generic [ref=e6154]:
+                          - button "Select Documents" [ref=e6155] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e6156]
+                          - generic [ref=e6158]: 25 Documents Selected
+                      - cell [ref=e6159]:
+                        - radiogroup [ref=e6161]:
+                          - radio "Yes" [checked] [ref=e6162] [cursor=pointer]:
+                            - generic [ref=e6165]: "Yes"
+                          - radio "No" [ref=e6166] [cursor=pointer]:
+                            - generic [ref=e6169]: "No"
+                    - row "(s) for active implantable devices, the serial number, and for other implantable devices, the serial number or the lot number. Select Documents 25 Documents Selected" [ref=e6170]:
+                      - cell [ref=e6171]
+                      - cell "(s) for active implantable devices, the serial number, and for other implantable devices, the serial number or the lot number." [ref=e6172]:
+                        - generic [ref=e6174]: (s) for active implantable devices, the serial number, and for other implantable devices, the serial number or the lot number.
+                      - cell [ref=e6175]:
+                        - radiogroup [ref=e6177]:
+                          - radio "Yes" [checked] [ref=e6178] [cursor=pointer]:
+                            - generic [ref=e6181]: "Yes"
+                          - radio "No" [ref=e6182] [cursor=pointer]:
+                            - generic [ref=e6185]: "No"
+                      - cell [ref=e6186]:
+                        - textbox "Type" [disabled] [ref=e6188]
+                      - cell [ref=e6189]:
+                        - radiogroup [ref=e6192]:
+                          - generic [ref=e6194]:
+                            - radio [checked] [ref=e6195] [cursor=pointer]
+                            - button "Select from list" [ref=e6198] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e6199]
+                          - radio "Add Method" [ref=e6202] [cursor=pointer]:
+                            - generic [ref=e6205]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e6206]:
+                        - generic [ref=e6208]:
+                          - button "Select Documents" [ref=e6209] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e6210]
+                          - generic [ref=e6212]: 25 Documents Selected
+                      - cell [ref=e6213]:
+                        - radiogroup [ref=e6215]:
+                          - radio "Yes" [checked] [ref=e6216] [cursor=pointer]:
+                            - generic [ref=e6219]: "Yes"
+                          - radio "No" [ref=e6220] [cursor=pointer]:
+                            - generic [ref=e6223]: "No"
+              - generic [ref=e6228]:
+                - table [ref=e6230]:
+                  - rowgroup [ref=e6231]:
+                    - row "23.3 Sterile Packaging Information" [ref=e6232]:
+                      - columnheader "23.3" [ref=e6233]
+                      - columnheader "Sterile Packaging Information" [ref=e6234]:
+                        - generic [ref=e6235]: Sterile Packaging Information
+                    - row "# GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1 Applicable? Rationale for non-applicable requirements Method(s) used to demonstrate conformity Technical Document Reference Met Requirement?" [ref=e6236]:
+                      - columnheader "#" [ref=e6237]
+                      - columnheader "GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1" [ref=e6238]
+                      - columnheader "Applicable?" [ref=e6239]
+                      - columnheader "Rationale for non-applicable requirements" [ref=e6240]
+                      - columnheader "Method(s) used to demonstrate conformity" [ref=e6241]
+                      - columnheader "Technical Document Reference" [ref=e6242]
+                      - columnheader "Met Requirement?" [ref=e6243]
+                - table [ref=e6245]:
+                  - rowgroup [ref=e6246]:
+                    - 'row "23.3 Information on the packaging which maintains the sterile condition of a device (‘sterile packaging’) The following particulars shall appear on the sterile packaging: Select Documents 25 Documents Selected" [ref=e6247]':
+                      - cell "23.3" [ref=e6248]:
+                        - generic [ref=e6250]: "23.3"
+                      - cell "Information on the packaging which maintains the sterile condition of a device (‘sterile packaging’) The following particulars shall appear on the sterile packaging:" [ref=e6251]:
+                        - generic [ref=e6253]: "Information on the packaging which maintains the sterile condition of a device (‘sterile packaging’) The following particulars shall appear on the sterile packaging:"
+                      - cell [ref=e6254]:
+                        - radiogroup [ref=e6256]:
+                          - radio "Yes" [checked] [ref=e6257] [cursor=pointer]:
+                            - generic [ref=e6260]: "Yes"
+                          - radio "No" [ref=e6261] [cursor=pointer]:
+                            - generic [ref=e6264]: "No"
+                      - cell [ref=e6265]:
+                        - textbox "Type" [disabled] [ref=e6267]
+                      - cell [ref=e6268]:
+                        - radiogroup [ref=e6271]:
+                          - generic [ref=e6273]:
+                            - radio [checked] [ref=e6274] [cursor=pointer]
+                            - button "Select from list" [ref=e6277] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e6278]
+                          - radio "Add Method" [ref=e6281] [cursor=pointer]:
+                            - generic [ref=e6284]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e6285]:
+                        - generic [ref=e6287]:
+                          - button "Select Documents" [ref=e6288] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e6289]
+                          - generic [ref=e6291]: 25 Documents Selected
+                      - cell [ref=e6292]:
+                        - radiogroup [ref=e6294]:
+                          - radio "Yes" [checked] [ref=e6295] [cursor=pointer]:
+                            - generic [ref=e6298]: "Yes"
+                          - radio "No" [ref=e6299] [cursor=pointer]:
+                            - generic [ref=e6302]: "No"
+                    - row "(a) an indication permitting the sterile packaging to be recognised as such, Select Documents 25 Documents Selected" [ref=e6303]:
+                      - cell [ref=e6304]
+                      - cell "(a) an indication permitting the sterile packaging to be recognised as such," [ref=e6305]:
+                        - generic [ref=e6307]: (a) an indication permitting the sterile packaging to be recognised as such,
+                      - cell [ref=e6308]:
+                        - radiogroup [ref=e6310]:
+                          - radio "Yes" [checked] [ref=e6311] [cursor=pointer]:
+                            - generic [ref=e6314]: "Yes"
+                          - radio "No" [ref=e6315] [cursor=pointer]:
+                            - generic [ref=e6318]: "No"
+                      - cell [ref=e6319]:
+                        - textbox "Type" [disabled] [ref=e6321]
+                      - cell [ref=e6322]:
+                        - radiogroup [ref=e6325]:
+                          - generic [ref=e6327]:
+                            - radio [checked] [ref=e6328] [cursor=pointer]
+                            - button "Select from list" [ref=e6331] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e6332]
+                          - radio "Add Method" [ref=e6335] [cursor=pointer]:
+                            - generic [ref=e6338]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e6339]:
+                        - generic [ref=e6341]:
+                          - button "Select Documents" [ref=e6342] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e6343]
+                          - generic [ref=e6345]: 25 Documents Selected
+                      - cell [ref=e6346]:
+                        - radiogroup [ref=e6348]:
+                          - radio "Yes" [checked] [ref=e6349] [cursor=pointer]:
+                            - generic [ref=e6352]: "Yes"
+                          - radio "No" [ref=e6353] [cursor=pointer]:
+                            - generic [ref=e6356]: "No"
+                    - row "(b) a declaration that the device is in a sterile condition, Select Documents 25 Documents Selected" [ref=e6357]:
+                      - cell [ref=e6358]
+                      - cell "(b) a declaration that the device is in a sterile condition," [ref=e6359]:
+                        - generic [ref=e6361]: (b) a declaration that the device is in a sterile condition,
+                      - cell [ref=e6362]:
+                        - radiogroup [ref=e6364]:
+                          - radio "Yes" [checked] [ref=e6365] [cursor=pointer]:
+                            - generic [ref=e6368]: "Yes"
+                          - radio "No" [ref=e6369] [cursor=pointer]:
+                            - generic [ref=e6372]: "No"
+                      - cell [ref=e6373]:
+                        - textbox "Type" [disabled] [ref=e6375]
+                      - cell [ref=e6376]:
+                        - radiogroup [ref=e6379]:
+                          - generic [ref=e6381]:
+                            - radio [checked] [ref=e6382] [cursor=pointer]
+                            - button "Select from list" [ref=e6385] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e6386]
+                          - radio "Add Method" [ref=e6389] [cursor=pointer]:
+                            - generic [ref=e6392]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e6393]:
+                        - generic [ref=e6395]:
+                          - button "Select Documents" [ref=e6396] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e6397]
+                          - generic [ref=e6399]: 25 Documents Selected
+                      - cell [ref=e6400]:
+                        - radiogroup [ref=e6402]:
+                          - radio "Yes" [checked] [ref=e6403] [cursor=pointer]:
+                            - generic [ref=e6406]: "Yes"
+                          - radio "No" [ref=e6407] [cursor=pointer]:
+                            - generic [ref=e6410]: "No"
+                    - row "(c) Labels shall be provided in a human-readable format and may be supplemented by machine-readable information, such as radio-frequency identification (‘RFID’) or bar codes. Select Documents 25 Documents Selected" [ref=e6411]:
+                      - cell [ref=e6412]
+                      - cell "(c) Labels shall be provided in a human-readable format and may be supplemented by machine-readable information, such as radio-frequency identification (‘RFID’) or bar codes." [ref=e6413]:
+                        - generic [ref=e6415]: (c) Labels shall be provided in a human-readable format and may be supplemented by machine-readable information, such as radio-frequency identification (‘RFID’) or bar codes.
+                      - cell [ref=e6416]:
+                        - radiogroup [ref=e6418]:
+                          - radio "Yes" [ref=e6419] [cursor=pointer]:
+                            - generic [ref=e6422]: "Yes"
+                          - radio "No" [ref=e6423] [cursor=pointer]:
+                            - generic [ref=e6426]: "No"
+                      - cell [ref=e6427]:
+                        - textbox "Type" [disabled] [ref=e6429]
+                      - cell [ref=e6430]:
+                        - radiogroup [ref=e6433]:
+                          - generic [ref=e6435]:
+                            - radio [checked] [ref=e6436] [cursor=pointer]
+                            - button "Select from list" [ref=e6439] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e6440]
+                          - radio "Add Method" [ref=e6443] [cursor=pointer]:
+                            - generic [ref=e6446]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e6447]:
+                        - generic [ref=e6449]:
+                          - button "Select Documents" [ref=e6450] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e6451]
+                          - generic [ref=e6453]: 25 Documents Selected
+                      - cell [ref=e6454]:
+                        - radiogroup [ref=e6456]:
+                          - radio "Yes" [ref=e6457] [cursor=pointer]:
+                            - generic [ref=e6460]: "Yes"
+                          - radio "No" [ref=e6461] [cursor=pointer]:
+                            - generic [ref=e6464]: "No"
+                    - row "(d) the name and address of the manufacturer, Select Documents 25 Documents Selected" [ref=e6465]:
+                      - cell [ref=e6466]
+                      - cell "(d) the name and address of the manufacturer," [ref=e6467]:
+                        - generic [ref=e6469]: (d) the name and address of the manufacturer,
+                      - cell [ref=e6470]:
+                        - radiogroup [ref=e6472]:
+                          - radio "Yes" [checked] [ref=e6473] [cursor=pointer]:
+                            - generic [ref=e6476]: "Yes"
+                          - radio "No" [ref=e6477] [cursor=pointer]:
+                            - generic [ref=e6480]: "No"
+                      - cell [ref=e6481]:
+                        - textbox "Type" [disabled] [ref=e6483]
+                      - cell [ref=e6484]:
+                        - radiogroup [ref=e6487]:
+                          - generic [ref=e6489]:
+                            - radio [checked] [ref=e6490] [cursor=pointer]
+                            - button "Select from list" [ref=e6493] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e6494]
+                          - radio "Add Method" [ref=e6497] [cursor=pointer]:
+                            - generic [ref=e6500]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e6501]:
+                        - generic [ref=e6503]:
+                          - button "Select Documents" [ref=e6504] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e6505]
+                          - generic [ref=e6507]: 25 Documents Selected
+                      - cell [ref=e6508]:
+                        - radiogroup [ref=e6510]:
+                          - radio "Yes" [checked] [ref=e6511] [cursor=pointer]:
+                            - generic [ref=e6514]: "Yes"
+                          - radio "No" [ref=e6515] [cursor=pointer]:
+                            - generic [ref=e6518]: "No"
+                    - row "(e) a description of the device, Select Documents 25 Documents Selected" [ref=e6519]:
+                      - cell [ref=e6520]
+                      - cell "(e) a description of the device," [ref=e6521]:
+                        - generic [ref=e6523]: (e) a description of the device,
+                      - cell [ref=e6524]:
+                        - radiogroup [ref=e6526]:
+                          - radio "Yes" [checked] [ref=e6527] [cursor=pointer]:
+                            - generic [ref=e6530]: "Yes"
+                          - radio "No" [ref=e6531] [cursor=pointer]:
+                            - generic [ref=e6534]: "No"
+                      - cell [ref=e6535]:
+                        - textbox "Type" [disabled] [ref=e6537]
+                      - cell [ref=e6538]:
+                        - radiogroup [ref=e6541]:
+                          - generic [ref=e6543]:
+                            - radio [checked] [ref=e6544] [cursor=pointer]
+                            - button "Select from list" [ref=e6547] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e6548]
+                          - radio "Add Method" [ref=e6551] [cursor=pointer]:
+                            - generic [ref=e6554]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e6555]:
+                        - generic [ref=e6557]:
+                          - button "Select Documents" [ref=e6558] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e6559]
+                          - generic [ref=e6561]: 25 Documents Selected
+                      - cell [ref=e6562]:
+                        - radiogroup [ref=e6564]:
+                          - radio "Yes" [checked] [ref=e6565] [cursor=pointer]:
+                            - generic [ref=e6568]: "Yes"
+                          - radio "No" [ref=e6569] [cursor=pointer]:
+                            - generic [ref=e6572]: "No"
+                    - row "(f) if the device is intended for clinical investigations, the words ‘exclusively for clinical investigations’, Select Documents 25 Documents Selected" [ref=e6573]:
+                      - cell [ref=e6574]
+                      - cell "(f) if the device is intended for clinical investigations, the words ‘exclusively for clinical investigations’," [ref=e6575]:
+                        - generic [ref=e6577]: (f) if the device is intended for clinical investigations, the words ‘exclusively for clinical investigations’,
+                      - cell [ref=e6578]:
+                        - radiogroup [ref=e6580]:
+                          - radio "Yes" [checked] [ref=e6581] [cursor=pointer]:
+                            - generic [ref=e6584]: "Yes"
+                          - radio "No" [ref=e6585] [cursor=pointer]:
+                            - generic [ref=e6588]: "No"
+                      - cell [ref=e6589]:
+                        - textbox "Type" [disabled] [ref=e6591]
+                      - cell [ref=e6592]:
+                        - radiogroup [ref=e6595]:
+                          - generic [ref=e6597]:
+                            - radio [checked] [ref=e6598] [cursor=pointer]
+                            - button "Select from list" [ref=e6601] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e6602]
+                          - radio "Add Method" [ref=e6605] [cursor=pointer]:
+                            - generic [ref=e6608]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e6609]:
+                        - generic [ref=e6611]:
+                          - button "Select Documents" [ref=e6612] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e6613]
+                          - generic [ref=e6615]: 25 Documents Selected
+                      - cell [ref=e6616]:
+                        - radiogroup [ref=e6618]:
+                          - radio "Yes" [checked] [ref=e6619] [cursor=pointer]:
+                            - generic [ref=e6622]: "Yes"
+                          - radio "No" [ref=e6623] [cursor=pointer]:
+                            - generic [ref=e6626]: "No"
+                    - row "(g) if the device is custom-made, the words ‘custom-made device’ Select Documents 25 Documents Selected" [ref=e6627]:
+                      - cell [ref=e6628]
+                      - cell "(g) if the device is custom-made, the words ‘custom-made device’" [ref=e6629]:
+                        - generic [ref=e6631]: (g) if the device is custom-made, the words ‘custom-made device’
+                      - cell [ref=e6632]:
+                        - radiogroup [ref=e6634]:
+                          - radio "Yes" [checked] [ref=e6635] [cursor=pointer]:
+                            - generic [ref=e6638]: "Yes"
+                          - radio "No" [ref=e6639] [cursor=pointer]:
+                            - generic [ref=e6642]: "No"
+                      - cell [ref=e6643]:
+                        - textbox "Type" [disabled] [ref=e6645]
+                      - cell [ref=e6646]:
+                        - radiogroup [ref=e6649]:
+                          - generic [ref=e6651]:
+                            - radio [checked] [ref=e6652] [cursor=pointer]
+                            - button "Select from list" [ref=e6655] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e6656]
+                          - radio "Add Method" [ref=e6659] [cursor=pointer]:
+                            - generic [ref=e6662]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e6663]:
+                        - generic [ref=e6665]:
+                          - button "Select Documents" [ref=e6666] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e6667]
+                          - generic [ref=e6669]: 25 Documents Selected
+                      - cell [ref=e6670]:
+                        - radiogroup [ref=e6672]:
+                          - radio "Yes" [checked] [ref=e6673] [cursor=pointer]:
+                            - generic [ref=e6676]: "Yes"
+                          - radio "No" [ref=e6677] [cursor=pointer]:
+                            - generic [ref=e6680]: "No"
+                    - row "(h) the month and year of manufacture, Select Documents 25 Documents Selected" [ref=e6681]:
+                      - cell [ref=e6682]
+                      - cell "(h) the month and year of manufacture," [ref=e6683]:
+                        - generic [ref=e6685]: (h) the month and year of manufacture,
+                      - cell [ref=e6686]:
+                        - radiogroup [ref=e6688]:
+                          - radio "Yes" [checked] [ref=e6689] [cursor=pointer]:
+                            - generic [ref=e6692]: "Yes"
+                          - radio "No" [ref=e6693] [cursor=pointer]:
+                            - generic [ref=e6696]: "No"
+                      - cell [ref=e6697]:
+                        - textbox "Type" [disabled] [ref=e6699]
+                      - cell [ref=e6700]:
+                        - radiogroup [ref=e6703]:
+                          - generic [ref=e6705]:
+                            - radio [checked] [ref=e6706] [cursor=pointer]
+                            - button "Select from list" [ref=e6709] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e6710]
+                          - radio "Add Method" [ref=e6713] [cursor=pointer]:
+                            - generic [ref=e6716]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e6717]:
+                        - generic [ref=e6719]:
+                          - button "Select Documents" [ref=e6720] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e6721]
+                          - generic [ref=e6723]: 25 Documents Selected
+                      - cell [ref=e6724]:
+                        - radiogroup [ref=e6726]:
+                          - radio "Yes" [checked] [ref=e6727] [cursor=pointer]:
+                            - generic [ref=e6730]: "Yes"
+                          - radio "No" [ref=e6731] [cursor=pointer]:
+                            - generic [ref=e6734]: "No"
+                    - row "(i) an unambiguous indication of the time limit for using or implanting the device safely expressed at least in terms of year and month, and Select Documents 25 Documents Selected" [ref=e6735]:
+                      - cell [ref=e6736]
+                      - cell "(i) an unambiguous indication of the time limit for using or implanting the device safely expressed at least in terms of year and month, and" [ref=e6737]:
+                        - generic [ref=e6739]: (i) an unambiguous indication of the time limit for using or implanting the device safely expressed at least in terms of year and month, and
+                      - cell [ref=e6740]:
+                        - radiogroup [ref=e6742]:
+                          - radio "Yes" [checked] [ref=e6743] [cursor=pointer]:
+                            - generic [ref=e6746]: "Yes"
+                          - radio "No" [ref=e6747] [cursor=pointer]:
+                            - generic [ref=e6750]: "No"
+                      - cell [ref=e6751]:
+                        - textbox "Type" [disabled] [ref=e6753]
+                      - cell [ref=e6754]:
+                        - radiogroup [ref=e6757]:
+                          - generic [ref=e6759]:
+                            - radio [checked] [ref=e6760] [cursor=pointer]
+                            - button "Select from list" [ref=e6763] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e6764]
+                          - radio "Add Method" [ref=e6767] [cursor=pointer]:
+                            - generic [ref=e6770]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e6771]:
+                        - generic [ref=e6773]:
+                          - button "Select Documents" [ref=e6774] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e6775]
+                          - generic [ref=e6777]: 25 Documents Selected
+                      - cell [ref=e6778]:
+                        - radiogroup [ref=e6780]:
+                          - radio "Yes" [checked] [ref=e6781] [cursor=pointer]:
+                            - generic [ref=e6784]: "Yes"
+                          - radio "No" [ref=e6785] [cursor=pointer]:
+                            - generic [ref=e6788]: "No"
+                    - row "(j) an instruction to check the instructions for use for what to do if the sterile packaging is damaged or unintentionally opened before use. Select Documents 25 Documents Selected" [ref=e6789]:
+                      - cell [ref=e6790]
+                      - cell "(j) an instruction to check the instructions for use for what to do if the sterile packaging is damaged or unintentionally opened before use." [ref=e6791]:
+                        - generic [ref=e6793]: (j) an instruction to check the instructions for use for what to do if the sterile packaging is damaged or unintentionally opened before use.
+                      - cell [ref=e6794]:
+                        - radiogroup [ref=e6796]:
+                          - radio "Yes" [ref=e6797] [cursor=pointer]:
+                            - generic [ref=e6800]: "Yes"
+                          - radio "No" [ref=e6801] [cursor=pointer]:
+                            - generic [ref=e6804]: "No"
+                      - cell [ref=e6805]:
+                        - textbox "Type" [disabled] [ref=e6807]
+                      - cell [ref=e6808]:
+                        - radiogroup [ref=e6811]:
+                          - generic [ref=e6813]:
+                            - radio [checked] [ref=e6814] [cursor=pointer]
+                            - button "Select from list" [ref=e6817] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e6818]
+                          - radio "Add Method" [ref=e6821] [cursor=pointer]:
+                            - generic [ref=e6824]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e6825]:
+                        - generic [ref=e6827]:
+                          - button "Select Documents" [ref=e6828] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e6829]
+                          - generic [ref=e6831]: 25 Documents Selected
+                      - cell [ref=e6832]:
+                        - radiogroup [ref=e6834]:
+                          - radio "Yes" [ref=e6835] [cursor=pointer]:
+                            - generic [ref=e6838]: "Yes"
+                          - radio "No" [ref=e6839] [cursor=pointer]:
+                            - generic [ref=e6842]: "No"
+              - generic [ref=e6847]:
+                - table [ref=e6849]:
+                  - rowgroup [ref=e6850]:
+                    - row "23.4 Information in the instructions for use The instructions for use shall contain all of the following particulars:" [ref=e6851]:
+                      - columnheader "23.4" [ref=e6852]
+                      - columnheader "Information in the instructions for use The instructions for use shall contain all of the following particulars:" [ref=e6853]:
+                        - generic [ref=e6854]: "Information in the instructions for use The instructions for use shall contain all of the following particulars:"
+                    - row "# GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1 Applicable? Rationale for non-applicable requirements Method(s) used to demonstrate conformity Technical Document Reference Met Requirement?" [ref=e6855]:
+                      - columnheader "#" [ref=e6856]
+                      - columnheader "GENERAL SAFETY AND PERFORMANCE REQUIREMENTS, MDR(2017/745) Annex 1" [ref=e6857]
+                      - columnheader "Applicable?" [ref=e6858]
+                      - columnheader "Rationale for non-applicable requirements" [ref=e6859]
+                      - columnheader "Method(s) used to demonstrate conformity" [ref=e6860]
+                      - columnheader "Technical Document Reference" [ref=e6861]
+                      - columnheader "Met Requirement?" [ref=e6862]
+                - table [ref=e6864]:
+                  - rowgroup [ref=e6865]:
+                    - row "(a) the particulars referred to in points (a), (c), (e), (f), (k), (l), (n) and (r) of Section 23.2; Select Documents 25 Documents Selected" [ref=e6866]:
+                      - cell [ref=e6867]
+                      - cell "(a) the particulars referred to in points (a), (c), (e), (f), (k), (l), (n) and (r) of Section 23.2;" [ref=e6868]:
+                        - generic [ref=e6870]: (a) the particulars referred to in points (a), (c), (e), (f), (k), (l), (n) and (r) of Section 23.2;
+                      - cell [ref=e6871]:
+                        - radiogroup [ref=e6873]:
+                          - radio "Yes" [ref=e6874] [cursor=pointer]:
+                            - generic [ref=e6877]: "Yes"
+                          - radio "No" [ref=e6878] [cursor=pointer]:
+                            - generic [ref=e6881]: "No"
+                      - cell [ref=e6882]:
+                        - textbox "Type" [disabled] [ref=e6884]
+                      - cell [ref=e6885]:
+                        - radiogroup [ref=e6888]:
+                          - generic [ref=e6890]:
+                            - radio [checked] [ref=e6891] [cursor=pointer]
+                            - button "Select from list" [ref=e6894] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e6895]
+                          - radio "Add Method" [ref=e6898] [cursor=pointer]:
+                            - generic [ref=e6901]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e6902]:
+                        - generic [ref=e6904]:
+                          - button "Select Documents" [ref=e6905] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e6906]
+                          - generic [ref=e6908]: 25 Documents Selected
+                      - cell [ref=e6909]:
+                        - radiogroup [ref=e6911]:
+                          - radio "Yes" [ref=e6912] [cursor=pointer]:
+                            - generic [ref=e6915]: "Yes"
+                          - radio "No" [ref=e6916] [cursor=pointer]:
+                            - generic [ref=e6919]: "No"
+                    - row "(b) the device's intended purpose with a clear specification of indications, contra-indications, the patient target group or groups, and of the intended users, as appropriate; Select Documents 25 Documents Selected" [ref=e6920]:
+                      - cell [ref=e6921]
+                      - cell "(b) the device's intended purpose with a clear specification of indications, contra-indications, the patient target group or groups, and of the intended users, as appropriate;" [ref=e6922]:
+                        - generic [ref=e6924]: (b) the device's intended purpose with a clear specification of indications, contra-indications, the patient target group or groups, and of the intended users, as appropriate;
+                      - cell [ref=e6925]:
+                        - radiogroup [ref=e6927]:
+                          - radio "Yes" [ref=e6928] [cursor=pointer]:
+                            - generic [ref=e6931]: "Yes"
+                          - radio "No" [ref=e6932] [cursor=pointer]:
+                            - generic [ref=e6935]: "No"
+                      - cell [ref=e6936]:
+                        - textbox "Type" [disabled] [ref=e6938]
+                      - cell [ref=e6939]:
+                        - radiogroup [ref=e6942]:
+                          - generic [ref=e6944]:
+                            - radio [checked] [ref=e6945] [cursor=pointer]
+                            - button "Select from list" [ref=e6948] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e6949]
+                          - radio "Add Method" [ref=e6952] [cursor=pointer]:
+                            - generic [ref=e6955]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e6956]:
+                        - generic [ref=e6958]:
+                          - button "Select Documents" [ref=e6959] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e6960]
+                          - generic [ref=e6962]: 25 Documents Selected
+                      - cell [ref=e6963]:
+                        - radiogroup [ref=e6965]:
+                          - radio "Yes" [ref=e6966] [cursor=pointer]:
+                            - generic [ref=e6969]: "Yes"
+                          - radio "No" [ref=e6970] [cursor=pointer]:
+                            - generic [ref=e6973]: "No"
+                    - row "(c) where applicable, a specification of the clinical benefits to be expected. Select Documents 25 Documents Selected" [ref=e6974]:
+                      - cell [ref=e6975]
+                      - cell "(c) where applicable, a specification of the clinical benefits to be expected." [ref=e6976]:
+                        - generic [ref=e6978]: (c) where applicable, a specification of the clinical benefits to be expected.
+                      - cell [ref=e6979]:
+                        - radiogroup [ref=e6981]:
+                          - radio "Yes" [ref=e6982] [cursor=pointer]:
+                            - generic [ref=e6985]: "Yes"
+                          - radio "No" [ref=e6986] [cursor=pointer]:
+                            - generic [ref=e6989]: "No"
+                      - cell [ref=e6990]:
+                        - textbox "Type" [disabled] [ref=e6992]
+                      - cell [ref=e6993]:
+                        - radiogroup [ref=e6996]:
+                          - generic [ref=e6998]:
+                            - radio [checked] [ref=e6999] [cursor=pointer]
+                            - button "Select from list" [ref=e7002] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e7003]
+                          - radio "Add Method" [ref=e7006] [cursor=pointer]:
+                            - generic [ref=e7009]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e7010]:
+                        - generic [ref=e7012]:
+                          - button "Select Documents" [ref=e7013] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e7014]
+                          - generic [ref=e7016]: 25 Documents Selected
+                      - cell [ref=e7017]:
+                        - radiogroup [ref=e7019]:
+                          - radio "Yes" [ref=e7020] [cursor=pointer]:
+                            - generic [ref=e7023]: "Yes"
+                          - radio "No" [ref=e7024] [cursor=pointer]:
+                            - generic [ref=e7027]: "No"
+                    - row "(d) where applicable, links to the summary of safety and clinical performance referred to in Article 32; Select Documents 25 Documents Selected" [ref=e7028]:
+                      - cell [ref=e7029]
+                      - cell "(d) where applicable, links to the summary of safety and clinical performance referred to in Article 32;" [ref=e7030]:
+                        - generic [ref=e7032]: (d) where applicable, links to the summary of safety and clinical performance referred to in Article 32;
+                      - cell [ref=e7033]:
+                        - radiogroup [ref=e7035]:
+                          - radio "Yes" [ref=e7036] [cursor=pointer]:
+                            - generic [ref=e7039]: "Yes"
+                          - radio "No" [ref=e7040] [cursor=pointer]:
+                            - generic [ref=e7043]: "No"
+                      - cell [ref=e7044]:
+                        - textbox "Type" [disabled] [ref=e7046]
+                      - cell [ref=e7047]:
+                        - radiogroup [ref=e7050]:
+                          - generic [ref=e7052]:
+                            - radio [checked] [ref=e7053] [cursor=pointer]
+                            - button "Select from list" [ref=e7056] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e7057]
+                          - radio "Add Method" [ref=e7060] [cursor=pointer]:
+                            - generic [ref=e7063]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e7064]:
+                        - generic [ref=e7066]:
+                          - button "Select Documents" [ref=e7067] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e7068]
+                          - generic [ref=e7070]: 25 Documents Selected
+                      - cell [ref=e7071]:
+                        - radiogroup [ref=e7073]:
+                          - radio "Yes" [ref=e7074] [cursor=pointer]:
+                            - generic [ref=e7077]: "Yes"
+                          - radio "No" [ref=e7078] [cursor=pointer]:
+                            - generic [ref=e7081]: "No"
+                    - row "(e) the performance characteristics of the device; Select Documents 25 Documents Selected" [ref=e7082]:
+                      - cell [ref=e7083]
+                      - cell "(e) the performance characteristics of the device;" [ref=e7084]:
+                        - generic [ref=e7086]: (e) the performance characteristics of the device;
+                      - cell [ref=e7087]:
+                        - radiogroup [ref=e7089]:
+                          - radio "Yes" [ref=e7090] [cursor=pointer]:
+                            - generic [ref=e7093]: "Yes"
+                          - radio "No" [ref=e7094] [cursor=pointer]:
+                            - generic [ref=e7097]: "No"
+                      - cell [ref=e7098]:
+                        - textbox "Type" [disabled] [ref=e7100]
+                      - cell [ref=e7101]:
+                        - radiogroup [ref=e7104]:
+                          - generic [ref=e7106]:
+                            - radio [checked] [ref=e7107] [cursor=pointer]
+                            - button "Select from list" [ref=e7110] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e7111]
+                          - radio "Add Method" [ref=e7114] [cursor=pointer]:
+                            - generic [ref=e7117]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e7118]:
+                        - generic [ref=e7120]:
+                          - button "Select Documents" [ref=e7121] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e7122]
+                          - generic [ref=e7124]: 25 Documents Selected
+                      - cell [ref=e7125]:
+                        - radiogroup [ref=e7127]:
+                          - radio "Yes" [ref=e7128] [cursor=pointer]:
+                            - generic [ref=e7131]: "Yes"
+                          - radio "No" [ref=e7132] [cursor=pointer]:
+                            - generic [ref=e7135]: "No"
+                    - row "(f) where applicable, information allowing the healthcare professional to verify if the device is suitable and select the corresponding software and accessories; Select Documents 25 Documents Selected" [ref=e7136]:
+                      - cell [ref=e7137]
+                      - cell "(f) where applicable, information allowing the healthcare professional to verify if the device is suitable and select the corresponding software and accessories;" [ref=e7138]:
+                        - generic [ref=e7140]: (f) where applicable, information allowing the healthcare professional to verify if the device is suitable and select the corresponding software and accessories;
+                      - cell [ref=e7141]:
+                        - radiogroup [ref=e7143]:
+                          - radio "Yes" [ref=e7144] [cursor=pointer]:
+                            - generic [ref=e7147]: "Yes"
+                          - radio "No" [ref=e7148] [cursor=pointer]:
+                            - generic [ref=e7151]: "No"
+                      - cell [ref=e7152]:
+                        - textbox "Type" [disabled] [ref=e7154]
+                      - cell [ref=e7155]:
+                        - radiogroup [ref=e7158]:
+                          - generic [ref=e7160]:
+                            - radio [checked] [ref=e7161] [cursor=pointer]
+                            - button "Select from list" [ref=e7164] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e7165]
+                          - radio "Add Method" [ref=e7168] [cursor=pointer]:
+                            - generic [ref=e7171]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e7172]:
+                        - generic [ref=e7174]:
+                          - button "Select Documents" [ref=e7175] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e7176]
+                          - generic [ref=e7178]: 25 Documents Selected
+                      - cell [ref=e7179]:
+                        - radiogroup [ref=e7181]:
+                          - radio "Yes" [ref=e7182] [cursor=pointer]:
+                            - generic [ref=e7185]: "Yes"
+                          - radio "No" [ref=e7186] [cursor=pointer]:
+                            - generic [ref=e7189]: "No"
+                    - row "(g) any residual risks, contra-indications and any undesirable side-effects, including information to be conveyed to the patient in this regard; Select Documents 25 Documents Selected" [ref=e7190]:
+                      - cell [ref=e7191]
+                      - cell "(g) any residual risks, contra-indications and any undesirable side-effects, including information to be conveyed to the patient in this regard;" [ref=e7192]:
+                        - generic [ref=e7194]: (g) any residual risks, contra-indications and any undesirable side-effects, including information to be conveyed to the patient in this regard;
+                      - cell [ref=e7195]:
+                        - radiogroup [ref=e7197]:
+                          - radio "Yes" [ref=e7198] [cursor=pointer]:
+                            - generic [ref=e7201]: "Yes"
+                          - radio "No" [ref=e7202] [cursor=pointer]:
+                            - generic [ref=e7205]: "No"
+                      - cell [ref=e7206]:
+                        - textbox "Type" [disabled] [ref=e7208]
+                      - cell [ref=e7209]:
+                        - radiogroup [ref=e7212]:
+                          - generic [ref=e7214]:
+                            - radio [checked] [ref=e7215] [cursor=pointer]
+                            - button "Select from list" [ref=e7218] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e7219]
+                          - radio "Add Method" [ref=e7222] [cursor=pointer]:
+                            - generic [ref=e7225]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e7226]:
+                        - generic [ref=e7228]:
+                          - button "Select Documents" [ref=e7229] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e7230]
+                          - generic [ref=e7232]: 25 Documents Selected
+                      - cell [ref=e7233]:
+                        - radiogroup [ref=e7235]:
+                          - radio "Yes" [ref=e7236] [cursor=pointer]:
+                            - generic [ref=e7239]: "Yes"
+                          - radio "No" [ref=e7240] [cursor=pointer]:
+                            - generic [ref=e7243]: "No"
+                    - row "(h) specifications the user requires to use the device appropriately, e.g. if the device has a measuring function, the degree of accuracy claimed for it; Select Documents 25 Documents Selected" [ref=e7244]:
+                      - cell [ref=e7245]
+                      - cell "(h) specifications the user requires to use the device appropriately, e.g. if the device has a measuring function, the degree of accuracy claimed for it;" [ref=e7246]:
+                        - generic [ref=e7248]: (h) specifications the user requires to use the device appropriately, e.g. if the device has a measuring function, the degree of accuracy claimed for it;
+                      - cell [ref=e7249]:
+                        - radiogroup [ref=e7251]:
+                          - radio "Yes" [ref=e7252] [cursor=pointer]:
+                            - generic [ref=e7255]: "Yes"
+                          - radio "No" [ref=e7256] [cursor=pointer]:
+                            - generic [ref=e7259]: "No"
+                      - cell [ref=e7260]:
+                        - textbox "Type" [disabled] [ref=e7262]
+                      - cell [ref=e7263]:
+                        - radiogroup [ref=e7266]:
+                          - generic [ref=e7268]:
+                            - radio [checked] [ref=e7269] [cursor=pointer]
+                            - button "Select from list" [ref=e7272] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e7273]
+                          - radio "Add Method" [ref=e7276] [cursor=pointer]:
+                            - generic [ref=e7279]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e7280]:
+                        - generic [ref=e7282]:
+                          - button "Select Documents" [ref=e7283] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e7284]
+                          - generic [ref=e7286]: 25 Documents Selected
+                      - cell [ref=e7287]:
+                        - radiogroup [ref=e7289]:
+                          - radio "Yes" [ref=e7290] [cursor=pointer]:
+                            - generic [ref=e7293]: "Yes"
+                          - radio "No" [ref=e7294] [cursor=pointer]:
+                            - generic [ref=e7297]: "No"
+                    - row "(i) details of any preparatory treatment or handling of the device before it is ready for use or during its use, such as sterilisation, final assembly, calibration, etc., including the levels of disinfection required to ensure patient safety and all available methods for achieving those levels of disinfection; Select Documents 25 Documents Selected" [ref=e7298]:
+                      - cell [ref=e7299]
+                      - cell "(i) details of any preparatory treatment or handling of the device before it is ready for use or during its use, such as sterilisation, final assembly, calibration, etc., including the levels of disinfection required to ensure patient safety and all available methods for achieving those levels of disinfection;" [ref=e7300]:
+                        - generic [ref=e7302]: (i) details of any preparatory treatment or handling of the device before it is ready for use or during its use, such as sterilisation, final assembly, calibration, etc., including the levels of disinfection required to ensure patient safety and all available methods for achieving those levels of disinfection;
+                      - cell [ref=e7303]:
+                        - radiogroup [ref=e7305]:
+                          - radio "Yes" [ref=e7306] [cursor=pointer]:
+                            - generic [ref=e7309]: "Yes"
+                          - radio "No" [ref=e7310] [cursor=pointer]:
+                            - generic [ref=e7313]: "No"
+                      - cell [ref=e7314]:
+                        - textbox "Type" [disabled] [ref=e7316]
+                      - cell [ref=e7317]:
+                        - radiogroup [ref=e7320]:
+                          - generic [ref=e7322]:
+                            - radio [checked] [ref=e7323] [cursor=pointer]
+                            - button "Select from list" [ref=e7326] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e7327]
+                          - radio "Add Method" [ref=e7330] [cursor=pointer]:
+                            - generic [ref=e7333]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e7334]:
+                        - generic [ref=e7336]:
+                          - button "Select Documents" [ref=e7337] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e7338]
+                          - generic [ref=e7340]: 25 Documents Selected
+                      - cell [ref=e7341]:
+                        - radiogroup [ref=e7343]:
+                          - radio "Yes" [ref=e7344] [cursor=pointer]:
+                            - generic [ref=e7347]: "Yes"
+                          - radio "No" [ref=e7348] [cursor=pointer]:
+                            - generic [ref=e7351]: "No"
+                    - row "(j) any requirements for special facilities, or special training, or particular qualifications of the device user and/or other persons; Select Documents 25 Documents Selected" [ref=e7352]:
+                      - cell [ref=e7353]
+                      - cell "(j) any requirements for special facilities, or special training, or particular qualifications of the device user and/or other persons;" [ref=e7354]:
+                        - generic [ref=e7356]: (j) any requirements for special facilities, or special training, or particular qualifications of the device user and/or other persons;
+                      - cell [ref=e7357]:
+                        - radiogroup [ref=e7359]:
+                          - radio "Yes" [ref=e7360] [cursor=pointer]:
+                            - generic [ref=e7363]: "Yes"
+                          - radio "No" [ref=e7364] [cursor=pointer]:
+                            - generic [ref=e7367]: "No"
+                      - cell [ref=e7368]:
+                        - textbox "Type" [disabled] [ref=e7370]
+                      - cell [ref=e7371]:
+                        - radiogroup [ref=e7374]:
+                          - generic [ref=e7376]:
+                            - radio [checked] [ref=e7377] [cursor=pointer]
+                            - button "Select from list" [ref=e7380] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e7381]
+                          - radio "Add Method" [ref=e7384] [cursor=pointer]:
+                            - generic [ref=e7387]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e7388]:
+                        - generic [ref=e7390]:
+                          - button "Select Documents" [ref=e7391] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e7392]
+                          - generic [ref=e7394]: 25 Documents Selected
+                      - cell [ref=e7395]:
+                        - radiogroup [ref=e7397]:
+                          - radio "Yes" [ref=e7398] [cursor=pointer]:
+                            - generic [ref=e7401]: "Yes"
+                          - radio "No" [ref=e7402] [cursor=pointer]:
+                            - generic [ref=e7405]: "No"
+                    - 'row "(k) the information needed to verify whether the device is properly installed and is ready to perform safely and as intended by the manufacturer, together with, where relevant: — details of the nature, and frequency, of preventive and regular maintenance, and of any preparatory cleaning or disinfection, — identification of any consumable components and how to replace them, — information on any necessary calibration to ensure that the device operates properly and safely during its intended lifetime, and — methods for eliminating the risks encountered by persons involved in installing, calibrating or servicing devices; Select Documents 25 Documents Selected" [ref=e7406]':
+                      - cell [ref=e7407]
+                      - 'cell "(k) the information needed to verify whether the device is properly installed and is ready to perform safely and as intended by the manufacturer, together with, where relevant: — details of the nature, and frequency, of preventive and regular maintenance, and of any preparatory cleaning or disinfection, — identification of any consumable components and how to replace them, — information on any necessary calibration to ensure that the device operates properly and safely during its intended lifetime, and — methods for eliminating the risks encountered by persons involved in installing, calibrating or servicing devices;" [ref=e7408]':
+                        - generic [ref=e7410]: "(k) the information needed to verify whether the device is properly installed and is ready to perform safely and as intended by the manufacturer, together with, where relevant: — details of the nature, and frequency, of preventive and regular maintenance, and of any preparatory cleaning or disinfection, — identification of any consumable components and how to replace them, — information on any necessary calibration to ensure that the device operates properly and safely during its intended lifetime, and — methods for eliminating the risks encountered by persons involved in installing, calibrating or servicing devices;"
+                      - cell [ref=e7411]:
+                        - radiogroup [ref=e7413]:
+                          - radio "Yes" [ref=e7414] [cursor=pointer]:
+                            - generic [ref=e7417]: "Yes"
+                          - radio "No" [ref=e7418] [cursor=pointer]:
+                            - generic [ref=e7421]: "No"
+                      - cell [ref=e7422]:
+                        - textbox "Type" [disabled] [ref=e7424]
+                      - cell [ref=e7425]:
+                        - radiogroup [ref=e7428]:
+                          - generic [ref=e7430]:
+                            - radio [checked] [ref=e7431] [cursor=pointer]
+                            - button "Select from list" [ref=e7434] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e7435]
+                          - radio "Add Method" [ref=e7438] [cursor=pointer]:
+                            - generic [ref=e7441]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e7442]:
+                        - generic [ref=e7444]:
+                          - button "Select Documents" [ref=e7445] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e7446]
+                          - generic [ref=e7448]: 25 Documents Selected
+                      - cell [ref=e7449]:
+                        - radiogroup [ref=e7451]:
+                          - radio "Yes" [ref=e7452] [cursor=pointer]:
+                            - generic [ref=e7455]: "Yes"
+                          - radio "No" [ref=e7456] [cursor=pointer]:
+                            - generic [ref=e7459]: "No"
+                    - row "(l) if the device is supplied sterile, instructions in the event of the sterile packaging being damaged or unintentionally opened before use; Select Documents 25 Documents Selected" [ref=e7460]:
+                      - cell [ref=e7461]
+                      - cell "(l) if the device is supplied sterile, instructions in the event of the sterile packaging being damaged or unintentionally opened before use;" [ref=e7462]:
+                        - generic [ref=e7464]: (l) if the device is supplied sterile, instructions in the event of the sterile packaging being damaged or unintentionally opened before use;
+                      - cell [ref=e7465]:
+                        - radiogroup [ref=e7467]:
+                          - radio "Yes" [ref=e7468] [cursor=pointer]:
+                            - generic [ref=e7471]: "Yes"
+                          - radio "No" [ref=e7472] [cursor=pointer]:
+                            - generic [ref=e7475]: "No"
+                      - cell [ref=e7476]:
+                        - textbox "Type" [disabled] [ref=e7478]
+                      - cell [ref=e7479]:
+                        - radiogroup [ref=e7482]:
+                          - generic [ref=e7484]:
+                            - radio [checked] [ref=e7485] [cursor=pointer]
+                            - button "Select from list" [ref=e7488] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e7489]
+                          - radio "Add Method" [ref=e7492] [cursor=pointer]:
+                            - generic [ref=e7495]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e7496]:
+                        - generic [ref=e7498]:
+                          - button "Select Documents" [ref=e7499] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e7500]
+                          - generic [ref=e7502]: 25 Documents Selected
+                      - cell [ref=e7503]:
+                        - radiogroup [ref=e7505]:
+                          - radio "Yes" [ref=e7506] [cursor=pointer]:
+                            - generic [ref=e7509]: "Yes"
+                          - radio "No" [ref=e7510] [cursor=pointer]:
+                            - generic [ref=e7513]: "No"
+                    - row "(m) if the device is supplied non-sterile with the intention that it is sterilised before use, the appropriate instructions for sterilisation; Select Documents 25 Documents Selected" [ref=e7514]:
+                      - cell [ref=e7515]
+                      - cell "(m) if the device is supplied non-sterile with the intention that it is sterilised before use, the appropriate instructions for sterilisation;" [ref=e7516]:
+                        - generic [ref=e7518]: (m) if the device is supplied non-sterile with the intention that it is sterilised before use, the appropriate instructions for sterilisation;
+                      - cell [ref=e7519]:
+                        - radiogroup [ref=e7521]:
+                          - radio "Yes" [ref=e7522] [cursor=pointer]:
+                            - generic [ref=e7525]: "Yes"
+                          - radio "No" [ref=e7526] [cursor=pointer]:
+                            - generic [ref=e7529]: "No"
+                      - cell [ref=e7530]:
+                        - textbox "Type" [disabled] [ref=e7532]
+                      - cell [ref=e7533]:
+                        - radiogroup [ref=e7536]:
+                          - generic [ref=e7538]:
+                            - radio [checked] [ref=e7539] [cursor=pointer]
+                            - button "Select from list" [ref=e7542] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e7543]
+                          - radio "Add Method" [ref=e7546] [cursor=pointer]:
+                            - generic [ref=e7549]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e7550]:
+                        - generic [ref=e7552]:
+                          - button "Select Documents" [ref=e7553] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e7554]
+                          - generic [ref=e7556]: 25 Documents Selected
+                      - cell [ref=e7557]:
+                        - radiogroup [ref=e7559]:
+                          - radio "Yes" [ref=e7560] [cursor=pointer]:
+                            - generic [ref=e7563]: "Yes"
+                          - radio "No" [ref=e7564] [cursor=pointer]:
+                            - generic [ref=e7567]: "No"
+                    - row "(n) if the device is reusable, information on the appropriate processes for allowing reuse, including cleaning, disinfection, packaging and, where appropriate, the validated method of re-sterilisation appropriate to the Member State or Member States in which the device has been placed on the market. Information shall be provided to identify when the device should no longer be reused, e.g. signs of material degradation or the maximum number of allowable reuses; Select Documents 25 Documents Selected" [ref=e7568]:
+                      - cell [ref=e7569]
+                      - cell "(n) if the device is reusable, information on the appropriate processes for allowing reuse, including cleaning, disinfection, packaging and, where appropriate, the validated method of re-sterilisation appropriate to the Member State or Member States in which the device has been placed on the market. Information shall be provided to identify when the device should no longer be reused, e.g. signs of material degradation or the maximum number of allowable reuses;" [ref=e7570]:
+                        - generic [ref=e7572]: (n) if the device is reusable, information on the appropriate processes for allowing reuse, including cleaning, disinfection, packaging and, where appropriate, the validated method of re-sterilisation appropriate to the Member State or Member States in which the device has been placed on the market. Information shall be provided to identify when the device should no longer be reused, e.g. signs of material degradation or the maximum number of allowable reuses;
+                      - cell [ref=e7573]:
+                        - radiogroup [ref=e7575]:
+                          - radio "Yes" [ref=e7576] [cursor=pointer]:
+                            - generic [ref=e7579]: "Yes"
+                          - radio "No" [ref=e7580] [cursor=pointer]:
+                            - generic [ref=e7583]: "No"
+                      - cell [ref=e7584]:
+                        - textbox "Type" [disabled] [ref=e7586]
+                      - cell [ref=e7587]:
+                        - radiogroup [ref=e7590]:
+                          - generic [ref=e7592]:
+                            - radio [checked] [ref=e7593] [cursor=pointer]
+                            - button "Select from list" [ref=e7596] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e7597]
+                          - radio "Add Method" [ref=e7600] [cursor=pointer]:
+                            - generic [ref=e7603]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e7604]:
+                        - generic [ref=e7606]:
+                          - button "Select Documents" [ref=e7607] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e7608]
+                          - generic [ref=e7610]: 25 Documents Selected
+                      - cell [ref=e7611]:
+                        - radiogroup [ref=e7613]:
+                          - radio "Yes" [ref=e7614] [cursor=pointer]:
+                            - generic [ref=e7617]: "Yes"
+                          - radio "No" [ref=e7618] [cursor=pointer]:
+                            - generic [ref=e7621]: "No"
+                    - row "(o) an indication, if appropriate, that a device can be reused only if it is reconditioned under the responsibility of the manufacturer to comply with the general safety and performance requirements; Select Documents 25 Documents Selected" [ref=e7622]:
+                      - cell [ref=e7623]
+                      - cell "(o) an indication, if appropriate, that a device can be reused only if it is reconditioned under the responsibility of the manufacturer to comply with the general safety and performance requirements;" [ref=e7624]:
+                        - generic [ref=e7626]: (o) an indication, if appropriate, that a device can be reused only if it is reconditioned under the responsibility of the manufacturer to comply with the general safety and performance requirements;
+                      - cell [ref=e7627]:
+                        - radiogroup [ref=e7629]:
+                          - radio "Yes" [ref=e7630] [cursor=pointer]:
+                            - generic [ref=e7633]: "Yes"
+                          - radio "No" [ref=e7634] [cursor=pointer]:
+                            - generic [ref=e7637]: "No"
+                      - cell [ref=e7638]:
+                        - textbox "Type" [disabled] [ref=e7640]
+                      - cell [ref=e7641]:
+                        - radiogroup [ref=e7644]:
+                          - generic [ref=e7646]:
+                            - radio [checked] [ref=e7647] [cursor=pointer]
+                            - button "Select from list" [ref=e7650] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e7651]
+                          - radio "Add Method" [ref=e7654] [cursor=pointer]:
+                            - generic [ref=e7657]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e7658]:
+                        - generic [ref=e7660]:
+                          - button "Select Documents" [ref=e7661] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e7662]
+                          - generic [ref=e7664]: 25 Documents Selected
+                      - cell [ref=e7665]:
+                        - radiogroup [ref=e7667]:
+                          - radio "Yes" [ref=e7668] [cursor=pointer]:
+                            - generic [ref=e7671]: "Yes"
+                          - radio "No" [ref=e7672] [cursor=pointer]:
+                            - generic [ref=e7675]: "No"
+                    - row "(p) if the device bears an indication that it is for single use, information on known characteristics and technical factors known to the manufacturer that could pose a risk if the device were to be re-used. This information shall be based on a specific section of the manufacturer's risk management documentation, where such characteristics and technical factors shall be addressed in detail. If in accordance with point (d) of Section 23.1. no instructions for use are required, this information shall be made available to the user upon request; Select Documents 25 Documents Selected" [ref=e7676]:
+                      - cell [ref=e7677]
+                      - cell "(p) if the device bears an indication that it is for single use, information on known characteristics and technical factors known to the manufacturer that could pose a risk if the device were to be re-used. This information shall be based on a specific section of the manufacturer's risk management documentation, where such characteristics and technical factors shall be addressed in detail. If in accordance with point (d) of Section 23.1. no instructions for use are required, this information shall be made available to the user upon request;" [ref=e7678]:
+                        - generic [ref=e7680]: (p) if the device bears an indication that it is for single use, information on known characteristics and technical factors known to the manufacturer that could pose a risk if the device were to be re-used. This information shall be based on a specific section of the manufacturer's risk management documentation, where such characteristics and technical factors shall be addressed in detail. If in accordance with point (d) of Section 23.1. no instructions for use are required, this information shall be made available to the user upon request;
+                      - cell [ref=e7681]:
+                        - radiogroup [ref=e7683]:
+                          - radio "Yes" [ref=e7684] [cursor=pointer]:
+                            - generic [ref=e7687]: "Yes"
+                          - radio "No" [ref=e7688] [cursor=pointer]:
+                            - generic [ref=e7691]: "No"
+                      - cell [ref=e7692]:
+                        - textbox "Type" [disabled] [ref=e7694]
+                      - cell [ref=e7695]:
+                        - radiogroup [ref=e7698]:
+                          - generic [ref=e7700]:
+                            - radio [checked] [ref=e7701] [cursor=pointer]
+                            - button "Select from list" [ref=e7704] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e7705]
+                          - radio "Add Method" [ref=e7708] [cursor=pointer]:
+                            - generic [ref=e7711]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e7712]:
+                        - generic [ref=e7714]:
+                          - button "Select Documents" [ref=e7715] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e7716]
+                          - generic [ref=e7718]: 25 Documents Selected
+                      - cell [ref=e7719]:
+                        - radiogroup [ref=e7721]:
+                          - radio "Yes" [ref=e7722] [cursor=pointer]:
+                            - generic [ref=e7725]: "Yes"
+                          - radio "No" [ref=e7726] [cursor=pointer]:
+                            - generic [ref=e7729]: "No"
+                    - 'row "(q) for devices intended for use together with other devices and/or general purpose equipment: — information to identify such devices or equipment, in order to obtain a safe combination, and/or — information on any known restrictions to combinations of devices and equipment; Select Documents 25 Documents Selected" [ref=e7730]':
+                      - cell [ref=e7731]
+                      - 'cell "(q) for devices intended for use together with other devices and/or general purpose equipment: — information to identify such devices or equipment, in order to obtain a safe combination, and/or — information on any known restrictions to combinations of devices and equipment;" [ref=e7732]':
+                        - generic [ref=e7734]: "(q) for devices intended for use together with other devices and/or general purpose equipment: — information to identify such devices or equipment, in order to obtain a safe combination, and/or — information on any known restrictions to combinations of devices and equipment;"
+                      - cell [ref=e7735]:
+                        - radiogroup [ref=e7737]:
+                          - radio "Yes" [ref=e7738] [cursor=pointer]:
+                            - generic [ref=e7741]: "Yes"
+                          - radio "No" [ref=e7742] [cursor=pointer]:
+                            - generic [ref=e7745]: "No"
+                      - cell [ref=e7746]:
+                        - textbox "Type" [disabled] [ref=e7748]
+                      - cell [ref=e7749]:
+                        - radiogroup [ref=e7752]:
+                          - generic [ref=e7754]:
+                            - radio [checked] [ref=e7755] [cursor=pointer]
+                            - button "Select from list" [ref=e7758] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e7759]
+                          - radio "Add Method" [ref=e7762] [cursor=pointer]:
+                            - generic [ref=e7765]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e7766]:
+                        - generic [ref=e7768]:
+                          - button "Select Documents" [ref=e7769] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e7770]
+                          - generic [ref=e7772]: 25 Documents Selected
+                      - cell [ref=e7773]:
+                        - radiogroup [ref=e7775]:
+                          - radio "Yes" [ref=e7776] [cursor=pointer]:
+                            - generic [ref=e7779]: "Yes"
+                          - radio "No" [ref=e7780] [cursor=pointer]:
+                            - generic [ref=e7783]: "No"
+                    - 'row "(r) if the device emits radiation for medical purposes: — detailed information as to the nature, type and where appropriate, the intensity and distribution of the emitted radiation, — the means of protecting the patient, user, or other person from unintended radiation during use of the device; Select Documents 25 Documents Selected" [ref=e7784]':
+                      - cell [ref=e7785]
+                      - 'cell "(r) if the device emits radiation for medical purposes: — detailed information as to the nature, type and where appropriate, the intensity and distribution of the emitted radiation, — the means of protecting the patient, user, or other person from unintended radiation during use of the device;" [ref=e7786]':
+                        - generic [ref=e7788]: "(r) if the device emits radiation for medical purposes: — detailed information as to the nature, type and where appropriate, the intensity and distribution of the emitted radiation, — the means of protecting the patient, user, or other person from unintended radiation during use of the device;"
+                      - cell [ref=e7789]:
+                        - radiogroup [ref=e7791]:
+                          - radio "Yes" [ref=e7792] [cursor=pointer]:
+                            - generic [ref=e7795]: "Yes"
+                          - radio "No" [ref=e7796] [cursor=pointer]:
+                            - generic [ref=e7799]: "No"
+                      - cell [ref=e7800]:
+                        - textbox "Type" [disabled] [ref=e7802]
+                      - cell [ref=e7803]:
+                        - radiogroup [ref=e7806]:
+                          - generic [ref=e7808]:
+                            - radio [checked] [ref=e7809] [cursor=pointer]
+                            - button "Select from list" [ref=e7812] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e7813]
+                          - radio "Add Method" [ref=e7816] [cursor=pointer]:
+                            - generic [ref=e7819]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e7820]:
+                        - generic [ref=e7822]:
+                          - button "Select Documents" [ref=e7823] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e7824]
+                          - generic [ref=e7826]: 25 Documents Selected
+                      - cell [ref=e7827]:
+                        - radiogroup [ref=e7829]:
+                          - radio "Yes" [ref=e7830] [cursor=pointer]:
+                            - generic [ref=e7833]: "Yes"
+                          - radio "No" [ref=e7834] [cursor=pointer]:
+                            - generic [ref=e7837]: "No"
+                    - 'row "(s) information that allows the user and/or patient to be informed of any warnings, precautions, contra- indications, measures to be taken and limitations of use regarding the device. That information shall, where relevant, allow the user to brief the patient about any warnings, precautions, contra-indications, measures to be taken and limitations of use regarding the device. The information shall cover, where appropriate: Select Documents 25 Documents Selected" [ref=e7838]':
+                      - cell [ref=e7839]
+                      - cell "(s) information that allows the user and/or patient to be informed of any warnings, precautions, contra- indications, measures to be taken and limitations of use regarding the device. That information shall, where relevant, allow the user to brief the patient about any warnings, precautions, contra-indications, measures to be taken and limitations of use regarding the device. The information shall cover, where appropriate:" [ref=e7840]:
+                        - generic [ref=e7842]: "(s) information that allows the user and/or patient to be informed of any warnings, precautions, contra- indications, measures to be taken and limitations of use regarding the device. That information shall, where relevant, allow the user to brief the patient about any warnings, precautions, contra-indications, measures to be taken and limitations of use regarding the device. The information shall cover, where appropriate:"
+                      - cell [ref=e7843]:
+                        - radiogroup [ref=e7845]:
+                          - radio "Yes" [checked] [ref=e7846] [cursor=pointer]:
+                            - generic [ref=e7849]: "Yes"
+                          - radio "No" [ref=e7850] [cursor=pointer]:
+                            - generic [ref=e7853]: "No"
+                      - cell [ref=e7854]:
+                        - textbox "Type" [disabled] [ref=e7856]
+                      - cell [ref=e7857]:
+                        - radiogroup [ref=e7860]:
+                          - generic [ref=e7862]:
+                            - radio [checked] [ref=e7863] [cursor=pointer]
+                            - button "Select from list" [ref=e7866] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e7867]
+                          - radio "Add Method" [ref=e7870] [cursor=pointer]:
+                            - generic [ref=e7873]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e7874]:
+                        - generic [ref=e7876]:
+                          - button "Select Documents" [ref=e7877] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e7878]
+                          - generic [ref=e7880]: 25 Documents Selected
+                      - cell [ref=e7881]:
+                        - radiogroup [ref=e7883]:
+                          - radio "Yes" [checked] [ref=e7884] [cursor=pointer]:
+                            - generic [ref=e7887]: "Yes"
+                          - radio "No" [ref=e7888] [cursor=pointer]:
+                            - generic [ref=e7891]: "No"
+                    - row "— warnings, precautions and/or measures to be taken in the event of malfunction of the device or changes in its performance that may affect safety, Select Documents 25 Documents Selected" [ref=e7892]:
+                      - cell [ref=e7893]
+                      - cell "— warnings, precautions and/or measures to be taken in the event of malfunction of the device or changes in its performance that may affect safety," [ref=e7894]:
+                        - generic [ref=e7896]: — warnings, precautions and/or measures to be taken in the event of malfunction of the device or changes in its performance that may affect safety,
+                      - cell [ref=e7897]:
+                        - radiogroup [ref=e7899]:
+                          - radio "Yes" [ref=e7900] [cursor=pointer]:
+                            - generic [ref=e7903]: "Yes"
+                          - radio "No" [ref=e7904] [cursor=pointer]:
+                            - generic [ref=e7907]: "No"
+                      - cell [ref=e7908]:
+                        - textbox "Type" [disabled] [ref=e7910]
+                      - cell [ref=e7911]:
+                        - radiogroup [ref=e7914]:
+                          - generic [ref=e7916]:
+                            - radio [checked] [ref=e7917] [cursor=pointer]
+                            - button "Select from list" [ref=e7920] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e7921]
+                          - radio "Add Method" [ref=e7924] [cursor=pointer]:
+                            - generic [ref=e7927]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e7928]:
+                        - generic [ref=e7930]:
+                          - button "Select Documents" [ref=e7931] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e7932]
+                          - generic [ref=e7934]: 25 Documents Selected
+                      - cell [ref=e7935]:
+                        - radiogroup [ref=e7937]:
+                          - radio "Yes" [ref=e7938] [cursor=pointer]:
+                            - generic [ref=e7941]: "Yes"
+                          - radio "No" [ref=e7942] [cursor=pointer]:
+                            - generic [ref=e7945]: "No"
+                    - row "— warnings, precautions and/or measures to be taken as regards the exposure to reasonably foreseeable external influences or environmental conditions, such as magnetic fields, external electrical and electro magnetic effects, electrostatic discharge, radiation associated with diagnostic or therapeutic procedures, pressure, humidity, or temperature, Select Documents 25 Documents Selected" [ref=e7946]:
+                      - cell [ref=e7947]
+                      - cell "— warnings, precautions and/or measures to be taken as regards the exposure to reasonably foreseeable external influences or environmental conditions, such as magnetic fields, external electrical and electro magnetic effects, electrostatic discharge, radiation associated with diagnostic or therapeutic procedures, pressure, humidity, or temperature," [ref=e7948]:
+                        - generic [ref=e7950]: — warnings, precautions and/or measures to be taken as regards the exposure to reasonably foreseeable external influences or environmental conditions, such as magnetic fields, external electrical and electro magnetic effects, electrostatic discharge, radiation associated with diagnostic or therapeutic procedures, pressure, humidity, or temperature,
+                      - cell [ref=e7951]:
+                        - radiogroup [ref=e7953]:
+                          - radio "Yes" [checked] [ref=e7954] [cursor=pointer]:
+                            - generic [ref=e7957]: "Yes"
+                          - radio "No" [ref=e7958] [cursor=pointer]:
+                            - generic [ref=e7961]: "No"
+                      - cell [ref=e7962]:
+                        - textbox "Type" [disabled] [ref=e7964]
+                      - cell [ref=e7965]:
+                        - radiogroup [ref=e7968]:
+                          - generic [ref=e7970]:
+                            - radio [checked] [ref=e7971] [cursor=pointer]
+                            - button "Select from list" [ref=e7974] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e7975]
+                          - radio "Add Method" [ref=e7978] [cursor=pointer]:
+                            - generic [ref=e7981]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e7982]:
+                        - generic [ref=e7984]:
+                          - button "Select Documents" [ref=e7985] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e7986]
+                          - generic [ref=e7988]: 25 Documents Selected
+                      - cell [ref=e7989]:
+                        - radiogroup [ref=e7991]:
+                          - radio "Yes" [checked] [ref=e7992] [cursor=pointer]:
+                            - generic [ref=e7995]: "Yes"
+                          - radio "No" [ref=e7996] [cursor=pointer]:
+                            - generic [ref=e7999]: "No"
+                    - row "— warnings, precautions and/or measures to be taken as regards the risks of interference posed by the reasonably foreseeable presence of the device during specific diagnostic investigations, evaluations, or therapeutic treatment or other procedures such as electromagnetic interference emitted by the device affecting other equipment, Select Documents 25 Documents Selected" [ref=e8000]:
+                      - cell [ref=e8001]
+                      - cell "— warnings, precautions and/or measures to be taken as regards the risks of interference posed by the reasonably foreseeable presence of the device during specific diagnostic investigations, evaluations, or therapeutic treatment or other procedures such as electromagnetic interference emitted by the device affecting other equipment," [ref=e8002]:
+                        - generic [ref=e8004]: — warnings, precautions and/or measures to be taken as regards the risks of interference posed by the reasonably foreseeable presence of the device during specific diagnostic investigations, evaluations, or therapeutic treatment or other procedures such as electromagnetic interference emitted by the device affecting other equipment,
+                      - cell [ref=e8005]:
+                        - radiogroup [ref=e8007]:
+                          - radio "Yes" [ref=e8008] [cursor=pointer]:
+                            - generic [ref=e8011]: "Yes"
+                          - radio "No" [ref=e8012] [cursor=pointer]:
+                            - generic [ref=e8015]: "No"
+                      - cell [ref=e8016]:
+                        - textbox "Type" [disabled] [ref=e8018]
+                      - cell [ref=e8019]:
+                        - radiogroup [ref=e8022]:
+                          - generic [ref=e8024]:
+                            - radio [checked] [ref=e8025] [cursor=pointer]
+                            - button "Select from list" [ref=e8028] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e8029]
+                          - radio "Add Method" [ref=e8032] [cursor=pointer]:
+                            - generic [ref=e8035]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e8036]:
+                        - generic [ref=e8038]:
+                          - button "Select Documents" [ref=e8039] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e8040]
+                          - generic [ref=e8042]: 25 Documents Selected
+                      - cell [ref=e8043]:
+                        - radiogroup [ref=e8045]:
+                          - radio "Yes" [ref=e8046] [cursor=pointer]:
+                            - generic [ref=e8049]: "Yes"
+                          - radio "No" [ref=e8050] [cursor=pointer]:
+                            - generic [ref=e8053]: "No"
+                    - row "— if the device is intended to administer medicinal products, tissues or cells of human or animal origin, or their derivatives, or biological substances, any limitations or incompatibility in the choice of substances to be delivered, Select Documents 25 Documents Selected" [ref=e8054]:
+                      - cell [ref=e8055]
+                      - cell "— if the device is intended to administer medicinal products, tissues or cells of human or animal origin, or their derivatives, or biological substances, any limitations or incompatibility in the choice of substances to be delivered," [ref=e8056]:
+                        - generic [ref=e8058]: — if the device is intended to administer medicinal products, tissues or cells of human or animal origin, or their derivatives, or biological substances, any limitations or incompatibility in the choice of substances to be delivered,
+                      - cell [ref=e8059]:
+                        - radiogroup [ref=e8061]:
+                          - radio "Yes" [checked] [ref=e8062] [cursor=pointer]:
+                            - generic [ref=e8065]: "Yes"
+                          - radio "No" [ref=e8066] [cursor=pointer]:
+                            - generic [ref=e8069]: "No"
+                      - cell [ref=e8070]:
+                        - textbox "Type" [disabled] [ref=e8072]
+                      - cell [ref=e8073]:
+                        - radiogroup [ref=e8076]:
+                          - generic [ref=e8078]:
+                            - radio [checked] [ref=e8079] [cursor=pointer]
+                            - button "Select from list" [ref=e8082] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e8083]
+                          - radio "Add Method" [ref=e8086] [cursor=pointer]:
+                            - generic [ref=e8089]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e8090]:
+                        - generic [ref=e8092]:
+                          - button "Select Documents" [ref=e8093] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e8094]
+                          - generic [ref=e8096]: 25 Documents Selected
+                      - cell [ref=e8097]:
+                        - radiogroup [ref=e8099]:
+                          - radio "Yes" [checked] [ref=e8100] [cursor=pointer]:
+                            - generic [ref=e8103]: "Yes"
+                          - radio "No" [ref=e8104] [cursor=pointer]:
+                            - generic [ref=e8107]: "No"
+                    - row "— warnings, precautions and/or limitations related to the medicinal substance or biological material that is incorporated into the device as an integral part of the device; and Select Documents 25 Documents Selected" [ref=e8108]:
+                      - cell [ref=e8109]
+                      - cell "— warnings, precautions and/or limitations related to the medicinal substance or biological material that is incorporated into the device as an integral part of the device; and" [ref=e8110]:
+                        - generic [ref=e8112]: — warnings, precautions and/or limitations related to the medicinal substance or biological material that is incorporated into the device as an integral part of the device; and
+                      - cell [ref=e8113]:
+                        - radiogroup [ref=e8115]:
+                          - radio "Yes" [ref=e8116] [cursor=pointer]:
+                            - generic [ref=e8119]: "Yes"
+                          - radio "No" [ref=e8120] [cursor=pointer]:
+                            - generic [ref=e8123]: "No"
+                      - cell [ref=e8124]:
+                        - textbox "Type" [disabled] [ref=e8126]
+                      - cell [ref=e8127]:
+                        - radiogroup [ref=e8130]:
+                          - generic [ref=e8132]:
+                            - radio [checked] [ref=e8133] [cursor=pointer]
+                            - button "Select from list" [ref=e8136] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e8137]
+                          - radio "Add Method" [ref=e8140] [cursor=pointer]:
+                            - generic [ref=e8143]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e8144]:
+                        - generic [ref=e8146]:
+                          - button "Select Documents" [ref=e8147] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e8148]
+                          - generic [ref=e8150]: 25 Documents Selected
+                      - cell [ref=e8151]:
+                        - radiogroup [ref=e8153]:
+                          - radio "Yes" [ref=e8154] [cursor=pointer]:
+                            - generic [ref=e8157]: "Yes"
+                          - radio "No" [ref=e8158] [cursor=pointer]:
+                            - generic [ref=e8161]: "No"
+                    - row "— precautions related to materials incorporated into the device that contain or consist of CMR substances or endocrine-disrupting substances, or that could result in sensitisation or an allergic reaction by the patient or user; Select Documents 25 Documents Selected" [ref=e8162]:
+                      - cell [ref=e8163]
+                      - cell "— precautions related to materials incorporated into the device that contain or consist of CMR substances or endocrine-disrupting substances, or that could result in sensitisation or an allergic reaction by the patient or user;" [ref=e8164]:
+                        - generic [ref=e8166]: — precautions related to materials incorporated into the device that contain or consist of CMR substances or endocrine-disrupting substances, or that could result in sensitisation or an allergic reaction by the patient or user;
+                      - cell [ref=e8167]:
+                        - radiogroup [ref=e8169]:
+                          - radio "Yes" [checked] [ref=e8170] [cursor=pointer]:
+                            - generic [ref=e8173]: "Yes"
+                          - radio "No" [ref=e8174] [cursor=pointer]:
+                            - generic [ref=e8177]: "No"
+                      - cell [ref=e8178]:
+                        - textbox "Type" [disabled] [ref=e8180]
+                      - cell [ref=e8181]:
+                        - radiogroup [ref=e8184]:
+                          - generic [ref=e8186]:
+                            - radio [checked] [ref=e8187] [cursor=pointer]
+                            - button "Select from list" [ref=e8190] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e8191]
+                          - radio "Add Method" [ref=e8194] [cursor=pointer]:
+                            - generic [ref=e8197]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e8198]:
+                        - generic [ref=e8200]:
+                          - button "Select Documents" [ref=e8201] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e8202]
+                          - generic [ref=e8204]: 25 Documents Selected
+                      - cell [ref=e8205]:
+                        - radiogroup [ref=e8207]:
+                          - radio "Yes" [checked] [ref=e8208] [cursor=pointer]:
+                            - generic [ref=e8211]: "Yes"
+                          - radio "No" [ref=e8212] [cursor=pointer]:
+                            - generic [ref=e8215]: "No"
+                    - row "(t) in the case of devices that are composed of substances or of combinations of substances that are intended to be introduced into the human body and that are absorbed by or locally dispersed in the human body, warnings and precautions, where appropriate, related to the general profile of interaction of the device and its products of metabolism with other devices, medicinal products and other substances as well as contra- indications, undesirable side-effects and risks relating to overdose; Select Documents 25 Documents Selected" [ref=e8216]:
+                      - cell [ref=e8217]
+                      - cell "(t) in the case of devices that are composed of substances or of combinations of substances that are intended to be introduced into the human body and that are absorbed by or locally dispersed in the human body, warnings and precautions, where appropriate, related to the general profile of interaction of the device and its products of metabolism with other devices, medicinal products and other substances as well as contra- indications, undesirable side-effects and risks relating to overdose;" [ref=e8218]:
+                        - generic [ref=e8220]: (t) in the case of devices that are composed of substances or of combinations of substances that are intended to be introduced into the human body and that are absorbed by or locally dispersed in the human body, warnings and precautions, where appropriate, related to the general profile of interaction of the device and its products of metabolism with other devices, medicinal products and other substances as well as contra- indications, undesirable side-effects and risks relating to overdose;
+                      - cell [ref=e8221]:
+                        - radiogroup [ref=e8223]:
+                          - radio "Yes" [ref=e8224] [cursor=pointer]:
+                            - generic [ref=e8227]: "Yes"
+                          - radio "No" [ref=e8228] [cursor=pointer]:
+                            - generic [ref=e8231]: "No"
+                      - cell [ref=e8232]:
+                        - textbox "Type" [disabled] [ref=e8234]
+                      - cell [ref=e8235]:
+                        - radiogroup [ref=e8238]:
+                          - generic [ref=e8240]:
+                            - radio [checked] [ref=e8241] [cursor=pointer]
+                            - button "Select from list" [ref=e8244] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e8245]
+                          - radio "Add Method" [ref=e8248] [cursor=pointer]:
+                            - generic [ref=e8251]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e8252]:
+                        - generic [ref=e8254]:
+                          - button "Select Documents" [ref=e8255] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e8256]
+                          - generic [ref=e8258]: 25 Documents Selected
+                      - cell [ref=e8259]:
+                        - radiogroup [ref=e8261]:
+                          - radio "Yes" [ref=e8262] [cursor=pointer]:
+                            - generic [ref=e8265]: "Yes"
+                          - radio "No" [ref=e8266] [cursor=pointer]:
+                            - generic [ref=e8269]: "No"
+                    - row "(u) in the case of implantable devices, the overall qualitative and quantitative information on the materials and substances to which patients can be exposed; Select Documents 25 Documents Selected" [ref=e8270]:
+                      - cell [ref=e8271]
+                      - cell "(u) in the case of implantable devices, the overall qualitative and quantitative information on the materials and substances to which patients can be exposed;" [ref=e8272]:
+                        - generic [ref=e8274]: (u) in the case of implantable devices, the overall qualitative and quantitative information on the materials and substances to which patients can be exposed;
+                      - cell [ref=e8275]:
+                        - radiogroup [ref=e8277]:
+                          - radio "Yes" [checked] [ref=e8278] [cursor=pointer]:
+                            - generic [ref=e8281]: "Yes"
+                          - radio "No" [ref=e8282] [cursor=pointer]:
+                            - generic [ref=e8285]: "No"
+                      - cell [ref=e8286]:
+                        - textbox "Type" [disabled] [ref=e8288]
+                      - cell [ref=e8289]:
+                        - radiogroup [ref=e8292]:
+                          - generic [ref=e8294]:
+                            - radio [checked] [ref=e8295] [cursor=pointer]
+                            - button "Select from list" [ref=e8298] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e8299]
+                          - radio "Add Method" [ref=e8302] [cursor=pointer]:
+                            - generic [ref=e8305]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e8306]:
+                        - generic [ref=e8308]:
+                          - button "Select Documents" [ref=e8309] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e8310]
+                          - generic [ref=e8312]: 25 Documents Selected
+                      - cell [ref=e8313]:
+                        - radiogroup [ref=e8315]:
+                          - radio "Yes" [checked] [ref=e8316] [cursor=pointer]:
+                            - generic [ref=e8319]: "Yes"
+                          - radio "No" [ref=e8320] [cursor=pointer]:
+                            - generic [ref=e8323]: "No"
+                    - 'row "(v) warnings or precautions to be taken in order to facilitate the safe disposal of the device, its accessories and the consumables used with it, if any. This information shall cover, where appropriate: — infection or microbial hazards such as explants, needles or surgical equipment contaminated with potentially infectious substances of human origin, and — physical hazards such as from sharps. If in accordance with the point (d) of Section 23.1 no instructions for use are required, this information shall be made available to the user upon request; Select Documents 25 Documents Selected" [ref=e8324]':
+                      - cell [ref=e8325]
+                      - 'cell "(v) warnings or precautions to be taken in order to facilitate the safe disposal of the device, its accessories and the consumables used with it, if any. This information shall cover, where appropriate: — infection or microbial hazards such as explants, needles or surgical equipment contaminated with potentially infectious substances of human origin, and — physical hazards such as from sharps. If in accordance with the point (d) of Section 23.1 no instructions for use are required, this information shall be made available to the user upon request;" [ref=e8326]':
+                        - generic [ref=e8328]: "(v) warnings or precautions to be taken in order to facilitate the safe disposal of the device, its accessories and the consumables used with it, if any. This information shall cover, where appropriate: — infection or microbial hazards such as explants, needles or surgical equipment contaminated with potentially infectious substances of human origin, and — physical hazards such as from sharps. If in accordance with the point (d) of Section 23.1 no instructions for use are required, this information shall be made available to the user upon request;"
+                      - cell [ref=e8329]:
+                        - radiogroup [ref=e8331]:
+                          - radio "Yes" [ref=e8332] [cursor=pointer]:
+                            - generic [ref=e8335]: "Yes"
+                          - radio "No" [ref=e8336] [cursor=pointer]:
+                            - generic [ref=e8339]: "No"
+                      - cell [ref=e8340]:
+                        - textbox "Type" [disabled] [ref=e8342]
+                      - cell [ref=e8343]:
+                        - radiogroup [ref=e8346]:
+                          - generic [ref=e8348]:
+                            - radio [checked] [ref=e8349] [cursor=pointer]
+                            - button "Select from list" [ref=e8352] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e8353]
+                          - radio "Add Method" [ref=e8356] [cursor=pointer]:
+                            - generic [ref=e8359]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e8360]:
+                        - generic [ref=e8362]:
+                          - button "Select Documents" [ref=e8363] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e8364]
+                          - generic [ref=e8366]: 25 Documents Selected
+                      - cell [ref=e8367]:
+                        - radiogroup [ref=e8369]:
+                          - radio "Yes" [ref=e8370] [cursor=pointer]:
+                            - generic [ref=e8373]: "Yes"
+                          - radio "No" [ref=e8374] [cursor=pointer]:
+                            - generic [ref=e8377]: "No"
+                    - row "(w) for devices intended for use by lay persons, the circumstances in which the user should consult a healthcare professional; Select Documents 25 Documents Selected" [ref=e8378]:
+                      - cell [ref=e8379]
+                      - cell "(w) for devices intended for use by lay persons, the circumstances in which the user should consult a healthcare professional;" [ref=e8380]:
+                        - generic [ref=e8382]: (w) for devices intended for use by lay persons, the circumstances in which the user should consult a healthcare professional;
+                      - cell [ref=e8383]:
+                        - radiogroup [ref=e8385]:
+                          - radio "Yes" [checked] [ref=e8386] [cursor=pointer]:
+                            - generic [ref=e8389]: "Yes"
+                          - radio "No" [ref=e8390] [cursor=pointer]:
+                            - generic [ref=e8393]: "No"
+                      - cell [ref=e8394]:
+                        - textbox "Type" [disabled] [ref=e8396]
+                      - cell [ref=e8397]:
+                        - radiogroup [ref=e8400]:
+                          - generic [ref=e8402]:
+                            - radio [checked] [ref=e8403] [cursor=pointer]
+                            - button "Select from list" [ref=e8406] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e8407]
+                          - radio "Add Method" [ref=e8410] [cursor=pointer]:
+                            - generic [ref=e8413]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e8414]:
+                        - generic [ref=e8416]:
+                          - button "Select Documents" [ref=e8417] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e8418]
+                          - generic [ref=e8420]: 25 Documents Selected
+                      - cell [ref=e8421]:
+                        - radiogroup [ref=e8423]:
+                          - radio "Yes" [checked] [ref=e8424] [cursor=pointer]:
+                            - generic [ref=e8427]: "Yes"
+                          - radio "No" [ref=e8428] [cursor=pointer]:
+                            - generic [ref=e8431]: "No"
+                    - row "(x) for the devices covered by this Regulation pursuant to Article 1(2), information regarding the absence of a clinical benefit and the risks related to use of the device; Select Documents 25 Documents Selected" [ref=e8432]:
+                      - cell [ref=e8433]
+                      - cell "(x) for the devices covered by this Regulation pursuant to Article 1(2), information regarding the absence of a clinical benefit and the risks related to use of the device;" [ref=e8434]:
+                        - generic [ref=e8436]: (x) for the devices covered by this Regulation pursuant to Article 1(2), information regarding the absence of a clinical benefit and the risks related to use of the device;
+                      - cell [ref=e8437]:
+                        - radiogroup [ref=e8439]:
+                          - radio "Yes" [ref=e8440] [cursor=pointer]:
+                            - generic [ref=e8443]: "Yes"
+                          - radio "No" [ref=e8444] [cursor=pointer]:
+                            - generic [ref=e8447]: "No"
+                      - cell [ref=e8448]:
+                        - textbox "Type" [disabled] [ref=e8450]
+                      - cell [ref=e8451]:
+                        - radiogroup [ref=e8454]:
+                          - generic [ref=e8456]:
+                            - radio [checked] [ref=e8457] [cursor=pointer]
+                            - button "Select from list" [ref=e8460] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e8461]
+                          - radio "Add Method" [ref=e8464] [cursor=pointer]:
+                            - generic [ref=e8467]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e8468]:
+                        - generic [ref=e8470]:
+                          - button "Select Documents" [ref=e8471] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e8472]
+                          - generic [ref=e8474]: 25 Documents Selected
+                      - cell [ref=e8475]:
+                        - radiogroup [ref=e8477]:
+                          - radio "Yes" [ref=e8478] [cursor=pointer]:
+                            - generic [ref=e8481]: "Yes"
+                          - radio "No" [ref=e8482] [cursor=pointer]:
+                            - generic [ref=e8485]: "No"
+                    - row "(y) date of issue of the instructions for use or, if they have been revised, date of issue and identifier of the latest revision of the instructions for use; Select Documents 25 Documents Selected" [ref=e8486]:
+                      - cell [ref=e8487]
+                      - cell "(y) date of issue of the instructions for use or, if they have been revised, date of issue and identifier of the latest revision of the instructions for use;" [ref=e8488]:
+                        - generic [ref=e8490]: (y) date of issue of the instructions for use or, if they have been revised, date of issue and identifier of the latest revision of the instructions for use;
+                      - cell [ref=e8491]:
+                        - radiogroup [ref=e8493]:
+                          - radio "Yes" [checked] [ref=e8494] [cursor=pointer]:
+                            - generic [ref=e8497]: "Yes"
+                          - radio "No" [ref=e8498] [cursor=pointer]:
+                            - generic [ref=e8501]: "No"
+                      - cell [ref=e8502]:
+                        - textbox "Type" [disabled] [ref=e8504]
+                      - cell [ref=e8505]:
+                        - radiogroup [ref=e8508]:
+                          - generic [ref=e8510]:
+                            - radio [checked] [ref=e8511] [cursor=pointer]
+                            - button "Select from list" [ref=e8514] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e8515]
+                          - radio "Add Method" [ref=e8518] [cursor=pointer]:
+                            - generic [ref=e8521]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e8522]:
+                        - generic [ref=e8524]:
+                          - button "Select Documents" [ref=e8525] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e8526]
+                          - generic [ref=e8528]: 25 Documents Selected
+                      - cell [ref=e8529]:
+                        - radiogroup [ref=e8531]:
+                          - radio "Yes" [checked] [ref=e8532] [cursor=pointer]:
+                            - generic [ref=e8535]: "Yes"
+                          - radio "No" [ref=e8536] [cursor=pointer]:
+                            - generic [ref=e8539]: "No"
+                    - row "(z) a notice to the user and/or patient that any serious incident that has occurred in relation to the device should be reported to the manufacturer and the competent authority of the Member State in which the user and/or patient is established; Select Documents 25 Documents Selected" [ref=e8540]:
+                      - cell [ref=e8541]
+                      - cell "(z) a notice to the user and/or patient that any serious incident that has occurred in relation to the device should be reported to the manufacturer and the competent authority of the Member State in which the user and/or patient is established;" [ref=e8542]:
+                        - generic [ref=e8544]: (z) a notice to the user and/or patient that any serious incident that has occurred in relation to the device should be reported to the manufacturer and the competent authority of the Member State in which the user and/or patient is established;
+                      - cell [ref=e8545]:
+                        - radiogroup [ref=e8547]:
+                          - radio "Yes" [ref=e8548] [cursor=pointer]:
+                            - generic [ref=e8551]: "Yes"
+                          - radio "No" [ref=e8552] [cursor=pointer]:
+                            - generic [ref=e8555]: "No"
+                      - cell [ref=e8556]:
+                        - textbox "Type" [disabled] [ref=e8558]
+                      - cell [ref=e8559]:
+                        - radiogroup [ref=e8562]:
+                          - generic [ref=e8564]:
+                            - radio [checked] [ref=e8565] [cursor=pointer]
+                            - button "Select from list" [ref=e8568] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e8569]
+                          - radio "Add Method" [ref=e8572] [cursor=pointer]:
+                            - generic [ref=e8575]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e8576]:
+                        - generic [ref=e8578]:
+                          - button "Select Documents" [ref=e8579] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e8580]
+                          - generic [ref=e8582]: 25 Documents Selected
+                      - cell [ref=e8583]:
+                        - radiogroup [ref=e8585]:
+                          - radio "Yes" [ref=e8586] [cursor=pointer]:
+                            - generic [ref=e8589]: "Yes"
+                          - radio "No" [ref=e8590] [cursor=pointer]:
+                            - generic [ref=e8593]: "No"
+                    - row "(aa) information to be supplied to the patient with an implanted device in accordance with Article 18; Select Documents 25 Documents Selected" [ref=e8594]:
+                      - cell [ref=e8595]
+                      - cell "(aa) information to be supplied to the patient with an implanted device in accordance with Article 18;" [ref=e8596]:
+                        - generic [ref=e8598]: (aa) information to be supplied to the patient with an implanted device in accordance with Article 18;
+                      - cell [ref=e8599]:
+                        - radiogroup [ref=e8601]:
+                          - radio "Yes" [checked] [ref=e8602] [cursor=pointer]:
+                            - generic [ref=e8605]: "Yes"
+                          - radio "No" [ref=e8606] [cursor=pointer]:
+                            - generic [ref=e8609]: "No"
+                      - cell [ref=e8610]:
+                        - textbox "Type" [disabled] [ref=e8612]
+                      - cell [ref=e8613]:
+                        - radiogroup [ref=e8616]:
+                          - generic [ref=e8618]:
+                            - radio [checked] [ref=e8619] [cursor=pointer]
+                            - button "Select from list" [ref=e8622] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e8623]
+                          - radio "Add Method" [ref=e8626] [cursor=pointer]:
+                            - generic [ref=e8629]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e8630]:
+                        - generic [ref=e8632]:
+                          - button "Select Documents" [ref=e8633] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e8634]
+                          - generic [ref=e8636]: 25 Documents Selected
+                      - cell [ref=e8637]:
+                        - radiogroup [ref=e8639]:
+                          - radio "Yes" [checked] [ref=e8640] [cursor=pointer]:
+                            - generic [ref=e8643]: "Yes"
+                          - radio "No" [ref=e8644] [cursor=pointer]:
+                            - generic [ref=e8647]: "No"
+                    - row "(ab) for devices that incorporate electronic programmable systems, including software, or software that are devices in themselves, minimum requirements concerning hardware, IT networks characteristics and IT security measures, including protection against unauthorised access, necessary to run the software as intended. Select Documents 25 Documents Selected" [ref=e8648]:
+                      - cell [ref=e8649]
+                      - cell "(ab) for devices that incorporate electronic programmable systems, including software, or software that are devices in themselves, minimum requirements concerning hardware, IT networks characteristics and IT security measures, including protection against unauthorised access, necessary to run the software as intended." [ref=e8650]:
+                        - generic [ref=e8652]: (ab) for devices that incorporate electronic programmable systems, including software, or software that are devices in themselves, minimum requirements concerning hardware, IT networks characteristics and IT security measures, including protection against unauthorised access, necessary to run the software as intended.
+                      - cell [ref=e8653]:
+                        - radiogroup [ref=e8655]:
+                          - radio "Yes" [ref=e8656] [cursor=pointer]:
+                            - generic [ref=e8659]: "Yes"
+                          - radio "No" [ref=e8660] [cursor=pointer]:
+                            - generic [ref=e8663]: "No"
+                      - cell [ref=e8664]:
+                        - textbox "Type" [disabled] [ref=e8666]
+                      - cell [ref=e8667]:
+                        - radiogroup [ref=e8670]:
+                          - generic [ref=e8672]:
+                            - radio [checked] [ref=e8673] [cursor=pointer]
+                            - button "Select from list" [ref=e8676] [cursor=pointer]:
+                              - text: Select from list
+                              - img [ref=e8677]
+                          - radio "Add Method" [ref=e8680] [cursor=pointer]:
+                            - generic [ref=e8683]: Add Method
+                      - cell "Select Documents 25 Documents Selected" [ref=e8684]:
+                        - generic [ref=e8686]:
+                          - button "Select Documents" [ref=e8687] [cursor=pointer]:
+                            - text: Select Documents
+                            - img [ref=e8688]
+                          - generic [ref=e8690]: 25 Documents Selected
+                      - cell [ref=e8691]:
+                        - radiogroup [ref=e8693]:
+                          - radio "Yes" [ref=e8694] [cursor=pointer]:
+                            - generic [ref=e8697]: "Yes"
+                          - radio "No" [ref=e8698] [cursor=pointer]:
+                            - generic [ref=e8701]: "No"
+          - generic [ref=e8704]:
+            - button "Save Draft" [ref=e8705] [cursor=pointer]
+            - button "Save" [disabled] [ref=e8706]
+        - region "Notifications (F8)":
+          - list
