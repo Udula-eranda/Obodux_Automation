@@ -20,9 +20,9 @@ module.exports = {
   },
 
   deviceDetails: {
-    dName :"Trocar",
-    deiveDes : "Used for body drilling",
-    dFilePath: "C:\\Users\\udula\\Downloads\\Trocar.jpg"
+    dName :"Microscope",
+    deiveDes : "Used for extra closer look",
+    dFilePath: "C:\\Users\\udula\\Downloads\\Microscope.jpg"
   },
 
   manufacturerData: {
@@ -460,6 +460,27 @@ module.exports = {
         ],
         clinicalSummary: "Based on the assessment of technical, biological, and clinical characteristics, the devices are considered equivalent under MDR 2017/745 Annex XIV. No clinically significant differences were identified across all assessed criteria. The equivalent device provides an adequate clinical evidence base for the device under evaluation.",
     },
+
+  },
+
+  sepData: {
+
+    // PDF file for upload (accompanying documentation)
+    uploadFilePath: "C:\\Users\\udula\\Downloads\\1768975517101-signed-document (1).pdf",
+
+    // Section 17 — Correct Use / List of Tasks (2 rows)
+    correctUseTasks: [
+        {
+            hrusNo:      "HRUS-001",
+            scenario:    "User removes protective trocar cap prematurely during device setup causing self-puncture",
+            correctUse:  "Remove protective cap only at point of insertion; visually confirm tip is directed away from personnel before removal"
+        },
+        {
+            hrusNo:      "HRUS-002",
+            scenario:    "User fails to confirm pneumoperitoneum seal prior to commencing laparoscopic procedure",
+            correctUse:  "Verify CO2 insufflation seal integrity by checking pressure gauge before inserting laparoscopic instruments through the trocar"
+        }
+    ]
 
   }
 

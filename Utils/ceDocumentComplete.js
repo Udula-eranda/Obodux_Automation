@@ -4,6 +4,7 @@ const { riskManagementPartialComplete } = require("../Utils/riskManagementReport
 const { checklistComplete } = require("../Utils/checklistComplete");
 const { vvOverviewComplete } = require("../Utils/VV/vvOverviewComplete");
 const { uepComplete } = require("../Utils/VV/uepComplete");
+const { sepComplete } = require("../Utils/VV/sepComplete");
 
 async function cepDocumentComplete(page){
 
@@ -85,6 +86,10 @@ async function cepDocumentComplete(page){
 
     // ── Step 13: UEP ─────────────────────────────────────────────────────────
     await uepComplete(page);
+    await page.waitForTimeout(5000);
+
+    // ── Step 14: SEP ─────────────────────────────────────────────────────────
+    await sepComplete(page);
     await page.waitForTimeout(5000);
 
 }
