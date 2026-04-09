@@ -157,16 +157,17 @@ class VVPage {
     }
 
     // Hazard Related User Scenarios for Summative Evaluation
-    // Columns: HRUS # | Hazard-Related User Scenario | Associated Risk # | Include in Summative (radio) | Rationale
-    async fillHRUSRow(rowIndex, { hrusNo, scenario, associatedRisk, includeInSummative, rationale }) {
+    // Columns: HRUS # | Hazardous Situation | Hazard-Related User Scenario | Associated Risk # | Include in Summative (radio) | Rationale
+    async fillHRUSRow(rowIndex, { hrusNo, scenario, hazardRelatedUserScenario, associatedRisk, includeInSummative, rationale }) {
         const section = this.page.locator('p').filter({ hasText: 'Hazard Related User Scenarios for Summative Evaluation' }).locator('xpath=..');
         const row = section.locator('table tbody tr').nth(rowIndex);
         const textboxes = row.getByRole('textbox');
         await textboxes.nth(0).fill(hrusNo);
         await textboxes.nth(1).fill(scenario);
-        await textboxes.nth(2).fill(associatedRisk);
+        await textboxes.nth(2).fill(hazardRelatedUserScenario);
+        await textboxes.nth(3).fill(associatedRisk);
         await row.getByRole('radio', { name: includeInSummative }).click();
-        await textboxes.nth(3).fill(rationale);
+        await textboxes.nth(4).fill(rationale);
     }
 
     // User Interface Specification

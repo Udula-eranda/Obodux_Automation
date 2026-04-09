@@ -28,35 +28,26 @@ async function riskAnalysisMatrixFormComplete(page) {
     await initialHazardComplete(page);
     await page.waitForTimeout(15000);
 
-    //close IH Form
+    // close IH Form
     const ihFormBtn = page.getByRole('button').filter({ hasText: /^$/ }).nth(3);
     await ihFormBtn.click();
 
-    //open riskAnalysisMatrixForm
+    // open Risk Analysis Matrix form
     const raMatixFormBtn = page.getByRole('button').filter({ hasText: /^$/ }).nth(4);
     await raMatixFormBtn.click();
 
-    //Navigate to Question Group 1
-    await page.getByText("Risk Analysis Matrix Table").click();
+    // navigate to RAM table section
+    await page.getByText('Risk Analysis Matrix Table').click();
+    await page.waitForTimeout(2000);
 
-    
-    //--------------first row data entry-------------
-    await raMatrixForm.ramtrixFirstRow(riskAnalysisMatrixFormData.firstRowAnswers);
+    // fill each row via popup
+    for (let i = 0; i < riskAnalysisMatrixFormData.rows.length; i++) {
+        await raMatrixForm.fillRowViaPopup(i, riskAnalysisMatrixFormData.rows[i]);
+        await page.waitForTimeout(500);
+    }
 
-    //-----------second row data entry------
-    await raMatrixForm.ramtrixSecondRow(riskAnalysisMatrixFormData.secondRowAnswers);
-
-    //-----------third row data entry------
-    await raMatrixForm.ramtrixThirdRow(riskAnalysisMatrixFormData.thirdRowAnswers);
-
-    //-----------fourth row data entry------
-    await raMatrixForm.ramtrixFourthRow(riskAnalysisMatrixFormData.fourthRowAnswers);
-
-    //-----------fifth row data entry------
-    await raMatrixForm.ramtrixFifthRow(riskAnalysisMatrixFormData.fifthRowAnswers);
-
-    await page.waitForTimeout(7000);
-    //saveNClose
+    await page.waitForTimeout(3000);
+    // save and mark complete
     await raMatrixForm.clickSaveAndComplete();
 
     

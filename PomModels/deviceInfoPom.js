@@ -79,10 +79,10 @@ class deviceInfoPage{
         await this.page.keyboard.press('Control+b');
         await this.page.keyboard.type('Clinical Indications: ');
         await this.page.keyboard.press('Control+b');
-        await this.page.keyboard.type(deviceInfoPageData.indicationsForUseText);
+        await this.page.keyboard.insertText(deviceInfoPageData.indicationsForUseText);
         await this.page.keyboard.press('Enter');
         await this.page.keyboard.press('Control+i');
-        await this.page.keyboard.type('Note: For use by qualified healthcare professionals only.');
+        await this.page.keyboard.insertText('Note: For use by qualified healthcare professionals only.');
         await this.page.keyboard.press('Control+i');
     }
 
@@ -105,10 +105,10 @@ class deviceInfoPage{
         await this.page.keyboard.press('Control+b');
         await this.page.keyboard.type('Known Side Effects: ');
         await this.page.keyboard.press('Control+b');
-        await this.page.keyboard.type(deviceInfoPageData.knownSideEffectsText);
+        await this.page.keyboard.insertText(deviceInfoPageData.knownSideEffectsText);
         await this.page.keyboard.press('Enter');
         await this.page.keyboard.press('Control+i');
-        await this.page.keyboard.type('Healthcare professionals should report any adverse events in accordance with MDR 2017/745.');
+        await this.page.keyboard.insertText('Healthcare professionals should report any adverse events in accordance with MDR 2017/745.');
         await this.page.keyboard.press('Control+i');
     }
 
@@ -119,7 +119,7 @@ class deviceInfoPage{
         await this.page.keyboard.press('Control+b');
         await this.page.keyboard.type('Contraindications: ');
         await this.page.keyboard.press('Control+b');
-        await this.page.keyboard.type(deviceInfoPageData.contraindicationsText);
+        await this.page.keyboard.insertText(deviceInfoPageData.contraindicationsText);
     }
 
     async clinicalUseSetting(){
@@ -129,10 +129,10 @@ class deviceInfoPage{
         await this.page.keyboard.press('Control+b');
         await this.page.keyboard.type('Clinical Use Setting: ');
         await this.page.keyboard.press('Control+b');
-        await this.page.keyboard.type(deviceInfoPageData.clinicalUseSettingText);
+        await this.page.keyboard.insertText(deviceInfoPageData.clinicalUseSettingText);
         await this.page.keyboard.press('Enter');
         await this.page.keyboard.press('Control+i');
-        await this.page.keyboard.type('Refer to the Instructions for Use for full setup and safety requirements.');
+        await this.page.keyboard.insertText('Refer to the Instructions for Use for full setup and safety requirements.');
         await this.page.keyboard.press('Control+i');
     }
 
@@ -143,7 +143,7 @@ class deviceInfoPage{
         await this.page.keyboard.press('Control+b');
         await this.page.keyboard.type('Intended Users: ');
         await this.page.keyboard.press('Control+b');
-        await this.page.keyboard.type(deviceInfoPageData.intendedUsersText);
+        await this.page.keyboard.insertText(deviceInfoPageData.intendedUsersText);
     }
 
     async intendedPatientCount(patienteCountData){
@@ -159,7 +159,7 @@ class deviceInfoPage{
         await this.page.keyboard.press('Control+b');
         await this.page.keyboard.type('Target Anatomy: ');
         await this.page.keyboard.press('Control+b');
-        await this.page.keyboard.type(deviceInfoPageData.intendedBodyPartText);
+        await this.page.keyboard.insertText(deviceInfoPageData.intendedBodyPartText);
     }
 
     async intendedUserEnvironment(){
@@ -169,10 +169,10 @@ class deviceInfoPage{
         await this.page.keyboard.press('Control+b');
         await this.page.keyboard.type('Use Environment: ');
         await this.page.keyboard.press('Control+b');
-        await this.page.keyboard.type(deviceInfoPageData.intendedUserEnvironmentText);
+        await this.page.keyboard.insertText(deviceInfoPageData.intendedUserEnvironmentText);
         await this.page.keyboard.press('Enter');
         await this.page.keyboard.press('Control+i');
-        await this.page.keyboard.type('Must comply with EN ISO 14644 cleanroom and sterile field standards.');
+        await this.page.keyboard.insertText('Must comply with EN ISO 14644 cleanroom and sterile field standards.');
         await this.page.keyboard.press('Control+i');
     }
 

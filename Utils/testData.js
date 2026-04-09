@@ -1,7 +1,7 @@
 module.exports = {
 
   URL:{
-      siteLink: "https://web.staging.obodux.boris-software.com",
+      siteLink: "https://web.staging.obodux.boris-software.com/",
   },
 
   validUser: {
@@ -20,9 +20,9 @@ module.exports = {
   },
 
   deviceDetails: {
-    dName :"Microscope",
-    deiveDes : "Used for extra closer look",
-    dFilePath: "C:\\Users\\udula\\Downloads\\Microscope.jpg"
+    dName :"Surgical Mask 3",
+    deiveDes : "Used for covering up the face",
+    dFilePath: "C:\\Users\\udula\\Downloads\\Surgical Mask.jpg"
   },
 
   manufacturerData: {
@@ -49,7 +49,7 @@ module.exports = {
 
   deviceInfoPageData: {
 
-      dName: "Trocar",
+      dName: "Surgical Mask",
       intendedCount: "1000000",
       basicUdiDi: "0456789123MRI2024X",
       gmdnCode: "40763",
@@ -178,46 +178,89 @@ module.exports = {
 
   },
 
-  riskAnalysisMatrixFormData : {
+  riskAnalysisMatrixFormData: {
 
-      firstRowAnswers : [ 
-
-        "T1 " , "T1 " , "T1 " , "T1 ",
-        "1" , "1 " , "1 " , "High ",
-        "T1 " , "T1 " , "T1 " , "T1 " ,
-        "2 " , "2 " ,"2 " ,"Medium " , "T1 "
-    ] ,
-
-    secondRowAnswers : [ 
-
-        "T2 " , "T2 " , "T2 " , "T2 ",
-        "3" , "3 " , "3 " , "Medium ",
-        "T2 " , "T2 " , "T2 " , "T2 " ,
-        "4 " , "4 " ,"4 " ,"Low " , "T2 "
-    ] ,
-
-    thirdRowAnswers : [
-
-        "T3 " , "T3 " , "T3 " , "T3 ",
-        "5" , "5 " , "5" , "High ",
-        "T3 " , "T3 " , "T3 " , "T3 " ,
-        "6 " , "6 " ,"6" ,"High " , "T3 "
-    ] ,
-
-    fourthRowAnswers : [
-
-        "T4 " , "T4 " , "T4 " , "T4 ",
-        "7" , "7 " , "7 " , "Low ",
-        "T4 " , "T4 " , "T4 " , "T4 " ,
-        "8 " , "8 " , "8 " , "Low " , "T4 "
-    ] ,
-
-    fifthRowAnswers : [
-
-        "T5 " , "T5 " , "T5 " , "T5 ",
-        "9" , "9 " , "9 " , "Low ",
-        "T5 " , "T5 " , "T5 " , "T5 " ,
-        "10 " , "10 " , "10 " , "Low " , "T5 "
+    rows: [
+      {
+        // Prior: High → Post: Low
+        hazard:                 "Sharp trocar tip presents puncture and laceration hazard during handling and insertion",
+        sequenceOfEvents:       "User handles trocar without protective cap during pre-operative setup in theatre",
+        hazardousSituation:     "Exposed sharp trocar tip contacts user hand during device preparation phase",
+        harm:                   "Puncture wound or laceration to surgeon or scrub nurse hand",
+        riskControlMeasures:    "Protective tip cap included with device; IFU instructs removal only at point of use",
+        riskControlAnalysis:    "Inherently safe design considered; protective cap provides primary risk reduction",
+        riskControlVerification:"Inspection and functional testing of protective cap retention and removal force",
+        gsprReference:          "GSPR 1, GSPR 7",
+        riskControlOption:      "Inherently Safe Design",
+        priorSeverity:          "Catastrophic",
+        priorOccurrence:        "Frequent",
+        postSeverity:           "Negligible",
+        postOccurrence:         "Improbable",
+      },
+      {
+        // Prior: High → Post: Medium
+        hazard:                 "Pneumatic seal failure during laparoscopic procedure causing loss of insufflation",
+        sequenceOfEvents:       "Seal valve degrades under repeated instrument insertion causing gas leakage",
+        hazardousSituation:     "Intraoperative loss of pneumoperitoneum during active surgical procedure",
+        harm:                   "Prolonged operative time, conversion to open surgery, patient harm from collapsed working space",
+        riskControlMeasures:    "High-performance elastomer seal designed to withstand minimum 50 instrument cycles",
+        riskControlAnalysis:    "Safe manufacture controls applied to seal component production and incoming inspection",
+        riskControlVerification:"Seal leak testing at 20 mmHg across sample from each production batch",
+        gsprReference:          "GSPR 1, GSPR 8",
+        riskControlOption:      "Safe Manufacture",
+        priorSeverity:          "Catastrophic",
+        priorOccurrence:        "Frequent",
+        postSeverity:           "Serious",
+        postOccurrence:         "Occasional",
+      },
+      {
+        // Prior: Medium → Post: Low
+        hazard:                 "Sterility breach due to damaged or compromised packaging",
+        sequenceOfEvents:       "Packaging integrity failure occurs during transport or storage prior to use",
+        hazardousSituation:     "Non-sterile device introduced into sterile surgical field",
+        harm:                   "Surgical site infection leading to patient morbidity",
+        riskControlMeasures:    "Double sterile barrier packaging with integrity indicators; visual inspection protocol in IFU",
+        riskControlAnalysis:    "Protective measure via packaging design; tamper-evident seal provides visible breach detection",
+        riskControlVerification:"Package integrity testing per ISO 11607; accelerated ageing study for 3-year shelf life",
+        gsprReference:          "GSPR 1, GSPR 11",
+        riskControlOption:      "Protective Measures in the Device",
+        priorSeverity:          "Serious",
+        priorOccurrence:        "Occasional",
+        postSeverity:           "Negligible",
+        postOccurrence:         "Improbable",
+      },
+      {
+        // Prior: Low → Post: High
+        hazard:                 "Incorrect size selection by user leading to inadequate tissue sealing",
+        sequenceOfEvents:       "Clinician selects trocar diameter incompatible with planned instrument size",
+        hazardousSituation:     "Instrument–trocar mismatch causes intraoperative gas leak and loss of working space",
+        harm:                   "Extended procedure time and potential patient harm from compromised visualisation",
+        riskControlMeasures:    "Size clearly labelled on device and packaging; IFU includes size selection table",
+        riskControlAnalysis:    "Information for safety provided through labelling and instructions for use",
+        riskControlVerification:"Label legibility testing; usability study confirming correct size selection from IFU",
+        gsprReference:          "GSPR 13, GSPR 23",
+        riskControlOption:      "Information for Safety",
+        priorSeverity:          "Negligible",
+        priorOccurrence:        "Improbable",
+        postSeverity:           "Catastrophic",
+        postOccurrence:         "Frequent",
+      },
+      {
+        // Prior: Low → Post: Medium
+        hazard:                 "Residual EO sterilisation agent exceeding acceptable limits on device surface",
+        sequenceOfEvents:       "Inadequate aeration time post EO sterilisation cycle leads to residual EO retention",
+        hazardousSituation:     "Device with elevated EO residuals introduced into patient body cavity",
+        harm:                   "Local tissue irritation or systemic toxicity at insertion site",
+        riskControlMeasures:    "EO aeration protocol validated per ISO 10993-7; residual limits tested per batch",
+        riskControlAnalysis:    "Safe manufacture process controls govern sterilisation cycle and aeration parameters",
+        riskControlVerification:"EO residual testing on finished device per ISO 10993-7 acceptance criteria",
+        gsprReference:          "GSPR 1, GSPR 10",
+        riskControlOption:      "Safe Manufacture",
+        priorSeverity:          "Negligible",
+        priorOccurrence:        "Improbable",
+        postSeverity:           "Serious",
+        postOccurrence:         "Occasional",
+      },
     ]
 
   },
@@ -336,9 +379,10 @@ module.exports = {
 
     hazardUserScenarios: [
         {
-            hrusNo:              "HRUS-001",
-            scenario:            "User removes protective trocar cap prematurely during device setup causing self-puncture",
-            associatedRisk:      "H-001",
+            hrusNo:                     "HRUS-001",
+            scenario:                   "User removes protective trocar cap prematurely during device setup causing self-puncture",
+            hazardRelatedUserScenario:  "User fails to notice the protective cap is missing and proceeds with trocar insertion, resulting in unintended tissue puncture",
+            associatedRisk:             "H-001",
             includeInSummative:  "Yes",
             rationale:           "Critical task with potential for serious harm; must be evaluated in summative usability study"
         }

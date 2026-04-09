@@ -14,12 +14,13 @@ async clickSaveNComplete(){
 
     const saveBtn  = this.page.getByRole("button" , {name : "Save" , exact: true});
     await expect(saveBtn).toBeVisible();
+
     await expect(saveBtn).toBeEnabled();
     await saveBtn.click();
 
     //click Mark Section Complete after waiting toast dissapear
     const toast = this.page.locator("li[role='status']");
-    await expect(toast).toHaveText("Risk Analysis Report saved successfully");
+    await expect(toast).toHaveText(/saved successfully/i);
     await toast.waitFor({ state: "hidden" });
 
       // const closeToastBtn = toast.locator('button'); // or any close button inside toast

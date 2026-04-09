@@ -166,6 +166,11 @@ class cerDoc {
             .locator('[class*="border px-3"]').first();
         if (await bioSumField.count() > 0) await this.fillWithAI(bioSumField);
 
+        // Biological Evaluation Summary richtext — AI generated
+        const bioEvalField = this.sectionContainer('Biological Evaluation Summary')
+            .locator('[class*="border px-3"]').first();
+        if (await bioEvalField.count() > 0) await this.fillWithAI(bioEvalField);
+
         // Device Lifetime richtext — last border-px-3 in the same card as Biocompatibility Summary
         const deviceLifeField = this.sectionContainer('Device Lifetime')
             .locator('[class*="border px-3"]').last();
@@ -177,8 +182,9 @@ class cerDoc {
     async clinicalEvalOverview() {
         await this.scrollTo(2959);
 
-        // Check the first checkbox (based on device under evaluation)
-        const checkbox = this.page.getByRole('checkbox').first();
+        // Check the second checkbox only (triggers Equivalence Table)
+        const checkboxes = this.page.getByRole('checkbox');
+        const checkbox = checkboxes.nth(1);
         await checkbox.scrollIntoViewIfNeeded();
         await checkbox.check();
         await this.page.waitForTimeout(500);
