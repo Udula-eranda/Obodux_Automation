@@ -20,7 +20,7 @@ module.exports = {
   },
 
   deviceDetails: {
-    dName :"Surgical Mask 3",
+    dName :"Surgical Mask All Doc Complete 2",
     deiveDes : "Used for covering up the face",
     dFilePath: "C:\\Users\\udula\\Downloads\\Surgical Mask.jpg"
   },
@@ -379,12 +379,11 @@ module.exports = {
 
     hazardUserScenarios: [
         {
-            hrusNo:                     "HRUS-001",
-            scenario:                   "User removes protective trocar cap prematurely during device setup causing self-puncture",
-            hazardRelatedUserScenario:  "User fails to notice the protective cap is missing and proceeds with trocar insertion, resulting in unintended tissue puncture",
-            associatedRisk:             "H-001",
-            includeInSummative:  "Yes",
-            rationale:           "Critical task with potential for serious harm; must be evaluated in summative usability study"
+            hrusNo:                    "HRUS-001",
+            hazardRelatedUserScenario: "User fails to notice the protective cap is missing and proceeds with trocar insertion, resulting in unintended tissue puncture",
+            associatedRisk:            "H-001",
+            includeInSummative:        "Yes",
+            rationale:                 "Critical task with potential for serious harm; must be evaluated in summative usability study"
         }
     ],
 
@@ -507,10 +506,69 @@ module.exports = {
 
   },
 
+  fepData: {
+    planName: "FEP-001 Surgical Mask Formative Evaluation Plan",
+  },
+
+  labelsData: {
+
+    deviceLabel: {
+      labelNumber:        "LBL-DEV-001",
+      revNumber:          "Rev A",
+      labelDescription:   "Device label for Surgical Mask indicating CE marking, UDI, intended use, and manufacturer details per MDR 2017/745 Annex I requirements. Label shall be affixed to the primary packaging and remain legible throughout the device shelf life.",
+      labelSpecification: "Label dimensions: 80 mm × 40 mm. Material: tamper-evident adhesive polyester. Print method: thermal transfer. All text minimum 0.6 mm character height. Compliant with ISO 15223-1 symbol requirements and MDR 2017/745 Annex I Chapter III labelling provisions.",
+    },
+
+    packagingLabel: {
+      labelNumber:        "LBL-PKG-001",
+      revNumber:          "Rev A",
+      labelDescription:   "Packaging label for Surgical Mask sterile blister pack indicating sterility status, expiry date, storage conditions, lot number, and batch traceability information per EU MDR 2017/745 and ISO 11607.",
+      labelSpecification: "Label dimensions: 120 mm × 60 mm. Material: direct thermal paper with permanent acrylic adhesive. Compliant with ISO 15223-1 symbol requirements for sterile medical device packaging. Font size minimum 1 mm for all mandatory information.",
+    },
+
+    implantableDevice: "No",
+
+    // Same image used for device onboarding
+    imagePath: "C:\\Users\\udula\\Downloads\\Surgical Mask.jpg",
+
+  },
+
+  eifuData: {
+    eifuPresent:           "yes",
+    eifuWithHardCopy:      "yes",
+    selectFirstRisk:       true,   // check only the first risk checkbox (risksWitheifu-001)
+    eifuURL:               "https://www.example.com/surgical-mask-ifu",
+  },
+
+  accompanyingDocsData: {
+
+    ifu: {
+      documentNumber: "IFU-001",
+      revNumber:      "Rev A",
+      language:       "English",
+      countries:      "United Kingdom",
+      pdfPath:        "C:\\Users\\udula\\Downloads\\1771864371795-signed-document.pdf",
+    },
+
+    accompanyingDocument: {
+      documentNumber: "ACCOMP-001",
+      revNumber:      "Rev A",
+      documentName:   "Surgical Mask Instructions for Use - Greek Translation",
+      language:       "Greek",
+      countries:      "Greece",
+      description:    "Greek language translation of the Instructions for Use for the Surgical Mask device, provided to comply with EU MDR 2017/745 labelling requirements for medical devices distributed in Greece. Includes all mandatory safety and performance information as required under Annex I Chapter III.",
+      pdfPath:        "C:\\Users\\udula\\Downloads\\1771864371795-signed-document.pdf",
+    },
+
+  },
+
   sepData: {
 
     // PDF file for upload (accompanying documentation)
     uploadFilePath: "C:\\Users\\udula\\Downloads\\1768975517101-signed-document (1).pdf",
+
+    // Test Participant Groupings
+    testParticipantGroupings: "Participants will be divided into two groups: Group A — experienced surgeons with more than 5 years of laparoscopic procedure experience; Group B — novice surgeons within their first 2 years of laparoscopic training. Each group will consist of a minimum of 5 participants to ensure adequate statistical representation.",
 
     // Section 17 — Correct Use / List of Tasks (2 rows)
     correctUseTasks: [

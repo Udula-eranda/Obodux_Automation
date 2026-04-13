@@ -5,6 +5,10 @@ const { checklistComplete } = require("../Utils/checklistComplete");
 const { vvOverviewComplete } = require("../Utils/VV/vvOverviewComplete");
 const { uepComplete } = require("../Utils/VV/uepComplete");
 const { sepComplete } = require("../Utils/VV/sepComplete");
+const { fepComplete } = require("../Utils/VV/fepComplete");
+const { labelsComplete } = require("../Utils/Labels/labelsComplete");
+const { accompanyingDocsComplete } = require("../Utils/Labels/accompanyingDocsComplete");
+const { eifuComplete } = require("../Utils/Labels/eifuComplete");
 
 async function cepDocumentComplete(page){
 
@@ -90,6 +94,22 @@ async function cepDocumentComplete(page){
 
     // ── Step 14: SEP ─────────────────────────────────────────────────────────
     await sepComplete(page);
+    await page.waitForTimeout(5000);
+
+    // ── Step 15: FEP ─────────────────────────────────────────────────────────
+    await fepComplete(page);
+    await page.waitForTimeout(5000);
+
+    // ── Step 16: Labels ───────────────────────────────────────────────────────
+    await labelsComplete(page);
+    await page.waitForTimeout(5000);
+
+    // ── Step 17: Accompanying Documents ──────────────────────────────────────
+    await accompanyingDocsComplete(page);
+    await page.waitForTimeout(5000);
+
+    // ── Step 18: e-IFU ───────────────────────────────────────────────────────
+    await eifuComplete(page);
     await page.waitForTimeout(5000);
 
 }

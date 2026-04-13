@@ -63,8 +63,8 @@ async function sepComplete(page) {
     await sep.aiGenerate('rationale-selection-test-participants-sep');
     console.log('SEP: Rationale for Selection of Test Participants → AI Generated ✓');
 
-    await sep.aiGenerate('test-participant-groupings-sep');
-    console.log('SEP: Test Participant Groupings → AI Generated ✓');
+    await sep.fillTestParticipantGroupings(sepData.testParticipantGroupings);
+    console.log('SEP: Test Participant Groupings → filled ✓');
 
     await sep.aiGenerate('rationale-test-participant-groupings-sep');
     console.log('SEP: Rationale for Test Participant Groupings → AI Generated ✓');

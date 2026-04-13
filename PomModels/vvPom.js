@@ -94,10 +94,11 @@ class VVPage {
     // ── UEP Navigation ────────────────────────────────────────────────────────
 
     async navigateToUEP() {
-        // Build the UEP URL from the current page URL by replacing the section path
+        // Build the UEP URL — handles both .../verification-and-validation
+        // and .../verification-and-validation/sub-path
         const currentUrl = this.page.url();
         const uepUrl = currentUrl.replace(
-            /\/verification-and-validation\/.*$/,
+            /\/verification-and-validation(\/.*)?$/,
             '/verification-and-validation/usability-evaluation-plan'
         );
         await this.page.goto(uepUrl);
@@ -154,20 +155,57 @@ class VVPage {
             await cell.click();
             await cell.fill(values[i]);
         }
+        // Tab to commit the last cell value to React state
+        await this.page.keyboard.press('Tab');
+        await this.page.waitForTimeout(200);
     }
 
     // Hazard Related User Scenarios for Summative Evaluation
-    // Columns: HRUS # | Hazardous Situation | Hazard-Related User Scenario | Associated Risk # | Include in Summative (radio) | Rationale
-    async fillHRUSRow(rowIndex, { hrusNo, scenario, hazardRelatedUserScenario, associatedRisk, includeInSummative, rationale }) {
+    // Columns: HRUS # | Hazard-Related User Scenario | Associated Risk # | Include in Summative (radio) | Rationale
+    async fillHRUSRow(rowIndex, { hrusNo, hazardRelatedUserScenario, associatedRisk, includeInSummative, rationale }) {
         const section = this.page.locator('p').filter({ hasText: 'Hazard Related User Scenarios for Summative Evaluation' }).locator('xpath=..');
         const row = section.locator('table tbody tr').nth(rowIndex);
-        const textboxes = row.getByRole('textbox');
-        await textboxes.nth(0).fill(hrusNo);
-        await textboxes.nth(1).fill(scenario);
-        await textboxes.nth(2).fill(hazardRelatedUserScenario);
-        await textboxes.nth(3).fill(associatedRisk);
+        const cells = row.locator('textarea[placeholder="Type"]');
+
+        // nth(0): HRUS #
+        await cells.nth(0).scrollIntoViewIfNeeded();
+        await cells.nth(0).click();
+        await this.page.waitForTimeout(300);
+        await this.page.keyboard.insertText(hrusNo);
+        await this.page.waitForTimeout(200);
+        await this.page.keyboard.press('Tab');
+        await this.page.waitForTimeout(300);
+
+        // nth(1): Hazard-Related User Scenario
+        await cells.nth(1).scrollIntoViewIfNeeded();
+        await cells.nth(1).click();
+        await this.page.waitForTimeout(300);
+        await this.page.keyboard.insertText(hazardRelatedUserScenario);
+        await this.page.waitForTimeout(200);
+        await this.page.keyboard.press('Tab');
+        await this.page.waitForTimeout(300);
+
+        // nth(2): Associated Risk #
+        await cells.nth(2).scrollIntoViewIfNeeded();
+        await cells.nth(2).click();
+        await this.page.waitForTimeout(300);
+        await this.page.keyboard.insertText(associatedRisk);
+        await this.page.waitForTimeout(200);
+        await this.page.keyboard.press('Tab');
+        await this.page.waitForTimeout(300);
+
+        // Include in Summative (radio Yes / No)
         await row.getByRole('radio', { name: includeInSummative }).click();
-        await textboxes.nth(4).fill(rationale);
+        await this.page.waitForTimeout(300);
+
+        // nth(3): Rationale
+        await cells.nth(3).scrollIntoViewIfNeeded();
+        await cells.nth(3).click();
+        await this.page.waitForTimeout(300);
+        await this.page.keyboard.insertText(rationale);
+        await this.page.waitForTimeout(200);
+        await this.page.keyboard.press('Tab');
+        await this.page.waitForTimeout(300);
     }
 
     // User Interface Specification

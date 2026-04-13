@@ -105,6 +105,27 @@ class SEPPage {
         }
     }
 
+    // ── Test Participant Groupings — textarea fill ────────────────────────────
+    // This field uses a textarea instead of contenteditable, so aiGenerate won't work on it
+
+    async fillTestParticipantGroupings(text) {
+        const section = this.page.locator('#test-participant-groupings-sep');
+        await section.scrollIntoViewIfNeeded();
+        const textarea = section.locator('textarea');
+        if (await textarea.count() > 0) {
+            await textarea.first().click();
+            await this.page.waitForTimeout(300);
+            await this.page.keyboard.insertText(text);
+            await this.page.waitForTimeout(300);
+        } else {
+            // fallback: try contenteditable
+            const editor = section.locator('[contenteditable]').first();
+            await editor.click();
+            await this.page.waitForTimeout(300);
+            await this.page.keyboard.insertText(text);
+        }
+    }
+
     // ── Section 5: Part of the User Interface being Evaluated ─────────────────
 
     async selectFirstUIOption() {
