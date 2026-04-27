@@ -1,0 +1,301 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e6]
+  - generic [ref=e348]:
+    - generic [ref=e352]:
+      - button "logo" [ref=e354] [cursor=pointer]:
+        - link "logo" [ref=e356]:
+          - /url: /
+          - img "logo" [ref=e357]
+      - generic [ref=e359]:
+        - combobox [ref=e362] [cursor=pointer]:
+          - generic [ref=e363]: Mammography Machine All Document Complete
+          - img [ref=e364]
+        - generic [ref=e367]: Menu
+        - list [ref=e369]:
+          - listitem [ref=e370]:
+            - link "Overview" [ref=e371] [cursor=pointer]:
+              - /url: /editor/device-documentation/6ed51a70-ce77-4287-883d-c695d6ce7828/overview
+              - img [ref=e372]
+              - generic [ref=e374]: Overview
+          - listitem [ref=e375]:
+            - link "Device Information" [ref=e376] [cursor=pointer]:
+              - /url: /editor/device-documentation/6ed51a70-ce77-4287-883d-c695d6ce7828/accessory
+              - img [ref=e377]
+              - generic [ref=e379]: Device Information
+              - img [ref=e381]
+          - listitem [ref=e384]:
+            - link "Labelling" [ref=e385] [cursor=pointer]:
+              - /url: /editor/device-documentation/6ed51a70-ce77-4287-883d-c695d6ce7828/labelling/labels
+              - img [ref=e386]
+              - generic [ref=e389]: Labelling
+              - img [ref=e391]
+          - listitem [ref=e394]:
+            - link "Design" [ref=e395] [cursor=pointer]:
+              - /url: /editor/device-documentation/6ed51a70-ce77-4287-883d-c695d6ce7828/design/use-specification
+              - img [ref=e396]
+              - generic [ref=e402]: Design
+          - listitem [ref=e403]:
+            - link "Manufacture" [ref=e404] [cursor=pointer]:
+              - /url: /editor/device-documentation/6ed51a70-ce77-4287-883d-c695d6ce7828/manufacture/information
+              - img [ref=e405]
+              - generic [ref=e408]: Manufacture
+          - listitem [ref=e409]:
+            - link "Checklist" [ref=e410] [cursor=pointer]:
+              - /url: /editor/device-documentation/6ed51a70-ce77-4287-883d-c695d6ce7828/checklist/applicable-standards
+              - img [ref=e411]
+              - generic [ref=e415]: Checklist
+          - listitem [ref=e416]:
+            - link "Risk Management" [ref=e417] [cursor=pointer]:
+              - /url: /editor/device-documentation/6ed51a70-ce77-4287-883d-c695d6ce7828/risk-management/plan
+              - img [ref=e418]
+              - generic [ref=e420]: Risk Management
+              - img [ref=e422]
+          - listitem [ref=e425]:
+            - link "Clinical Evaluation" [ref=e426] [cursor=pointer]:
+              - /url: /editor/device-documentation/6ed51a70-ce77-4287-883d-c695d6ce7828/clinical-evaluation/plan
+              - img [ref=e427]
+              - generic [ref=e433]: Clinical Evaluation
+          - listitem [ref=e434]:
+            - link "Verification and Validation" [ref=e435] [cursor=pointer]:
+              - /url: /editor/device-documentation/6ed51a70-ce77-4287-883d-c695d6ce7828/verification-and-validation/vv-overview
+              - img [ref=e436]
+              - generic [ref=e439]: Verification and Validation
+          - listitem [ref=e440]:
+            - link "Post Market Surveillance" [ref=e441] [cursor=pointer]:
+              - /url: /editor/device-documentation/6ed51a70-ce77-4287-883d-c695d6ce7828/post-market-surveillance/plan
+              - img [ref=e442]
+              - generic [ref=e449]: Post Market Surveillance
+          - listitem [ref=e450]:
+            - link "Declaration of Conformity" [ref=e451] [cursor=pointer]:
+              - /url: /editor/device-documentation/6ed51a70-ce77-4287-883d-c695d6ce7828/declaration-of-conformity/eu-declaration-of-conformity
+              - img [ref=e452]
+              - generic [ref=e457]: Declaration of Conformity
+          - listitem [ref=e458]:
+            - link "Report Generation" [ref=e459] [cursor=pointer]:
+              - /url: /editor/device-documentation/6ed51a70-ce77-4287-883d-c695d6ce7828/report-generation
+              - img [ref=e460]
+              - generic [ref=e463]: Report Generation
+      - list [ref=e465]:
+        - listitem [ref=e466]:
+          - button "B Choose File Ben Diaz editor-stag.1@yopmail.com" [ref=e467] [cursor=pointer]:
+            - generic [ref=e468]:
+              - generic [ref=e470]:
+                - generic [ref=e472]: B
+                - button "Choose File" [ref=e473]
+              - generic [ref=e474]:
+                - generic [ref=e475]: Ben Diaz
+                - generic [ref=e476]: editor-stag.1@yopmail.com
+            - img [ref=e477]
+    - generic [ref=e480]:
+      - generic [ref=e481]:
+        - button "Toggle Sidebar" [ref=e483] [cursor=pointer]:
+          - img [ref=e484]
+          - generic [ref=e486]: Toggle Sidebar
+        - generic [ref=e488]:
+          - generic [ref=e489]: Mammography Machine All Document Complete
+          - img [ref=e490] [cursor=pointer]
+        - generic [ref=e492]:
+          - img [ref=e494] [cursor=pointer]
+          - paragraph [ref=e498]: Notifications (90)
+      - generic [ref=e499]:
+        - generic [ref=e501]:
+          - generic [ref=e502]:
+            - generic [ref=e504]:
+              - generic [ref=e505]: About
+              - button "Edit" [ref=e507] [cursor=pointer]
+            - generic [ref=e511]:
+              - generic [ref=e512]:
+                - generic [ref=e513]: Mammography Machine All Document Complete
+                - generic [ref=e514]: Used for covering up the face
+              - img "Preview" [ref=e516]
+          - generic [ref=e517]:
+            - generic [ref=e519]:
+              - generic [ref=e520]: Target Countries
+              - button "Edit" [ref=e522] [cursor=pointer]
+            - generic [ref=e526]:
+              - generic [ref=e528]: CE Marking (Class I)
+              - generic [ref=e530]:
+                - generic [ref=e531]:
+                  - heading [level=3] [ref=e532]:
+                    - button [disabled] [expanded] [ref=e533]:
+                      - img [ref=e534]
+                  - generic [ref=e536]: includes 32 countries
+                - region [ref=e537]:
+                  - generic [ref=e539]:
+                    - generic [ref=e540]:
+                      - img [ref=e542]
+                      - generic [ref=e544]: Austria
+                    - generic [ref=e545]:
+                      - img [ref=e547]
+                      - generic [ref=e549]: Belgium
+                    - generic [ref=e550]:
+                      - img [ref=e552]
+                      - generic [ref=e554]: Bulgaria
+                    - generic [ref=e555]:
+                      - img [ref=e557]
+                      - generic [ref=e559]: Croatia
+                    - generic [ref=e560]:
+                      - img [ref=e562]
+                      - generic [ref=e564]: Cyprus
+                    - generic [ref=e565]:
+                      - img [ref=e567]
+                      - generic [ref=e569]: Czech Republic
+                    - generic [ref=e570]:
+                      - img [ref=e572]
+                      - generic [ref=e574]: Denmark
+                    - generic [ref=e575]:
+                      - img [ref=e577]
+                      - generic [ref=e579]: Estonia
+                    - generic [ref=e580]:
+                      - img [ref=e582]
+                      - generic [ref=e584]: Finland
+                    - generic [ref=e585]:
+                      - img [ref=e587]
+                      - generic [ref=e589]: France
+                    - generic [ref=e590]:
+                      - img [ref=e592]
+                      - generic [ref=e594]: Germany
+                    - generic [ref=e595]:
+                      - img [ref=e597]
+                      - generic [ref=e599]: Greece
+                    - generic [ref=e600]:
+                      - img [ref=e602]
+                      - generic [ref=e604]: Hungary
+                    - generic [ref=e605]:
+                      - img [ref=e607]
+                      - generic [ref=e609]: Ireland
+                    - generic [ref=e610]:
+                      - img [ref=e612]
+                      - generic [ref=e614]: Iceland
+                    - generic [ref=e615]:
+                      - img [ref=e617]
+                      - generic [ref=e619]: Italy
+                    - generic [ref=e620]:
+                      - img [ref=e622]
+                      - generic [ref=e624]: Latvia
+                    - generic [ref=e625]:
+                      - img [ref=e627]
+                      - generic [ref=e629]: Lithuania
+                    - generic [ref=e630]:
+                      - img [ref=e632]
+                      - generic [ref=e634]: Liechtenstein
+                    - generic [ref=e635]:
+                      - img [ref=e637]
+                      - generic [ref=e639]: Luxembourg
+                    - generic [ref=e640]:
+                      - img [ref=e642]
+                      - generic [ref=e644]: Malta
+                    - generic [ref=e645]:
+                      - img [ref=e647]
+                      - generic [ref=e649]: Netherlands
+                    - generic [ref=e650]:
+                      - img [ref=e652]
+                      - generic [ref=e654]: Norway
+                    - generic [ref=e655]:
+                      - img [ref=e657]
+                      - generic [ref=e659]: Poland
+                    - generic [ref=e660]:
+                      - img [ref=e662]
+                      - generic [ref=e664]: Portugal
+                    - generic [ref=e665]:
+                      - img [ref=e667]
+                      - generic [ref=e669]: Romania
+                    - generic [ref=e670]:
+                      - img [ref=e672]
+                      - generic [ref=e674]: Slovakia
+                    - generic [ref=e675]:
+                      - img [ref=e677]
+                      - generic [ref=e679]: Slovenia
+                    - generic [ref=e680]:
+                      - img [ref=e682]
+                      - generic [ref=e684]: Spain
+                    - generic [ref=e685]:
+                      - img [ref=e687]
+                      - generic [ref=e689]: Sweden
+                    - generic [ref=e690]:
+                      - img [ref=e692]
+                      - generic [ref=e694]: Switzerland
+                    - generic [ref=e695]:
+                      - img [ref=e697]
+                      - generic [ref=e699]: Turkey
+          - generic [ref=e700]:
+            - generic [ref=e702]:
+              - generic [ref=e703]: Manufacturer
+              - button "Edit" [ref=e705] [cursor=pointer]
+            - generic [ref=e710]:
+              - generic [ref=e711]:
+                - generic [ref=e712]:
+                  - generic [ref=e713]: Name
+                  - generic [ref=e714]: Pan Piotr Nowak
+                - generic [ref=e715]:
+                  - generic [ref=e716]:
+                    - generic [ref=e717]: SRN Number
+                    - generic [ref=e718]: "473824726"
+                  - generic [ref=e719]:
+                    - generic [ref=e720]: Contact Number
+                    - generic [ref=e721]: +48 783647862
+              - generic [ref=e722]:
+                - generic [ref=e723]: Address
+                - generic [ref=e724]: ul. Piłsudskiego 42/2, Wrocław, Liverpool, Poland, 50-033
+          - generic [ref=e725]:
+            - generic [ref=e727]:
+              - generic [ref=e728]: Classification
+              - button "Edit" [ref=e730] [cursor=pointer]
+            - generic [ref=e733]:
+              - generic [ref=e738]:
+                - heading [level=3] [ref=e739]:
+                  - button [ref=e740] [cursor=pointer]:
+                    - img [ref=e741]
+                - generic [ref=e743]: Is this device invasive?
+              - generic [ref=e748]:
+                - heading [level=3] [ref=e749]:
+                  - button [ref=e750] [cursor=pointer]:
+                    - img [ref=e751]
+                - generic [ref=e753]: Is the device an active device?
+              - generic [ref=e758]:
+                - heading [level=3] [ref=e759]:
+                  - button [ref=e760] [cursor=pointer]:
+                    - img [ref=e761]
+                - generic [ref=e763]: Does your device incorporate, as an integral part, a substance which, if used separately, can be considered to be a medicinal product, as defined in point 2 of Article 1 of Directive 2001/83/EC, including a medicinal product derived from human blood or human plasma, as defined in point 10 of Article 1 of that Directive, and that has an action ancillary to that of the devices?
+              - generic [ref=e768]:
+                - heading [level=3] [ref=e769]:
+                  - button [ref=e770] [cursor=pointer]:
+                    - img [ref=e771]
+                - generic [ref=e773]: Is your device used for contraception or prevention of the transmission of sexually transmitted diseases?
+              - generic [ref=e778]:
+                - heading [level=3] [ref=e779]:
+                  - button [ref=e780] [cursor=pointer]:
+                    - img [ref=e781]
+                - generic [ref=e783]: Is your device intended to clean contact lenses by means of physical action only?
+              - generic [ref=e788]:
+                - heading [level=3] [ref=e789]:
+                  - button [ref=e790] [cursor=pointer]:
+                    - img [ref=e791]
+                - generic [ref=e793]: Is your device intended for recording of diagnostic images generated by X-ray radiation?
+              - generic [ref=e798]:
+                - heading [level=3] [ref=e799]:
+                  - button [ref=e800] [cursor=pointer]:
+                    - img [ref=e801]
+                - generic [ref=e803]: Is your device manufactured utilising tissues or cells of human or animal origin, or their derivatives, which are non-viable or rendered non-viable, unless such devices are manufactured utilising tissues or cells of animal origin, or their derivatives, which are non-viable or rendered non-viable and are devices intended to come into contact with intact skin only?
+              - generic [ref=e808]:
+                - heading [level=3] [ref=e809]:
+                  - button [ref=e810] [cursor=pointer]:
+                    - img [ref=e811]
+                - generic [ref=e813]: Does your device incorporate or consist of nano-materials?
+              - generic [ref=e818]:
+                - heading [level=3] [ref=e819]:
+                  - button [ref=e820] [cursor=pointer]:
+                    - img [ref=e821]
+                - generic [ref=e823]: Is your device, with respect to body orifices, other than surgically invasive devices, intended to administer medicinal products by inhalation?
+              - generic [ref=e828]:
+                - heading [level=3] [ref=e829]:
+                  - button [ref=e830] [cursor=pointer]:
+                    - img [ref=e831]
+                - generic [ref=e833]: Is your device composed of substances or of combinations of substances that are intended to be introduced into the human body via a body orifice or applied to the skin and that are absorbed by or locally dispersed in the human body?
+              - generic [ref=e838]:
+                - heading [level=3] [ref=e839]:
+                  - button [ref=e840] [cursor=pointer]:
+                    - img [ref=e841]
+                - generic [ref=e843]: Is your device an active therapeutic devices with an integrated or incorporated diagnostic function which significantly determines the patient management by the device, such as closed loop systems or automated external defibrillators?
+        - region "Notifications (F8)":
+          - list

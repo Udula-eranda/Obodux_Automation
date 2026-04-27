@@ -1,0 +1,617 @@
+- generic:
+  - alert
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - button:
+                - generic:
+                  - link:
+                    - /url: /
+                    - img
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - combobox:
+                      - generic: Surgical Mask All Doc Complete 2
+                      - img
+                - generic: Menu
+                - generic:
+                  - list:
+                    - listitem:
+                      - link:
+                        - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/overview
+                        - img
+                        - generic: Overview
+                    - listitem:
+                      - link:
+                        - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/accessory
+                        - img
+                        - generic: Device Information
+                        - generic:
+                          - img
+                    - listitem:
+                      - link:
+                        - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/labelling/labels
+                        - img
+                        - generic: Labelling
+                        - generic:
+                          - img
+                    - listitem:
+                      - link:
+                        - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/design/use-specification
+                        - img
+                        - generic: Design
+                    - listitem:
+                      - link:
+                        - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/manufacture/information
+                        - img
+                        - generic: Manufacture
+                        - generic:
+                          - img
+                    - listitem:
+                      - link:
+                        - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/checklist/applicable-standards
+                        - img
+                        - generic: Checklist
+                    - listitem:
+                      - link:
+                        - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/risk-management/plan
+                        - img
+                        - generic: Risk Management
+                        - generic:
+                          - img
+                    - listitem:
+                      - link:
+                        - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/clinical-evaluation/plan
+                        - img
+                        - generic: Clinical Evaluation
+                        - generic:
+                          - img
+                    - listitem:
+                      - link:
+                        - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/verification-and-validation/vv-overview
+                        - img
+                        - generic: Verification and Validation
+                        - generic:
+                          - img
+                    - listitem:
+                      - link:
+                        - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/post-market-surveillance/plan
+                        - img
+                        - generic: Post Market Surveillance
+                    - listitem:
+                      - link:
+                        - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/declaration-of-conformity/eu-declaration-of-conformity
+                        - img
+                        - generic: Declaration of Conformity
+                    - listitem:
+                      - link:
+                        - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/report-generation
+                        - img
+                        - generic: Report Generation
+            - generic:
+              - list:
+                - listitem:
+                  - button:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: B
+                          - button
+                      - generic:
+                        - generic: Ben Diaz
+                        - generic: editor-stag.1@yopmail.com
+                    - img
+    - generic:
+      - generic:
+        - generic:
+          - button:
+            - img
+            - generic: Toggle Sidebar
+        - generic:
+          - generic: Surgical Mask All Doc Complete 2
+          - img
+        - generic:
+          - generic:
+            - img
+          - generic:
+            - img
+          - paragraph: Notifications (99)
+      - generic:
+        - list
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - heading [level=2]: Post Market Surveillance
+                - progressbar
+                - generic:
+                  - generic: Progress
+                  - generic: 1/2 Completed
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=3]:
+                      - button:
+                        - img
+                    - generic:
+                      - generic: Post Market Surveillance Plan
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=3]:
+                      - button [expanded]:
+                        - img
+                    - generic:
+                      - generic: Post Market Clinical Follow-up
+                  - region:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - heading [level=3]:
+                                - button:
+                                  - img
+                              - generic:
+                                - generic: Introductuction
+                                - generic:
+                                  - generic:
+                                    - img
+                        - generic:
+                          - generic:
+                            - generic:
+                              - heading [level=3]:
+                                - button:
+                                  - img
+                              - generic:
+                                - generic: PMCF Activities
+                        - generic:
+                          - generic:
+                            - generic:
+                              - heading [level=3]:
+                                - button:
+                                  - img
+                              - generic:
+                                - generic: Ref to Technical Documentation
+                        - generic:
+                          - generic: Equivalent / similar device
+                        - generic:
+                          - generic:
+                            - generic:
+                              - heading [level=3]:
+                                - button:
+                                  - img
+                              - generic:
+                                - generic: Standards, common specifications and guidance documents
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - text: Post Market Clinical Follow-up Plan
+                    - generic:
+                      - button:
+                        - img
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: Is the device subject to this PMCF considered Novel?
+                      - radiogroup:
+                        - radio [checked]:
+                          - generic: "Yes"
+                        - radio:
+                          - generic: "No"
+                    - generic:
+                      - generic: Does the device subject to this PMCF introduce novel clinical procedures?
+                      - radiogroup:
+                        - radio [checked]:
+                          - generic: "Yes"
+                        - radio:
+                          - generic: "No"
+                    - generic:
+                      - generic: Explain any novel features
+                      - textbox:
+                        - /placeholder: Type
+                        - text: The device incorporates a novel multi-layer filtration mechanism with enhanced bacterial filtration efficiency exceeding standard requirements. It also introduces a novel ergonomic seal design that reduces air leakage and improves patient comfort during extended clinical procedures.
+                    - generic:
+                      - generic: Will a post-market clinical follow-up be conducted?
+                      - radiogroup:
+                        - radio [checked]:
+                          - generic: "Yes"
+                        - radio:
+                          - generic: "No"
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - text: Post Market Clinical Follow-up Plan
+                    - generic:
+                      - button:
+                        - img
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: Summary of Anticipated Activities
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - table:
+                                    - rowgroup:
+                                      - row:
+                                        - columnheader
+                                        - columnheader: View Activity
+                                        - columnheader: Activity Ref.
+                                        - columnheader: Description of Activity
+                                        - columnheader: Activity type
+                                        - columnheader: Source of PMCF activity
+                                        - columnheader: Procedure / method type
+                                        - columnheader: Aim of this activity
+                                        - columnheader: "Aim of this activity : If selected Other"
+                                        - columnheader: Procedures which will be used as part of PMCF
+                                        - columnheader: "Procedures which will be used as part of PMCF : If selected Other"
+                                        - columnheader: Rationale for the appropriateness of the chosen methods/ procedures
+                                        - columnheader: If selected Other, state them below
+                                        - columnheader: Timelines of the activity
+                                    - rowgroup:
+                                      - row:
+                                        - cell:
+                                          - generic:
+                                            - img
+                                        - cell:
+                                          - generic:
+                                            - button:
+                                              - generic: View
+                                        - cell:
+                                          - generic:
+                                            - textbox:
+                                              - /placeholder: Type
+                                              - text: PMCF-ACT-001
+                                        - cell:
+                                          - generic:
+                                            - textbox:
+                                              - /placeholder: Type
+                                              - text: Literature review and registry data collection to monitor long-term safety and performance of the surgical mask device
+                                        - cell:
+                                          - generic:
+                                            - textbox:
+                                              - /placeholder: Type
+                                              - text: Post-Market Clinical Study
+                                        - cell:
+                                          - generic:
+                                            - textbox:
+                                              - /placeholder: Type
+                                              - text: Post-market surveillance activities
+                                        - cell:
+                                          - generic:
+                                            - generic: general
+                                        - cell:
+                                          - generic:
+                                            - generic:
+                                              - generic: Confirming the safety of the medical device
+                                              - generic: Confirming the performance of the medical device
+                                              - generic: Identifying previously unknown side-effects (related to the procedures or to the medical devices).
+                                              - generic: Monitoring the identified side-effects and contraindications
+                                              - generic: Identifying and analysing emergent risks
+                                              - generic: Ensuring the continued acceptability of the benefit-risk ratio
+                                              - generic: Identifying possible systematic misuse or off-label use of the device
+                                        - cell:
+                                          - generic:
+                                            - textbox:
+                                              - /placeholder: Type
+                                        - cell:
+                                          - generic:
+                                            - generic:
+                                              - generic: Screening of scientific literature and other sources of clinical data
+                                              - generic: Post-market studies
+                                              - generic: Collecting data in registries
+                                              - generic: Surveys from healthcare professional
+                                              - generic: Surveys from patients/users
+                                              - generic: Review of case reports which may reveal misuese or off lable use
+                                        - cell:
+                                          - generic:
+                                            - textbox:
+                                              - /placeholder: Type
+                                        - cell:
+                                          - generic:
+                                            - generic:
+                                              - generic: Justification for sample size, timescales and endpoints.
+                                              - generic: Justification for comparator, on the basis of intended purpose and state of the art.
+                                              - generic: Justification of the study design on the basis of all of the above, and why it is sufficient to ensure representative patient populations and provide for adequate controls on sources of bias.
+                                              - generic: A statistical justification for the expected quality of outcomes, and justification for why this is satisfactory in light of the residual risks.
+                                        - cell:
+                                          - generic:
+                                            - textbox:
+                                              - /placeholder: Type
+                                        - cell:
+                                          - generic:
+                                            - textbox:
+                                              - /placeholder: Type
+                                              - text: Q4 2025 - Q4 2027
+                                      - row:
+                                        - cell:
+                                          - generic:
+                                            - img
+                                        - cell:
+                                          - generic:
+                                            - button:
+                                              - generic: View
+                                        - cell:
+                                          - generic:
+                                            - textbox:
+                                              - /placeholder: Type
+                                        - cell:
+                                          - generic:
+                                            - textbox:
+                                              - /placeholder: Type
+                                        - cell:
+                                          - generic:
+                                            - textbox:
+                                              - /placeholder: Type
+                                        - cell:
+                                          - generic:
+                                            - textbox:
+                                              - /placeholder: Type
+                                        - cell
+                                        - cell
+                                        - cell:
+                                          - generic:
+                                            - textbox:
+                                              - /placeholder: Type
+                                        - cell
+                                        - cell:
+                                          - generic:
+                                            - textbox:
+                                              - /placeholder: Type
+                                        - cell
+                                        - cell:
+                                          - generic:
+                                            - textbox:
+                                              - /placeholder: Type
+                                        - cell:
+                                          - generic:
+                                            - textbox:
+                                              - /placeholder: Type
+                              - generic:
+                                - generic:
+                                  - button:
+                                    - img
+                                    - generic: Add Row
+                                - generic: 2 records
+                    - generic:
+                      - generic:
+                        - generic: Estimated date of the PMCF evaluation report
+                        - button:
+                          - generic: DD/MM/YYYY
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - text: Post Market Clinical Follow-up Plan
+                    - generic:
+                      - button:
+                        - img
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: Any relevant information from the clinical evaluation report to be considered in this plan
+                      - radiogroup:
+                        - radio:
+                          - generic: "Yes"
+                        - radio:
+                          - generic: "No"
+                    - generic:
+                      - generic: Any relevant information from the Risk Management File to be considered in this plan
+                      - radiogroup:
+                        - radio:
+                          - generic: "Yes"
+                        - radio:
+                          - generic: "No"
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - text: Post Market Clinical Follow-up Plan
+                    - generic:
+                      - button:
+                        - img
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - table:
+                                  - rowgroup:
+                                    - row:
+                                      - columnheader
+                                      - columnheader: Product name of equivalent / similar device
+                                      - columnheader: Intended purpose
+                                      - columnheader: Intended users
+                                      - columnheader: Intended patient population
+                                      - columnheader: Medical Condition
+                                      - columnheader: Indication
+                                      - columnheader: Reference to clinical data evaluation in the CER
+                            - generic:
+                              - generic:
+                                - button:
+                                  - img
+                                  - generic: Add Row
+                              - generic: 0 records
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - text: Post Market Clinical Follow-up Plan
+                    - generic:
+                      - button:
+                        - img
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - text: Standards and Common Specifications
+                        - paragraph: This field is linked to the Applicable standards and requires it to be completed first.
+                      - generic:
+                        - generic:
+                          - checkbox [checked]:
+                            - generic:
+                              - img
+                          - generic: ISO 13485:2016
+                        - generic:
+                          - checkbox [checked]:
+                            - generic:
+                              - img
+                          - generic: IEC 60601-1:2005+AMD1:2012
+                    - generic:
+                      - generic:
+                        - generic: Guidance on PMCF
+                      - generic:
+                        - textbox:
+                          - /placeholder: Type
+                        - button [disabled]:
+                          - img
+                      - button:
+                        - img
+                        - text: Add Another
+          - generic:
+            - generic:
+              - generic:
+                - button: Save Draft
+                - button [disabled]: Save
+  - dialog "View Record" [ref=e776]:
+    - button "Close" [ref=e777] [cursor=pointer]:
+      - img [ref=e778]
+      - generic [ref=e781]: Close
+    - heading "View Record" [level=2] [ref=e784]
+    - generic [ref=e786]:
+      - generic [ref=e787]:
+        - generic [ref=e788]:
+          - text: Ref No. of activity
+          - textbox [ref=e792]: PMCF-ACT-002
+        - generic [ref=e793]:
+          - generic [ref=e794]: Activity type
+          - textbox "Type" [ref=e795]: Healthcare Professional Survey
+        - generic [ref=e796]:
+          - generic [ref=e797]: Source of PMCF activity
+          - textbox "Type" [ref=e798]: Direct user feedback collection
+        - generic [ref=e799]:
+          - generic [ref=e800]: Description of activity
+          - textbox "Type" [ref=e801]: Structured survey of healthcare professionals to assess clinical performance, usability, and any adverse events or near-misses associated with the surgical mask device
+        - generic [ref=e802]:
+          - generic [ref=e803]: Procedure / method type
+          - radiogroup [ref=e804]:
+            - radio "General" [ref=e805] [cursor=pointer]:
+              - generic [ref=e808]: General
+            - radio "Specific" [checked] [ref=e809] [cursor=pointer]:
+              - generic [ref=e812]: Specific
+        - generic [ref=e813]:
+          - generic [ref=e814]: Aim of this activity
+          - generic [ref=e815]:
+            - checkbox [checked] [ref=e817] [cursor=pointer]:
+              - generic:
+                - img
+            - generic [ref=e818]: Confirming the safety of the medical device
+          - generic [ref=e819]:
+            - checkbox [checked] [ref=e821] [cursor=pointer]:
+              - generic:
+                - img
+            - generic [ref=e822]: Confirming the performance of the medical device
+          - generic [ref=e823]:
+            - checkbox [checked] [ref=e825] [cursor=pointer]:
+              - generic:
+                - img
+            - generic [ref=e826]: Identifying previously unknown side-effects (related to the procedures or to the medical devices).
+          - generic [ref=e827]:
+            - checkbox [checked] [ref=e829] [cursor=pointer]:
+              - generic:
+                - img
+            - generic [ref=e830]: Monitoring the identified side-effects and contraindications
+          - generic [ref=e831]:
+            - checkbox [checked] [ref=e833] [cursor=pointer]:
+              - generic:
+                - img
+            - generic [ref=e834]: Identifying and analysing emergent risks
+          - generic [ref=e835]:
+            - checkbox [checked] [ref=e837] [cursor=pointer]:
+              - generic:
+                - img
+            - generic [ref=e838]: Ensuring the continued acceptability of the benefit-risk ratio
+          - generic [ref=e839]:
+            - checkbox [checked] [ref=e841] [cursor=pointer]:
+              - generic:
+                - img
+            - generic [ref=e842]: Identifying possible systematic misuse or off-label use of the device
+          - generic [ref=e843]:
+            - checkbox [ref=e845] [cursor=pointer]
+            - generic [ref=e846]: Other (State below)
+          - generic [ref=e847]: If selected Other, state them below
+          - textbox "Type" [ref=e848]
+        - generic [ref=e849]:
+          - generic [ref=e850]: Procedures which will be used as part of PMCF
+          - generic [ref=e851]:
+            - checkbox [checked] [ref=e853] [cursor=pointer]:
+              - generic:
+                - img
+            - generic [ref=e854]: Screening of scientific literature and other sources of clinical data
+          - generic [ref=e855]:
+            - checkbox [checked] [active] [ref=e857] [cursor=pointer]:
+              - generic:
+                - img
+            - generic [ref=e858]: Post-market studies
+          - generic [ref=e859]:
+            - checkbox [ref=e861] [cursor=pointer]
+            - generic [ref=e862]: Collecting data in registries
+          - generic [ref=e863]:
+            - checkbox [ref=e865] [cursor=pointer]
+            - generic [ref=e866]: Surveys from healthcare professional
+          - generic [ref=e867]:
+            - checkbox [ref=e869] [cursor=pointer]
+            - generic [ref=e870]: Surveys from patients/users
+          - generic [ref=e871]:
+            - checkbox [ref=e873] [cursor=pointer]
+            - generic [ref=e874]: Review of case reports which may reveal misuese or off lable use
+          - generic [ref=e875]:
+            - checkbox [ref=e877] [cursor=pointer]
+            - generic [ref=e878]: Other (State below)
+          - generic [ref=e879]: If selected Other, state them below
+          - textbox "Type" [ref=e880]
+        - generic [ref=e881]:
+          - generic [ref=e882]: Rationale for the appropriateness of the chosen methods/ procedures
+          - generic [ref=e883]:
+            - checkbox [ref=e885] [cursor=pointer]
+            - generic [ref=e886]: Justification for sample size, timescales and endpoints.
+          - generic [ref=e887]:
+            - checkbox [ref=e889] [cursor=pointer]
+            - generic [ref=e890]: Justification for comparator, on the basis of intended purpose and state of the art.
+          - generic [ref=e891]:
+            - checkbox [ref=e893] [cursor=pointer]
+            - generic [ref=e894]: Justification of the study design on the basis of all of the above, and why it is sufficient to ensure representative patient populations and provide for adequate controls on sources of bias.
+          - generic [ref=e895]:
+            - checkbox [ref=e897] [cursor=pointer]
+            - generic [ref=e898]: A statistical justification for the expected quality of outcomes, and justification for why this is satisfactory in light of the residual risks.
+          - generic [ref=e899]:
+            - checkbox [ref=e901] [cursor=pointer]
+            - generic [ref=e902]: Other (State below)
+          - generic [ref=e903]: If selected Other, state them below
+          - textbox "Type" [ref=e904]
+        - generic [ref=e905]:
+          - generic [ref=e906]: Timelines of the activity
+          - textbox "Type" [ref=e907]
+      - button "Save" [ref=e910] [cursor=pointer]

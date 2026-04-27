@@ -1,0 +1,78 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - generic [ref=e7]:
+      - button "logo" [ref=e9] [cursor=pointer]:
+        - link "logo" [ref=e11]:
+          - /url: /
+          - img "logo" [ref=e12]
+      - generic [ref=e14]:
+        - combobox [ref=e17] [cursor=pointer]:
+          - generic [ref=e18]: Surgical Mask All Doc Complete 2
+          - img [ref=e19]
+        - generic [ref=e22]: Menu
+        - list [ref=e24]:
+          - listitem [ref=e25]:
+            - link "Overview" [ref=e26] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/overview
+          - listitem [ref=e30]:
+            - link "Device Information" [ref=e31] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/accessory
+          - listitem [ref=e39]:
+            - link "Labelling" [ref=e40] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/labelling/labels
+          - listitem [ref=e49]:
+            - link "Design" [ref=e50] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/design/use-specification
+          - listitem [ref=e58]:
+            - link "Manufacture" [ref=e59] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/manufacture/information
+          - listitem [ref=e68]:
+            - link "Checklist" [ref=e69] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/checklist/applicable-standards
+          - listitem [ref=e75]:
+            - link "Risk Management" [ref=e76] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/risk-management/plan
+          - listitem [ref=e84]:
+            - link "Clinical Evaluation" [ref=e85] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/clinical-evaluation/plan
+          - listitem [ref=e97]:
+            - link "Verification and Validation" [ref=e98] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/verification-and-validation/vv-overview
+          - listitem [ref=e107]:
+            - link "Post Market Surveillance" [ref=e108] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/post-market-surveillance/plan
+          - listitem [ref=e117]:
+            - link "Declaration of Conformity" [ref=e118] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/declaration-of-conformity/eu-declaration-of-conformity
+          - listitem [ref=e125]:
+            - link "Report Generation" [ref=e126] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/report-generation
+      - list [ref=e132]:
+        - listitem [ref=e133]:
+          - button "B Choose File Ben Diaz editor-stag.1@yopmail.com" [ref=e134] [cursor=pointer]:
+            - generic [ref=e135]
+            - img [ref=e144]
+    - generic [ref=e147]:
+      - generic [ref=e148]:
+        - button "Toggle Sidebar" [ref=e150] [cursor=pointer]:
+          - img [ref=e151]
+          - generic [ref=e153]: Toggle Sidebar
+        - generic [ref=e155]:
+          - generic [ref=e156]: Surgical Mask All Doc Complete 2
+          - img [ref=e157] [cursor=pointer]
+        - generic [ref=e159]:
+          - img [ref=e161] [cursor=pointer]
+          - img [ref=e165] [cursor=pointer]
+          - paragraph [ref=e169]: Notifications (99)
+      - generic [ref=e170]:
+        - region "Notifications (F8)":
+          - list
+        - generic [ref=e171]:
+          - generic [ref=e172]:
+            - generic [ref=e174]
+            - generic [ref=e181]
+          - generic [ref=e276]:
+            - generic [ref=e279]
+            - generic [ref=e285]
+          - button "Edit" [ref=e851] [cursor=pointer]

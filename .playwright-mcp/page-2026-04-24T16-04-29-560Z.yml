@@ -1,0 +1,37 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic:
+        - img "app logo"
+      - generic [ref=e6]: Sign in to your account
+    - generic [ref=e7]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic:
+            - button "+1":
+              - generic: "+1"
+              - img
+          - textbox [ref=e11]
+        - generic:
+          - group "Email"
+          - generic: Email
+      - generic [ref=e13]:
+        - textbox [ref=e15]
+        - generic:
+          - group "Password"
+          - generic: Password
+      - generic [ref=e16] [cursor=pointer]: Forgot your password?
+      - button "Sign in" [ref=e17] [cursor=pointer]:
+        - generic [ref=e18]: Sign in
+    - generic [ref=e19]:
+      - text: By continuing, you agree to the
+      - link "Terms of Use" [ref=e20] [cursor=pointer]:
+        - /url: https://boris-software.com/terms-of-use/
+      - text: and
+      - link "Privacy Policy" [ref=e21] [cursor=pointer]:
+        - /url: https://boris-software.com/privacy-policy/
+      - text: .
+  - link "Powered By Logto" [ref=e23] [cursor=pointer]:
+    - /url: https://logto.io/?utm_source=sign_in&utm_medium=powered_by
+    - generic [ref=e24]: Powered by
+    - img [ref=e25]

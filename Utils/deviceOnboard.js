@@ -1,4 +1,4 @@
-const { LoginPage } = require('../tests/login.page')
+const { LoginPage, skipTourIfPresent } = require('../tests/login.page')
 const { DevicePage } = require('../PomModels/deviceonboardPom')
 const {validUser , deviceDetails , URL , manufacturerData , authoriserData} = require('./testData')
 
@@ -11,7 +11,7 @@ async function  loginAndOnboardDevice(page) {
     await loginPage.goto(URL.siteLink);
     await loginPage.login(validUser.email , validUser.password);
     await page.waitForTimeout(5000);
-
+    await skipTourIfPresent(page);
 
     //Device onboard
     await devicePage.openDeviceMenu();

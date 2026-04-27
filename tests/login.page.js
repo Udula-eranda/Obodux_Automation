@@ -13,16 +13,28 @@ class LoginPage {
   }
 
   async login(email, password) {
-  await this.emailInput.fill(email);
-  await this.passwordInput.fill(password);
-  await this.submitButton.click();
-
-  // // // Wait for error message when login fails instead of navigation
-  // // await this.page.locator("text=Incorrect account or password").waitFor();
-  // }
-
+    await this.emailInput.fill(email);
+    await this.passwordInput.fill(password);
+    await this.submitButton.click();
+    await skipTourIfPresent(this.page);
   }
 
 }
 
-module.exports = { LoginPage }; 
+// Standalone helper — call this after any navigation that might trigger the tour overlay
+async function skipTourIfPresent(page) {
+  try {
+    const skipBtn = page.locator('button').filter({ hasText: /^Skip tour$/i }).first();
+    await skipBtn.waitFor({ state: 'visible', timeout: 6000 });
+    await skipBtn.click();
+    await page.waitForTimeout(800);
+    // Wait for the SVG overlay to fully disappear before proceeding
+    await page.waitForFunction(
+      () => !document.querySelector('svg rect[fill="rgba(0,0,0,0.6)"]'),
+      { timeout: 5000 }
+    ).catch(() => {});
+    console.log('Onboarding tour dismissed ✓');
+  } catch { /* popup not present */ }
+}
+
+module.exports = { LoginPage, skipTourIfPresent };

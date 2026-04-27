@@ -1,0 +1,162 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - generic [ref=e7]:
+      - button "logo" [ref=e9] [cursor=pointer]:
+        - link "logo" [ref=e11]:
+          - /url: /
+          - img "logo" [ref=e12]
+      - generic [ref=e14]:
+        - combobox [ref=e753] [cursor=pointer]:
+          - generic [ref=e754]: Surgical Mask All Doc Complete 2
+          - img [ref=e755]
+        - generic [ref=e22]: Menu
+        - list [ref=e24]:
+          - listitem [ref=e25]:
+            - link "Overview" [ref=e26] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/overview
+              - img [ref=e27]
+              - generic [ref=e29]: Overview
+          - listitem [ref=e30]:
+            - link "Device Information" [ref=e31] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/accessory
+              - img [ref=e32]
+              - generic [ref=e34]: Device Information
+              - img [ref=e759]
+          - listitem [ref=e35]:
+            - link "Labelling" [ref=e36] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/labelling/labels
+              - img [ref=e37]
+              - generic [ref=e40]: Labelling
+              - img [ref=e763]
+          - listitem [ref=e41]:
+            - link "Design" [ref=e42] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/design/use-specification
+              - img [ref=e43]
+              - generic [ref=e49]: Design
+          - listitem [ref=e50]:
+            - link "Manufacture" [ref=e51] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/manufacture/information
+              - img [ref=e52]
+              - generic [ref=e55]: Manufacture
+              - img [ref=e767]
+          - listitem [ref=e56]:
+            - link "Checklist" [ref=e57] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/checklist/applicable-standards
+              - img [ref=e58]
+              - generic [ref=e62]: Checklist
+          - listitem [ref=e63]:
+            - link "Risk Management" [ref=e64] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/risk-management/plan
+              - img [ref=e65]
+              - generic [ref=e67]: Risk Management
+              - img [ref=e771]
+          - listitem [ref=e68]:
+            - link "Clinical Evaluation" [ref=e69] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/clinical-evaluation/plan
+              - img [ref=e70]
+              - generic [ref=e76]: Clinical Evaluation
+              - img [ref=e775]
+          - listitem [ref=e77]:
+            - link "Verification and Validation" [ref=e78] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/verification-and-validation/vv-overview
+              - img [ref=e79]
+              - generic [ref=e82]: Verification and Validation
+              - img [ref=e779]
+          - listitem [ref=e83]:
+            - link "Post Market Surveillance" [ref=e84] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/post-market-surveillance/plan
+              - img [ref=e85]
+              - generic [ref=e92]: Post Market Surveillance
+          - listitem [ref=e93]:
+            - link "Declaration of Conformity" [ref=e94] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/declaration-of-conformity/eu-declaration-of-conformity
+              - img [ref=e95]
+              - generic [ref=e100]: Declaration of Conformity
+          - listitem [ref=e101]:
+            - link "Report Generation" [ref=e102] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/report-generation
+              - img [ref=e103]
+              - generic [ref=e106]: Report Generation
+      - list [ref=e108]:
+        - listitem [ref=e109]:
+          - button "B Choose File Ben Diaz editor-stag.1@yopmail.com" [ref=e110] [cursor=pointer]:
+            - generic [ref=e111]:
+              - generic [ref=e113]:
+                - generic [ref=e115]: B
+                - button "Choose File" [ref=e116]
+              - generic [ref=e117]:
+                - generic [ref=e118]: Ben Diaz
+                - generic [ref=e119]: editor-stag.1@yopmail.com
+            - img [ref=e120]
+    - generic [ref=e1186]:
+      - generic [ref=e1187]:
+        - button "Toggle Sidebar" [ref=e1189] [cursor=pointer]:
+          - img [ref=e1190]
+          - generic [ref=e1192]: Toggle Sidebar
+        - generic [ref=e1194]:
+          - generic [ref=e1195]: Surgical Mask All Doc Complete 2
+          - img [ref=e1196] [cursor=pointer]
+        - generic [ref=e1198]:
+          - img [ref=e1200] [cursor=pointer]
+          - img [ref=e1204] [cursor=pointer]
+          - paragraph [ref=e1208]: Notifications (90)
+      - generic [ref=e1209]:
+        - region "Notifications (F8)":
+          - list
+        - generic [ref=e1210]:
+          - generic [ref=e1211]:
+            - generic [ref=e1213]:
+              - heading "Post Market Surveillance" [level=2] [ref=e1214]
+              - progressbar [ref=e1215]
+              - generic [ref=e1217]:
+                - generic [ref=e1218]: Progress
+                - generic [ref=e1219]: 1/2 Completed
+            - generic [ref=e1220]:
+              - generic [ref=e1223] [cursor=pointer]:
+                - heading [level=3] [ref=e1224]:
+                  - button [ref=e1225]:
+                    - img [ref=e1226]
+                - generic [ref=e1229]: Post Market Surveillance Plan
+              - generic [ref=e1231]:
+                - generic [ref=e1232] [cursor=pointer]:
+                  - heading [level=3] [ref=e1233]:
+                    - button [expanded] [ref=e1234]:
+                      - img [ref=e1235]
+                  - generic [ref=e1238]: Post Market Clinical Follow-up
+                - region [ref=e1239]:
+                  - generic [ref=e1244] [cursor=pointer]:
+                    - heading [level=3] [ref=e1245]:
+                      - button [ref=e1246]:
+                        - img [ref=e1247]
+                    - generic [ref=e1250]: Introductuction
+          - generic [ref=e1252]:
+            - generic [ref=e1255]:
+              - text: Post Market Clinical Follow-up Plan
+              - button [ref=e1257] [cursor=pointer]:
+                - img [ref=e1258]
+            - generic [ref=e1263]:
+              - generic [ref=e1264]:
+                - generic [ref=e1265]: Is the device subject to this PMCF considered Novel?
+                - radiogroup [ref=e1266]:
+                  - radio "Yes" [ref=e1267] [cursor=pointer]:
+                    - generic [ref=e1270]: "Yes"
+                  - radio "No" [ref=e1271] [cursor=pointer]:
+                    - generic [ref=e1274]: "No"
+              - generic [ref=e1275]:
+                - generic [ref=e1276]: Does the device subject to this PMCF introduce novel clinical procedures?
+                - radiogroup [ref=e1277]:
+                  - radio "Yes" [ref=e1278] [cursor=pointer]:
+                    - generic [ref=e1281]: "Yes"
+                  - radio "No" [ref=e1282] [cursor=pointer]:
+                    - generic [ref=e1285]: "No"
+              - generic [ref=e1286]:
+                - generic [ref=e1287]: Will a post-market clinical follow-up be conducted?
+                - radiogroup [ref=e1288]:
+                  - radio "Yes" [ref=e1289] [cursor=pointer]:
+                    - generic [ref=e1292]: "Yes"
+                  - radio "No" [ref=e1293] [cursor=pointer]:
+                    - generic [ref=e1296]: "No"
+          - generic [ref=e1299]:
+            - button "Save Draft" [ref=e1300] [cursor=pointer]
+            - button "Save" [disabled] [ref=e1301]

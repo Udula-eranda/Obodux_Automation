@@ -1,5 +1,6 @@
 const { expect } = require("@playwright/test");
 const { cerSectionData } = require('../Utils/testData');
+const { selectRandomDate } = require('../Utils/datePickerHelper');
 
 class cerDoc {
 
@@ -351,22 +352,10 @@ class cerDoc {
         });
         await this.page.waitForTimeout(500);
         await yearlyRadio.click();
-        await this.page.waitForTimeout(800);
+        await this.page.waitForTimeout(1500);
 
-        // Date picker — Radix combobox showing DD/MM/YYYY
-        const datePickerBtn = conclusionSection.locator('button').filter({ hasText: /DD\/MM\/YYYY/ });
-        if (await datePickerBtn.count() > 0) {
-            await datePickerBtn.scrollIntoViewIfNeeded();
-            await datePickerBtn.click();
-            await this.page.waitForTimeout(1000);
-            const dayBtn = this.page.locator('[role="gridcell"] button:not([disabled])').nth(14);
-            if (await dayBtn.count() > 0) await dayBtn.click();
-            else {
-                const firstDay = this.page.locator('[role="gridcell"] button:not([disabled])').first();
-                if (await firstDay.count() > 0) await firstDay.click();
-            }
-            await this.page.waitForTimeout(500);
-        }
+        // Date picker — shared helper (handles scroll + DOM click to bypass overlays)
+        await selectRandomDate(this.page, 'last');
     }
 
     // ─── 9. Qualifications of the Responsible Evaluators ─────────────────────

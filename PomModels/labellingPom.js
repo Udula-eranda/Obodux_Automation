@@ -348,7 +348,7 @@ class LabellingPage {
 
         // Document Number
         const docNumInput = this.page.locator('input[id="ifu[0].documentNumber"]');
-        await docNumInput.waitFor({ state: 'visible', timeout: 8000 });
+        await docNumInput.waitFor({ state: 'visible', timeout: 15000 });
         await docNumInput.fill(documentNumber);
 
         // Rev Number

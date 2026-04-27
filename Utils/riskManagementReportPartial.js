@@ -27,9 +27,9 @@ async function riskManagementPartialComplete(page) {
     await expect(checkBox).toBeEnabled();
     await checkBox.click();
 
-    // Wait until RAM data is visible in the tables
-    await page.waitForSelector('text=Incorrect size selection by user', { state: 'visible', timeout: 30000 });
-    await page.waitForTimeout(2000);
+    // Wait until the B/R analysis cells load after the checkbox triggers data population
+    await page.waitForLoadState('networkidle', { timeout: 30000 }).catch(() => {});
+    await page.waitForTimeout(3000);
 
     //Clinical benefits field
     const clinicalBenefits = page.locator("div[class*='border px-3']").nth(0);

@@ -9,6 +9,8 @@ const { fepComplete } = require("../Utils/VV/fepComplete");
 const { labelsComplete } = require("../Utils/Labels/labelsComplete");
 const { accompanyingDocsComplete } = require("../Utils/Labels/accompanyingDocsComplete");
 const { eifuComplete } = require("../Utils/Labels/eifuComplete");
+const { pmsPlanComplete } = require("../Utils/PMS/pmsPlanComplete");
+const { pmcfFollowUpComplete } = require("../Utils/PMS/pmcfFollowUpComplete");
 
 async function cepDocumentComplete(page){
 
@@ -110,6 +112,14 @@ async function cepDocumentComplete(page){
 
     // ── Step 18: e-IFU ───────────────────────────────────────────────────────
     await eifuComplete(page);
+    await page.waitForTimeout(5000);
+
+    // ── Step 19: PMS Plan ─────────────────────────────────────────────────────
+    await pmsPlanComplete(page);
+    await page.waitForTimeout(5000);
+
+    // ── Step 20: PMCF Follow-up ───────────────────────────────────────────────
+    await pmcfFollowUpComplete(page);
     await page.waitForTimeout(5000);
 
 }

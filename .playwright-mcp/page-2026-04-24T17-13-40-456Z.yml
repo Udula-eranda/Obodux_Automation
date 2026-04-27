@@ -1,0 +1,39 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e6]
+  - generic [ref=e7]:
+    - generic [ref=e11]:
+      - button "logo" [ref=e13] [cursor=pointer]:
+        - link "logo" [ref=e15]:
+          - /url: /
+          - img "logo" [ref=e16]
+      - generic [ref=e18]:
+        - generic [ref=e19]: Menu
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link "Devices" [ref=e23] [cursor=pointer]:
+              - /url: /editor/devices
+              - img [ref=e24]
+              - generic [ref=e27]: Devices
+          - listitem [ref=e28]:
+            - link "Support" [ref=e29] [cursor=pointer]:
+              - /url: /editor/support
+              - img [ref=e30]
+              - generic [ref=e33]: Support
+      - list [ref=e35]:
+        - listitem [ref=e36]:
+          - button "B Choose File Ben Diaz editor-stag.1@yopmail.com" [ref=e37] [cursor=pointer]:
+            - generic [ref=e38]:
+              - generic [ref=e40]:
+                - generic [ref=e42]: B
+                - button "Choose File" [ref=e43]
+              - generic [ref=e44]:
+                - generic [ref=e45]: Ben Diaz
+                - generic [ref=e46]: editor-stag.1@yopmail.com
+            - img [ref=e47]
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - button "Toggle Sidebar" [ref=e53] [cursor=pointer]:
+          - img [ref=e54]
+          - generic [ref=e56]: Toggle Sidebar
+        - img [ref=e59] [cursor=pointer]
+      - img "Dashboard" [ref=e63]

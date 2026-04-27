@@ -1,0 +1,292 @@
+- generic [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - generic [ref=e7]:
+      - button "logo" [ref=e9] [cursor=pointer]:
+        - link "logo" [ref=e11]:
+          - /url: /
+          - img "logo" [ref=e12]
+      - generic [ref=e14]:
+        - combobox [ref=e753] [cursor=pointer]:
+          - generic [ref=e754]: Surgical Mask All Doc Complete 2
+          - img [ref=e755]
+        - generic [ref=e22]: Menu
+        - list [ref=e24]:
+          - listitem [ref=e25]:
+            - link "Overview" [ref=e26] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/overview
+              - img [ref=e27]
+              - generic [ref=e29]: Overview
+          - listitem [ref=e30]:
+            - link "Device Information" [ref=e31] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/accessory
+              - img [ref=e32]
+              - generic [ref=e34]: Device Information
+              - img [ref=e759]
+          - listitem [ref=e35]:
+            - link "Labelling" [ref=e36] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/labelling/labels
+              - img [ref=e37]
+              - generic [ref=e40]: Labelling
+              - img [ref=e763]
+          - listitem [ref=e41]:
+            - link "Design" [ref=e42] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/design/use-specification
+              - img [ref=e43]
+              - generic [ref=e49]: Design
+          - listitem [ref=e50]:
+            - link "Manufacture" [ref=e51] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/manufacture/information
+              - img [ref=e52]
+              - generic [ref=e55]: Manufacture
+              - img [ref=e767]
+          - listitem [ref=e56]:
+            - link "Checklist" [ref=e57] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/checklist/applicable-standards
+              - img [ref=e58]
+              - generic [ref=e62]: Checklist
+          - listitem [ref=e63]:
+            - link "Risk Management" [ref=e64] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/risk-management/plan
+              - img [ref=e65]
+              - generic [ref=e67]: Risk Management
+              - img [ref=e771]
+          - listitem [ref=e68]:
+            - link "Clinical Evaluation" [ref=e69] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/clinical-evaluation/plan
+              - img [ref=e70]
+              - generic [ref=e76]: Clinical Evaluation
+              - img [ref=e775]
+          - listitem [ref=e77]:
+            - link "Verification and Validation" [ref=e78] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/verification-and-validation/vv-overview
+              - img [ref=e79]
+              - generic [ref=e82]: Verification and Validation
+              - img [ref=e779]
+          - listitem [ref=e83]:
+            - link "Post Market Surveillance" [ref=e84] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/post-market-surveillance/plan
+              - img [ref=e85]
+              - generic [ref=e92]: Post Market Surveillance
+          - listitem [ref=e93]:
+            - link "Declaration of Conformity" [ref=e94] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/declaration-of-conformity/eu-declaration-of-conformity
+              - img [ref=e95]
+              - generic [ref=e100]: Declaration of Conformity
+          - listitem [ref=e101]:
+            - link "Report Generation" [ref=e102] [cursor=pointer]:
+              - /url: /editor/device-documentation/0e2e4685-b800-4145-90dc-c81b050598d3/report-generation
+              - img [ref=e103]
+              - generic [ref=e106]: Report Generation
+      - list [ref=e108]:
+        - listitem [ref=e109]:
+          - button "B Choose File Ben Diaz editor-stag.1@yopmail.com" [ref=e110] [cursor=pointer]:
+            - generic [ref=e111]:
+              - generic [ref=e113]:
+                - generic [ref=e115]: B
+                - button "Choose File" [ref=e116]
+              - generic [ref=e117]:
+                - generic [ref=e118]: Ben Diaz
+                - generic [ref=e119]: editor-stag.1@yopmail.com
+            - img [ref=e120]
+    - generic [ref=e1186]:
+      - generic [ref=e1187]:
+        - button "Toggle Sidebar" [ref=e1189] [cursor=pointer]:
+          - img [ref=e1190]
+          - generic [ref=e1192]: Toggle Sidebar
+        - generic [ref=e1194]:
+          - generic [ref=e1195]: Surgical Mask All Doc Complete 2
+          - img [ref=e1196] [cursor=pointer]
+        - generic [ref=e1198]:
+          - img [ref=e1200] [cursor=pointer]
+          - img [ref=e1204] [cursor=pointer]
+          - paragraph [ref=e1208]: Notifications (99)
+      - generic [ref=e1209]:
+        - region "Notifications (F8)":
+          - list
+        - generic [ref=e1210]:
+          - generic [ref=e1211]:
+            - generic [ref=e1213]:
+              - heading "Post Market Surveillance" [level=2] [ref=e1214]
+              - progressbar [ref=e1215]
+              - generic [ref=e1217]:
+                - generic [ref=e1218]: Progress
+                - generic [ref=e1219]: 1/2 Completed
+            - generic [ref=e1220]:
+              - generic [ref=e1223] [cursor=pointer]:
+                - heading [level=3] [ref=e1224]:
+                  - button [ref=e1225]:
+                    - img [ref=e1226]
+                - generic [ref=e1229]: Post Market Surveillance Plan
+              - generic [ref=e1231]:
+                - generic [ref=e1232] [cursor=pointer]:
+                  - heading [level=3] [ref=e1233]:
+                    - button [expanded] [ref=e1234]:
+                      - img [ref=e1235]
+                  - generic [ref=e1238]: Post Market Clinical Follow-up
+                - region [ref=e1239]:
+                  - generic [ref=e1241] [cursor=pointer]:
+                    - generic [ref=e1244]:
+                      - heading [level=3] [ref=e1245]:
+                        - button [ref=e1246]:
+                          - img [ref=e1247]
+                      - generic [ref=e1250]: Introductuction
+                    - generic [ref=e1307]:
+                      - heading [level=3] [ref=e1308]:
+                        - button [ref=e1309]:
+                          - img [ref=e1310]
+                      - generic [ref=e1313]: PMCF Activities
+                    - generic [ref=e1316]:
+                      - heading [level=3] [ref=e1317]:
+                        - button [ref=e1318]:
+                          - img [ref=e1319]
+                      - generic [ref=e1322]: Ref to Technical Documentation
+                    - generic [ref=e1324]: Equivalent / similar device
+                    - generic [ref=e1327]:
+                      - heading [level=3] [ref=e1328]:
+                        - button [ref=e1329]:
+                          - img [ref=e1330]
+                      - generic [ref=e1333]: Standards, common specifications and guidance documents
+          - generic [ref=e1251]:
+            - generic [ref=e1252]:
+              - generic [ref=e1255]:
+                - text: Post Market Clinical Follow-up Plan
+                - button [ref=e1257] [cursor=pointer]:
+                  - img [ref=e1258]
+              - generic [ref=e1263]:
+                - generic [ref=e1264]:
+                  - generic [ref=e1265]: Is the device subject to this PMCF considered Novel?
+                  - radiogroup [ref=e1266]:
+                    - radio "Yes" [checked] [ref=e1267] [cursor=pointer]:
+                      - generic [ref=e1270]: "Yes"
+                    - radio "No" [ref=e1271] [cursor=pointer]:
+                      - generic [ref=e1274]: "No"
+                - generic [ref=e1275]:
+                  - generic [ref=e1276]: Does the device subject to this PMCF introduce novel clinical procedures?
+                  - radiogroup [ref=e1277]:
+                    - radio "Yes" [checked] [ref=e1278] [cursor=pointer]:
+                      - generic [ref=e1281]: "Yes"
+                    - radio "No" [ref=e1282] [cursor=pointer]:
+                      - generic [ref=e1285]: "No"
+                - generic [ref=e1302]:
+                  - generic [ref=e1303]: Explain any novel features
+                  - textbox "Type" [ref=e1304]
+                - generic [ref=e1286]:
+                  - generic [ref=e1287]: Will a post-market clinical follow-up be conducted?
+                  - radiogroup [ref=e1288]:
+                    - radio "Yes" [checked] [active] [ref=e1289] [cursor=pointer]:
+                      - generic [ref=e1292]: "Yes"
+                    - radio "No" [ref=e1293] [cursor=pointer]:
+                      - generic [ref=e1296]: "No"
+            - generic [ref=e1334]:
+              - generic [ref=e1337]:
+                - text: Post Market Clinical Follow-up Plan
+                - button [ref=e1339] [cursor=pointer]:
+                  - img [ref=e1340]
+              - generic [ref=e1345]:
+                - generic [ref=e1347]:
+                  - generic [ref=e1348]: Summary of Anticipated Activities
+                  - generic [ref=e1351]:
+                    - table [ref=e1354]:
+                      - rowgroup [ref=e1355]:
+                        - 'row "View Activity Activity Ref. Description of Activity Activity type Source of PMCF activity Procedure / method type Aim of this activity Aim of this activity : If selected Other Procedures which will be used as part of PMCF Procedures which will be used as part of PMCF : If selected Other Rationale for the appropriateness of the chosen methods/ procedures If selected Other, state them below Timelines of the activity" [ref=e1356]':
+                          - columnheader [ref=e1357]
+                          - columnheader "View Activity" [ref=e1358]
+                          - columnheader "Activity Ref." [ref=e1359]
+                          - columnheader "Description of Activity" [ref=e1360]
+                          - columnheader "Activity type" [ref=e1361]
+                          - columnheader "Source of PMCF activity" [ref=e1362]
+                          - columnheader "Procedure / method type" [ref=e1363]
+                          - columnheader "Aim of this activity" [ref=e1364]
+                          - 'columnheader "Aim of this activity : If selected Other" [ref=e1365]'
+                          - columnheader "Procedures which will be used as part of PMCF" [ref=e1366]
+                          - 'columnheader "Procedures which will be used as part of PMCF : If selected Other" [ref=e1367]'
+                          - columnheader "Rationale for the appropriateness of the chosen methods/ procedures" [ref=e1368]
+                          - columnheader "If selected Other, state them below" [ref=e1369]
+                          - columnheader "Timelines of the activity" [ref=e1370]
+                      - rowgroup
+                    - generic [ref=e1371]:
+                      - button "Add Row" [ref=e1373] [cursor=pointer]:
+                        - img [ref=e1374]
+                        - generic [ref=e1375]: Add Row
+                      - generic [ref=e1376]: 0 records
+                - generic [ref=e1378]:
+                  - generic [ref=e1379]: Estimated date of the PMCF evaluation report
+                  - button "DD/MM/YYYY" [ref=e1380] [cursor=pointer]:
+                    - generic [ref=e1381]: DD/MM/YYYY
+            - generic [ref=e1382]:
+              - generic [ref=e1385]:
+                - text: Post Market Clinical Follow-up Plan
+                - button [ref=e1387] [cursor=pointer]:
+                  - img [ref=e1388]
+              - generic [ref=e1393]:
+                - generic [ref=e1394]:
+                  - generic [ref=e1395]: Any relevant information from the clinical evaluation report to be considered in this plan
+                  - radiogroup [ref=e1396]:
+                    - radio "Yes" [ref=e1397] [cursor=pointer]:
+                      - generic [ref=e1400]: "Yes"
+                    - radio "No" [ref=e1401] [cursor=pointer]:
+                      - generic [ref=e1404]: "No"
+                - generic [ref=e1405]:
+                  - generic [ref=e1406]: Any relevant information from the Risk Management File to be considered in this plan
+                  - radiogroup [ref=e1407]:
+                    - radio "Yes" [ref=e1408] [cursor=pointer]:
+                      - generic [ref=e1411]: "Yes"
+                    - radio "No" [ref=e1412] [cursor=pointer]:
+                      - generic [ref=e1415]: "No"
+            - generic [ref=e1416]:
+              - generic [ref=e1419]:
+                - text: Post Market Clinical Follow-up Plan
+                - button [ref=e1421] [cursor=pointer]:
+                  - img [ref=e1422]
+              - generic [ref=e1431]:
+                - table [ref=e1434]:
+                  - rowgroup [ref=e1435]:
+                    - row "Product name of equivalent / similar device Intended purpose Intended users Intended patient population Medical Condition Indication Reference to clinical data evaluation in the CER" [ref=e1436]:
+                      - columnheader [ref=e1437]
+                      - columnheader "Product name of equivalent / similar device" [ref=e1438]
+                      - columnheader "Intended purpose" [ref=e1439]
+                      - columnheader "Intended users" [ref=e1440]
+                      - columnheader "Intended patient population" [ref=e1441]
+                      - columnheader "Medical Condition" [ref=e1442]
+                      - columnheader "Indication" [ref=e1443]
+                      - columnheader "Reference to clinical data evaluation in the CER" [ref=e1444]
+                  - rowgroup
+                - generic [ref=e1445]:
+                  - button "Add Row" [ref=e1447] [cursor=pointer]:
+                    - img [ref=e1448]
+                    - generic [ref=e1449]: Add Row
+                  - generic [ref=e1450]: 0 records
+            - generic [ref=e1451]:
+              - generic [ref=e1454]:
+                - text: Post Market Clinical Follow-up Plan
+                - button [ref=e1456] [cursor=pointer]:
+                  - img [ref=e1457]
+              - generic [ref=e1462]:
+                - generic [ref=e1463]:
+                  - generic [ref=e1464]:
+                    - text: Standards and Common Specifications
+                    - paragraph [ref=e1465]: This field is linked to the Applicable standards and requires it to be completed first.
+                  - generic [ref=e1466]:
+                    - generic [ref=e1467]:
+                      - checkbox [checked] [ref=e1468] [cursor=pointer]:
+                        - generic:
+                          - img
+                      - generic [ref=e1469]: ISO 13485:2016
+                    - generic [ref=e1470]:
+                      - checkbox [checked] [ref=e1471] [cursor=pointer]:
+                        - generic:
+                          - img
+                      - generic [ref=e1472]: IEC 60601-1:2005+AMD1:2012
+                - generic [ref=e1473]:
+                  - generic [ref=e1475]: Guidance on PMCF
+                  - generic [ref=e1476]:
+                    - textbox "Type" [ref=e1477]
+                    - button "Remove item" [disabled] [ref=e1478]:
+                      - img [ref=e1479]
+                  - button "Add Another" [ref=e1482] [cursor=pointer]:
+                    - img [ref=e1483]
+                    - text: Add Another
+          - generic [ref=e1299]:
+            - button "Save Draft" [ref=e1300] [cursor=pointer]
+            - button "Save" [disabled] [ref=e1301]

@@ -1,0 +1,32 @@
+[     611ms] [WARNING] The resource https://web.staging.obodux.boris-software.com/_next/static/css/86ae32e4b370adea.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://web.staging.obodux.boris-software.com/editor:0
+[   10428ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/0e2e4685-b800-4145-90dc-c81b050598d3/5:0
+[   10529ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/post-market-surveillance/0e2e4685-b800-4145-90dc-c81b050598d3/2:0
+[   10534ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/0e2e4685-b800-4145-90dc-c81b050598d3/4:0
+[   10905ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/declaration-of-conformity/0e2e4685-b800-4145-90dc-c81b050598d3/1:0
+[   10907ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/0e2e4685-b800-4145-90dc-c81b050598d3/2:0
+[   11012ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/0e2e4685-b800-4145-90dc-c81b050598d3/3:0
+[   12707ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/0e2e4685-b800-4145-90dc-c81b050598d3/5:0
+[   13034ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/0e2e4685-b800-4145-90dc-c81b050598d3/4:0
+[   13039ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/0e2e4685-b800-4145-90dc-c81b050598d3/2:0
+[   13242ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/0e2e4685-b800-4145-90dc-c81b050598d3/3:0
+[   16454ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/0e2e4685-b800-4145-90dc-c81b050598d3/5:0
+[   18015ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/0e2e4685-b800-4145-90dc-c81b050598d3/4:0
+[   18079ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/0e2e4685-b800-4145-90dc-c81b050598d3/3:0
+[   18104ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/0e2e4685-b800-4145-90dc-c81b050598d3/2:0
+[   21824ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/0e2e4685-b800-4145-90dc-c81b050598d3/5:0
+[   23510ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/0e2e4685-b800-4145-90dc-c81b050598d3/4:0
+[   23527ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/0e2e4685-b800-4145-90dc-c81b050598d3/2:0
+[   23531ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/0e2e4685-b800-4145-90dc-c81b050598d3/3:0
+[   67202ms] [WARNING] Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}. @ https://eu-assets.i.posthog.com/static/posthog-recorder.js?v=1.345.4:0
+[  282603ms] [WARNING] Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}. @ https://eu-assets.i.posthog.com/static/posthog-recorder.js?v=1.345.4:0
+[  562528ms] Error: Minified React error #185; visit https://react.dev/errors/185 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at t7 (https://web.staging.obodux.boris-software.com/_next/static/chunks/b09d4bc1-d9808df756b3eda7.js:1:30824)
+    at t6 (https://web.staging.obodux.boris-software.com/_next/static/chunks/b09d4bc1-d9808df756b3eda7.js:1:30348)
+    at a5 (https://web.staging.obodux.boris-software.com/_next/static/chunks/b09d4bc1-d9808df756b3eda7.js:1:62241)
+    at a6 (https://web.staging.obodux.boris-software.com/_next/static/chunks/b09d4bc1-d9808df756b3eda7.js:1:61844)
+    at o (https://web.staging.obodux.boris-software.com/_next/static/chunks/9914-7674a884237ff03c.js:20:65650)
+    at https://web.staging.obodux.boris-software.com/_next/static/chunks/9914-7674a884237ff03c.js:20:65733
+    at Array.map (<anonymous>)
+    at https://web.staging.obodux.boris-software.com/_next/static/chunks/9914-7674a884237ff03c.js:20:65719
+    at o (https://web.staging.obodux.boris-software.com/_next/static/chunks/9914-7674a884237ff03c.js:20:65650)
+    at https://web.staging.obodux.boris-software.com/_next/static/chunks/9914-7674a884237ff03c.js:20:65733

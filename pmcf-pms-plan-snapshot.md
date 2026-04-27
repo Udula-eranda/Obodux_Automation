@@ -1,0 +1,48 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - generic [ref=e7]:
+      - button "logo" [ref=e9] [cursor=pointer]:
+        - link "logo" [ref=e11]:
+          - /url: /
+          - img "logo" [ref=e12]
+      - generic [ref=e14]:
+        - combobox [ref=e753] [cursor=pointer]:
+          - generic [ref=e754]: Surgical Mask All Doc Complete 2
+          - img [ref=e755]
+        - generic [ref=e22]: Menu
+        - list [ref=e24]:
+          - listitem [ref=e25]
+          - listitem [ref=e30]
+          - listitem [ref=e35]
+          - listitem [ref=e41]
+          - listitem [ref=e50]
+          - listitem [ref=e56]
+          - listitem [ref=e63]
+          - listitem [ref=e68]
+          - listitem [ref=e77]
+          - listitem [ref=e83]
+          - listitem [ref=e93]
+          - listitem [ref=e101]
+      - list [ref=e108]:
+        - listitem [ref=e109]:
+          - button "B Choose File Ben Diaz editor-stag.1@yopmail.com" [ref=e110] [cursor=pointer]
+    - generic [ref=e123]:
+      - generic [ref=e124]:
+        - button "Toggle Sidebar" [ref=e126] [cursor=pointer]:
+          - img [ref=e127]
+          - generic [ref=e129]: Toggle Sidebar
+        - generic [ref=e131]:
+          - generic [ref=e132]: Surgical Mask All Doc Complete 2
+          - img [ref=e133] [cursor=pointer]
+        - generic [ref=e135]:
+          - img [ref=e137] [cursor=pointer]
+          - img [ref=e141] [cursor=pointer]
+          - paragraph [ref=e144]: Notifications (99)
+      - generic [ref=e145]:
+        - region "Notifications (F8)":
+          - list
+        - generic [ref=e146]:
+          - generic [ref=e147]
+          - generic [ref=e201]
+          - button "Edit" [ref=e1133] [cursor=pointer]

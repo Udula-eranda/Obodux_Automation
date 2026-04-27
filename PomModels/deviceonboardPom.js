@@ -43,6 +43,19 @@ class DevicePage {
 
     async addDeviceWindowOpen(){
         await this.addNewDevice.click();
+
+        // New "Add New Device" modal — select "Start Documentation for a New Device" (2nd radio) then Next
+        const modal = this.page.locator('[role="dialog"]').first();
+        await modal.waitFor({ state: 'visible', timeout: 10000 });
+        await this.page.waitForTimeout(500);
+
+        const startNewRadio = modal.getByText('Start Documentation for a New Device');
+        await startNewRadio.click();
+        await this.page.waitForTimeout(500);
+
+        await modal.getByRole('button', { name: 'Next', exact: true }).click();
+        await this.page.waitForTimeout(1000);
+
         await this.firstpageradio.check();
     }
 
