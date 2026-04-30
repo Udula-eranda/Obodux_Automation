@@ -1,0 +1,222 @@
+- generic [ref=e1]:
+  - alert [ref=e6]
+  - generic [ref=e1729]:
+    - generic [ref=e1733]:
+      - button "logo" [ref=e1735] [cursor=pointer]:
+        - link "logo" [ref=e1737]:
+          - /url: /
+          - img "logo" [ref=e1738]
+      - generic [ref=e1740]:
+        - combobox [ref=e1875] [cursor=pointer]:
+          - generic [ref=e1876]: Mammography Machine All Document Complete Demo
+          - img [ref=e1877]
+        - generic [ref=e1748]: Menu
+        - list [ref=e1750]:
+          - listitem [ref=e1751]:
+            - link "Overview" [ref=e1752] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/overview
+              - img [ref=e1753]
+              - generic [ref=e1755]: Overview
+          - listitem [ref=e1756]:
+            - link "Device Information" [ref=e1757] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/accessory
+              - img [ref=e1758]
+              - generic [ref=e1760]: Device Information
+              - img [ref=e1881]
+          - listitem [ref=e1761]:
+            - link "Labelling" [ref=e1762] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/labelling/labels
+              - img [ref=e1763]
+              - generic [ref=e1766]: Labelling
+              - img [ref=e1768]
+          - listitem [ref=e1771]:
+            - link "Design" [ref=e1772] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/design/use-specification
+              - img [ref=e1773]
+              - generic [ref=e1779]: Design
+          - listitem [ref=e1780]:
+            - link "Manufacture" [ref=e1781] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/manufacture/information
+              - img [ref=e1782]
+              - generic [ref=e1785]: Manufacture
+          - listitem [ref=e1786]:
+            - link "Checklist" [ref=e1787] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/checklist/applicable-standards
+              - img [ref=e1788]
+              - generic [ref=e1792]: Checklist
+          - listitem [ref=e1793]:
+            - link "Risk Management" [ref=e1794] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/risk-management/plan
+              - img [ref=e1795]
+              - generic [ref=e1797]: Risk Management
+              - img [ref=e1885]
+          - listitem [ref=e1798]:
+            - link "Clinical Evaluation" [ref=e1799] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/clinical-evaluation/plan
+              - img [ref=e1800]
+              - generic [ref=e1806]: Clinical Evaluation
+          - listitem [ref=e1807]:
+            - link "Verification and Validation" [active] [ref=e1808] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/verification-and-validation/vv-overview
+              - img [ref=e1809]
+              - generic [ref=e1812]: Verification and Validation
+              - img [ref=e1889]
+          - listitem [ref=e1813]:
+            - link "Post Market Surveillance" [ref=e1814] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/post-market-surveillance/plan
+              - img [ref=e1815]
+              - generic [ref=e1822]: Post Market Surveillance
+          - listitem [ref=e1823]:
+            - link "Declaration of Conformity" [ref=e1824] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/declaration-of-conformity/eu-declaration-of-conformity
+              - img [ref=e1825]
+              - generic [ref=e1830]: Declaration of Conformity
+          - listitem [ref=e1831]:
+            - link "Report Generation" [ref=e1832] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/report-generation
+              - img [ref=e1833]
+              - generic [ref=e1836]: Report Generation
+      - list [ref=e1838]:
+        - listitem [ref=e1839]:
+          - button "B Choose File Ben Diaz editor-stag.1@yopmail.com" [ref=e1840] [cursor=pointer]:
+            - generic [ref=e1841]:
+              - generic [ref=e1843]:
+                - generic [ref=e1845]: B
+                - button "Choose File" [ref=e1846]
+              - generic [ref=e1847]:
+                - generic [ref=e1848]: Ben Diaz
+                - generic [ref=e1849]: editor-stag.1@yopmail.com
+            - img [ref=e1850]
+    - generic [ref=e2236]:
+      - generic [ref=e2237]:
+        - button "Toggle Sidebar" [ref=e2239] [cursor=pointer]:
+          - img [ref=e2240]
+          - generic [ref=e2242]: Toggle Sidebar
+        - generic [ref=e2244]:
+          - generic [ref=e2245]: Mammography Machine All Document Complete Demo
+          - img [ref=e2246] [cursor=pointer]
+        - generic [ref=e2248]:
+          - img [ref=e2250] [cursor=pointer]
+          - img [ref=e2254] [cursor=pointer]
+          - paragraph [ref=e2258]: Notifications (94)
+      - generic [ref=e2259]:
+        - generic [ref=e2260]:
+          - generic [ref=e2261]:
+            - generic [ref=e2263]:
+              - heading "Verification and Validation" [level=2] [ref=e2264]
+              - progressbar [ref=e2265]
+              - generic [ref=e2267]:
+                - generic [ref=e2268]: Progress
+                - generic [ref=e2269]: 4/6 Completed
+            - generic [ref=e2270]:
+              - generic [ref=e2272] [cursor=pointer]:
+                - generic [ref=e2274]: V&V Overview
+                - img [ref=e2277]
+              - generic [ref=e2282] [cursor=pointer]:
+                - heading [level=3] [ref=e2283]:
+                  - button [ref=e2284]:
+                    - img [ref=e2285]
+                - generic [ref=e2287]:
+                  - generic [ref=e2288]: Usability Evaluation Plan (UEP)
+                  - img [ref=e2291]
+              - generic [ref=e2297] [cursor=pointer]:
+                - heading [level=3] [ref=e2298]:
+                  - button [ref=e2299]:
+                    - img [ref=e2300]
+                - generic [ref=e2302]:
+                  - generic [ref=e2303]: Summative Evaluation Plan (SEP)
+                  - img [ref=e2306]
+              - generic [ref=e2312] [cursor=pointer]:
+                - heading [level=3] [ref=e2313]:
+                  - button [ref=e2314]:
+                    - img [ref=e2315]
+                - generic [ref=e2317]:
+                  - generic [ref=e2318]: 01 Formative Evaluation Plan (FEP)
+                  - img [ref=e2321]
+              - generic [ref=e2326] [cursor=pointer]:
+                - img [ref=e2328]
+                - generic [ref=e2329]: Add New FEP
+              - generic [ref=e2333] [cursor=pointer]:
+                - img [ref=e2335]
+                - generic [ref=e2336]: Add New FER
+              - generic [ref=e2340] [cursor=pointer]:
+                - img [ref=e2342]
+                - generic [ref=e2343]: Add New SER
+              - generic [ref=e2347] [cursor=pointer]:
+                - heading [level=3] [ref=e2348]:
+                  - button [ref=e2349]:
+                    - img [ref=e2350]
+                - generic [ref=e2353]: Verifications
+              - generic [ref=e2357] [cursor=pointer]: Sample Size
+          - generic [ref=e2359]:
+            - generic [ref=e2362]:
+              - text: V&V Overview
+              - button [ref=e2364] [cursor=pointer]:
+                - img [ref=e2365]
+            - generic [ref=e2368]:
+              - generic [ref=e2370]: Validation and Verification Overview
+              - generic [ref=e2373]:
+                - generic:
+                  - paragraph: Validation and Verification Overview
+                  - generic:
+                    - generic:
+                      - generic:
+                        - table:
+                          - rowgroup:
+                            - row "V / V Number Title of V / V Aim / Objective Summary of Methods Used Summary of Results":
+                              - columnheader
+                              - columnheader "V / V Number"
+                              - columnheader "Title of V / V"
+                              - columnheader "Aim / Objective"
+                              - columnheader "Summary of Methods Used"
+                              - columnheader "Summary of Results"
+                          - rowgroup:
+                            - row "VV-001 Software Functional Verification Verify all software functions of the Mammography Machine image acquisition and processing system operate correctly per the software requirements specification Functional test protocol per IEC 62304; review of software requirements specification and individual test case execution records for all software modules All 52 test cases passed; no critical defects identified; Mammography Machine software confirmed compliant with IEC 62304 Class B requirements":
+                              - cell:
+                                - generic:
+                                  - img
+                              - cell "VV-001":
+                                - generic:
+                                  - textbox "Type" [disabled]: VV-001
+                              - cell "Software Functional Verification":
+                                - generic:
+                                  - textbox "Type" [disabled]: Software Functional Verification
+                              - cell "Verify all software functions of the Mammography Machine image acquisition and processing system operate correctly per the software requirements specification":
+                                - generic:
+                                  - textbox "Type" [disabled]: Verify all software functions of the Mammography Machine image acquisition and processing system operate correctly per the software requirements specification
+                              - cell "Functional test protocol per IEC 62304; review of software requirements specification and individual test case execution records for all software modules":
+                                - generic:
+                                  - textbox "Type" [disabled]: Functional test protocol per IEC 62304; review of software requirements specification and individual test case execution records for all software modules
+                              - cell "All 52 test cases passed; no critical defects identified; Mammography Machine software confirmed compliant with IEC 62304 Class B requirements":
+                                - generic:
+                                  - textbox "Type" [disabled]: All 52 test cases passed; no critical defects identified; Mammography Machine software confirmed compliant with IEC 62304 Class B requirements
+                            - row "VV-002 Electrical Safety Verification Verify that the Mammography Machine meets electrical safety requirements per IEC 60601-1 for active diagnostic X-ray equipment Electrical safety testing per IEC 60601-1 by accredited laboratory; dielectric strength, protective earth continuity, and patient leakage current tests All electrical safety tests passed within accepted limits; Mammography Machine confirmed compliant with IEC 60601-1 general safety requirements":
+                              - cell:
+                                - generic:
+                                  - img
+                              - cell "VV-002":
+                                - generic:
+                                  - textbox "Type" [disabled]: VV-002
+                              - cell "Electrical Safety Verification":
+                                - generic:
+                                  - textbox "Type" [disabled]: Electrical Safety Verification
+                              - cell "Verify that the Mammography Machine meets electrical safety requirements per IEC 60601-1 for active diagnostic X-ray equipment":
+                                - generic:
+                                  - textbox "Type" [disabled]: Verify that the Mammography Machine meets electrical safety requirements per IEC 60601-1 for active diagnostic X-ray equipment
+                              - cell "Electrical safety testing per IEC 60601-1 by accredited laboratory; dielectric strength, protective earth continuity, and patient leakage current tests":
+                                - generic:
+                                  - textbox "Type" [disabled]: Electrical safety testing per IEC 60601-1 by accredited laboratory; dielectric strength, protective earth continuity, and patient leakage current tests
+                              - cell "All electrical safety tests passed within accepted limits; Mammography Machine confirmed compliant with IEC 60601-1 general safety requirements":
+                                - generic:
+                                  - textbox "Type" [disabled]: All electrical safety tests passed within accepted limits; Mammography Machine confirmed compliant with IEC 60601-1 general safety requirements
+                    - generic:
+                      - generic:
+                        - button "Add Row" [disabled]:
+                          - img
+                          - generic: Add Row
+                      - generic: 2 records
+          - button "Edit" [ref=e2377] [cursor=pointer]
+        - region "Notifications (F8)":
+          - list
+    - region "Notifications (F8)":
+      - list

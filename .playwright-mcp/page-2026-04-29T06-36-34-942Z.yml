@@ -1,0 +1,99 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e6]
+  - generic [ref=e1729]:
+    - generic [ref=e1733]:
+      - button "logo" [ref=e1735] [cursor=pointer]:
+        - link "logo" [ref=e1737]:
+          - /url: /
+          - img "logo" [ref=e1738]
+      - generic [ref=e1740]:
+        - combobox [ref=e1743] [cursor=pointer]:
+          - generic [ref=e1744]: Select...
+          - img [ref=e1745]
+        - generic [ref=e1748]: Menu
+        - list [ref=e1750]:
+          - listitem [ref=e1751]:
+            - link "Overview" [ref=e1752] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/overview
+              - img [ref=e1753]
+              - generic [ref=e1755]: Overview
+          - listitem [ref=e1756]:
+            - link "Device Information" [ref=e1757] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/accessory
+              - img [ref=e1758]
+              - generic [ref=e1760]: Device Information
+          - listitem [ref=e1761]:
+            - link "Labelling" [ref=e1762] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/labelling/labels
+              - img [ref=e1763]
+              - generic [ref=e1766]: Labelling
+              - img [ref=e1768]
+          - listitem [ref=e1771]:
+            - link "Design" [ref=e1772] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/design/use-specification
+              - img [ref=e1773]
+              - generic [ref=e1779]: Design
+          - listitem [ref=e1780]:
+            - link "Manufacture" [ref=e1781] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/manufacture/information
+              - img [ref=e1782]
+              - generic [ref=e1785]: Manufacture
+          - listitem [ref=e1786]:
+            - link "Checklist" [ref=e1787] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/checklist/applicable-standards
+              - img [ref=e1788]
+              - generic [ref=e1792]: Checklist
+          - listitem [ref=e1793]:
+            - link "Risk Management" [ref=e1794] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/risk-management/plan
+              - img [ref=e1795]
+              - generic [ref=e1797]: Risk Management
+          - listitem [ref=e1798]:
+            - link "Clinical Evaluation" [ref=e1799] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/clinical-evaluation/plan
+              - img [ref=e1800]
+              - generic [ref=e1806]: Clinical Evaluation
+          - listitem [ref=e1807]:
+            - link "Verification and Validation" [ref=e1808] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/verification-and-validation/vv-overview
+              - img [ref=e1809]
+              - generic [ref=e1812]: Verification and Validation
+          - listitem [ref=e1813]:
+            - link "Post Market Surveillance" [ref=e1814] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/post-market-surveillance/plan
+              - img [ref=e1815]
+              - generic [ref=e1822]: Post Market Surveillance
+          - listitem [ref=e1823]:
+            - link "Declaration of Conformity" [ref=e1824] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/declaration-of-conformity/eu-declaration-of-conformity
+              - img [ref=e1825]
+              - generic [ref=e1830]: Declaration of Conformity
+          - listitem [ref=e1831]:
+            - link "Report Generation" [ref=e1832] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/report-generation
+              - img [ref=e1833]
+              - generic [ref=e1836]: Report Generation
+      - list [ref=e1838]:
+        - listitem [ref=e1839]:
+          - button "B Choose File Ben Diaz editor-stag.1@yopmail.com" [ref=e1840] [cursor=pointer]:
+            - generic [ref=e1841]:
+              - generic [ref=e1843]:
+                - generic [ref=e1845]: B
+                - button "Choose File" [ref=e1846]
+              - generic [ref=e1847]:
+                - generic [ref=e1848]: Ben Diaz
+                - generic [ref=e1849]: editor-stag.1@yopmail.com
+            - img [ref=e1850]
+    - generic [ref=e1853]:
+      - generic [ref=e1854]:
+        - button "Toggle Sidebar" [ref=e1856] [cursor=pointer]:
+          - img [ref=e1857]
+          - generic [ref=e1859]: Toggle Sidebar
+        - img [ref=e1862] [cursor=pointer]
+        - generic [ref=e1864]:
+          - img [ref=e1866] [cursor=pointer]
+          - paragraph [ref=e1870]: Notifications (94)
+      - generic [ref=e1871]:
+        - generic [ref=e1873]: Loading device data...
+        - region "Notifications (F8)":
+          - list

@@ -6,6 +6,7 @@ const { vvOverviewComplete } = require("../Utils/VV/vvOverviewComplete");
 const { uepComplete } = require("../Utils/VV/uepComplete");
 const { sepComplete } = require("../Utils/VV/sepComplete");
 const { fepComplete } = require("../Utils/VV/fepComplete");
+const { verificationsComplete } = require("../Utils/VV/verificationsComplete");
 const { labelsComplete } = require("../Utils/Labels/labelsComplete");
 const { accompanyingDocsComplete } = require("../Utils/Labels/accompanyingDocsComplete");
 const { eifuComplete } = require("../Utils/Labels/eifuComplete");
@@ -102,23 +103,33 @@ async function cepDocumentComplete(page){
     await fepComplete(page);
     await page.waitForTimeout(5000);
 
-    // ── Step 16: Labels ───────────────────────────────────────────────────────
+    // ── Step 16: Verifications ────────────────────────────────────────────────
+    const verifUrl = page.url().replace(
+        /\/verification-and-validation(\/.*)?$/,
+        '/verification-and-validation/verifications'
+    );
+    await page.goto(verifUrl);
+    await page.waitForTimeout(4000);
+    await verificationsComplete(page);
+    await page.waitForTimeout(5000);
+
+    // ── Step 17: Labels ───────────────────────────────────────────────────────
     await labelsComplete(page);
     await page.waitForTimeout(5000);
 
-    // ── Step 17: Accompanying Documents ──────────────────────────────────────
+    // ── Step 18: Accompanying Documents ──────────────────────────────────────
     await accompanyingDocsComplete(page);
     await page.waitForTimeout(5000);
 
-    // ── Step 18: e-IFU ───────────────────────────────────────────────────────
+    // ── Step 19: e-IFU ───────────────────────────────────────────────────────
     await eifuComplete(page);
     await page.waitForTimeout(5000);
 
-    // ── Step 19: PMS Plan ─────────────────────────────────────────────────────
+    // ── Step 20: PMS Plan ─────────────────────────────────────────────────────
     await pmsPlanComplete(page);
     await page.waitForTimeout(5000);
 
-    // ── Step 20: PMCF Follow-up ───────────────────────────────────────────────
+    // ── Step 21: PMCF Follow-up ───────────────────────────────────────────────
     await pmcfFollowUpComplete(page);
     await page.waitForTimeout(5000);
 

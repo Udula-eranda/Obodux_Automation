@@ -7,7 +7,7 @@ test.describe('CER Document Test Suite' , () => {
 
     test('CE Complete Test' , async ({page}) => {
 
-        test.setTimeout(3000000);
+        test.setTimeout(6000000);
 
         await cepDocumentComplete(page);
 

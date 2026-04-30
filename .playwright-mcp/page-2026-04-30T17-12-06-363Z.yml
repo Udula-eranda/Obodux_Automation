@@ -1,0 +1,478 @@
+- generic:
+  - alert
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - button:
+                - generic:
+                  - link:
+                    - /url: /
+                    - img
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - combobox:
+                      - generic: Mammography Machine All Document Complete Demo
+                      - img
+                - generic: Menu
+                - generic:
+                  - list:
+                    - listitem:
+                      - link:
+                        - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/overview
+                        - img
+                        - generic: Overview
+                    - listitem:
+                      - link:
+                        - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/accessory
+                        - img
+                        - generic: Device Information
+                        - generic:
+                          - img
+                    - listitem:
+                      - link:
+                        - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/labelling/labels
+                        - img
+                        - generic: Labelling
+                        - generic:
+                          - img
+                    - listitem:
+                      - link:
+                        - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/design/use-specification
+                        - img
+                        - generic: Design
+                    - listitem:
+                      - link:
+                        - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/manufacture/information
+                        - img
+                        - generic: Manufacture
+                    - listitem:
+                      - link:
+                        - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/checklist/applicable-standards
+                        - img
+                        - generic: Checklist
+                    - listitem:
+                      - link:
+                        - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/risk-management/plan
+                        - img
+                        - generic: Risk Management
+                        - generic:
+                          - img
+                    - listitem:
+                      - link:
+                        - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/clinical-evaluation/plan
+                        - img
+                        - generic: Clinical Evaluation
+                    - listitem:
+                      - link:
+                        - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/verification-and-validation/vv-overview
+                        - img
+                        - generic: Verification and Validation
+                        - generic:
+                          - img
+                    - listitem:
+                      - link:
+                        - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/post-market-surveillance/plan
+                        - img
+                        - generic: Post Market Surveillance
+                    - listitem:
+                      - link:
+                        - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/declaration-of-conformity/eu-declaration-of-conformity
+                        - img
+                        - generic: Declaration of Conformity
+                    - listitem:
+                      - link:
+                        - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/report-generation
+                        - img
+                        - generic: Report Generation
+            - generic:
+              - list:
+                - listitem:
+                  - button:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: B
+                          - button
+                      - generic:
+                        - generic: Ben Diaz
+                        - generic: editor-stag.1@yopmail.com
+                    - img
+    - generic:
+      - generic:
+        - generic:
+          - button:
+            - img
+            - generic: Toggle Sidebar
+        - generic:
+          - generic: Mammography Machine All Document Complete Demo
+          - img
+        - generic:
+          - generic:
+            - img
+          - generic:
+            - img
+          - paragraph: Notifications (99)
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - heading [level=2]: Verification and Validation
+                - progressbar
+                - generic:
+                  - generic: Progress
+                  - generic: 4/6 Completed
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: V&V Overview
+                  - generic:
+                    - generic:
+                      - img
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=3]:
+                      - button:
+                        - img
+                    - generic:
+                      - generic: Usability Evaluation Plan (UEP)
+                      - generic:
+                        - generic:
+                          - img
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=3]:
+                      - button:
+                        - img
+                    - generic:
+                      - generic: 01 Summative Evaluation Plan (SEP)
+                      - generic:
+                        - generic:
+                          - img
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic: Add New SEP
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=3]:
+                      - button:
+                        - img
+                    - generic:
+                      - generic: 01 Formative Evaluation Plan (FEP)
+                      - generic:
+                        - generic:
+                          - img
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic: Add New FEP
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic: Add New FER
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic: Add New SER
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=3]:
+                      - button [expanded]:
+                        - img
+                    - generic:
+                      - generic: Verifications
+                  - region:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: Biological Evaluation
+                        - generic:
+                          - generic: Electrical safety and electromagnetic compatibility (EMC)
+                        - generic:
+                          - generic: Software Verification and Validation
+                        - generic:
+                          - generic: Stability, including shelf life
+                        - generic:
+                          - generic: Packaging and Transit (Transport) testing
+                        - generic:
+                          - generic: Cleaning, Disinfection and Sterilisation
+                        - generic:
+                          - generic: Devices intended to be connected to other devices to operate as intended
+                        - generic:
+                          - generic: Magnetic resonance imaging safety of implants
+                        - generic:
+                          - generic: Devices containing CMR or endocrine-disrupting substances
+                        - generic:
+                          - generic: Devices incorporating medicinal substances
+                        - generic:
+                          - generic: Devices utilising tissue and cells of human or animal origin or their derivatives or other non-viable biological substances
+                        - generic:
+                          - generic: Devices composed of substances that are absorbed or locally dispersed in the human body
+                        - generic:
+                          - generic: Performance/Safety/Other
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Sample Size
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - text: Verifications
+                    - generic:
+                      - button:
+                        - img
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Biological Evaluation
+                    - generic:
+                      - generic:
+                        - paragraph: Was biological evaluation report conducted?
+                        - radiogroup:
+                          - radio:
+                            - generic: "Yes"
+                          - radio:
+                            - generic: "No"
+                - generic:
+                  - generic:
+                    - generic: Electrical safety and electromagnetic compatibility (EMC)
+                    - generic:
+                      - generic:
+                        - paragraph: Are any device covered in this technical file electrically powered?
+                        - radiogroup:
+                          - radio:
+                            - generic: "Yes"
+                          - radio:
+                            - generic: "No"
+                - generic:
+                  - generic:
+                    - generic: Software Verification and Validation
+                    - generic:
+                      - generic:
+                        - paragraph: Does any of the devices covered by this technical file contain software?
+                        - radiogroup:
+                          - radio:
+                            - generic: "Yes"
+                          - radio:
+                            - generic: "No"
+                - generic:
+                  - generic:
+                    - generic: Stability, including shelf life
+                    - generic:
+                      - generic:
+                        - paragraph: Was stability (including shelf life) performed?
+                        - radiogroup:
+                          - radio:
+                            - generic: "Yes"
+                          - radio:
+                            - generic: "No"
+                - generic:
+                  - generic:
+                    - generic: Packaging and Transit (Transport) testing
+                    - generic:
+                      - generic:
+                        - paragraph: Was packaging and/or transit (Transport) testing performed?
+                        - radiogroup:
+                          - radio:
+                            - generic: "Yes"
+                          - radio:
+                            - generic: "No"
+                - generic:
+                  - generic:
+                    - generic: Cleaning, Disinfection and Sterilisation
+                    - generic:
+                      - generic:
+                        - paragraph: Was Sterilisation testing performed?
+                        - radiogroup:
+                          - radio:
+                            - generic: "Yes"
+                          - radio:
+                            - generic: "No"
+                      - generic:
+                        - paragraph: Was Cleaning, Disinfection testing performed?
+                        - radiogroup:
+                          - radio:
+                            - generic: "Yes"
+                          - radio:
+                            - generic: "No"
+                - generic:
+                  - generic:
+                    - generic: Devices intended to be connected to other devices to operate as intended
+                    - generic:
+                      - generic:
+                        - paragraph: Is the device intended to be connected to other devices to operate as intended?
+                        - radiogroup:
+                          - radio:
+                            - generic: "Yes"
+                          - radio:
+                            - generic: "No"
+                - generic:
+                  - generic:
+                    - generic: Magnetic resonance imaging safety of implants
+                    - generic:
+                      - generic:
+                        - paragraph: Is your device intended to be implanted?
+                        - radiogroup:
+                          - radio:
+                            - generic: "Yes"
+                          - radio:
+                            - generic: "No"
+                - generic:
+                  - generic:
+                    - generic: Devices containing CMR or endocrine-disrupting substances
+                    - generic:
+                      - generic:
+                        - paragraph: Does your device contain above 0.1% (w/w) CMR or endocrine-disrupting substances?
+                        - radiogroup:
+                          - radio:
+                            - generic: "Yes"
+                          - radio:
+                            - generic: "No"
+                - generic:
+                  - generic:
+                    - generic: Devices incorporating medicinal substances
+                    - generic:
+                      - generic:
+                        - paragraph: Does your device contain medicinal substances?
+                        - radiogroup:
+                          - radio:
+                            - generic: "Yes"
+                          - radio:
+                            - generic: "No"
+                - generic:
+                  - generic:
+                    - generic: Devices utilising tissue and cells of human or animal origin or their derivatives or other non-viable biological substances
+                    - generic:
+                      - generic:
+                        - paragraph: Does your device utilise tissue and cells of human or animal origin or their derivatives or other non-viable biological substances?
+                        - radiogroup:
+                          - radio:
+                            - generic: "Yes"
+                          - radio:
+                            - generic: "No"
+                - generic:
+                  - generic:
+                    - generic: Devices composed of substances that are absorbed by or locally dispersed in the human body
+                    - generic:
+                      - generic:
+                        - paragraph: Does your device comprise of substances that are absorbed by or locally dispersed in the human body?
+                        - radiogroup:
+                          - radio:
+                            - generic: "Yes"
+                          - radio:
+                            - generic: "No"
+                - generic:
+                  - generic:
+                    - generic: Performance/Safety/Other
+                    - generic:
+                      - generic:
+                        - paragraph: Performance/Safety/Other
+                        - generic:
+                          - generic:
+                            - generic:
+                              - table:
+                                - rowgroup:
+                                  - row:
+                                    - columnheader
+                                    - columnheader: Document number
+                                    - columnheader: Title of V / V
+                                    - columnheader: Upload document
+                                    - columnheader: Aim / Objective
+                                    - columnheader: Summary of Methods Used
+                                    - columnheader: Summary of Results
+                                - rowgroup:
+                                  - row:
+                                    - cell:
+                                      - generic:
+                                        - img
+                                    - cell:
+                                      - generic:
+                                        - generic:
+                                          - paragraph: Click to edit
+                                    - cell:
+                                      - generic:
+                                        - generic:
+                                          - paragraph: Click to edit
+                                    - cell:
+                                      - generic:
+                                        - generic:
+                                          - button:
+                                            - img
+                                    - cell:
+                                      - generic:
+                                        - generic:
+                                          - paragraph: Click to edit
+                                    - cell:
+                                      - generic:
+                                        - generic:
+                                          - paragraph: Click to edit
+                                    - cell:
+                                      - generic:
+                                        - generic:
+                                          - paragraph: Click to edit
+                          - generic:
+                            - generic:
+                              - button:
+                                - img
+                                - generic: Add Row
+                            - generic: 1 record
+          - generic:
+            - generic:
+              - generic:
+                - button: Save Draft
+                - button [disabled]: Save
+        - list
+    - list
+  - dialog "Performance/Safety/Other" [ref=e576]:
+    - button "Close" [active] [ref=e577] [cursor=pointer]:
+      - img [ref=e578]
+      - generic [ref=e581]: Close
+    - heading "Performance/Safety/Other" [level=2] [ref=e584]
+    - generic [ref=e586]:
+      - generic [ref=e587]:
+        - generic [ref=e589]: Document number
+        - textbox "Type..." [ref=e592]
+      - generic [ref=e593]:
+        - generic [ref=e595]: Title of V / V
+        - textbox "Type..." [ref=e598]
+      - generic [ref=e599]:
+        - generic [ref=e600]: Upload document
+        - generic [ref=e602] [cursor=pointer]:
+          - img [ref=e603]
+          - paragraph [ref=e607]: Click here or drag & drop your file.
+          - generic [ref=e608]:
+            - paragraph [ref=e609]: "Supported Formats: PDF"
+            - paragraph [ref=e610]: "Max. File Size: 5 MB"
+      - generic [ref=e611]:
+        - generic [ref=e612]: Aim / Objective
+        - textbox "Type..." [ref=e614]
+      - generic [ref=e615]:
+        - generic [ref=e616]: Summary of Methods Used
+        - textbox "Type..." [ref=e618]
+      - generic [ref=e619]:
+        - generic [ref=e620]: Summary of Results
+        - textbox "Type..." [ref=e622]
+    - button "Save" [ref=e626] [cursor=pointer]:
+      - generic [ref=e627]: Save

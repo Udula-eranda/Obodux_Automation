@@ -1,0 +1,145 @@
+[   12518ms] [WARNING] The resource https://web.staging.obodux.boris-software.com/_next/static/css/86ae32e4b370adea.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://web.staging.obodux.boris-software.com/editor:0
+[   19272ms] [WARNING] The resource https://web.staging.obodux.boris-software.com/_next/static/css/86ae32e4b370adea.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://web.staging.obodux.boris-software.com/editor:0
+[   24493ms] [WARNING] The resource https://web.staging.obodux.boris-software.com/_next/static/css/86ae32e4b370adea.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://web.staging.obodux.boris-software.com/editor:0
+[   33157ms] [WARNING] The resource https://web.staging.obodux.boris-software.com/_next/static/css/86ae32e4b370adea.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://web.staging.obodux.boris-software.com/editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/overview:0
+[   33480ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/5:0
+[   34783ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/4:0
+[   34784ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/2:0
+[   34865ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/declaration-of-conformity/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[   34922ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[   35375ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/3:0
+[   35382ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/manufacturer/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[   36501ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/5:0
+[   37002ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/4:0
+[   37005ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/2:0
+[   37208ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[   37686ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/3:0
+[   37699ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/manufacturer/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[   39970ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/5:0
+[   40320ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/2:0
+[   40322ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/4:0
+[   40859ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[   41354ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/manufacturer/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[   41369ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/3:0
+[   44372ms] [WARNING] The resource https://web.staging.obodux.boris-software.com/_next/static/css/86ae32e4b370adea.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://web.staging.obodux.boris-software.com/editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/overview:0
+[   47018ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/4:0
+[   47029ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/2:0
+[   47048ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/5:0
+[   47874ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[   47929ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/manufacturer/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[   47966ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/3:0
+[   49505ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/declaration-of-conformity/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[   51471ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/2:0
+[   51747ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/4:0
+[   52076ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/5:0
+[   54868ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/5:0
+[   54872ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/2:0
+[   54902ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/4:0
+[   57985ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/5:0
+[   57996ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/2:0
+[   58018ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/4:0
+[   63505ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/5:0
+[   63507ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/2:0
+[   63516ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/4:0
+[  245669ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/5:0
+[  245944ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/declaration-of-conformity/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[  245993ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[  245995ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/3:0
+[  246035ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/2:0
+[  246148ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/4:0
+[  246148ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/manufacturer/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[  248366ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/5:0
+[  248687ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/4:0
+[  248721ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/2:0
+[  248787ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/3:0
+[  248798ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[  248806ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/manufacturer/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[  253708ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/5:0
+[  254380ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/4:0
+[  254460ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[  254502ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/manufacturer/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[  254513ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/2:0
+[  254556ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/3:0
+[  258969ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/5:0
+[  259505ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/4:0
+[  260081ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[  260086ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/3:0
+[  260097ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/manufacturer/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[  260100ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/2:0
+[43663636ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://api.staging.obodux.boris-software.com/api/user/me:0
+[76449894ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://web.staging.obodux.boris-software.com/auth/token:0
+[76449895ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://api.dev.novu.boris-software.com/v1/inbox/notifications/count?filters=%5B%7B%22read%22%3Afalse%7D%5D:0
+[76460862ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://api.dev.novu.boris-software.com/v1/inbox/notifications/count?filters=%5B%7B%22read%22%3Afalse%7D%5D:0
+[76479352ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://api.dev.novu.boris-software.com/v1/inbox/notifications/count?filters=%5B%7B%22read%22%3Afalse%7D%5D:0
+[76479353ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://api.dev.novu.boris-software.com/v1/inbox/notifications/count?filters=%5B%7B%22read%22%3Afalse%7D%5D:0
+[76492236ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://api.dev.novu.boris-software.com/v1/inbox/notifications/count?filters=%5B%7B%22read%22%3Afalse%7D%5D:0
+[76492237ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://api.dev.novu.boris-software.com/v1/inbox/notifications/count?filters=%5B%7B%22read%22%3Afalse%7D%5D:0
+[76519331ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://api.dev.novu.boris-software.com/v1/inbox/notifications/count?filters=%5B%7B%22read%22%3Afalse%7D%5D:0
+[76519332ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://api.dev.novu.boris-software.com/v1/inbox/notifications/count?filters=%5B%7B%22read%22%3Afalse%7D%5D:0
+[76531767ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://api.dev.novu.boris-software.com/v1/inbox/notifications/count?filters=%5B%7B%22read%22%3Afalse%7D%5D:0
+[76531767ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://api.dev.novu.boris-software.com/v1/inbox/notifications/count?filters=%5B%7B%22read%22%3Afalse%7D%5D:0
+[76555849ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://api.staging.obodux.boris-software.com/api/verification-and-validation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c:0
+[76556064ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://api.staging.obodux.boris-software.com/api/manufacturer/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[76556079ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://api.staging.obodux.boris-software.com/api/verification-and-validation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[76556080ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/2:0
+[76556085ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://api.staging.obodux.boris-software.com/api/checklist/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/2:0
+[76556264ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c:0
+[76556331ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://api.staging.obodux.boris-software.com/api/manufacturer/8daf712d-f07b-4fd2-aa14-bf3bf44b158c:0
+[76556604ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://api.staging.obodux.boris-software.com/api/labelling/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[76557176ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://api.staging.obodux.boris-software.com/api/clinical-evaluation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c:0
+[76557199ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://api.staging.obodux.boris-software.com/api/post-market-surveillance/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[76557214ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://api.staging.obodux.boris-software.com/api/post-market-surveillance/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/2:0
+[76561883ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[76562347ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/5:0
+[76565176ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/3:0
+[76565272ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/declaration-of-conformity/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[76565378ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/4:0
+[76566286ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/2:0
+[76567136ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/manufacturer/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[76567748ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/5:0
+[76567749ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[76568008ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/3:0
+[76568040ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/4:0
+[76570372ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/2:0
+[76571544ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/3:0
+[76571634ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/4:0
+[76571668ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[76571728ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/5:0
+[76571736ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/manufacturer/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[76575490ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/2:0
+[76576889ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/3:0
+[76577689ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/manufacturer/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[76577690ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/5:0
+[76577692ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/4:0
+[76577693ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[105231588ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://api.dev.novu.boris-software.com/v1/inbox/notifications/count?filters=%5B%7B%22read%22%3Afalse%7D%5D:0
+[105249925ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://api.dev.novu.boris-software.com/v1/inbox/notifications/count?filters=%5B%7B%22read%22%3Afalse%7D%5D:0
+[105268241ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://api.dev.novu.boris-software.com/v1/inbox/notifications/count?filters=%5B%7B%22read%22%3Afalse%7D%5D:0
+[105286563ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://api.dev.novu.boris-software.com/v1/inbox/notifications/count?filters=%5B%7B%22read%22%3Afalse%7D%5D:0
+[105286565ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://api.dev.novu.boris-software.com/v1/inbox/notifications/count?filters=%5B%7B%22read%22%3Afalse%7D%5D:0
+[105296860ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://api.dev.novu.boris-software.com/v1/inbox/notifications/count?filters=%5B%7B%22read%22%3Afalse%7D%5D:0
+[105306707ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/5:0
+[105306806ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[105307833ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/2:0
+[105309134ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/declaration-of-conformity/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[105314017ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/manufacturer/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[105314233ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/4:0
+[105314247ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/3:0
+[105314248ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/2:0
+[105314503ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[105315523ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/5:0
+[105322842ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/manufacturer/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[105323417ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/3:0
+[105323753ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/2:0
+[105324571ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[105324778ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/5:0
+[105324827ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/4:0
+[105326215ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/manufacturer/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[105326827ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/3:0
+[105328153ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/4:0
+[105329078ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/2:0
+[105329926ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[105330100ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/5:0
+[105331641ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/manufacturer/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/1:0
+[105332187ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/3:0
+[105333129ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.staging.obodux.boris-software.com/api/design/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/4:0

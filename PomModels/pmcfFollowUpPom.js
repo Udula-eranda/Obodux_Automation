@@ -7,6 +7,17 @@ class PMCFFollowUpPage {
         this.page = page;
     }
 
+    // ── Shared helpers ───────────────────────────────────────────────────────
+
+    async _waitForDraftSaved() {
+        const toast = this.page.locator("li[role='status']");
+        try {
+            await toast.waitFor({ state: 'visible', timeout: 10000 });
+            await toast.waitFor({ state: 'hidden',  timeout: 15000 });
+        } catch { /* toast may already be gone */ }
+        await this.page.waitForTimeout(500);
+    }
+
     // ── Navigation ────────────────────────────────────────────────────────────
 
     async navigateToPMCF() {
@@ -80,7 +91,7 @@ class PMCFFollowUpPage {
         }
 
         await this.page.getByRole('button', { name: 'Save Draft', exact: true }).click();
-        await this.page.waitForTimeout(2000);
+        await this._waitForDraftSaved();
 
         // Wait for PMCF Activities section to render after Q3=Yes triggers page expansion
         await this.page.waitForFunction(
@@ -110,8 +121,22 @@ class PMCFFollowUpPage {
         await addRowBtns.first().click();
         await this.page.waitForTimeout(1000);
 
-        // Click the last View button (belongs to the newly added row)
-        await this.page.getByRole('button', { name: 'View' }).last().click();
+        // Scroll the last View button into view and click via page.mouse.click()
+        // so React fires the full pointer-event chain and the dialog opens
+        const viewCoords = await this.page.evaluate(() => {
+            const btns = Array.from(document.querySelectorAll('button'));
+            const viewBtns = btns.filter(b => b.textContent?.trim() === 'View');
+            const last = viewBtns[viewBtns.length - 1];
+            if (!last) return null;
+            last.scrollIntoView({ behavior: 'instant', block: 'center' });
+            const rect = last.getBoundingClientRect();
+            return { x: rect.x + rect.width / 2, y: rect.y + rect.height / 2 };
+        });
+        if (viewCoords) {
+            await this.page.mouse.click(viewCoords.x, viewCoords.y);
+        } else {
+            await this.page.getByRole('button', { name: /view/i }).last().click({ force: true });
+        }
         await this.page.waitForTimeout(1000);
 
         const dialog = this.page.locator('[role="dialog"]').first();
@@ -212,7 +237,7 @@ class PMCFFollowUpPage {
         await this._selectEvaluationReportDate();
 
         await this.page.getByRole('button', { name: 'Save Draft', exact: true }).click();
-        await this.page.waitForTimeout(2000);
+        await this._waitForDraftSaved();
         console.log('PMCF Follow-up: PMCF Activities section filled ✓');
     }
 
@@ -265,43 +290,28 @@ class PMCFFollowUpPage {
         }
 
         await this.page.getByRole('button', { name: 'Save Draft', exact: true }).click();
-        await this.page.waitForTimeout(2000);
+        await this._waitForDraftSaved();
         console.log('PMCF Follow-up: Ref to Technical Documentation filled ✓');
     }
 
     // ── Section 4: Equivalent / similar device (inline table) ────────────────
 
     async _addEquivalentDeviceRow(rowData) {
-        // Find the first "Add Row" button that appears AFTER the
-        // "Equivalent / similar device" heading in DOM order, then
-        // click it via real mouse coordinates (avoids stale-element +
-        // pointer-event issues after React re-renders)
-        const coords = await this.page.evaluate(() => {
-            const heading = Array.from(document.querySelectorAll('span, div'))
-                .find(el => el.children.length === 0 && el.textContent?.trim() === 'Equivalent / similar device');
-            if (!heading) return null;
+        // Scope the Add Row button to the ancestor container that holds BOTH
+        // the unique column header text AND the button — avoids the sidebar nav
+        // "Equivalent / similar device" text and stale-coordinate issues.
+        const addRowBtn = this.page
+            .getByText('Reference to clinical data evaluation in the CER', { exact: true })
+            .locator('xpath=ancestor::div[.//button[normalize-space()="Add Row"]][1]//button[normalize-space()="Add Row"]');
 
-            const allAddRow = Array.from(document.querySelectorAll('button'))
-                .filter(b => b.textContent?.trim() === 'Add Row');
+        await addRowBtn.scrollIntoViewIfNeeded();
+        await addRowBtn.click();
+        await this.page.waitForTimeout(1500);
 
-            for (const btn of allAddRow) {
-                // Node.DOCUMENT_POSITION_FOLLOWING (4) — btn is after heading
-                if (heading.compareDocumentPosition(btn) & 4) {
-                    btn.scrollIntoView({ behavior: 'instant', block: 'center' });
-                    const rect = btn.getBoundingClientRect();
-                    return { x: rect.x + rect.width / 2, y: rect.y + rect.height / 2 };
-                }
-            }
-            return null;
-        });
-
-        if (coords) {
-            await this.page.mouse.click(coords.x, coords.y);
-        }
-        await this.page.waitForTimeout(1000);
-
-        // New row textareas appear inline — get the last 7 empty textareas
-        const textareas = this.page.locator('textarea[placeholder="Type"]');
+        // Fill the 7 inline fields for this new row (last 7 on the page).
+        // Product name column may render as <input> rather than <textarea>,
+        // so we query both element types together.
+        const textareas = this.page.locator('textarea[placeholder="Type"], input[placeholder="Type"]');
         const total = await textareas.count();
         const rowValues = [
             rowData.productName,
@@ -316,15 +326,15 @@ class PMCFFollowUpPage {
         const rowStart = total - rowValues.length;
         for (let i = 0; i < rowValues.length; i++) {
             const ta = textareas.nth(rowStart + i);
-            await ta.evaluate(el => el.scrollIntoView({ behavior: 'instant', block: 'center' }));
+            await ta.scrollIntoViewIfNeeded();
             await this.page.waitForTimeout(200);
             await ta.click({ force: true });
             await ta.fill(rowValues[i]);
             await this.page.waitForTimeout(200);
         }
 
-        // Click outside the table to commit the row
-        await this.page.locator('h2').first().click({ force: true }).catch(() => {});
+        // Blur the last field via Tab — safer than clicking h2 which can navigate
+        await this.page.keyboard.press('Tab');
         await this.page.waitForTimeout(300);
     }
 
@@ -343,11 +353,40 @@ class PMCFFollowUpPage {
         }
 
         await this.page.getByRole('button', { name: 'Save Draft', exact: true }).click();
-        await this.page.waitForTimeout(2000);
+        await this._waitForDraftSaved();
         console.log('PMCF Follow-up: Equivalent/similar device section filled ✓');
     }
 
     // ── Section 5: Standards & Guidance on PMCF ──────────────────────────────
+
+    async _fillLastGuidanceInput(text) {
+        // Find the last input or textarea that appears after the "Guidance on PMCF"
+        // heading in DOM order and click+type into it
+        const coords = await this.page.evaluate(() => {
+            const heading = Array.from(document.querySelectorAll('*'))
+                .find(el => el.children.length === 0 && el.textContent?.trim() === 'Guidance on PMCF');
+            if (!heading) return null;
+            const fields = Array.from(
+                document.querySelectorAll('input:not([type="hidden"]):not([type="file"]), textarea')
+            );
+            let lastField = null;
+            for (const f of fields) {
+                if (heading.compareDocumentPosition(f) & 4) lastField = f;
+            }
+            if (!lastField) return null;
+            lastField.scrollIntoView({ behavior: 'instant', block: 'center' });
+            const rect = lastField.getBoundingClientRect();
+            return { x: rect.x + rect.width / 2, y: rect.y + rect.height / 2 };
+        });
+        if (coords) {
+            await this.page.mouse.click(coords.x, coords.y);
+            await this.page.waitForTimeout(200);
+            // Select all existing text and replace
+            await this.page.keyboard.press('Control+a');
+            await this.page.keyboard.type(text);
+            await this.page.waitForTimeout(300);
+        }
+    }
 
     async fillStandardsSection(guidanceEntries) {
         // Standards checkboxes are pre-populated from Checklist — leave as-is
@@ -361,32 +400,18 @@ class PMCFFollowUpPage {
         });
         await this.page.waitForTimeout(1000);
 
-        // Fill Guidance on PMCF entries
-        // The first entry field is a pre-existing text input under "Guidance on PMCF"
-        const guidanceInputs = this.page.locator('input[placeholder="Type"]');
-
-        // Fill first entry
-        const firstInput = guidanceInputs.last();
-        await firstInput.scrollIntoViewIfNeeded();
-        await firstInput.click();
-        await firstInput.fill(guidanceEntries[0]);
-        await this.page.waitForTimeout(300);
+        // Fill first guidance entry (field is pre-existing)
+        await this._fillLastGuidanceInput(guidanceEntries[0]);
 
         // Add and fill additional entries
         for (let i = 1; i < guidanceEntries.length; i++) {
             await this.page.getByRole('button', { name: 'Add Another' }).last().click();
             await this.page.waitForTimeout(500);
-
-            const inputs = this.page.locator('input[placeholder="Type"]');
-            const newInput = inputs.last();
-            await newInput.scrollIntoViewIfNeeded();
-            await newInput.click();
-            await newInput.fill(guidanceEntries[i]);
-            await this.page.waitForTimeout(300);
+            await this._fillLastGuidanceInput(guidanceEntries[i]);
         }
 
         await this.page.getByRole('button', { name: 'Save Draft', exact: true }).click();
-        await this.page.waitForTimeout(2000);
+        await this._waitForDraftSaved();
         console.log('PMCF Follow-up: Standards & Guidance section filled ✓');
     }
 

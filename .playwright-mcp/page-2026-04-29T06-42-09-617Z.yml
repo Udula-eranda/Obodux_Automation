@@ -1,0 +1,357 @@
+- generic [ref=e1]:
+  - alert [ref=e6]
+  - generic [ref=e1729]:
+    - generic [ref=e1733]:
+      - button "logo" [ref=e1735] [cursor=pointer]:
+        - link "logo" [ref=e1737]:
+          - /url: /
+          - img "logo" [ref=e1738]
+      - generic [ref=e1740]:
+        - combobox [ref=e1875] [cursor=pointer]:
+          - generic [ref=e1876]: Mammography Machine All Document Complete Demo
+          - img [ref=e1877]
+        - generic [ref=e1748]: Menu
+        - list [ref=e1750]:
+          - listitem [ref=e1751]:
+            - link "Overview" [ref=e1752] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/overview
+              - img [ref=e1753]
+              - generic [ref=e1755]: Overview
+          - listitem [ref=e1756]:
+            - link "Device Information" [ref=e1757] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/accessory
+              - img [ref=e1758]
+              - generic [ref=e1760]: Device Information
+              - img [ref=e1881]
+          - listitem [ref=e1761]:
+            - link "Labelling" [ref=e1762] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/labelling/labels
+              - img [ref=e1763]
+              - generic [ref=e1766]: Labelling
+              - img [ref=e1768]
+          - listitem [ref=e1771]:
+            - link "Design" [ref=e1772] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/design/use-specification
+              - img [ref=e1773]
+              - generic [ref=e1779]: Design
+          - listitem [ref=e1780]:
+            - link "Manufacture" [ref=e1781] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/manufacture/information
+              - img [ref=e1782]
+              - generic [ref=e1785]: Manufacture
+          - listitem [ref=e1786]:
+            - link "Checklist" [ref=e1787] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/checklist/applicable-standards
+              - img [ref=e1788]
+              - generic [ref=e1792]: Checklist
+          - listitem [ref=e1793]:
+            - link "Risk Management" [ref=e1794] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/risk-management/plan
+              - img [ref=e1795]
+              - generic [ref=e1797]: Risk Management
+              - img [ref=e1885]
+          - listitem [ref=e1798]:
+            - link "Clinical Evaluation" [ref=e1799] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/clinical-evaluation/plan
+              - img [ref=e1800]
+              - generic [ref=e1806]: Clinical Evaluation
+          - listitem [ref=e1807]:
+            - link "Verification and Validation" [ref=e1808] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/verification-and-validation/vv-overview
+              - img [ref=e1809]
+              - generic [ref=e1812]: Verification and Validation
+              - img [ref=e1889]
+          - listitem [ref=e1813]:
+            - link "Post Market Surveillance" [ref=e1814] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/post-market-surveillance/plan
+              - img [ref=e1815]
+              - generic [ref=e1822]: Post Market Surveillance
+          - listitem [ref=e1823]:
+            - link "Declaration of Conformity" [ref=e1824] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/declaration-of-conformity/eu-declaration-of-conformity
+              - img [ref=e1825]
+              - generic [ref=e1830]: Declaration of Conformity
+          - listitem [ref=e1831]:
+            - link "Report Generation" [ref=e1832] [cursor=pointer]:
+              - /url: /editor/device-documentation/8daf712d-f07b-4fd2-aa14-bf3bf44b158c/report-generation
+              - img [ref=e1833]
+              - generic [ref=e1836]: Report Generation
+      - list [ref=e1838]:
+        - listitem [ref=e1839]:
+          - button "B Choose File Ben Diaz editor-stag.1@yopmail.com" [ref=e1840] [cursor=pointer]:
+            - generic [ref=e1841]:
+              - generic [ref=e1843]:
+                - generic [ref=e1845]: B
+                - button "Choose File" [ref=e1846]
+              - generic [ref=e1847]:
+                - generic [ref=e1848]: Ben Diaz
+                - generic [ref=e1849]: editor-stag.1@yopmail.com
+            - img [ref=e1850]
+    - generic [ref=e2407]:
+      - generic [ref=e2408]:
+        - button "Toggle Sidebar" [ref=e2410] [cursor=pointer]:
+          - img [ref=e2411]
+          - generic [ref=e2413]: Toggle Sidebar
+        - generic [ref=e2415]:
+          - generic [ref=e2416]: Mammography Machine All Document Complete Demo
+          - img [ref=e2417] [cursor=pointer]
+        - generic [ref=e2419]:
+          - img [ref=e2421] [cursor=pointer]
+          - img [ref=e2425] [cursor=pointer]
+          - paragraph [ref=e2429]: Notifications (99)
+      - generic [ref=e2430]:
+        - generic [ref=e2431]:
+          - generic [ref=e2432]:
+            - generic [ref=e2434]:
+              - heading "Verification and Validation" [level=2] [ref=e2435]
+              - progressbar [ref=e2436]
+              - generic [ref=e2438]:
+                - generic [ref=e2439]: Progress
+                - generic [ref=e2440]: 4/6 Completed
+            - generic [ref=e2441]:
+              - generic [ref=e2443] [cursor=pointer]:
+                - generic [ref=e2445]: V&V Overview
+                - img [ref=e2448]
+              - generic [ref=e2453] [cursor=pointer]:
+                - heading [level=3] [ref=e2454]:
+                  - button [ref=e2455]:
+                    - img [ref=e2456]
+                - generic [ref=e2458]:
+                  - generic [ref=e2459]: Usability Evaluation Plan (UEP)
+                  - img [ref=e2462]
+              - generic [ref=e2468] [cursor=pointer]:
+                - heading [level=3] [ref=e2469]:
+                  - button [ref=e2470]:
+                    - img [ref=e2471]
+                - generic [ref=e2473]:
+                  - generic [ref=e2474]: Summative Evaluation Plan (SEP)
+                  - img [ref=e2477]
+              - generic [ref=e2483] [cursor=pointer]:
+                - heading [level=3] [ref=e2484]:
+                  - button [ref=e2485]:
+                    - img [ref=e2486]
+                - generic [ref=e2488]:
+                  - generic [ref=e2489]: 01 Formative Evaluation Plan (FEP)
+                  - img [ref=e2492]
+              - generic [ref=e2497] [cursor=pointer]:
+                - img [ref=e2499]
+                - generic [ref=e2500]: Add New FEP
+              - generic [ref=e2504] [cursor=pointer]:
+                - img [ref=e2506]
+                - generic [ref=e2507]: Add New FER
+              - generic [ref=e2511] [cursor=pointer]:
+                - img [ref=e2513]
+                - generic [ref=e2514]: Add New SER
+              - generic [ref=e2518] [cursor=pointer]:
+                - heading [level=3] [ref=e2519]:
+                  - button [ref=e2520]:
+                    - img [ref=e2521]
+                - generic [ref=e2524]: Verifications
+              - generic [ref=e2528] [cursor=pointer]: Sample Size
+          - generic [ref=e2530]:
+            - generic [ref=e2533]:
+              - text: Verifications
+              - button [ref=e2535] [cursor=pointer]:
+                - img [ref=e2536]
+            - generic [ref=e2539]:
+              - generic [ref=e2541]:
+                - generic [ref=e2542]: Biological Evaluation
+                - generic [ref=e2543]:
+                  - generic [ref=e2544]:
+                    - paragraph [ref=e2545]: Was biological evaluation report conducted?
+                    - radiogroup [ref=e2546]:
+                      - radio "Yes" [checked] [ref=e2547] [cursor=pointer]:
+                        - generic [ref=e2550]: "Yes"
+                      - radio "No" [ref=e2551] [cursor=pointer]:
+                        - generic [ref=e2554]: "No"
+                  - generic [ref=e2773]:
+                    - paragraph [ref=e2774]: Biological Evaluation Plan and Report
+                    - generic [ref=e2775]:
+                      - table [ref=e2778]:
+                        - rowgroup [ref=e2779]:
+                          - row "Document number Document title Upload document" [ref=e2780]:
+                            - columnheader [ref=e2781]
+                            - columnheader "Document number" [ref=e2782]
+                            - columnheader "Document title" [ref=e2783]
+                            - columnheader "Upload document" [ref=e2784]
+                        - rowgroup
+                      - generic [ref=e2785]:
+                        - button "Add Row" [ref=e2787] [cursor=pointer]:
+                          - img [ref=e2788]
+                          - generic [ref=e2789]: Add Row
+                        - generic [ref=e2790]: 0 records
+                  - generic [ref=e2791]:
+                    - paragraph [ref=e2792]: Biological Evaluation test protocols and reports
+                    - generic [ref=e2793]:
+                      - table [ref=e2796]:
+                        - rowgroup [ref=e2797]:
+                          - row "Document number Document title Upload document" [ref=e2798]:
+                            - columnheader [ref=e2799]
+                            - columnheader "Document number" [ref=e2800]
+                            - columnheader "Document title" [ref=e2801]
+                            - columnheader "Upload document" [ref=e2802]
+                        - rowgroup
+                      - generic [ref=e2803]:
+                        - button "Add Row" [ref=e2805] [cursor=pointer]:
+                          - img [ref=e2806]
+                          - generic [ref=e2807]: Add Row
+                        - generic [ref=e2808]: 0 records
+                  - generic [ref=e2809]:
+                    - paragraph [ref=e2810]: CVs of the expert assessors involved in the biological safety assessment to establish competence
+                    - generic [ref=e2811]:
+                      - table [ref=e2814]:
+                        - rowgroup [ref=e2815]:
+                          - row "Document number Document title Upload document" [ref=e2816]:
+                            - columnheader [ref=e2817]
+                            - columnheader "Document number" [ref=e2818]
+                            - columnheader "Document title" [ref=e2819]
+                            - columnheader "Upload document" [ref=e2820]
+                        - rowgroup
+                      - generic [ref=e2821]:
+                        - button "Add Row" [ref=e2823] [cursor=pointer]:
+                          - img [ref=e2824]
+                          - generic [ref=e2825]: Add Row
+                        - generic [ref=e2826]: 0 records
+              - generic [ref=e2557]:
+                - generic [ref=e2558]: Electrical safety and electromagnetic compatibility (EMC)
+                - generic [ref=e2559]:
+                  - generic [ref=e2560]:
+                    - paragraph [ref=e2561]: Are any device covered in this technical file electrically powered?
+                    - radiogroup [ref=e2562]:
+                      - radio "Yes" [checked] [active] [ref=e2563] [cursor=pointer]:
+                        - generic [ref=e2566]: "Yes"
+                      - radio "No" [ref=e2567] [cursor=pointer]:
+                        - generic [ref=e2570]: "No"
+                  - generic [ref=e2827]:
+                    - paragraph [ref=e2828]: Was electrical safety testing (and/or EMC testing conducted)?
+                    - radiogroup [ref=e2829]:
+                      - radio "Yes" [ref=e2830] [cursor=pointer]:
+                        - generic [ref=e2833]: "Yes"
+                      - radio "No" [ref=e2834] [cursor=pointer]:
+                        - generic [ref=e2837]: "No"
+              - generic [ref=e2573]:
+                - generic [ref=e2574]: Software Verification and Validation
+                - generic [ref=e2576]:
+                  - paragraph [ref=e2577]: Does any of the devices covered by this technical file contain software?
+                  - radiogroup [ref=e2578]:
+                    - radio "Yes" [ref=e2579] [cursor=pointer]:
+                      - generic [ref=e2582]: "Yes"
+                    - radio "No" [ref=e2583] [cursor=pointer]:
+                      - generic [ref=e2586]: "No"
+              - generic [ref=e2589]:
+                - generic [ref=e2590]: Stability, including shelf life
+                - generic [ref=e2592]:
+                  - paragraph [ref=e2593]: Was stability (including shelf life) performed?
+                  - radiogroup [ref=e2594]:
+                    - radio "Yes" [ref=e2595] [cursor=pointer]:
+                      - generic [ref=e2598]: "Yes"
+                    - radio "No" [ref=e2599] [cursor=pointer]:
+                      - generic [ref=e2602]: "No"
+              - generic [ref=e2605]:
+                - generic [ref=e2606]: Packaging and Transit (Transport) testing
+                - generic [ref=e2608]:
+                  - paragraph [ref=e2609]: Was packaging and/or transit (Transport) testing performed?
+                  - radiogroup [ref=e2610]:
+                    - radio "Yes" [ref=e2611] [cursor=pointer]:
+                      - generic [ref=e2614]: "Yes"
+                    - radio "No" [ref=e2615] [cursor=pointer]:
+                      - generic [ref=e2618]: "No"
+              - generic [ref=e2621]:
+                - generic [ref=e2622]: Cleaning, Disinfection and Sterilisation
+                - generic [ref=e2623]:
+                  - generic [ref=e2624]:
+                    - paragraph [ref=e2625]: Was Sterilisation testing performed?
+                    - radiogroup [ref=e2626]:
+                      - radio "Yes" [ref=e2627] [cursor=pointer]:
+                        - generic [ref=e2630]: "Yes"
+                      - radio "No" [ref=e2631] [cursor=pointer]:
+                        - generic [ref=e2634]: "No"
+                  - generic [ref=e2635]:
+                    - paragraph [ref=e2636]: Was Cleaning, Disinfection testing performed?
+                    - radiogroup [ref=e2637]:
+                      - radio "Yes" [ref=e2638] [cursor=pointer]:
+                        - generic [ref=e2641]: "Yes"
+                      - radio "No" [ref=e2642] [cursor=pointer]:
+                        - generic [ref=e2645]: "No"
+              - generic [ref=e2648]:
+                - generic [ref=e2649]: Devices intended to be connected to other devices to operate as intended
+                - generic [ref=e2651]:
+                  - paragraph [ref=e2652]: Is the device intended to be connected to other devices to operate as intended?
+                  - radiogroup [ref=e2653]:
+                    - radio "Yes" [ref=e2654] [cursor=pointer]:
+                      - generic [ref=e2657]: "Yes"
+                    - radio "No" [ref=e2658] [cursor=pointer]:
+                      - generic [ref=e2661]: "No"
+              - generic [ref=e2664]:
+                - generic [ref=e2665]: Magnetic resonance imaging safety of implants
+                - generic [ref=e2667]:
+                  - paragraph [ref=e2668]: Is your device intended to be implanted?
+                  - radiogroup [ref=e2669]:
+                    - radio "Yes" [ref=e2670] [cursor=pointer]:
+                      - generic [ref=e2673]: "Yes"
+                    - radio "No" [ref=e2674] [cursor=pointer]:
+                      - generic [ref=e2677]: "No"
+              - generic [ref=e2680]:
+                - generic [ref=e2681]: Devices containing CMR or endocrine-disrupting substances
+                - generic [ref=e2683]:
+                  - paragraph [ref=e2684]: Does your device contain above 0.1% (w/w) CMR or endocrine-disrupting substances?
+                  - radiogroup [ref=e2685]:
+                    - radio "Yes" [ref=e2686] [cursor=pointer]:
+                      - generic [ref=e2689]: "Yes"
+                    - radio "No" [ref=e2690] [cursor=pointer]:
+                      - generic [ref=e2693]: "No"
+              - generic [ref=e2696]:
+                - generic [ref=e2697]: Devices incorporating medicinal substances
+                - generic [ref=e2699]:
+                  - paragraph [ref=e2700]: Does your device contain medicinal substances?
+                  - radiogroup [ref=e2701]:
+                    - radio "Yes" [ref=e2702] [cursor=pointer]:
+                      - generic [ref=e2705]: "Yes"
+                    - radio "No" [ref=e2706] [cursor=pointer]:
+                      - generic [ref=e2709]: "No"
+              - generic [ref=e2712]:
+                - generic [ref=e2713]: Devices utilising tissue and cells of human or animal origin or their derivatives or other non-viable biological substances
+                - generic [ref=e2715]:
+                  - paragraph [ref=e2716]: Does your device utilise tissue and cells of human or animal origin or their derivatives or other non-viable biological substances?
+                  - radiogroup [ref=e2717]:
+                    - radio "Yes" [ref=e2718] [cursor=pointer]:
+                      - generic [ref=e2721]: "Yes"
+                    - radio "No" [ref=e2722] [cursor=pointer]:
+                      - generic [ref=e2725]: "No"
+              - generic [ref=e2728]:
+                - generic [ref=e2729]: Devices composed of substances that are absorbed by or locally dispersed in the human body
+                - generic [ref=e2731]:
+                  - paragraph [ref=e2732]: Does your device comprise of substances that are absorbed by or locally dispersed in the human body?
+                  - radiogroup [ref=e2733]:
+                    - radio "Yes" [ref=e2734] [cursor=pointer]:
+                      - generic [ref=e2737]: "Yes"
+                    - radio "No" [ref=e2738] [cursor=pointer]:
+                      - generic [ref=e2741]: "No"
+              - generic [ref=e2744]:
+                - generic [ref=e2745]: Performance/Safety/Other
+                - generic [ref=e2747]:
+                  - paragraph [ref=e2748]: Performance/Safety/Other
+                  - generic [ref=e2749]:
+                    - table [ref=e2752]:
+                      - rowgroup [ref=e2753]:
+                        - row "Document number Title of V / V Upload document Aim / Objective Summary of Methods Used Summary of Results" [ref=e2754]:
+                          - columnheader [ref=e2755]
+                          - columnheader "Document number" [ref=e2756]
+                          - columnheader "Title of V / V" [ref=e2757]
+                          - columnheader "Upload document" [ref=e2758]
+                          - columnheader "Aim / Objective" [ref=e2759]
+                          - columnheader "Summary of Methods Used" [ref=e2760]
+                          - columnheader "Summary of Results" [ref=e2761]
+                      - rowgroup
+                    - generic [ref=e2762]:
+                      - button "Add Row" [ref=e2764] [cursor=pointer]:
+                        - img [ref=e2765]
+                        - generic [ref=e2766]: Add Row
+                      - generic [ref=e2767]: 0 records
+          - generic [ref=e2770]:
+            - button "Save Draft" [ref=e2771] [cursor=pointer]
+            - button "Save" [disabled] [ref=e2772]
+        - region "Notifications (F8)":
+          - list
+    - region "Notifications (F8)":
+      - list
